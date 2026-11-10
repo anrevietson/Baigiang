@@ -4,74 +4,163 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
+<meta name="color-scheme" content="light dark">
 <title>Tìm trong kho bài giảng</title>
 <style>
-  :root { --bg:#faf9f6; --fg:#1f1d1a; --mute:#6b665e; --line:#e4e0d8; --acc:#7a2e1f; --hl:#ffe49a; --card:#fff; }
+  /* --tl: tỉ lệ cỡ chữ người đọc chọn (nút A− / A+), chỉ áp vào phần chữ cần đọc */
+  :root { --bg:#faf9f6; --fg:#1f1d1a; --mute:#635e56; --line:#e4e0d8; --acc:#7a2e1f; --hl:#ffe49a; --card:#fff;
+          --tl:1; --co-doc:17.5px; --co-trich:16px; }
   @media (prefers-color-scheme: dark) { :root { --bg:#191816; --fg:#ece8e1; --mute:#a39d93; --line:#34312c; --acc:#e09a7f; --hl:#6b5414; --card:#22201d; } }
   * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, "Segoe UI", Roboto, sans-serif; }
+  html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, "Segoe UI", Roboto, sans-serif; overflow-wrap:break-word; }
+  body.dang-doc { overflow:hidden; }
   header { position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line); padding:14px 20px 10px; }
   .wrap { max-width:980px; margin:0 auto; }
   h1 { font-size:15px; font-weight:600; margin:0 0 8px; color:var(--mute); }
   .q { display:flex; gap:8px; }
-  .q input { flex:1; font-size:18px; padding:10px 14px; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); }
+  .q input { flex:1; min-width:0; font-size:18px; padding:10px 14px; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); -webkit-appearance:none; appearance:none; }
+  .q input::placeholder { color:var(--mute); opacity:1; }
   .q input:focus { outline:2px solid var(--acc); outline-offset:-1px; }
   button { font:inherit; cursor:pointer; border:1px solid var(--line); background:var(--card); color:var(--fg); border-radius:8px; padding:6px 12px; }
+  button:disabled { opacity:.4; cursor:default; }
+  button:focus-visible, summary:focus-visible, a:focus-visible { outline:2px solid var(--acc); outline-offset:2px; }
   button.chinh { background:var(--acc); border-color:var(--acc); color:#fff; padding:10px 18px; border-radius:10px; }
+  @media (prefers-color-scheme: dark) { button.chinh { color:#191816; } }
+  .phu { display:flex; flex-wrap:wrap; align-items:flex-start; gap:0 12px; }
+  .phu details { flex:1; }
+  .phu details[open] { flex-basis:100%; }
+  #nut-loc { display:none; }
   .hang { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:10px; font-size:14px; }
   .hang select, .hang input { font:inherit; font-size:14px; padding:5px 8px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--fg); max-width:230px; }
   main { padding:16px 20px 60px; }
   .tt { color:var(--mute); font-size:14px; margin:4px 0 14px; } .tt div { margin:2px 0; }
   .bai { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin-bottom:14px; }
-  .bai h2 { font-size:18px; margin:0; } .bai h2 a { color:var(--fg); text-decoration:none; } .bai h2 a:hover { color:var(--acc); }
+  .bai h2 { font-size:18px; line-height:1.35; margin:0; } .bai h2 a { color:var(--fg); text-decoration:none; } .bai h2 a:hover { color:var(--acc); }
   .meta { color:var(--mute); font-size:13.5px; margin:2px 0 6px; }
-  .doan { border-left:3px solid var(--line); padding:4px 0 4px 12px; margin:10px 0; white-space:pre-wrap; }
+  .meta code, #xem-dau code { overflow-wrap:anywhere; }
+  .doan { border-left:3px solid var(--line); padding:4px 0 4px 12px; margin:10px 0; white-space:pre-wrap; font-size:calc(var(--co-trich) * var(--tl)); line-height:1.6; }
   .nhan { font-size:12px; color:var(--mute); display:block; margin-bottom:2px; white-space:normal; }
+  .doan a, .nhan a { color:var(--acc); }
   mark { background:var(--hl); color:inherit; padding:0 1px; border-radius:2px; }
   .an { display:none !important; }
   .them { display:block; margin:10px auto; }
+  /* khung đọc bài */
   #xem { position:fixed; inset:0; background:#0007; z-index:10; }
-  #xem .khung { position:absolute; top:3vh; bottom:3vh; left:50%; transform:translateX(-50%); width:min(900px, 96vw); background:var(--card); border-radius:12px; display:flex; flex-direction:column; }
-  #xem .dau { padding:12px 18px; border-bottom:1px solid var(--line); display:flex; gap:12px; align-items:start; } #xem .dau div { flex:1; }
-  #xem .than { overflow:auto; padding:10px 22px 40px; font-size:16.5px; line-height:1.65; }
-  #xem .than p { margin:0 0 .7em; white-space:pre-wrap; } #xem .chon { background:var(--hl); border-radius:4px; }
+  #xem .khung { position:absolute; top:3vh; bottom:3vh; left:50%; transform:translateX(-50%); width:min(900px, 96vw); background:var(--card); border-radius:12px; display:flex; flex-direction:column; overflow:hidden; }
+  #xem .dau { flex:none; padding:8px 14px; border-bottom:1px solid var(--line); display:flex; gap:6px; align-items:center; }
+  #xem .dau button { min-height:40px; min-width:40px; padding:4px 10px; }
+  .co-chu { display:flex; gap:4px; align-items:center; }
+  .co-chu #co-mac { font-size:14px; min-width:58px; color:var(--mute); }
+  #dong { margin-left:auto; }
+  #xem .than { flex:1; min-height:0; overflow:auto; overscroll-behavior:contain; -webkit-overflow-scrolling:touch; padding:0 22px 40px; }
+  #xem-dau { padding:16px 0 12px; margin-bottom:14px; border-bottom:1px solid var(--line); }
+  #xem-dau b { display:block; font-size:21px; line-height:1.3; }
+  #xem-dau .meta { font-size:14px; margin-top:6px; }
+  #xem-than { font-size:calc(var(--co-doc) * var(--tl)); line-height:1.7; }
+  #xem-than p { margin:0 0 .75em; white-space:pre-wrap; }
+  #xem-than .chon { background:var(--hl); background:color-mix(in srgb, var(--hl) 38%, transparent); box-shadow:inset 4px 0 var(--acc); border-radius:4px; padding:6px 8px 1px 14px; margin:0 -8px .75em -14px; }
   details { font-size:13.5px; color:var(--mute); margin-top:8px; } code { font-size:13px; }
-  #mo { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:var(--bg); z-index:20; flex-direction:column; gap:10px; color:var(--mute); }
+  summary { cursor:pointer; }
+  #mo { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:var(--bg); z-index:20; flex-direction:column; gap:10px; color:var(--mute); padding:16px; text-align:center; }
+
+  /* ---------- điện thoại ---------- */
+  @media (max-width: 640px) {
+    :root { --co-doc:19px; --co-trich:17px; }
+    header { position:static; padding:12px 16px 8px; }
+    h1 { font-size:14px; margin-bottom:8px; line-height:1.4; }
+    .q input { font-size:18px; padding:11px 14px; min-height:50px; }
+    button.chinh { min-height:50px; min-width:64px; padding:0 16px; font-size:17px; }
+    .phu { align-items:center; margin-top:8px; }
+    #nut-loc { display:inline-flex; align-items:center; min-height:44px; padding:0 16px; font-size:16px; border-radius:10px; }
+    #nut-loc[aria-expanded="true"] { border-color:var(--acc); color:var(--acc); }
+    .phu details { margin-top:0; font-size:15px; line-height:1.6; }
+    .phu details[open] { padding-bottom:6px; }
+    .phu summary { min-height:44px; display:flex; align-items:center; }
+    .phu summary::before { content:"▸"; margin-right:6px; } .phu details[open] summary::before { content:"▾"; }
+    .phu summary::-webkit-details-marker { display:none; } .phu summary { list-style:none; }
+    code { font-size:14px; }
+    .hang { display:none; grid-template-columns:1fr 1fr; gap:10px; font-size:16px; margin-top:8px; }
+    header.mo-loc .hang { display:grid; }
+    .hang label { grid-column:1 / -1; display:flex; align-items:center; gap:10px; }
+    .hang label input { flex:1; }
+    .hang select, .hang input { font-size:16px; min-height:46px; padding:8px 10px; width:100%; min-width:0; max-width:none; }
+    #xoa { grid-column:1 / -1; min-height:46px; font-size:16px; }
+    main { padding:12px 12px 48px; }
+    .tt { font-size:15px; margin:2px 4px 12px; }
+    .bai { padding:14px 14px 6px; margin-bottom:12px; }
+    .bai h2 { font-size:20px; } .bai h2 a { display:block; }
+    .meta { font-size:14.5px; line-height:1.5; margin:4px 0 6px; }
+    .doan { line-height:1.65; margin:8px 0 12px; }
+    .nhan { font-size:14px; margin-bottom:0; }
+    .nhan a { display:inline-block; padding:8px 0; }
+    [data-rong] { display:inline-block; padding:6px 0; }
+    .them { width:100%; min-height:48px; font-size:16px; border-radius:10px; }
+    #xem { background:var(--card); }
+    #xem .khung { inset:0; width:auto; transform:none; border-radius:0; }
+    #xem .dau { padding:6px 10px; padding-top:max(6px, env(safe-area-inset-top)); }
+    #xem .dau button { min-height:44px; min-width:44px; font-size:17px; }
+    .co-chu #co-mac { font-size:15px; min-width:62px; }
+    #xem .than { padding:0 18px 56px; padding-bottom:max(56px, env(safe-area-inset-bottom)); }
+    #xem-dau { padding-top:14px; }
+    #xem-dau b { font-size:23px; }
+    #xem-dau .meta { font-size:15px; }
+    #xem-than { line-height:1.75; }
+  }
+  @media (max-width: 360px) {
+    header { padding:10px 12px 8px; }
+    main { padding:10px 8px 40px; }
+    #xem .than { padding:0 14px 56px; }
+    .co-chu #co-mac { min-width:52px; }
+  }
 </style>
 </head>
 <body>
 <div id="mo"><b style="color:var(--fg)">Đang mở thư viện bài giảng…</b><span id="mo-tt">Lần mở đầu mất khoảng 5–15 giây.</span></div>
-<header><div class="wrap">
+<header id="dau-trang"><div class="wrap">
   <h1>Tìm trong kho bài giảng <span id="trangthai"></span></h1>
-  <form class="q" id="f" autocomplete="off">
-    <input id="q" placeholder="Ví dụ: tỉnh thức · Mt 25,1-13 · thứ ba tuần 32 thường niên · 22/11/2026">
+  <form class="q" id="f" autocomplete="off" role="search">
+    <input id="q" type="search" enterkeyhint="search" aria-label="Từ cần tìm" placeholder="Ví dụ: tỉnh thức · Mt 25,1-13 · thứ ba tuần 32 thường niên · 22/11/2026">
     <button class="chinh">Tìm</button>
   </form>
-  <div class="hang">
+  <div class="phu">
+    <button type="button" id="nut-loc" aria-expanded="false" aria-controls="bo-loc">Bộ lọc</button>
+    <details><summary>Cách gõ</summary>
+      Gõ một cụm từ → tìm đúng cụm đó (<code>tỉnh thức</code>); không dấu cũng được (<code>tinh thuc</code>), có dấu thì chính xác hơn.
+      Nhiều cụm: <code>"đèn" "dầu"</code> · <code>"hoán cải" OR "sám hối"</code> · loại trừ: <code>"tỉnh thức" -"mùa vọng"</code>.
+      Kinh Thánh: <code>Mt 25,1-13</code>, <code>Lc 15</code>, <code>Jn 3:16</code>.
+      Tên lễ: <code>thứ ba tuần 32 thường niên</code>, <code>CN XXXII TN năm A tỉnh thức</code>, <code>lễ các thánh</code>, <code>22/11/2026</code>.
+      Bản này chạy hoàn toàn trên máy, không cần mạng; chưa có tìm theo ý nghĩa.
+    </details>
+  </div>
+  <div class="hang" id="bo-loc">
     <label>Ngày <input type="date" id="ngay"></label>
-    <input id="ma" list="ds-le" placeholder="Mã / tên lễ">
-    <select id="nam"><option value="">Năm</option><option>A</option><option>B</option><option>C</option><option>I</option><option>II</option></select>
-    <input id="tac_gia" list="ds-tg" placeholder="Tác giả">
-    <select id="sach"><option value="">Sách Kinh Thánh</option></select>
+    <input id="ma" list="ds-le" placeholder="Mã / tên lễ" aria-label="Mã hoặc tên lễ">
+    <select id="nam" aria-label="Năm phụng vụ"><option value="">Năm</option><option>A</option><option>B</option><option>C</option><option>I</option><option>II</option></select>
+    <input id="tac_gia" list="ds-tg" placeholder="Tác giả" aria-label="Tác giả">
+    <select id="sach" aria-label="Sách Kinh Thánh"><option value="">Sách Kinh Thánh</option></select>
     <button type="button" id="xoa">Bỏ lọc</button>
   </div>
   <datalist id="ds-le"></datalist><datalist id="ds-tg"></datalist>
-  <details><summary>Cách gõ</summary>
-    Gõ một cụm từ → tìm đúng cụm đó (<code>tỉnh thức</code>); không dấu cũng được (<code>tinh thuc</code>), có dấu thì chính xác hơn.
-    Nhiều cụm: <code>"đèn" "dầu"</code> · <code>"hoán cải" OR "sám hối"</code> · loại trừ: <code>"tỉnh thức" -"mùa vọng"</code>.
-    Kinh Thánh: <code>Mt 25,1-13</code>, <code>Lc 15</code>, <code>Jn 3:16</code>.
-    Tên lễ: <code>thứ ba tuần 32 thường niên</code>, <code>CN XXXII TN năm A tỉnh thức</code>, <code>lễ các thánh</code>, <code>22/11/2026</code>.
-    Bản này chạy hoàn toàn trên máy, không cần mạng; chưa có tìm theo ý nghĩa.
-  </details>
 </div></header>
 <main><div class="wrap">
-  <div class="tt" id="tt"></div>
+  <div class="tt" id="tt" aria-live="polite"></div>
   <div id="kq"></div>
   <button class="them an" id="them">Xem thêm</button>
 </div></main>
-<div id="xem" class="an"><div class="khung">
-  <div class="dau"><div id="xem-dau"></div><button id="dong" type="button">Đóng</button></div>
-  <div class="than" id="xem-than"></div>
+<div id="xem" class="an" role="dialog" aria-modal="true" aria-label="Đọc bài giảng"><div class="khung">
+  <div class="dau">
+    <div class="co-chu" role="group" aria-label="Cỡ chữ">
+      <button type="button" id="co-giam" aria-label="Giảm cỡ chữ">A−</button>
+      <button type="button" id="co-mac" aria-label="Cỡ chữ mặc định" title="Về cỡ chữ mặc định">100%</button>
+      <button type="button" id="co-tang" aria-label="Tăng cỡ chữ">A+</button>
+    </div>
+    <button id="dong" type="button">Đóng</button>
+  </div>
+  <div class="than" id="xem-cuon">
+    <div id="xem-dau"></div>
+    <div id="xem-than"></div>
+  </div>
 </div></div>
 <script>
 /*__BO_MAY__*/
@@ -82,6 +171,38 @@ const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
 let M, trang = 0;
 const maLe = new Map();
+const LOC = ['ngay', 'ma', 'nam', 'tac_gia', 'sach'];
+
+// ----- cỡ chữ (lưu trên máy người đọc) -----
+const BAC_CO = [0.85, 0.92, 1, 1.1, 1.2, 1.32, 1.45, 1.6];
+let tl = 1;
+try { const v = parseFloat(localStorage.getItem('baigiang-co-chu')); if (BAC_CO.includes(v)) tl = v; } catch {}
+function datCo(v, luu = true) {
+  const k = $('#xem-cuon'), dangDoc = !$('#xem').classList.contains('an');
+  const vt = dangDoc && k.scrollHeight ? k.scrollTop / k.scrollHeight : 0;   // giữ chỗ đang đọc khi đổi cỡ
+  tl = v;
+  document.documentElement.style.setProperty('--tl', v);
+  $('#co-mac').textContent = Math.round(v * 100) + '%';
+  $('#co-giam').disabled = v <= BAC_CO[0];
+  $('#co-tang').disabled = v >= BAC_CO[BAC_CO.length - 1];
+  if (dangDoc) k.scrollTop = vt * k.scrollHeight;
+  if (luu) try { localStorage.setItem('baigiang-co-chu', String(v)); } catch {}
+}
+const buocCo = (n) => datCo(BAC_CO[Math.min(BAC_CO.length - 1, Math.max(0, BAC_CO.indexOf(tl) + n))]);
+$('#co-giam').onclick = () => buocCo(-1);
+$('#co-tang').onclick = () => buocCo(1);
+$('#co-mac').onclick = () => datCo(1);
+datCo(tl, false);
+
+// ----- bộ lọc thu gọn trên điện thoại -----
+function demLoc() {
+  const n = LOC.filter((k) => $('#' + k).value.trim()).length;
+  $('#nut-loc').textContent = n ? `Bộ lọc (${n})` : 'Bộ lọc';
+}
+$('#nut-loc').onclick = () => {
+  const mo = $('#dau-trang').classList.toggle('mo-loc');
+  $('#nut-loc').setAttribute('aria-expanded', String(mo));
+};
 
 function toSang(t, k) { let o = '', p = 0; for (const [a, b] of k) { o += esc(t.slice(p, a)) + '<mark>' + esc(t.slice(a, b)) + '</mark>'; p = b; } return o + esc(t.slice(p)); }
 function trich(t, k) {
@@ -111,27 +232,44 @@ function tim(them = false) {
       ${k.doan.map((d) => `<div class="doan"><span class="nhan"><a href="#" data-mo="${k.i}" data-d="${d.i}">mở cả bài tại đoạn này</a></span>${trich(d.noi_dung, d.khop)}</div>`).join('')}</div>`;
   }).join(''));
   $('#them').classList.toggle('an', (trang + 1) * 20 >= r.tong_bai);
+  if (!them && matchMedia('(max-width: 640px)').matches) $('#q').blur();   // hạ bàn phím để thấy kết quả
 }
+
+// ----- khung đọc: nút Quay lại của điện thoại cũng đóng bài -----
+let moLichSu = false, truocKhiMo = null;
 function mo(b, d) {
   const r = M.docBai(b);
   $('#xem-dau').innerHTML = `<b>${esc(r.bai.chu_de)}</b><div class="meta">${esc(r.bai.tac_gia || 'Vô danh')} · ${esc(r.bai.ten_le || '')}${r.bai.tin_mung.length ? ' · ' + esc(r.bai.tin_mung.join('; ')) : ''} · <code>${esc(r.bai.duong_dan)}</code></div>`;
   $('#xem-than').innerHTML = r.doan.map((x) => `<div id="d${x.i}" class="${x.i === d ? 'chon' : ''}">${x.noi_dung.split('\n').map((p) => `<p>${esc(p)}</p>`).join('')}</div>`).join('');
+  truocKhiMo = document.activeElement;
   $('#xem').classList.remove('an');
+  document.body.classList.add('dang-doc');
+  $('#xem-cuon').scrollTop = 0;
+  if (!moLichSu) { try { history.pushState({ xem: 1 }, ''); moLichSu = true; } catch {} }
   document.getElementById('d' + d)?.scrollIntoView({ block: 'center' });
+  $('#dong').focus({ preventScroll: true });
 }
+function dong(tuLichSu = false) {
+  if ($('#xem').classList.contains('an')) return;
+  $('#xem').classList.add('an');
+  document.body.classList.remove('dang-doc');
+  if (moLichSu) { moLichSu = false; if (!tuLichSu) history.back(); }
+  truocKhiMo?.focus?.({ preventScroll: true });
+}
+window.addEventListener('popstate', () => dong(true));
 document.addEventListener('click', (e) => {
   const r = e.target.closest('[data-rong]');
   if (r) { e.preventDefault(); const d = r.closest('.doan'); d.querySelector('.ngan').classList.add('an'); d.querySelector('.dai').classList.remove('an'); return; }
   const a = e.target.closest('[data-mo]');
   if (a) { e.preventDefault(); mo(+a.dataset.mo, +a.dataset.d); }
 });
-$('#dong').onclick = () => $('#xem').classList.add('an');
-$('#xem').onclick = (e) => { if (e.target.id === 'xem') $('#xem').classList.add('an'); };
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') $('#xem').classList.add('an'); });
+$('#dong').onclick = () => dong();
+$('#xem').onclick = (e) => { if (e.target.id === 'xem') dong(); };
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') dong(); });
 $('#f').onsubmit = (e) => { e.preventDefault(); tim(); };
 $('#them').onclick = () => tim(true);
-for (const k of ['ngay', 'nam', 'sach', 'ma', 'tac_gia']) $('#' + k).onchange = () => tim();
-$('#xoa').onclick = () => { for (const k of ['ngay', 'ma', 'nam', 'tac_gia', 'sach']) $('#' + k).value = ''; tim(); };
+for (const k of LOC) $('#' + k).onchange = () => { demLoc(); tim(); };
+$('#xoa').onclick = () => { for (const k of LOC) $('#' + k).value = ''; demLoc(); tim(); };
 
 (async () => {
   try {
@@ -148,7 +286,7 @@ $('#xoa').onclick = () => { for (const k of ['ngay', 'ma', 'nam', 'tac_gia', 'sa
     $('#sach').insertAdjacentHTML('beforeend', D.sach.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join(''));
     $('#trangthai').textContent = `· ${M.so_bai.toLocaleString('vi')} bài · đóng gói __NGAY_DONG_GOI__`;
     $('#mo').remove();
-    $('#q').focus();
+    if (!matchMedia('(pointer: coarse)').matches) $('#q').focus();   // điện thoại: không bật bàn phím che màn hình
   } catch (e) {
     $('#mo-tt').textContent = 'Không mở được: ' + e.message + '. Hãy dùng Chrome, Edge, Firefox hoặc Safari bản mới.';
   }
