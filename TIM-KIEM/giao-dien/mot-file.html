@@ -5,11 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#191816" media="(prefers-color-scheme: dark)">
+<!-- chạy như ứng dụng khi "Thêm vào màn hình chính" (các file này nằm cạnh baigiang.html) -->
+<link rel="manifest" href="baigiang.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="baigiang-icon-192.png">
+<link rel="apple-touch-icon" href="baigiang-icon-180.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bài giảng">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>Tìm trong kho bài giảng</title>
 <style>
   /* --tl: tỉ lệ cỡ chữ người đọc chọn (nút A− / A+), chỉ áp vào phần chữ cần đọc */
   :root { --bg:#faf9f6; --fg:#1f1d1a; --mute:#635e56; --line:#e4e0d8; --acc:#7a2e1f; --hl:#ffe49a; --card:#fff;
-          --tl:1; --co-doc:17.5px; --co-trich:16px; }
+          --tl:1; --co-doc:17.5px; --co-trich:16px; --co-tieu:18px; --co-phu:13.5px; --co-tieu-doc:21px; }
   @media (prefers-color-scheme: dark) { :root { --bg:#191816; --fg:#ece8e1; --mute:#a39d93; --line:#34312c; --acc:#e09a7f; --hl:#6b5414; --card:#22201d; } }
   * { box-sizing:border-box; }
   html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
@@ -27,18 +37,21 @@
   button:focus-visible, summary:focus-visible, a:focus-visible { outline:2px solid var(--acc); outline-offset:2px; }
   button.chinh { background:var(--acc); border-color:var(--acc); color:#fff; padding:10px 18px; border-radius:10px; }
   @media (prefers-color-scheme: dark) { button.chinh { color:#191816; } }
-  .phu { display:flex; flex-wrap:wrap; align-items:flex-start; gap:0 12px; }
-  .phu details { flex:1; }
-  .phu details[open] { flex-basis:100%; }
+  .phu { display:flex; flex-wrap:wrap; align-items:center; gap:6px 12px; margin-top:8px; }
+  .phu details { flex:1; margin-top:0; order:1; }
+  .phu details[open] { flex-basis:100%; order:3; }
   #nut-loc { display:none; }
-  .hang { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:10px; font-size:14px; }
+  .co-chu { display:flex; gap:4px; align-items:center; flex:none; order:2; }
+  .co-chu button { min-height:36px; min-width:40px; padding:2px 10px; font-weight:600; }
+  .co-chu .co-nhan { font-size:14px; font-weight:400; min-width:60px; color:var(--mute); }
+  .hang { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:8px; font-size:14px; }
   .hang select, .hang input { font:inherit; font-size:14px; padding:5px 8px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--fg); max-width:230px; }
   main { padding:16px 20px 60px; }
   .tt { color:var(--mute); font-size:14px; margin:4px 0 14px; } .tt div { margin:2px 0; }
   .bai { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin-bottom:14px; }
-  .bai h2 { font-size:18px; line-height:1.35; margin:0; } .bai h2 a { color:var(--fg); text-decoration:none; } .bai h2 a:hover { color:var(--acc); }
-  .meta { color:var(--mute); font-size:13.5px; margin:2px 0 6px; }
-  .meta code, #xem-dau code { overflow-wrap:anywhere; }
+  .bai h2 { font-size:calc(var(--co-tieu) * var(--tl)); line-height:1.35; margin:0; } .bai h2 a { color:var(--fg); text-decoration:none; } .bai h2 a:hover { color:var(--acc); }
+  .meta { color:var(--mute); font-size:calc(var(--co-phu) * var(--tl)); margin:2px 0 6px; }
+  .meta code, #xem-dau code { overflow-wrap:anywhere; font-size:.92em; }
   .doan { border-left:3px solid var(--line); padding:4px 0 4px 12px; margin:10px 0; white-space:pre-wrap; font-size:calc(var(--co-trich) * var(--tl)); line-height:1.6; }
   .nhan { font-size:12px; color:var(--mute); display:block; margin-bottom:2px; white-space:normal; }
   .doan a, .nhan a { color:var(--acc); }
@@ -50,68 +63,69 @@
   #xem .khung { position:absolute; top:3vh; bottom:3vh; left:50%; transform:translateX(-50%); width:min(900px, 96vw); background:var(--card); border-radius:12px; display:flex; flex-direction:column; overflow:hidden; }
   #xem .dau { flex:none; padding:8px 14px; border-bottom:1px solid var(--line); display:flex; gap:6px; align-items:center; }
   #xem .dau button { min-height:40px; min-width:40px; padding:4px 10px; }
-  .co-chu { display:flex; gap:4px; align-items:center; }
-  .co-chu #co-mac { font-size:14px; min-width:58px; color:var(--mute); }
   #dong { margin-left:auto; }
   #xem .than { flex:1; min-height:0; overflow:auto; overscroll-behavior:contain; -webkit-overflow-scrolling:touch; padding:0 22px 40px; }
   #xem-dau { padding:16px 0 12px; margin-bottom:14px; border-bottom:1px solid var(--line); }
-  #xem-dau b { display:block; font-size:21px; line-height:1.3; }
-  #xem-dau .meta { font-size:14px; margin-top:6px; }
+  #xem-dau b { display:block; font-size:calc(var(--co-tieu-doc) * var(--tl)); line-height:1.3; }
+  #xem-dau .meta { margin-top:6px; }
   #xem-than { font-size:calc(var(--co-doc) * var(--tl)); line-height:1.7; }
   #xem-than p { margin:0 0 .75em; white-space:pre-wrap; }
   #xem-than .chon { background:var(--hl); background:color-mix(in srgb, var(--hl) 38%, transparent); box-shadow:inset 4px 0 var(--acc); border-radius:4px; padding:6px 8px 1px 14px; margin:0 -8px .75em -14px; }
   details { font-size:13.5px; color:var(--mute); margin-top:8px; } code { font-size:13px; }
   summary { cursor:pointer; }
-  #mo { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:var(--bg); z-index:20; flex-direction:column; gap:10px; color:var(--mute); padding:16px; text-align:center; }
+  #mo { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:var(--bg); z-index:20; flex-direction:column; gap:10px; color:var(--mute); padding:16px; text-align:center; font-size:18px; }
 
-  /* ---------- điện thoại ---------- */
-  @media (max-width: 640px) {
-    :root { --co-doc:19px; --co-trich:17px; }
-    header { position:static; padding:12px 16px 8px; }
-    h1 { font-size:14px; margin-bottom:8px; line-height:1.4; }
-    .q input { font-size:18px; padding:11px 14px; min-height:50px; }
-    button.chinh { min-height:50px; min-width:64px; padding:0 16px; font-size:17px; }
-    .phu { align-items:center; margin-top:8px; }
-    #nut-loc { display:inline-flex; align-items:center; min-height:44px; padding:0 16px; font-size:16px; border-radius:10px; }
+  /* ---------- điện thoại & máy tính bảng cảm ứng ---------- */
+  @media (max-width: 640px), (pointer: coarse) and (max-width: 1024px) {
+    :root { --co-doc:23px; --co-trich:20px; --co-tieu:24px; --co-phu:17px; --co-tieu-doc:27px; }
+    body { font-size:19px; }
+    header { position:static; padding:12px 16px 8px; padding-top:max(12px, env(safe-area-inset-top)); }
+    h1 { font-size:17px; margin-bottom:10px; line-height:1.4; }
+    .q input { font-size:21px; padding:12px 14px; min-height:56px; }
+    button.chinh { min-height:56px; min-width:72px; padding:0 16px; font-size:20px; }
+    .phu { gap:8px; }
+    #nut-loc { display:inline-flex; align-items:center; min-height:48px; padding:0 14px; font-size:19px; border-radius:10px; }
     #nut-loc[aria-expanded="true"] { border-color:var(--acc); color:var(--acc); }
-    .phu details { margin-top:0; font-size:15px; line-height:1.6; }
+    .co-chu { margin-left:auto; }
+    .co-chu button { min-height:48px; min-width:48px; font-size:20px; border-radius:10px; }
+    .co-chu .co-nhan { font-size:17px; min-width:66px; }
+    .phu details { order:3; flex-basis:100%; font-size:18px; line-height:1.6; }
     .phu details[open] { padding-bottom:6px; }
     .phu summary { min-height:44px; display:flex; align-items:center; }
     .phu summary::before { content:"▸"; margin-right:6px; } .phu details[open] summary::before { content:"▾"; }
     .phu summary::-webkit-details-marker { display:none; } .phu summary { list-style:none; }
-    code { font-size:14px; }
-    .hang { display:none; grid-template-columns:1fr 1fr; gap:10px; font-size:16px; margin-top:8px; }
+    code { font-size:16px; }
+    .hang { display:none; grid-template-columns:1fr 1fr; gap:10px; font-size:19px; margin-top:8px; }
     header.mo-loc .hang { display:grid; }
     .hang label { grid-column:1 / -1; display:flex; align-items:center; gap:10px; }
     .hang label input { flex:1; }
-    .hang select, .hang input { font-size:16px; min-height:46px; padding:8px 10px; width:100%; min-width:0; max-width:none; }
-    #xoa { grid-column:1 / -1; min-height:46px; font-size:16px; }
+    .hang select, .hang input { font-size:19px; min-height:52px; padding:8px 10px; width:100%; min-width:0; max-width:none; }
+    #xoa { grid-column:1 / -1; min-height:52px; font-size:19px; }
     main { padding:12px 12px 48px; }
-    .tt { font-size:15px; margin:2px 4px 12px; }
-    .bai { padding:14px 14px 6px; margin-bottom:12px; }
-    .bai h2 { font-size:20px; } .bai h2 a { display:block; }
-    .meta { font-size:14.5px; line-height:1.5; margin:4px 0 6px; }
+    .tt { font-size:18px; margin:2px 4px 12px; }
+    .bai { padding:16px 14px 6px; margin-bottom:12px; }
+    .bai h2 a { display:block; }
+    .meta { line-height:1.5; margin:6px 0 8px; }
     .doan { line-height:1.65; margin:8px 0 12px; }
-    .nhan { font-size:14px; margin-bottom:0; }
+    .nhan { font-size:17px; margin-bottom:0; }
     .nhan a { display:inline-block; padding:8px 0; }
     [data-rong] { display:inline-block; padding:6px 0; }
-    .them { width:100%; min-height:48px; font-size:16px; border-radius:10px; }
+    .them { width:100%; min-height:52px; font-size:19px; border-radius:10px; }
     #xem { background:var(--card); }
     #xem .khung { inset:0; width:auto; transform:none; border-radius:0; }
     #xem .dau { padding:6px 10px; padding-top:max(6px, env(safe-area-inset-top)); }
-    #xem .dau button { min-height:44px; min-width:44px; font-size:17px; }
-    .co-chu #co-mac { font-size:15px; min-width:62px; }
+    #xem .dau button { min-height:48px; min-width:48px; font-size:20px; }
+    #xem .dau .co-chu { margin-left:0; }
     #xem .than { padding:0 18px 56px; padding-bottom:max(56px, env(safe-area-inset-bottom)); }
     #xem-dau { padding-top:14px; }
-    #xem-dau b { font-size:23px; }
-    #xem-dau .meta { font-size:15px; }
     #xem-than { line-height:1.75; }
   }
   @media (max-width: 360px) {
-    header { padding:10px 12px 8px; }
+    header { padding-left:12px; padding-right:12px; }
     main { padding:10px 8px 40px; }
     #xem .than { padding:0 14px 56px; }
-    .co-chu #co-mac { min-width:52px; }
+    .co-chu .co-nhan { min-width:56px; padding:2px 4px; }
+    #nut-loc { padding:0 10px; }
   }
 </style>
 </head>
@@ -125,6 +139,11 @@
   </form>
   <div class="phu">
     <button type="button" id="nut-loc" aria-expanded="false" aria-controls="bo-loc">Bộ lọc</button>
+    <div class="co-chu" role="group" aria-label="Cỡ chữ">
+      <button type="button" data-co="-1" aria-label="Giảm cỡ chữ">A−</button>
+      <button type="button" data-co="0" class="co-nhan" aria-label="Cỡ chữ mặc định" title="Về cỡ chữ mặc định">100%</button>
+      <button type="button" data-co="1" aria-label="Tăng cỡ chữ">A+</button>
+    </div>
     <details><summary>Cách gõ</summary>
       Gõ một cụm từ → tìm đúng cụm đó (<code>tỉnh thức</code>); không dấu cũng được (<code>tinh thuc</code>), có dấu thì chính xác hơn.
       Nhiều cụm: <code>"đèn" "dầu"</code> · <code>"hoán cải" OR "sám hối"</code> · loại trừ: <code>"tỉnh thức" -"mùa vọng"</code>.
@@ -151,9 +170,9 @@
 <div id="xem" class="an" role="dialog" aria-modal="true" aria-label="Đọc bài giảng"><div class="khung">
   <div class="dau">
     <div class="co-chu" role="group" aria-label="Cỡ chữ">
-      <button type="button" id="co-giam" aria-label="Giảm cỡ chữ">A−</button>
-      <button type="button" id="co-mac" aria-label="Cỡ chữ mặc định" title="Về cỡ chữ mặc định">100%</button>
-      <button type="button" id="co-tang" aria-label="Tăng cỡ chữ">A+</button>
+      <button type="button" data-co="-1" aria-label="Giảm cỡ chữ">A−</button>
+      <button type="button" data-co="0" class="co-nhan" aria-label="Cỡ chữ mặc định" title="Về cỡ chữ mặc định">100%</button>
+      <button type="button" data-co="1" aria-label="Tăng cỡ chữ">A+</button>
     </div>
     <button id="dong" type="button">Đóng</button>
   </div>
@@ -182,16 +201,19 @@ function datCo(v, luu = true) {
   const vt = dangDoc && k.scrollHeight ? k.scrollTop / k.scrollHeight : 0;   // giữ chỗ đang đọc khi đổi cỡ
   tl = v;
   document.documentElement.style.setProperty('--tl', v);
-  $('#co-mac').textContent = Math.round(v * 100) + '%';
-  $('#co-giam').disabled = v <= BAC_CO[0];
-  $('#co-tang').disabled = v >= BAC_CO[BAC_CO.length - 1];
+  for (const b of document.querySelectorAll('[data-co]')) {
+    const n = +b.dataset.co;
+    if (!n) b.textContent = Math.round(v * 100) + '%';
+    else b.disabled = n < 0 ? v <= BAC_CO[0] : v >= BAC_CO[BAC_CO.length - 1];
+  }
   if (dangDoc) k.scrollTop = vt * k.scrollHeight;
   if (luu) try { localStorage.setItem('baigiang-co-chu', String(v)); } catch {}
 }
-const buocCo = (n) => datCo(BAC_CO[Math.min(BAC_CO.length - 1, Math.max(0, BAC_CO.indexOf(tl) + n))]);
-$('#co-giam').onclick = () => buocCo(-1);
-$('#co-tang').onclick = () => buocCo(1);
-$('#co-mac').onclick = () => datCo(1);
+// hai nhóm nút (trang chính và khung đọc) dùng chung: data-co = -1 giảm, 0 mặc định, 1 tăng
+for (const b of document.querySelectorAll('[data-co]')) b.onclick = () => {
+  const n = +b.dataset.co;
+  datCo(n ? BAC_CO[Math.min(BAC_CO.length - 1, Math.max(0, BAC_CO.indexOf(tl) + n))] : 1);
+};
 datCo(tl, false);
 
 // ----- bộ lọc thu gọn trên điện thoại -----
@@ -232,7 +254,7 @@ function tim(them = false) {
       ${k.doan.map((d) => `<div class="doan"><span class="nhan"><a href="#" data-mo="${k.i}" data-d="${d.i}">mở cả bài tại đoạn này</a></span>${trich(d.noi_dung, d.khop)}</div>`).join('')}</div>`;
   }).join(''));
   $('#them').classList.toggle('an', (trang + 1) * 20 >= r.tong_bai);
-  if (!them && matchMedia('(max-width: 640px)').matches) $('#q').blur();   // hạ bàn phím để thấy kết quả
+  if (!them && matchMedia('(max-width: 640px), (pointer: coarse)').matches) $('#q').blur();   // hạ bàn phím để thấy kết quả
 }
 
 // ----- khung đọc: nút Quay lại của điện thoại cũng đóng bài -----
