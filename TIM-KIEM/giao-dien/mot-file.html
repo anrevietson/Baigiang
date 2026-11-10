@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Tìm trong kho bài giảng</title>
+<style>
+  :root { --bg:#faf9f6; --fg:#1f1d1a; --mute:#6b665e; --line:#e4e0d8; --acc:#7a2e1f; --hl:#ffe49a; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#191816; --fg:#ece8e1; --mute:#a39d93; --line:#34312c; --acc:#e09a7f; --hl:#6b5414; --card:#22201d; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, "Segoe UI", Roboto, sans-serif; }
+  header { position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line); padding:14px 20px 10px; }
+  .wrap { max-width:980px; margin:0 auto; }
+  h1 { font-size:15px; font-weight:600; margin:0 0 8px; color:var(--mute); }
+  .q { display:flex; gap:8px; }
+  .q input { flex:1; font-size:18px; padding:10px 14px; border:1px solid var(--line); border-radius:10px; background:var(--card); color:var(--fg); }
+  .q input:focus { outline:2px solid var(--acc); outline-offset:-1px; }
+  button { font:inherit; cursor:pointer; border:1px solid var(--line); background:var(--card); color:var(--fg); border-radius:8px; padding:6px 12px; }
+  button.chinh { background:var(--acc); border-color:var(--acc); color:#fff; padding:10px 18px; border-radius:10px; }
+  .hang { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:10px; font-size:14px; }
+  .hang select, .hang input { font:inherit; font-size:14px; padding:5px 8px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--fg); max-width:230px; }
+  main { padding:16px 20px 60px; }
+  .tt { color:var(--mute); font-size:14px; margin:4px 0 14px; } .tt div { margin:2px 0; }
+  .bai { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin-bottom:14px; }
+  .bai h2 { font-size:18px; margin:0; } .bai h2 a { color:var(--fg); text-decoration:none; } .bai h2 a:hover { color:var(--acc); }
+  .meta { color:var(--mute); font-size:13.5px; margin:2px 0 6px; }
+  .doan { border-left:3px solid var(--line); padding:4px 0 4px 12px; margin:10px 0; white-space:pre-wrap; }
+  .nhan { font-size:12px; color:var(--mute); display:block; margin-bottom:2px; white-space:normal; }
+  mark { background:var(--hl); color:inherit; padding:0 1px; border-radius:2px; }
+  .an { display:none !important; }
+  .them { display:block; margin:10px auto; }
+  #xem { position:fixed; inset:0; background:#0007; z-index:10; }
+  #xem .khung { position:absolute; top:3vh; bottom:3vh; left:50%; transform:translateX(-50%); width:min(900px, 96vw); background:var(--card); border-radius:12px; display:flex; flex-direction:column; }
+  #xem .dau { padding:12px 18px; border-bottom:1px solid var(--line); display:flex; gap:12px; align-items:start; } #xem .dau div { flex:1; }
+  #xem .than { overflow:auto; padding:10px 22px 40px; font-size:16.5px; line-height:1.65; }
+  #xem .than p { margin:0 0 .7em; white-space:pre-wrap; } #xem .chon { background:var(--hl); border-radius:4px; }
+  details { font-size:13.5px; color:var(--mute); margin-top:8px; } code { font-size:13px; }
+  #mo { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; background:var(--bg); z-index:20; flex-direction:column; gap:10px; color:var(--mute); }
+</style>
+</head>
+<body>
+<div id="mo"><b style="color:var(--fg)">Đang mở thư viện bài giảng…</b><span id="mo-tt">Lần mở đầu mất khoảng 5–15 giây.</span></div>
+<header><div class="wrap">
+  <h1>Tìm trong kho bài giảng <span id="trangthai"></span></h1>
+  <form class="q" id="f" autocomplete="off">
+    <input id="q" placeholder="Ví dụ: tỉnh thức · Mt 25,1-13 · thứ ba tuần 32 thường niên · 22/11/2026">
+    <button class="chinh">Tìm</button>
+  </form>
+  <div class="hang">
+    <label>Ngày <input type="date" id="ngay"></label>
+    <input id="ma" list="ds-le" placeholder="Mã / tên lễ">
+    <select id="nam"><option value="">Năm</option><option>A</option><option>B</option><option>C</option><option>I</option><option>II</option></select>
+    <input id="tac_gia" list="ds-tg" placeholder="Tác giả">
+    <select id="sach"><option value="">Sách Kinh Thánh</option></select>
+    <button type="button" id="xoa">Bỏ lọc</button>
+  </div>
+  <datalist id="ds-le"></datalist><datalist id="ds-tg"></datalist>
+  <details><summary>Cách gõ</summary>
+    Gõ một cụm từ → tìm đúng cụm đó (<code>tỉnh thức</code>); không dấu cũng được (<code>tinh thuc</code>), có dấu thì chính xác hơn.
+    Nhiều cụm: <code>"đèn" "dầu"</code> · <code>"hoán cải" OR "sám hối"</code> · loại trừ: <code>"tỉnh thức" -"mùa vọng"</code>.
+    Kinh Thánh: <code>Mt 25,1-13</code>, <code>Lc 15</code>, <code>Jn 3:16</code>.
+    Tên lễ: <code>thứ ba tuần 32 thường niên</code>, <code>CN XXXII TN năm A tỉnh thức</code>, <code>lễ các thánh</code>, <code>22/11/2026</code>.
+    Bản này chạy hoàn toàn trên máy, không cần mạng; chưa có tìm theo ý nghĩa.
+  </details>
+</div></header>
+<main><div class="wrap">
+  <div class="tt" id="tt"></div>
+  <div id="kq"></div>
+  <button class="them an" id="them">Xem thêm</button>
+</div></main>
+<div id="xem" class="an"><div class="khung">
+  <div class="dau"><div id="xem-dau"></div><button id="dong" type="button">Đóng</button></div>
+  <div class="than" id="xem-than"></div>
+</div></div>
+<script>
+/*__BO_MAY__*/
+</script>
+<script id="du-lieu" type="application/octet-stream">__DU_LIEU__</script>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+let M, trang = 0;
+const maLe = new Map();
+
+function toSang(t, k) { let o = '', p = 0; for (const [a, b] of k) { o += esc(t.slice(p, a)) + '<mark>' + esc(t.slice(a, b)) + '</mark>'; p = b; } return o + esc(t.slice(p)); }
+function trich(t, k) {
+  if (t.length <= 900) return toSang(t, k);
+  const a = Math.max(0, (k[0]?.[0] ?? 0) - 250), b = Math.min(t.length, a + 800);
+  const k2 = k.filter(([x, y]) => x >= a && y <= b).map(([x, y]) => [x - a, y - a]);
+  return `<span class="ngan">${a ? '… ' : ''}${toSang(t.slice(a, b), k2)}${b < t.length ? ' …' : ''} <a href="#" data-rong>[cả đoạn]</a></span><span class="dai an">${toSang(t, k)}</span>`;
+}
+function loc() {
+  const ma = $('#ma').value.trim();
+  return { ma: ma ? (maLe.get(ma) ?? ma.split(' ')[0]) : undefined, ngay: $('#ngay').value || undefined, nam: $('#nam').value || undefined,
+           tac_gia: $('#tac_gia').value.trim() || undefined, sach: $('#sach').value || undefined };
+}
+function tim(them = false) {
+  const q = $('#q').value, l = loc();
+  if (!q.trim() && !Object.values(l).some(Boolean)) return;
+  trang = them ? trang + 1 : 0;
+  let r;
+  const t0 = performance.now();
+  try { r = M.tim(q, { loc: l, trang }); } catch (e) { $('#tt').textContent = e.message; return; }
+  if (!them) $('#kq').innerHTML = '';
+  $('#tt').innerHTML = `<div>${r.tong_bai.toLocaleString('vi')} bài có kết quả (${Math.round(performance.now() - t0)} ms).</div>` + r.ghi_chu.map((g) => `<div>• ${esc(g)}</div>`).join('');
+  $('#kq').insertAdjacentHTML('beforeend', r.ket_qua.map((k) => {
+    const b = k.bai;
+    return `<div class="bai"><h2><a href="#" data-mo="${k.i}" data-d="${k.doan[0]?.i ?? ''}">${esc(b.chu_de || '(không chủ đề)')}</a></h2>
+      <div class="meta">${esc(b.tac_gia || 'Vô danh')} · ${esc(b.ten_le || '')}${b.nam.length ? ' · năm ' + b.nam.join('/') : ''}${b.tin_mung.length ? ' · ' + esc(b.tin_mung.join('; ')) : ''} · <code>${esc(b.duong_dan)}</code></div>
+      ${k.doan.map((d) => `<div class="doan"><span class="nhan"><a href="#" data-mo="${k.i}" data-d="${d.i}">mở cả bài tại đoạn này</a></span>${trich(d.noi_dung, d.khop)}</div>`).join('')}</div>`;
+  }).join(''));
+  $('#them').classList.toggle('an', (trang + 1) * 20 >= r.tong_bai);
+}
+function mo(b, d) {
+  const r = M.docBai(b);
+  $('#xem-dau').innerHTML = `<b>${esc(r.bai.chu_de)}</b><div class="meta">${esc(r.bai.tac_gia || 'Vô danh')} · ${esc(r.bai.ten_le || '')}${r.bai.tin_mung.length ? ' · ' + esc(r.bai.tin_mung.join('; ')) : ''} · <code>${esc(r.bai.duong_dan)}</code></div>`;
+  $('#xem-than').innerHTML = r.doan.map((x) => `<div id="d${x.i}" class="${x.i === d ? 'chon' : ''}">${x.noi_dung.split('\n').map((p) => `<p>${esc(p)}</p>`).join('')}</div>`).join('');
+  $('#xem').classList.remove('an');
+  document.getElementById('d' + d)?.scrollIntoView({ block: 'center' });
+}
+document.addEventListener('click', (e) => {
+  const r = e.target.closest('[data-rong]');
+  if (r) { e.preventDefault(); const d = r.closest('.doan'); d.querySelector('.ngan').classList.add('an'); d.querySelector('.dai').classList.remove('an'); return; }
+  const a = e.target.closest('[data-mo]');
+  if (a) { e.preventDefault(); mo(+a.dataset.mo, +a.dataset.d); }
+});
+$('#dong').onclick = () => $('#xem').classList.add('an');
+$('#xem').onclick = (e) => { if (e.target.id === 'xem') $('#xem').classList.add('an'); };
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') $('#xem').classList.add('an'); });
+$('#f').onsubmit = (e) => { e.preventDefault(); tim(); };
+$('#them').onclick = () => tim(true);
+for (const k of ['ngay', 'nam', 'sach', 'ma', 'tac_gia']) $('#' + k).onchange = () => tim();
+$('#xoa').onclick = () => { for (const k of ['ngay', 'ma', 'nam', 'tac_gia', 'sach']) $('#' + k).value = ''; tim(); };
+
+(async () => {
+  try {
+    const b64 = document.getElementById('du-lieu').textContent.trim();
+    const bin = atob(b64), u8 = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i);
+    const txt = await new Response(new Blob([u8]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
+    $('#mo-tt').textContent = 'Đang dựng chỉ mục…';
+    await new Promise((r) => setTimeout(r, 20));
+    const D = JSON.parse(txt);
+    M = BoMay.taoBoMay(D);
+    $('#ds-le').innerHTML = D.le.map(([ma, ten]) => { const t = `${ma} · ${ten}`; maLe.set(t, ma); return `<option value="${esc(t)}">`; }).join('');
+    $('#ds-tg').innerHTML = D.tac_gia.map((t) => `<option value="${esc(t)}">`).join('');
+    $('#sach').insertAdjacentHTML('beforeend', D.sach.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join(''));
+    $('#trangthai').textContent = `· ${M.so_bai.toLocaleString('vi')} bài · đóng gói __NGAY_DONG_GOI__`;
+    $('#mo').remove();
+    $('#q').focus();
+  } catch (e) {
+    $('#mo-tt').textContent = 'Không mở được: ' + e.message + '. Hãy dùng Chrome, Edge, Firefox hoặc Safari bản mới.';
+  }
+})();
+</script>
+</body>
+</html>

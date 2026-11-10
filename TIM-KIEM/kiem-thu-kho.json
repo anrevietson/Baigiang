@@ -1,0 +1,55 @@
+[
+  {
+    "q": "tỉnh thức",
+    "che_do": "tu-khoa",
+    "co_mot_trong": ["tỉnh thức"],
+    "it_nhat": 8
+  },
+  {
+    "q": "tinh thuc",
+    "che_do": "tu-khoa",
+    "co_mot_trong": ["tỉnh thức"],
+    "it_nhat": 8
+  },
+  {
+    "q": "Mt 25,1-13",
+    "co_mot_trong": ["trinh nữ", "Mt 25", "Mt. 25"],
+    "it_nhat": 8
+  },
+  {
+    "q": "dụ ngôn mười cô trinh nữ",
+    "co_mot_trong": ["trinh nữ"],
+    "it_nhat": 8
+  },
+  {
+    "q": "Con người phải chuẩn bị để gặp Chúa",
+    "che_do": "y-nghia",
+    "co_mot_trong": [
+      "trinh nữ",
+      "dầu",
+      "đèn",
+      "tỉnh thức",
+      "sẵn sàng",
+      "chàng rể"
+    ],
+    "it_nhat": 5
+  },
+  {
+    "q": "Người cha già ngày ngày ra đầu ngõ chờ đứa con trở về",
+    "che_do": "y-nghia",
+    "co_mot_trong": ["hoang đàng", "người cha", "Lc 15", "đứa con"],
+    "it_nhat": 5
+  },
+  {
+    "q": "Thiên Chúa luôn sẵn sàng tha thứ cho người tội lỗi",
+    "che_do": "y-nghia",
+    "co_mot_trong": ["tha thứ", "thương xót"],
+    "it_nhat": 5
+  },
+  {
+    "q": "sống đức tin giữa những đau khổ của cuộc đời",
+    "che_do": "tat-ca",
+    "co_mot_trong": ["đau khổ", "thử thách", "thập giá"],
+    "it_nhat": 5
+  }
+]
