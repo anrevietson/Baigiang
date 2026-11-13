@@ -193,6 +193,26 @@ export function kiemTra(data) {
     if (s > 0.35) W(`gợi ý ${tapTu[i][0]} và ${tapTu[j][0]} giống nhau nhiều (Jaccard từ khóa ${s.toFixed(2)})`);
     for (const t of tapTu[i][2]) if (tapTu[j][2].has(t)) L(`gợi ý ${tapTu[i][0]} và ${tapTu[j][0]} có luận điểm trùng tiêu đề "${t}"`);
   }
+  // các lỗi nội dung đã gặp (5330-A, 5326-I-II) — cảnh báo, phải xử lý hoặc ghi lý do trong "## Gom hướng"
+  const gy = data.goi_y ?? [];
+  if (phuLuc) {
+    const daDung = new Set(gy.flatMap((g) => g.luan_diem ?? []).flatMap((d) => d.nguon ?? []).filter((s) => s.loai === 'glhtcg').map((s) => s.so));
+    for (const c of phuLuc.chu_de) if (!daDung.has(c.so)) W(`Phụ lục I: chủ đề GLHTCG ${c.so} ("${c.en}") chưa được dùng ở luận điểm nào`);
+  }
+  if (data.chu_ky?.length > 1) {
+    const khacNhau = new Set(lc.bo.map((b) => b.doan?.firstReading?.excerpt)).size > 1;
+    if (khacNhau && !gy.some((g) => g.ap_dung_nam?.length === 1)) W(`Bài đọc I mỗi năm khác nhau nhưng không có gợi ý riêng cho từng năm (ap_dung_nam ["I"] / ["II"]); năm nào kho không có bài giảng thì ghi rõ trong lien_he_bai_doc, không tự suy diễn`);
+    for (const g of gy) if (g.ap_dung_nam?.length > 1) {
+      const rieng = [g.loi_chua_nen, ...(g.luan_diem ?? []).flatMap((d) => [...(d.kinh_thanh ?? []), ...(d.nguon ?? [])])]
+        .filter((k) => k && k.doan && k.doan !== 'gospel' && k.doan !== 'alleluia' && k.nam);
+      for (const k of rieng) W(`gợi ý ${g.so} áp dụng cho ${g.ap_dung_nam.join('/')} nhưng dùng ${k.doan} năm ${k.nam}${k.ref ? ' (' + k.ref + ')' : ''} — chuyển sang gợi ý riêng của năm ${k.nam}`);
+    }
+  }
+  const dungLai = new Map();
+  for (const g of gy) for (const d of g.luan_diem ?? []) for (const s of d.nguon ?? []) if (s.loai === 'bai-giang') {
+    const k = `${s.duong_dan}@${s.dong}`; dungLai.set(k, [...(dungLai.get(k) ?? []), `${g.so}.${d.so}`]);
+  }
+  for (const [k, v] of dungLai) if (v.length > 1) W(`cùng nguồn ${k} dùng cho ${v.length} luận điểm (${v.join(', ')}) — mỗi luận điểm cần dòng nguồn riêng`);
   if (!(data.goi_y?.length >= 1 && data.goi_y.length <= 5)) L('cần 1–5 gợi ý');
   kiemChu(data, L);
   return { loi, canh_bao: cb, thong_ke: { so_goi_y: data.goi_y?.length ?? 0, so_luan_diem: (data.goi_y ?? []).reduce((s, g) => s + (g.luan_diem?.length ?? 0), 0), do_giong: doGiong } };

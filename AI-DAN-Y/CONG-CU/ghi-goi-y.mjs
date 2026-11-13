@@ -8,6 +8,7 @@ import { writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { OUTPUT, LAM_VIEC, docJson } from './chung.mjs';
 import { kiemTra, ganVanTay } from './kiem.mjs';
+import { kiemTrichY } from './kiem-trich-y.mjs';
 
 const tm = process.argv[2];
 const chiThu = process.argv.includes('--thu');
@@ -15,6 +16,13 @@ const nhap = join(LAM_VIEC, tm ?? '', 'goi-y.nhap.json');
 if (!tm || !existsSync(nhap)) { console.error(`Không có ${nhap}`); process.exit(1); }
 const data = docJson(nhap);
 const r = kiemTra(data);
+// trích ý phải phản ánh việc đọc thật (mỗi bài một dòng, có số dòng gốc, có "## Gom hướng")
+// --khong-kiem-trich-y chỉ dành cho kiem-thu-goi-y.mjs (mẫu cũ trước quy ước); KHÔNG dùng khi soạn mã mới.
+if (!process.argv.includes('--khong-kiem-trich-y')) {
+  const ty = kiemTrichY(tm);
+  for (const e of ty.loi) r.loi.push('trích ý: ' + e);
+  if (ty.so_huong > (data.goi_y?.length ?? 0)) r.canh_bao.push(`"## Gom hướng" có ${ty.so_huong} hướng nhưng chỉ có ${data.goi_y?.length} gợi ý — mỗi hướng độc lập là một gợi ý; nếu gộp, sửa lại "## Gom hướng"`);
+}
 for (const w of r.canh_bao) console.log('  ! ' + w);
 for (const e of r.loi) console.log('  ✗ ' + e);
 console.log(`${tm}: ${r.thong_ke?.so_goi_y} gợi ý, ${r.thong_ke?.so_luan_diem} luận điểm — ${r.loi.length} lỗi, ${r.canh_bao.length} cảnh báo`);

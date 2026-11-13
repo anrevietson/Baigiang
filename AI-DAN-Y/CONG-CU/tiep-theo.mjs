@@ -16,6 +16,7 @@ import { join } from 'node:path';
 import { LIB_ROOT, LAM_VIEC, docJson, dsThuMuc, phanTichThuMuc } from './chung.mjs';
 import { trangThai } from './tien-do.mjs';
 import { kiemTra } from './kiem.mjs';
+import { kiemTrichY } from './kiem-trich-y.mjs';
 
 const GIU_CHO_GIO = 6;
 const args = process.argv.slice(2);
@@ -42,7 +43,7 @@ export function choDung(tm) {
   const conLai = goi.filter((g) => !daGhi.includes(g));
   let nhap = null;
   if (files.includes('goi-y.nhap.json')) {
-    try { const r = kiemTra(docJson(join(lv, 'goi-y.nhap.json'))); nhap = { loi: r.loi.length, vi_du: r.loi.slice(0, 3) }; }
+    try { const r = kiemTra(docJson(join(lv, 'goi-y.nhap.json'))); const ty = kiemTrichY(tm).loi.map((e) => 'trích ý: ' + e); const l = [...ty, ...r.loi]; nhap = { loi: l.length, vi_du: l.slice(0, 3) }; }
     catch (e) { nhap = { loi: 1, vi_du: ['JSON hỏng: ' + e.message] }; }
   }
   const coGom = /^##\s+Gom hướng/m.test(trich);

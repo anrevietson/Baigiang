@@ -115,7 +115,7 @@ try {
   d.goi_y[1].duyet = { trang_thai: 'da-duyet', nguoi: 'Kiểm thử', luc: '2026-11-13', ghi_chu: null };
   d.goi_y[1].tieu_de = 'TIÊU ĐỀ ĐÃ DUYỆT (kiểm thử)';
   writeFileSync(outP, JSON.stringify(d));
-  execFileSync(process.execPath, [join(CONG_CU, 'ghi-goi-y.mjs'), '5321-I-II'], { stdio: 'pipe' });
+  execFileSync(process.execPath, [join(CONG_CU, 'ghi-goi-y.mjs'), '5321-I-II', '--khong-kiem-trich-y'], { stdio: 'pipe' });
   const sau = doc(outP);
   thu('Ghi lại bản nháp không ghi đè gợi ý đã duyệt', sau.goi_y[1].tieu_de === 'TIÊU ĐỀ ĐÃ DUYỆT (kiểm thử)' && sau.goi_y[1].duyet.trang_thai === 'da-duyet' && sau.goi_y[0].duyet.trang_thai === 'draft');
 } finally { writeFileSync(outP, goc); }

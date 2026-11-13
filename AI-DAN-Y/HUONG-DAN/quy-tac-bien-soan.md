@@ -5,13 +5,13 @@
 ## 1. Thứ tự làm việc cho một mã lễ
 1. `doi-chieu-loi-chua.mjs <tm>` — lấy đúng bộ Lời Chúa theo quy tắc của `catholic-cal-vn` (celebrationCode → readingCode qua `TRA-CUU/lich-ngay.json`, rồi `resolveReadingSource`). Lưu `loi-chua.json` nguyên văn.
 2. `chuan-bi.mjs <tm>` — thu thập MỌI bài có mã lễ đó (theo `bai_ma` + năm), gom bài trùng theo nội dung (shingle 6 từ, ngưỡng 80%), xuất gói đọc có số dòng gốc.
-3. Đọc hết từng gói. Đọc xong gói nào ghi ngay vào `LAM-VIEC/<tm>/trich-y.md` dưới tiêu đề `## goi-NN` (điểm dừng để phiên sau làm tiếp — xem `BAN-GIAO.md`): mỗi bài một dòng (hướng chính, ý + số dòng), đánh dấu bài xếp nhầm ngày, bài không phải bài giảng, dữ liệu cá nhân.
+3. Đọc hết từng gói. Đọc xong gói nào ghi ngay vào `LAM-VIEC/<tm>/trich-y.md` dưới tiêu đề `## goi-NN` (điểm dừng để phiên sau làm tiếp — xem `BAN-GIAO.md`): mỗi bài một dòng `- <đường dẫn>: …` (hướng chính, ý + số dòng `L..`), đánh dấu bài xếp nhầm ngày, bài không phải bài giảng, dữ liệu cá nhân. `ghi-goi-y.mjs` kiểm tra máy (`kiem-trich-y.mjs`): thiếu dòng, thiếu số dòng → lỗi.
 4. Gom các hướng thực sự độc lập → 1–5 gợi ý. Không thêm gợi ý chỉ để đủ số.
 5. Viết bản nháp `LAM-VIEC/<tm>/goi-y.nhap.json` theo `SCHEMA/goi-y.md`.
 6. `ghi-goi-y.mjs <tm>` — kiểm tra, gắn hash nguồn, ghi vào OUTPUT (không ghi đè gợi ý đã duyệt).
 
 ## 2. Gợi ý 01
-- Có mục Phụ lục I Kim Chỉ Nam: `loai_nguon = "kim-chi-nam-phu-luc"`; dùng đúng các số GLHTCG của mục đó (xem `kim-chi-nam-tham-chieu.json`).
+- Có mục Phụ lục I Kim Chỉ Nam: `loai_nguon = "kim-chi-nam-phu-luc"`; dùng đúng các số GLHTCG của mục đó (xem `kim-chi-nam-tham-chieu.json`), và dùng **hết**: mỗi chủ đề Phụ lục I phải có ở ít nhất một luận điểm (gợi ý 01 hoặc gợi ý khác, vd chủ đề gắn Bài đọc I). Thiếu → `kiem.mjs` cảnh báo.
 - Không có mục: `loai_nguon = "kim-chi-nam-nguyen-tac"`; chỉ viện dẫn các số đoạn Kim Chỉ Nam đã đối chiếu; ghi rõ đây KHÔNG phải dàn ý chính thức.
 - Gợi ý 02–05: `loai_nguon = "bai-giang"`.
 - `kim-chi-nam-tham-chieu.json` → `phu_luc_1` chứa **toàn bộ** Phụ lục I (186 thư mục: mọi Chúa nhật và lễ trọng năm A/B/C, 4 thánh lễ Giáng Sinh, 5 lễ trọng khác), nhập bằng `CONG-CU/nhap-phu-luc.mjs` từ bản vatican.va. Mã có trong bảng thì gợi ý 01 bắt buộc là `kim-chi-nam-phu-luc` (`kiem.mjs` báo lỗi nếu ghi "nguyên tắc chung").
@@ -26,7 +26,9 @@
 
 ## 4. Nội dung
 - Chúa nhật/lễ trọng: chủ đề xuyên suốt dưới ánh sáng Mầu nhiệm Đức Kitô; liên hệ các bài đọc khi có thật; không ép Bài đọc I thành tiên báo trực tiếp.
-- Ngày thường: Tin Mừng làm trục; gợi ý dựa trên Bài đọc I phải ghi `ap_dung_nam` (I hoặc II).
+- Ngày thường: Tin Mừng làm trục; gợi ý dựa trên Bài đọc I phải ghi `ap_dung_nam` (I hoặc II). Gợi ý chung cho I/II chỉ dùng Tin Mừng (và Alleluia); Bài đọc I / Đáp ca của một năm chỉ nằm trong gợi ý riêng năm đó. Có bài giảng về Bài đọc I của năm nào thì làm gợi ý riêng năm đó.
+- Năm nào kho không có bài giảng về Bài đọc I: không tự viết liên hệ; ghi trong `lien_he_bai_doc` "Năm II: kho chưa có bài giảng về <tham chiếu>".
+- Mỗi hướng trong `## Gom hướng` là **một gợi ý**; không gộp nhiều hướng thành các luận điểm của một gợi ý. Mỗi luận điểm dùng dòng nguồn riêng (không dùng lại cùng `duong_dan`+`dong` cho hai luận điểm).
 - Lễ thánh: ý nghĩa phụng vụ + chứng tá; không suy diễn rằng mọi chi tiết Kinh Thánh mô tả đời vị thánh.
 - Đây là **gợi ý có cấu trúc**, không phải bài giảng hoàn chỉnh.
 
