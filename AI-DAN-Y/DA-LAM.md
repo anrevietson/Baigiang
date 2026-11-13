@@ -1,8 +1,8 @@
 # Tiến độ ngân hàng gợi ý bài giảng
 
-Cập nhật: 2026-11-13T23:33:36.546Z — tạo tự động bởi `node AI-DAN-Y/CONG-CU/tien-do.mjs`, không sửa tay.
+Cập nhật: 2026-11-13T23:35:19.936Z — tạo tự động bởi `node AI-DAN-Y/CONG-CU/tien-do.mjs`, không sửa tay.
 
-Tổng 593 thư mục mã lễ: ⬜ Chưa làm 578 · ✅ Xong 15.
+Tổng 593 thư mục mã lễ: ⬜ Chưa làm 577 · ✅ Xong 16.
 
 Mã đã **Xong** thì không làm lại; `chuan-bi.mjs` sẽ tự bỏ qua (thêm `--lam-lai` nếu thật sự muốn làm lại).
 
@@ -22,4 +22,5 @@ Mã đã **Xong** thì không làm lại; `chuan-bi.mjs` sẽ tự bỏ qua (th�
 | 5330-A | Chúa Nhật XXXIII Thường Niên năm A - Ngày Thế giới vì Người nghèo | ✅ Xong | 3 | 9 | 27 | draft: 3 | 2026-11-13 |
 | 5331-I-II | Thứ Hai Tuần XXXIII Mùa Thường Niên | ✅ Xong | 5 | 19 | 18 | draft: 5 | 2026-11-13 |
 | 5332-I-II | Thứ Ba Tuần XXXIII Mùa Thường Niên | ✅ Xong | 5 | 16 | 16 | draft: 5 | 2026-11-13 |
+| 5333-I-II | Thứ Tư Tuần XXXIII Mùa Thường Niên | ✅ Xong | 5 | 16 | 20 | draft: 5 | 2026-11-13 |
 | 82612 | Thánh Stêphanô, tử đạo tiên khởi (26/12) | ✅ Xong | 5 | 20 | 18 | draft: 5 | 2026-11-13 |

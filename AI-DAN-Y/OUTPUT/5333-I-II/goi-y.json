@@ -1,0 +1,530 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "5333-I-II",
+ "celebrationCode": "5333",
+ "ten_le": "Thứ Tư Tuần XXXIII Mùa Thường Niên",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  "I",
+  "II"
+ ],
+ "bien_soan": {
+  "boi": "Codex, theo AI-DAN-Y/HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-14",
+  "ghi_chu": "Biên soạn từ 20/20 bài (19 bài độc lập); Tin Mừng Lc 19,11-28 chung hai năm."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "5333-I-II/026.md",
+   "ly_do": "Bản trùng 89% với bản chính 5333-I-II/023.md"
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Hãy làm lợi cho đến khi Ta trở về",
+   "chu_de": "Mọi sự được trao là hồng ân để quản lý; Chúa không hỏi ta có nhiều hay ít nhưng hỏi lòng trung thành đã làm ơn ban sinh ích thế nào.",
+   "loi_chua_nen": {
+    "ref": "Lc 19,13",
+    "doan": "gospel",
+    "trich": "Hãy làm lợi cho đến khi ta trở về"
+   },
+   "luan_de": "Mỗi đầy tớ nhận một nén bạc: công việc nhỏ nhưng phần thưởng lớn. Thời gian, môi trường, người sống chung, khả năng và cả giới hạn đều có thể trở thành nơi lòng trung thành sinh hoa trái.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Ai cũng nhận một điều được ký thác",
+     "giai_thich": "Ơn ban không chỉ là tài năng nổi bật. Thời gian, hoàn cảnh và con người bên cạnh cũng là phần vốn Chúa giao.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/043.md",
+       "dong": [
+        16,
+        24
+       ],
+       "trich": "Thánh nữ Têrêxa Hài Đồng nói “Tất cả là hồng ân”.",
+       "sha256": "50bfad17c0bd48bb99fa078248ea5efe697c768e32f5155c7cdcd6f146afa8cc",
+       "bam_dong": "5d71c9b9da03c0ff0b3793cf9a9646e46db278a7"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Chúa nhìn lòng trung thành hơn số lượng",
+     "giai_thich": "Luca cho mỗi đầy tớ một nén để nhấn mạnh rằng điều quyết định là cố gắng sử dụng, không phải so bì vốn liếng.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,17",
+       "doan": "gospel",
+       "trich": "ngươi đã trung tín trong điều nhỏ mọn"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/043.md",
+       "dong": [
+        17,
+        22
+       ],
+       "trich": "Chúa không chú ý tới số lượng ơn ban, mà chú ý tới cố gắng của mỗi người.",
+       "sha256": "50bfad17c0bd48bb99fa078248ea5efe697c768e32f5155c7cdcd6f146afa8cc",
+       "bam_dong": "11c4eae58d691a3dc73fb6618ffcba291d1b292b"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Ơn ban sinh ích cho người khác",
+     "giai_thich": "Trách nhiệm không dừng ở phát triển bản thân. Tài năng được đo bằng mức nó làm người môn đệ hữu ích cho tha nhân.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/010.md",
+       "dong": [
+        24,
+        30
+       ],
+       "trich": "Vấn đề chính yếu là người ta đã sử dụng những tài năng được trao phó như thế nào",
+       "sha256": "2fbf43698de0e99439f4ffbb4a602593c2e119284e90fe76ecf8df9e1d9ce0c5",
+       "bam_dong": "96efd9cee31b943feed6daa74647d8e245d30b04"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Lời Chúa phải sinh hoa trái trong đời",
+     "giai_thich": "Suy niệm ngày thường cần giúp Lời được đón nhận và sinh hoa trái, rồi dẫn cộng đoàn vào Thánh Thể, nơi Chúa ban chính mình làm vốn liếng cho sứ mạng.",
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "150",
+       "trich": "brief and timely reflections which can help the faithful to welcome the word which was proclaimed and to let it bear fruit in their lives"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "13",
+       "trich": "The second part of the homily prepares the community to celebrate the Eucharist"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/010.md",
+       "dong": [
+        26,
+        28
+       ],
+       "trich": "phải làm sao cho Lời Chúa được gieo vào tâm hồn chúng ta phải triển nở thành hoa trái tốt đẹp",
+       "sha256": "2fbf43698de0e99439f4ffbb4a602593c2e119284e90fe76ecf8df9e1d9ce0c5",
+       "bam_dong": "187e27925a31bad7e3a9bf4f635b568a8588ceae"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng chung là trục; không dùng Bài đọc I riêng của một năm cho gợi ý chung.",
+   "su_diep": "Lòng trung thành không phải giữ nguyên hồng ân nhưng làm nó sinh ích cho Nước Chúa và tha nhân.",
+   "ap_dung": [
+    "Gọi tên một ‘nén bạc’ bình thường mình đang bỏ quên và dùng nó phục vụ trong tuần.",
+    "Ngưng so bì ơn ban với người khác để tập trung vào trách nhiệm của mình."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Không có Phụ lục I; đây là nguyên tắc chung, không phải dàn ý chính thức."
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "“Vì tôi sợ ngài”",
+   "chu_de": "Hình ảnh sai lệch về Thiên Chúa biến sự thận trọng thành sợ hãi, làm người môn đệ chôn ơn ban và sống một đức tin vô sinh.",
+   "loi_chua_nen": {
+    "ref": "Lc 19,21",
+    "doan": "gospel",
+    "trich": "vì tôi sợ ngài"
+   },
+   "luan_de": "Người đầy tớ thứ ba không mất nén bạc nhưng mất tương quan với chủ. Anh coi chủ là hà khắc, chọn yên thân và biến trách nhiệm thành bảo quản vô ích.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Sợ hãi bắt đầu từ hình ảnh méo mó về chủ",
+     "giai_thich": "Anh tuyên bố chủ lấy điều không gửi và gặt điều không gieo. Chính lời ấy bộc lộ khoảng cách và trở thành bản án cho anh.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,21",
+       "doan": "gospel",
+       "trich": "ngài là người hà khắc"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/010.md",
+       "dong": [
+        20,
+        24
+       ],
+       "trich": "anh ta có những ý nghĩ không mấy thiện cảm đối với chính người đã trao cho anh nén bạc",
+       "sha256": "2fbf43698de0e99439f4ffbb4a602593c2e119284e90fe76ecf8df9e1d9ce0c5",
+       "bam_dong": "f17fbde7a622262ae2667b3f3fa066a8186bba6a"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "An toàn không sinh hoa trái là an toàn giả",
+     "giai_thich": "Chôn nén bạc bảo đảm không mất vốn nhưng cũng từ chối mục đích của món quà. Đức tin tránh mọi rủi ro trở thành đức tin chết.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/009.md",
+       "dong": [
+        20,
+        22
+       ],
+       "trich": "Một cuộc sống đức tin không dấn thân chẳng khác nào nén bạc được chôn vùi, có an toàn, nhưng chỉ là thứ an toàn giả hiệu.",
+       "sha256": "05818d857bd1b34f119ca39ec7982544ba9fb5a08232c4c93aa9ce3956c60f71",
+       "bam_dong": "32df373ed74d449a2c4a1692b5a63d92fd74b6eb"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Con đường môn đệ là con đường rủi ro",
+     "giai_thich": "Vương quyền Đức Giêsu đến qua hành trình lên Giêrusalem và thập giá, không qua vinh quang dễ dàng. Theo Người đòi bước ra khỏi sự tự vệ.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/035.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "The way of discipleship is a way of risk.",
+       "sha256": "c0396177dddce067a92e2a8c3fc8b3e93c19a177f8fad355d5bae19b66b7beb8",
+       "bam_dong": "9d64dac30717d49e43765a8c1cd8f4d5045c9a5c"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Dựa trên người đầy tớ thứ ba trong Tin Mừng chung hai năm.",
+   "su_diep": "Không phải thiếu tài năng nhưng nỗi sợ và hình ảnh sai về Chúa làm đời môn đệ vô sinh.",
+   "ap_dung": [
+    "Nhận diện một việc tốt mình trì hoãn chỉ vì sợ thất bại hoặc bị chê.",
+    "Cầu nguyện lại với hình ảnh Thiên Chúa là Đấng tín nhiệm trao quà, không phải chủ hà khắc."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Chờ Chúa bằng hành động",
+   "chu_de": "Tỉnh thức không phải đoán thời điểm Nước Chúa xuất hiện, nhưng trung thành làm việc trong khoảng thời gian Người vắng mặt.",
+   "loi_chua_nen": {
+    "ref": "Lc 19,11",
+    "doan": "gospel",
+    "trich": "dân chúng lại cứ tưởng là Nước Thiên Chúa sắp xuất hiện trong giây lát"
+   },
+   "luan_de": "Dụ ngôn sửa sự nôn nóng cánh chung dẫn tới thụ động. Hội Thánh được giao sản nghiệp giữa một thế giới chống đối; chờ Vua trở lại là tiếp tục công việc Người giao.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Đừng biến hy vọng thành cớ bỏ việc",
+     "giai_thich": "Niềm tin rằng ngày cuối gần kề từng khiến một số người ngừng dấn thân. Đức Giêsu nối mong đợi với trách nhiệm hiện tại.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/030.md",
+       "dong": [
+        12,
+        13
+       ],
+       "trich": "This parable is directed against people whose belief that the end of the word was at hand, prompted them not to bother to make use of the talents God gave them.",
+       "sha256": "7b06dc4c2cb3304b276610f972524eb16a71593c71165a131b19feec0a6be87f",
+       "bam_dong": "63a6867f0ac866c802ad8541711b5c445ad92183"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Thời Hội Thánh là thời quản lý và rao giảng",
+     "giai_thich": "Trong khi Đức Giêsu vắng mặt hữu hình, sản nghiệp được trao cho các đầy tớ để Lời tiếp tục sống động và sinh hoa trái.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/011.md",
+       "dong": [
+        22,
+        24
+       ],
+       "trich": "Trong khi vắng mặt, Đức Giê-su đã trao sự nghiệp của Người cho các đầy tớ, cho Giáo hội của Người.",
+       "sha256": "132b7248cc45de984c628e84dd84bab08f6bebabc4f9436d95527293126ae7c1",
+       "bam_dong": "644c65bc0e9654ea400e166d2cc283ca52ea8ea6"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tỉnh thức là làm việc tốt trong thế giới thù nghịch",
+     "giai_thich": "Các đầy tớ không chờ trong môi trường thuận lợi. Câu hỏi là họ thụ động hay tiếp tục công việc khi vua bị chống đối.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/033.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "In the face of hostility will they Sit passively or get on with the job the king set them.",
+       "sha256": "f018f64acbd695368f80556ff335720c74d38827b45f07fc8a30c4257bc5e5a8",
+       "bam_dong": "b1840029d3158fea739cad7dd0ef33671e07d73b"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng là trục. Không gắn Bài đọc I riêng của năm I hoặc II.",
+   "su_diep": "Hy vọng ngày Chúa đến làm người tín hữu chăm chỉ hơn trong bổn phận hôm nay, không rút lui khỏi cuộc đời.",
+   "ap_dung": [
+    "Chu toàn một bổn phận nhỏ lâu nay mình né tránh.",
+    "Thay một cuộc tranh luận về thời thế bằng một hành động Tin Mừng cụ thể."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 4,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I"
+   ],
+   "tieu_de": "Năm I — Người mẹ trao lại đức tin",
+   "chu_de": "Người mẹ của bảy anh em nhận sự sống là quà của Đấng Tạo Hóa và giáo dục con trung thành trong niềm hy vọng Người sẽ trả lại sự sống.",
+   "loi_chua_nen": {
+    "ref": "2 Mcb 7,23",
+    "doan": "firstReading",
+    "nam": "I",
+    "trich": "Người sẽ trả lại cho các con tinh thần và sự sống"
+   },
+   "luan_de": "Bà không sở hữu sự sống của con nhưng nhận mình là người cộng tác với Đấng Sáng Tạo. Chính niềm tin phục sinh cho bà sức nâng đỡ người con út trước dụ dỗ và cái chết.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Mẹ đón sự sống như quà của Đấng Tạo Hóa",
+     "giai_thich": "Bà thú nhận không biết các con thành hình thế nào và không phải mình ban linh hồn. Tình mẫu tử được đặt trong quyền sáng tạo của Thiên Chúa.",
+     "kinh_thanh": [
+      {
+       "ref": "2 Mcb 7,22",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "không phải mẹ ban cho các con tinh thần, linh hồn và sự sống"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/010.md",
+       "dong": [
+        38,
+        38
+       ],
+       "trich": "một người mẹ và bảy người con, đã dũng cảm tử đạo",
+       "sha256": "2fbf43698de0e99439f4ffbb4a602593c2e119284e90fe76ecf8df9e1d9ce0c5",
+       "bam_dong": "8cd2dbc3973a8a6f3e3eef67774c581f97d4d61d"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Giáo dục đức tin chuẩn bị cho giờ thử thách",
+     "giai_thich": "Sự kiên vững không xuất hiện trong một ngày. Bài giảng nhận ra vai trò của sự trung thành hằng ngày trong gia đình.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/010.md",
+       "dong": [
+        38,
+        40
+       ],
+       "trich": "không ai có thể chối cãi được tầm quan trọng của việc giáo dục gia đình",
+       "sha256": "2fbf43698de0e99439f4ffbb4a602593c2e119284e90fe76ecf8df9e1d9ce0c5",
+       "bam_dong": "2f34eb6bc517ff2e564497a4f052f8169bbd11ef"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Hy vọng phục sinh mạnh hơn lời dụ dỗ",
+     "giai_thich": "Bà không khuyên con chọn đau khổ vì đau khổ, nhưng chọn Đấng có thể trả lại sự sống và đoàn tụ họ trong lòng thương xót.",
+     "kinh_thanh": [
+      {
+       "ref": "2 Mcb 7,29",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "để nhờ lòng lân tuất của Chúa, mẹ sẽ gặp con cùng với các anh con"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/010.md",
+       "dong": [
+        38,
+        42
+       ],
+       "trich": "Trước tiên là do niềm tin vào sự sống đời đời và sự thưởng phạt công minh của Thiên Chúa.",
+       "sha256": "2fbf43698de0e99439f4ffbb4a602593c2e119284e90fe76ecf8df9e1d9ce0c5",
+       "bam_dong": "0c881ed5dfad4c4e35f270bc12d6ab8013c3998e"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý riêng năm I từ 2 Mcb 7. Kho có một bài giảng triển khai trực tiếp Bài đọc I.",
+   "su_diep": "Gia đình truyền đức tin không chỉ bằng lời dạy nhưng bằng niềm hy vọng được sống hằng ngày và đứng vững khi thử thách đến.",
+   "ap_dung": [
+    "Cha mẹ kể cho con một lần đức tin đã giúp gia đình vượt khó.",
+    "Cầu nguyện cho các gia đình bị bách hại và cho người trẻ đứng trước áp lực chối bỏ đức tin."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Chỉ dùng năm I; nguồn trực tiếp mỏng."
+   }
+  },
+  {
+   "so": 5,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "II"
+   ],
+   "tieu_de": "Năm II — Thánh, Thánh, Thánh quanh ngai Chúa",
+   "chu_de": "Thị kiến Khải Huyền đưa Hội Thánh vào phụng vụ vũ trụ, nơi mọi triều thiên và mọi thụ tạo quy hướng về Đấng Tạo Hóa.",
+   "loi_chua_nen": {
+    "ref": "Kh 4,8",
+    "doan": "firstReading",
+    "nam": "II",
+    "trich": "Thánh, Thánh, Thánh! Chúa là Thiên Chúa toàn năng"
+   },
+   "luan_de": "Gioan không mô tả Thiên Chúa như một vật có thể nắm bắt. Ánh sáng, tiếng sấm, các sinh vật và trưởng lão tạo nên bầu khí kính sợ, hòa điệu và thờ lạy quanh Đấng ngự trên ngai.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Thiên Chúa vượt quá mắt thấy và lời nói",
+     "giai_thich": "Đấng ngự trên ngai không được đóng khung bằng định nghĩa; các hình ảnh chỉ gợi sự hiện diện siêu việt khiến con người kính sợ.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/023.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "God is too transcendent to be confined by human sight or words.",
+       "sha256": "427644ca23cd726e57de34b9f49c85935a1d915a3ce27f08005f4a8e307aa1d4",
+       "bam_dong": "4dca228762da1b14f7d6edbbd08cde2c6c33d889"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Trung tâm phụng vụ là Đấng Tạo Hóa",
+     "giai_thich": "Mọi nhân vật và biểu tượng quy hướng về ngai. Lời ca không tôn vinh thụ tạo nhưng Đấng làm cho muôn vật hiện hữu.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 4,11",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "chính Chúa đã tạo thành vạn vật"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/031.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "The center of this worship and liturgy is God who is praised for holiness.",
+       "sha256": "99e17368faa26d3cb80492d4d00aaf8dcb04d87ad90799d0a17ade6d4b386e22",
+       "bam_dong": "e92c9599ec823d740845e9cd9d6b3821e22ba1ee"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đặt triều thiên xuống trước ngai",
+     "giai_thich": "Các trưởng lão trả lại vinh quang họ nhận. Thờ phượng là nhìn nhận mọi thành tựu và quyền lực đều thuộc về Chúa.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 4,10",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "họ gỡ triều thiên của họ mà đặt trước ngai"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5333-I-II/029.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "he receives incessant praise as the holiest, eternal and all-powerful One, the Creator and Sovereign of the universe.",
+       "sha256": "7bf93492f3f3d8ea85a5259ef961bcc2077216bfb64ff8d7892154e149e150da",
+       "bam_dong": "c6b74d6ce229303a871c2ba93f86ce9dd279ba98"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý riêng năm II từ Kh 4. Kho có nhiều chú giải ngắn bằng tiếng Anh về thị kiến và phụng vụ thiên quốc.",
+   "su_diep": "Thờ phượng đúng đặt Thiên Chúa ở trung tâm và trả mọi triều thiên về cho Đấng đã ban chúng.",
+   "ap_dung": [
+    "Trong Thánh lễ, ý thức mình đang hòa vào lời ca của toàn thể thụ tạo.",
+    "Dâng lại cho Chúa một thành tựu mình dễ xem là sở hữu riêng."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Chỉ dùng năm II."
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/5333-I-II/loi-chua.json",
+  "sha256": "102d2242adb5b7bf6b4c9362260f72a7cbf269fad0b3c9163625c75ce04e1f79",
+  "lich_commit": null
+ },
+ "nguon_bai_giang": {
+  "so_bai": 20,
+  "so_doc_lap": 19,
+  "van_tay": "05bc114db3bcb339bd74fd1a78786b5f7b9873300675fa79f85cfffba7d5fb41"
+ },
+ "van_tay_nguon": "6614a59438ab9bc1b7e76a9d21ff0f981634e0ed37fd478b8a7114a476ee5d2b",
+ "ghi_luc": "2026-11-13T23:35:19.582Z"
+}
