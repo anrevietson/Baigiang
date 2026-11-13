@@ -1,0 +1,362 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "81811",
+ "celebrationCode": "81811",
+ "ten_le": "Cung hiến thánh đường thánh Phêrô và thánh đường thánh Phaolô",
+ "loai_ngay": "le-thanh",
+ "chu_ky": [
+  null
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y",
+  "luc": "2026-11-14",
+  "ghi_chu": "Biên soạn từ 1/1 bài trong kho. Lịch không gán bộ bài đọc riêng; câu Mt 14 chỉ dẫn qua bài nguồn (bài nguồn ghi Mt 14,22-33 cho ngày lễ)."
+ },
+ "khong_dung": [],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Những ngôi đền gìn giữ ký ức Tông đồ",
+   "chu_de": "Việc cung hiến hai đại thánh đường trên mộ Phêrô và Phaolô nhắc Hội Thánh đón nhận đức tin tông truyền, gìn giữ và trao lại qua các thế hệ.",
+   "loi_chua_nen": {
+    "ref": "Mt 14,33",
+    "trich": "Thật, Thầy là Con Thiên Chúa",
+    "qua": {
+     "duong_dan": "81811/001.md",
+     "dong": [
+      29,
+      29
+     ]
+    }
+   },
+   "luan_de": "Đền thờ bằng đá không thay thế Hội Thánh sống động, nhưng làm chứng rằng đức tin có lịch sử, có ký ức và có những thế hệ cùng xây dựng trên nền móng Tông đồ.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Xây trên mộ các Tông đồ",
+     "giai_thich": "Vị trí của hai đại thánh đường nối nơi thờ phượng với chứng tá của Phêrô và Phaolô. Không gian phụng vụ gìn giữ ký ức những người đã hiến đời cho Tin Mừng.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        13,
+        13
+       ],
+       "trich": "Những đại thánh đường cổ, được xây dựng trên mộ các Tông Đồ Phêrô và Phaolô",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "9a76d894f47b849ba0aa63c046fd2e69f471bbea"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Mỗi thế hệ tiếp tục xây dựng",
+     "giai_thich": "Theo bài nguồn, đại thánh đường Phêrô hiện nay là công trình được xây lại theo họa đồ của những nghệ nhân lớn và được cung hiến năm 1626: mỗi thế hệ đặt tài năng của mình vào việc phục vụ thờ phượng, trên cùng một nền móng Tông đồ.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "Đại thánh đường Phêrô được xây cất theo hoạ đồ của Bramante và Michelangelo",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "c3c77a9c6e3d07e80a49122131ad3febf60991d5"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Sự hiệp thông vượt biên giới",
+     "giai_thich": "Bài nguồn kể thánh đường Phaolô bị cháy năm 1823 và được tái thiết nhờ đóng góp của cả thế giới. Một ngôi đền ở Rôma trở thành công trình chung của Hội Thánh khắp nơi: dấu chỉ hiệp thông vượt biên giới.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        15,
+        15
+       ],
+       "trich": "nhờ tiền tài trợ của cả thế giới, được tái thiết một cách rực rỡ",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "54494d244a14bb6f0794b1e0118b67cb254004c8"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Từ ký ức đến đời sống Thánh Thể",
+     "giai_thich": "Theo Kim Chỉ Nam, bài giảng phải tìm ý nghĩa trong mầu nhiệm Vượt Qua và gợi cách cộng đoàn được Thánh Thể biến đổi mang Tin Mừng vào đời. Mừng một ngôi thánh đường chỉ trọn nghĩa khi người dự lễ trở nên những viên đá sống động.",
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "12",
+       "trich": "The preacher speaks about the readings and prayers of the celebration in such a way that their meaning is found in the death and Resurrection of the Lord."
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "14",
+       "trich": "suggests how the members of the community, transformed by the Eucharist, can carry the Gospel into the world in their daily lives"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        11,
+        15
+       ],
+       "trich": "qua thời gian hai đại thánh đường này đã được tái thiết nhiều lần",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "a9dbe99868f0fb9f568802c2938670a7ea5263c2"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Lịch không gán bài đọc riêng và không xác định bộ bài đọc chung; gợi ý dựa trên ý nghĩa lễ cung hiến và dữ liệu lịch sử trong bài nguồn, không tự chọn bài đọc.",
+   "su_diep": "Kính nhớ đền thờ các Tông đồ là nhận mình thuộc về một đức tin được trao lại và có trách nhiệm tiếp tục xây dựng Hội Thánh sống động.",
+   "ap_dung": [
+    "Cầu nguyện cho Đức Giáo hoàng và sứ mạng hiệp nhất của Hội Thánh.",
+    "Góp một việc cụ thể để chăm sóc nhà thờ địa phương hoặc xây dựng cộng đoàn."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Không có mục Phụ lục I cho lễ này; gợi ý theo nguyên tắc chung của Kim Chỉ Nam, KHÔNG phải dàn ý chính thức."
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "“Thầy đây, đừng sợ”: Phêrô bước đi, chìm xuống và được nâng lên",
+   "chu_de": "Giữa sóng gió, Hội Thánh xây trên Phêrô đứng vững không nhờ sức riêng nhưng nhờ đức tin vào Đức Giêsu, Con Thiên Chúa, Đấng nắm tay nâng người môn đệ lên.",
+   "loi_chua_nen": {
+    "ref": "Mt 14,27",
+    "trich": "Hãy yên tâm. Thầy đây, đừng sợ",
+    "qua": {
+     "duong_dan": "81811/001.md",
+     "dong": [
+      25,
+      25
+     ]
+    }
+   },
+   "luan_de": "Trình thuật Mt 14 dẫn các môn đệ từ cơn bão và nỗi sợ đến lời tuyên xưng; Phêrô, người đại diện các Tông đồ, nhận sức mạnh của Thầy nhờ đức tin, nhưng cũng học biết kêu cứu khi chìm xuống.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Đừng để lòng hăng hái trần tục định hình Đấng Mêsia",
+     "giai_thich": "Sau hóa bánh, dân chúng dễ tìm một vị vua ban lợi ích vật chất. Đức Giêsu tách môn đệ khỏi kỳ vọng ấy để thanh luyện đức tin.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        17,
+        18
+       ],
+       "trich": "Sự hăng hái này không hợp với sứ mạng Messia của Chúa Giêsu.",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "48af46efc59eb873c7552f87ec5bbce53ba9b9c0"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đấng đi trên mặt nước",
+     "giai_thich": "Bài nguồn đối chiếu Cựu Ước để cho thấy hành động này được gán cho Thiên Chúa; phép lạ hướng tới nhận biết căn tính Đức Giêsu.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        19,
+        19
+       ],
+       "trich": "với chi tiết Chúa Giêsu đi trên mặt nước, Mt ngụ ý so sánh Chúa Giêsu với Thiên Chúa",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "7ccda47bc56ae57d13e1448e5ff1950e57ab5a88"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Sức mạnh nhận từ Thầy nhờ đức tin",
+     "giai_thich": "Bài nguồn so sánh Phêrô với Êlisê: khác với chiếc áo choàng của Êlia, Phêrô chỉ có đức tin để nhận sức mạnh của Thầy.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        20,
+        20
+       ],
+       "trich": "Phêrô nhận thần lực của Thầy chỉ nhờ đức tin",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "528968b12b0ad022c51ee63dd1afadd31cc6f88c"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Nỗi sợ phơi bày sự yếu đuối",
+     "giai_thich": "Được ban sức mạnh không biến Phêrô thành người bất khả thất bại. Khi nhìn sóng gió và sợ hãi, ông bắt đầu chìm.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        21,
+        21
+       ],
+       "trich": "Phêrô sợ nên bị chìm.",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "d1872dd5b522bc2e6322bfd2b4d1d05329f4d937"
+      }
+     ]
+    },
+    {
+     "so": 5,
+     "tieu_de": "Lời kêu cứu mở ra bàn tay nâng đỡ",
+     "giai_thich": "Chúa dùng chính kinh nghiệm chìm xuống để giáo dục người đứng đầu các Tông đồ. Đức tin lớn lên khi người môn đệ biết kêu xin và để mình được cứu.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        29,
+        30
+       ],
+       "trich": "Hãy kêu lên Chúa như Phêrô xưa “Lạy Thầy xin cứu con”.",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "1428442d45bde3cbaef654cfd54f7c2ed6db712b"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài nguồn ghi Mt 14,22-33 cho ngày lễ; lịch không xác nhận bộ bài đọc riêng, nên các câu Kinh Thánh chỉ dẫn qua chính bài nguồn. Ngôi đền trên mộ Phêrô gợi lại người môn đệ được Thầy nắm tay nâng lên.",
+   "su_diep": "Sự hiện diện của Đức Kitô không luôn tránh cho Hội Thánh cơn bão, nhưng đưa người môn đệ từ sợ hãi đến lời kêu cứu và lời tuyên xưng.",
+   "ap_dung": [
+    "Trong một nỗi sợ hiện tại, lặp lại lời bài nguồn: ‘Thầy đây, đừng sợ’. ",
+    "Khi thất bại, cầu xin trợ giúp thay vì bỏ hết các thực hành đức tin.",
+    "Cầu nguyện cho các mục tử biết thi hành trách nhiệm trong sự lệ thuộc vào Chúa."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Không chép nguyên văn Kinh Thánh vì bộ bài đọc chung chưa được xác định."
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Xây đền thờ nội tâm bằng những sa mạc ngắn",
+   "chu_de": "Đức Giêsu cầu nguyện một mình; người môn đệ xây đời sống nội tâm bằng những khoảng dừng nhỏ giữa nhịp sống hằng ngày.",
+   "loi_chua_nen": {
+    "ref": "Mt 14,23",
+    "trich": "Sau khi giải tán đám đông, Người lên núi mà cầu nguyện",
+    "qua": {
+     "duong_dan": "81811/001.md",
+     "dong": [
+      34,
+      34
+     ]
+    }
+   },
+   "luan_de": "Một thánh đường tạo không gian cho cộng đoàn gặp Chúa; trong đời thường, mỗi người cũng cần tạo những khoảng ‘sa mạc’ để ở với Người. Không phải lúc nào cũng cần nhiều giờ, nhưng cần một tình yêu biết tận dụng những phút chờ.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Đức Giêsu lên núi một mình",
+     "giai_thich": "Giữa hoạt động với đám đông và cơn bão của các môn đệ, bài nguồn nhấn mạnh khoảng cầu nguyện riêng của Người.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        34,
+        34
+       ],
+       "trich": "Sau khi giải tán đám đông, Người lên núi mà cầu nguyện",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "1dafe48496356ccf59a5aaba3ec49fda7456fa8b"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Sa mạc ở ngay sát bên",
+     "giai_thich": "Thiếu thời gian đôi khi là thiếu chú ý. Các khoảnh khắc chờ đợi có thể trở thành không gian thinh lặng thay vì bực bội.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        35,
+        35
+       ],
+       "trich": "thật ra sa mạc ở sát bên con, chỉ cần một chút cố gắng của Tình Yêu là con có thể tạo ra sa mạc",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "09b63455eae261fc7d5318dd8a7da2151a88f403"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Khoảng dừng làm ta nhạy với ý Chúa",
+     "giai_thich": "Những phút cầu nguyện ngắn không tách người tín hữu khỏi đời sống; chúng giúp sống bình an và tỉnh thức hơn ngay trong đời thường.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "81811/001.md",
+       "dong": [
+        36,
+        36
+       ],
+       "trich": "những sa mạc ngắn ngủi hàng ngày giúp con tỉnh thức để nhạy cảm với ý Chúa",
+       "sha256": "e47360b9da13d97f3cdd2f6e8ae080d39ad30226caefaebe2ce08856a822e45f",
+       "bam_dong": "7f12e5c0846627ad59c6779a9537c26c13826a08"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý dựa trên câu Mt 14,23 được bài nguồn trích; không chép thêm Lời Chúa vì lịch chưa xác định bộ bài đọc chung.",
+   "su_diep": "Ngôi thánh đường bên ngoài mời người tín hữu xây một nơi gặp Chúa bên trong bằng những khoảng cầu nguyện trung thành.",
+   "ap_dung": [
+    "Chọn ba khoảnh khắc chờ đợi trong ngày để thinh lặng hướng về Chúa.",
+    "Đến nhà thờ sớm vài phút và ở yên trước khi phụng vụ bắt đầu."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Nguồn chỉ có một bài; cần duyệt kỹ."
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/81811/loi-chua.json",
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "lich_commit": null
+ },
+ "nguon_bai_giang": {
+  "so_bai": 1,
+  "so_doc_lap": 1,
+  "van_tay": "2658b75ac31edb3f53d5e23b288a290298bd9131a5611be0e6910c94ff63f378"
+ },
+ "van_tay_nguon": "f1c28e0f77b624e8c6959887911f50169d5972b041f9e51d70c4c48a651ebde4",
+ "ghi_luc": "2026-11-13T23:53:54.238Z"
+}

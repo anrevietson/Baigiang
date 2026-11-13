@@ -1,9 +1,10 @@
 {
- "cap_nhat": "2026-11-13T23:35:19.936Z",
+ "cap_nhat": "2026-11-13T23:53:55.163Z",
  "tong_thu_muc": 593,
  "dem": {
-  "chua": 577,
-  "xong": 16
+  "chua": 575,
+  "xong": 17,
+  "dang-lam": 1
  },
  "da_lam": [
   {
@@ -130,10 +131,11 @@
    "so_goi_y": 5,
    "so_luan_diem": 20,
    "so_bai_da_doc": 20,
-   "ghi_luc": "2026-11-13T04:28:10.131Z",
+   "ghi_luc": "2026-11-13T23:53:55.043Z",
    "van_tay_nguon": "dfdb827140b2d8d1edfd44949852bf7e159e2f07c1412ad13437b43367345867",
    "duyet": {
-    "draft": 5
+    "draft": 4,
+    "da-duyet": 1
    }
   },
   {
@@ -199,6 +201,28 @@
    "van_tay_nguon": "6614a59438ab9bc1b7e76a9d21ff0f981634e0ed37fd478b8a7114a476ee5d2b",
    "duyet": {
     "draft": 5
+   }
+  },
+  {
+   "thu_muc": "5334-I-II",
+   "trang_thai": "dang-lam",
+   "co": {
+    "goi_doc": 1,
+    "trich_y": true,
+    "ban_nhap": false
+   }
+  },
+  {
+   "thu_muc": "81811",
+   "trang_thai": "xong",
+   "ten_le": "Cung hiến thánh đường thánh Phêrô và thánh đường thánh Phaolô",
+   "so_goi_y": 3,
+   "so_luan_diem": 12,
+   "so_bai_da_doc": 1,
+   "ghi_luc": "2026-11-13T23:53:54.238Z",
+   "van_tay_nguon": "f1c28e0f77b624e8c6959887911f50169d5972b041f9e51d70c4c48a651ebde4",
+   "duyet": {
+    "draft": 3
    }
   },
   {

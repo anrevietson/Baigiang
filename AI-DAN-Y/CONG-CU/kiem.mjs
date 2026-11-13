@@ -132,6 +132,21 @@ export function kiemTra(data) {
     if (!g.ap_dung?.length) L(`${n}: thiếu ap_dung`);
     if (!TRANG_THAI.includes(g.duyet?.trang_thai)) L(`${n}: duyet.trang_thai không hợp lệ`);
     if (!g.loi_chua_nen) L(`${n}: thiếu loi_chua_nen`);
+    else if (g.loi_chua_nen.qua) {
+      // lịch không có bộ bài đọc (bai-doc-chung / không có trong lịch): Lời Chúa nền tảng dẫn qua bài giảng nêu nó
+      const k = g.loi_chua_nen, nn = `${n} · Lời Chúa nền tảng`;
+      if (lc.bo.length) L(`${nn}: lịch có bộ bài đọc — dùng "doan" + trích từ loi-chua.json, không dùng "qua"`);
+      if (k.doan) L(`${nn}: dẫn "qua" bài giảng thì không ghi "doan" (lịch không có bộ bài đọc để đối chiếu)`);
+      const s = dongCuaBai(k.qua.duong_dan, k.qua.dong);
+      if (s == null) L(`${nn}: không đọc được ${k.qua.duong_dan} dòng ${k.qua.dong}`);
+      else {
+        const r = timThamChieu(k.ref ?? '')[0];
+        // tham chiếu có thể ghi ở đầu bài (vd "Mt 14,22-33"); câu trích thì phải nằm đúng các dòng được dẫn
+        const neu = (t) => timThamChieu(t).some((x) => x.sach === r.sach && x.chuong === r.chuong);
+        if (!r || !(neu(s) || neu(docFileBai(k.qua.duong_dan).text))) L(`${nn}: ${k.qua.duong_dan} không nêu ${k.ref}`);
+        if (k.trich && !chuanTrich(s).includes(chuanTrich(k.trich))) L(`${nn}: trích "${k.trich.slice(0, 60)}…" không có nguyên văn trong ${k.qua.duong_dan} dòng ${k.qua.dong.join('-')}`);
+      }
+    }
     else kiemLoiChua({ ...g.loi_chua_nen, nam: g.loi_chua_nen.nam ?? (g.ap_dung_nam.length === 1 ? g.ap_dung_nam[0] : undefined) }, `${n} · Lời Chúa nền tảng`, g.ap_dung_nam);
     const ld = g.luan_diem ?? [];
     if (ld.length < 3 || ld.length > 5) L(`${n}: cần 3–5 luận điểm (có ${ld.length})`);

@@ -64,6 +64,7 @@ Bài đọc: Cn 31,10-13.19-20.30-31 · 1 Tx 5,1-6 · Mt 25,14-30. Phụ lục I
 | Hướng dẫn cử hành / lời nguyện tín hữu coi là bài giảng | — | `khong_dung` |
 | Đoạn của ngày khác nằm trong file | — | `khong_dung` với `dong: [a, b]` |
 | Chép Lời Chúa từ trí nhớ | — | chép từ `loi-chua.json` (chữ `Ð` U+00D0) |
+| Lễ không có bộ bài đọc (`loi-chua.json` có `bo: []`) mà ghi `loi_chua_nen.doan` → kẹt lỗi | 81811 | `loi_chua_nen: { ref, trich, qua: { duong_dan, dong } }`, không ghi `doan`; `trich` phải nguyên văn trong các dòng đó |
 
 ## 5. Kết thúc phiên (một lần)
 ```bash
