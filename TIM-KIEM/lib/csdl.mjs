@@ -72,6 +72,63 @@ CREATE TABLE IF NOT EXISTS vector (
   bam TEXT NOT NULL,
   vec BLOB NOT NULL
 );
+
+-- Tầng 3: gợi ý bài giảng do AI biên soạn (nguồn: AI-DAN-Y/OUTPUT/<thư mục>/goi-y.json).
+-- Tách riêng khỏi bài giảng gốc. Nạp bằng AI-DAN-Y/CONG-CU/nap-csdl.mjs.
+CREATE TABLE IF NOT EXISTS goi_y_bo (
+  thu_muc TEXT PRIMARY KEY,            -- vd "1010-A"
+  celebration_code TEXT NOT NULL,
+  ten_le TEXT, loai_ngay TEXT,
+  chu_ky TEXT NOT NULL,                -- JSON, vd ["A"], ["I","II"], [null]
+  sha256_file TEXT NOT NULL,           -- hash file goi-y.json: không đổi thì không nạp lại
+  van_tay_nguon TEXT,
+  trang_thai_nguon TEXT NOT NULL DEFAULT 'khop',   -- khop | nguon-da-doi
+  chi_tiet_nguon TEXT,                 -- JSON: các nguồn đã đổi
+  nap_luc TEXT
+);
+CREATE TABLE IF NOT EXISTS goi_y (
+  id INTEGER PRIMARY KEY,
+  ma TEXT NOT NULL UNIQUE,             -- "1010-A/01"
+  thu_muc TEXT NOT NULL REFERENCES goi_y_bo(thu_muc) ON DELETE CASCADE,
+  so INTEGER NOT NULL,
+  loai_nguon TEXT NOT NULL,            -- kim-chi-nam-phu-luc | kim-chi-nam-nguyen-tac | bai-giang
+  ap_dung_nam TEXT NOT NULL,           -- JSON
+  tieu_de TEXT NOT NULL, chu_de TEXT, luan_de TEXT,
+  loi_chua_nen TEXT,                   -- JSON
+  lien_he_bai_doc TEXT, su_diep TEXT, ap_dung TEXT,  -- ap_dung: JSON
+  trang_thai_duyet TEXT NOT NULL DEFAULT 'draft',    -- draft | da-duyet | can-sua | tu-choi
+  duyet TEXT                           -- JSON đầy đủ (người, lúc, ghi chú)
+);
+CREATE INDEX IF NOT EXISTS goi_y_thu_muc ON goi_y(thu_muc);
+-- tra theo mã lễ + năm, không cần AI: SELECT ... FROM goi_y_ma WHERE ma=? AND (nam IS NULL OR nam=?)
+CREATE TABLE IF NOT EXISTS goi_y_ma (
+  goi_y_id INTEGER NOT NULL REFERENCES goi_y(id) ON DELETE CASCADE,
+  ma TEXT NOT NULL, nam TEXT
+);
+CREATE INDEX IF NOT EXISTS goi_y_ma_ma ON goi_y_ma(ma);
+CREATE TABLE IF NOT EXISTS luan_diem (
+  id INTEGER PRIMARY KEY,
+  goi_y_id INTEGER NOT NULL REFERENCES goi_y(id) ON DELETE CASCADE,
+  so INTEGER NOT NULL,
+  tieu_de TEXT NOT NULL, giai_thich TEXT,
+  kinh_thanh TEXT                      -- JSON
+);
+CREATE INDEX IF NOT EXISTS luan_diem_goi_y ON luan_diem(goi_y_id);
+CREATE TABLE IF NOT EXISTS nguon_goi_y (
+  id INTEGER PRIMARY KEY,
+  luan_diem_id INTEGER NOT NULL REFERENCES luan_diem(id) ON DELETE CASCADE,
+  loai TEXT NOT NULL,                  -- bai-giang | kim-chi-nam | glhtcg | loi-chua
+  duong_dan TEXT, dong_dau INTEGER, dong_cuoi INTEGER,   -- bài giảng gốc
+  so TEXT,                             -- số đoạn Kim Chỉ Nam / số GLHTCG
+  trich TEXT, ghi_chu TEXT,
+  sha256 TEXT, bam_dong TEXT
+);
+CREATE INDEX IF NOT EXISTS nguon_goi_y_ld ON nguon_goi_y(luan_diem_id);
+CREATE INDEX IF NOT EXISTS nguon_goi_y_dd ON nguon_goi_y(duong_dan);
+CREATE VIRTUAL TABLE IF NOT EXISTS goi_y_fts USING fts5(tieu_de, chu_de, noi_dung, khong_dau,
+  content='', contentless_delete=1, tokenize='unicode61 remove_diacritics 0');
+CREATE VIRTUAL TABLE IF NOT EXISTS luan_diem_fts USING fts5(tieu_de, giai_thich, khong_dau,
+  content='', contentless_delete=1, tokenize='unicode61 remove_diacritics 0');
 `;
 
 export const thongTin = (db, k) => db.prepare('SELECT v FROM thong_tin WHERE k=?').get(k)?.v ?? null;

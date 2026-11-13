@@ -1,0 +1,39 @@
+{
+ "ghi_chu": "Trích nguyên văn (tiếng Anh) từ bản chính thức trên vatican.va. Chỉ ghi những mục đã đối chiếu trực tiếp. Bản dịch tiếng Việt trong gợi ý là do AI diễn ý, KHÔNG phải bản dịch chính thức. File 01-HUONG-DAN-DAN-Y-TOA-THANH.md chưa có trong workspace khi biên soạn (13/11/2026) — cần đối chiếu thêm khi được cung cấp.",
+ "van_kien": "Congregation for Divine Worship and the Discipline of the Sacraments, Homiletic Directory (29/06/2014)",
+ "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20140629_direttorio-omiletico_en.html",
+ "tai_luc": "2026-11-13",
+ "sha256_html": "b05916217067a2248686feb580811fb7cad2d8c9487afdd74509ab80b0f38f9f",
+ "ban_van_local": "AI-DAN-Y/NGUON/kim-chi-nam-giang-le.en.txt",
+ "doan_da_doi_chieu": {
+  "12": "Thứ nhất: qua các bài đọc và bài giảng, Mầu nhiệm Vượt Qua được loan báo.",
+  "13": "Thứ hai: bài giảng chuẩn bị cộng đoàn cử hành Thánh Thể.",
+  "14": "Thứ ba (có thể ngắn, làm kết): cộng đoàn mang Tin Mừng vào đời thường.",
+  "15": "Tóm: suy niệm bài đọc và lời nguyện dưới ánh sáng Mầu nhiệm Vượt Qua, dẫn vào Thánh Thể.",
+  "78": "Chúa nhật Mùa Vọng: mỗi Tin Mừng có chủ đề riêng; CN I: Chúa đến lúc cùng tận.",
+  "79": "Ý nghĩa kép của adventus; cuộc đến vô hình ở giữa hai cuộc đến (thánh Bênađô).",
+  "80": "Tin Mừng CN I Mùa Vọng: Con Người đến bất ngờ; Mùa Vọng là chuẩn bị.",
+  "81": "Bài đọc ngôn sứ chỉ về cả cuộc đến sau hết lẫn cuộc đến thứ nhất.",
+  "82": "Is 2 (năm A): núi Nhà Chúa — hình ảnh Hội Thánh; muôn dân tuôn về Đức Kitô; bước đi trong ánh sáng.",
+  "86": "Chính Thánh Thể là sự chuẩn bị mạnh mẽ nhất cho việc Chúa đến.",
+  "150": "Thánh lễ ngày thường: bài giảng ngắn, đúng lúc (VD 59).",
+  "151": "Mùa Vọng/Giáng Sinh và Mùa Chay/Phục Sinh: khuyến khích giảng ngày thường.",
+  "152": "Ngày thường Mùa Thường niên: xem bài đọc cả tuần.",
+  "153": "Lễ các thánh: có bài đọc riêng thì phải dùng."
+ },
+ "phu_luc_1": {
+  "1010-A": {
+   "muc": "CYCLE A — First Sunday of Advent",
+   "dong_trong_ban_van": [328, 330],
+   "chu_de": [
+    { "so": "668-677, 769", "en": "the final tribulation and Christ’s return in glory" },
+    { "so": "451, 671, 1130, 1403, 2817", "en": "\"Come, Lord Jesus!\"" },
+    { "so": "2729-2733", "en": "humble vigilance of heart" }
+   ]
+  }
+ },
+ "khong_co_muc_phu_luc_1": {
+  "5321-I-II": "Phụ lục I chỉ gồm Chúa nhật, lễ trọng và một số lễ (Other Holy Days: 19/3, 29/6, 15/8, 1/11, 8/12). Không có ngày thường.",
+  "82612": "Phụ lục I không có lễ Thánh Stêphanô (26/12)."
+ }
+}

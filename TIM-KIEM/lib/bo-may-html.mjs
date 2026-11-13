@@ -192,7 +192,8 @@ export function taoBoMay(D) {
       const ch = ds.length ? ds.slice(0, 3).map((x) => x[0]) : [doanCuaBai[b][0]].filter((x) => x != null);
       return { i: b, bai: thongTinBai(b), diem: s, doan: ch.map((d) => ({ i: d, noi_dung: D.doan[d], khop: khop(D.doan[d], cums, raws) })) };
     });
-    return { tong_bai: xep.length, ket_qua, ghi_chu: ghiChu };
+    // loc_dung: bộ lọc thực sự đã áp (kể cả mã lễ / năm / ngày nhận ra từ câu tìm) — giao diện dùng để hiện gợi ý bài giảng
+    return { tong_bai: xep.length, ket_qua, ghi_chu: ghiChu, loc_dung: loc };
   }
 
   function thongTinBai(b) {

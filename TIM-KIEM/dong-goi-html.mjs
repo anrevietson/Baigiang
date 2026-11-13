@@ -9,7 +9,7 @@ import { join } from "node:path";
 import { gzipSync } from "node:zlib";
 import { moCsdl, DB_PATH, TOOL_DIR, LIB_ROOT, thongTin } from "./lib/csdl.mjs";
 
-export function taoDuLieu(db, libRoot = LIB_ROOT) {
+export function taoDuLieu(db, libRoot = LIB_ROOT, { goiY = false } = {}) {
   const bai = db
     .prepare(
       "SELECT id, duong_dan, chu_de, tac_gia, ten_le, ma_le, nam, tin_mung FROM bai ORDER BY duong_dan",
@@ -97,6 +97,47 @@ export function taoDuLieu(db, libRoot = LIB_ROOT) {
     le,
     tac_gia: tacGia,
     lich,
+    ...(goiY && { goi_y: taoGoiY(db, idx, didx) }),
+  };
+}
+
+/**
+ * Ngân hàng gợi ý bài giảng cho bản HTML (chỉ khi --goi-y). Không nhúng lại nguyên văn bài giảng:
+ * nguồn bài giảng chỉ lưu chỉ số bài (b) và đoạn (d) để mở bằng khung đọc sẵn có, cùng câu trích ngắn.
+ */
+export function taoGoiY(db, idx, didx) {
+  const coBang = db.prepare("SELECT 1 FROM sqlite_master WHERE type='table' AND name='goi_y_bo'").get();
+  if (!coBang) return { v: 1, bo: [] };
+  const baiId = db.prepare("SELECT id FROM bai WHERE duong_dan=?");
+  const doanTai = db.prepare("SELECT id FROM doan WHERE bai_id=? AND dong_dau<=? AND dong_cuoi>=? ORDER BY thu_tu LIMIT 1");
+  const doanGan = db.prepare("SELECT id FROM doan WHERE bai_id=? AND dong_dau<=? ORDER BY dong_dau DESC LIMIT 1");
+  const goiYCua = db.prepare("SELECT * FROM goi_y WHERE thu_muc=? ORDER BY so");
+  const ldCua = db.prepare("SELECT * FROM luan_diem WHERE goi_y_id=? ORDER BY so");
+  const ngCua = db.prepare("SELECT * FROM nguon_goi_y WHERE luan_diem_id=? ORDER BY id");
+  const bo = db.prepare("SELECT * FROM goi_y_bo ORDER BY thu_muc").all().map((b) => ({
+    tm: b.thu_muc, ma: b.celebration_code, ten: b.ten_le, loai: b.loai_ngay, chu_ky: JSON.parse(b.chu_ky), tt_nguon: b.trang_thai_nguon,
+    goi_y: goiYCua.all(b.thu_muc).map((g) => ({
+      ma: g.ma, so: g.so, loai: g.loai_nguon, nam: JSON.parse(g.ap_dung_nam), tieu_de: g.tieu_de, chu_de: g.chu_de, luan_de: g.luan_de,
+      nen: JSON.parse(g.loi_chua_nen ?? "null"), lien_he: g.lien_he_bai_doc, su_diep: g.su_diep, ap_dung: JSON.parse(g.ap_dung ?? "[]"),
+      duyet: JSON.parse(g.duyet ?? "{}"),
+      ld: ldCua.all(g.id).map((l) => ({
+        so: l.so, tieu_de: l.tieu_de, giai_thich: l.giai_thich,
+        kt: JSON.parse(l.kinh_thanh ?? "[]").map((k) => ({ ref: k.ref ?? null, trich: k.trich ?? null, qua: k.qua?.duong_dan ?? null })),
+        ng: ngCua.all(l.id).map((n) => {
+          const o = { loai: n.loai, so: n.so, trich: n.trich, theo: n.ghi_chu };
+          if (n.duong_dan) {
+            const bi = baiId.get(n.duong_dan);
+            const dd = bi && (doanTai.get(bi.id, n.dong_dau, n.dong_dau) ?? doanGan.get(bi.id, n.dong_dau));
+            Object.assign(o, { dd: n.duong_dan, dong: [n.dong_dau, n.dong_cuoi], b: bi ? idx.get(bi.id) : null, d: dd ? didx.get(dd.id) : null });
+          }
+          return o;
+        }),
+      })),
+    })),
+  }));
+  return {
+    v: 1, bo,
+    kcn_url: "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20140629_direttorio-omiletico_en.html",
   };
 }
 
@@ -123,12 +164,14 @@ if (
     console.error("Chưa có chỉ mục. Chạy trước: node TIM-KIEM/lap-chi-muc.mjs");
     process.exit(1);
   }
+  // --goi-y: kèm ngân hàng gợi ý bài giảng (bảng goi_y*) → mặc định xuất baigiang-goi-y.html (chỉ dùng local)
+  const coGoiY = process.argv.includes("--goi-y");
   const out = process.argv.includes("--ra")
     ? process.argv[process.argv.indexOf("--ra") + 1]
-    : join(TOOL_DIR, "xuat", "Tim-kiem-bai-giang.html");
+    : coGoiY ? join(LIB_ROOT, "baigiang-goi-y.html") : join(TOOL_DIR, "xuat", "Tim-kiem-bai-giang.html");
   const db = moCsdl(DB_PATH, { readOnly: true });
   const t0 = Date.now();
-  const D = taoDuLieu(db);
+  const D = taoDuLieu(db, LIB_ROOT, { goiY: coGoiY });
   const json = Buffer.from(JSON.stringify(D));
   const gz = gzipSync(json, { level: 9 });
   const html = readFileSync(
@@ -144,5 +187,6 @@ if (
   writeFileSync(out, html);
   console.log(`Xong sau ${((Date.now() - t0) / 1000).toFixed(1)} giây: ${out}
   ${D.bai.length} bài, ${D.doan.length} đoạn · dữ liệu ${(json.length / 1e6).toFixed(0)} MB → nén ${(gz.length / 1e6).toFixed(0)} MB · file HTML ${(Buffer.byteLength(html) / 1e6).toFixed(0)} MB.
-  Chỉ mục cập nhật lúc: ${thongTin(db, "cap_nhat")}.`);
+  Chỉ mục cập nhật lúc: ${thongTin(db, "cap_nhat")}.${D.goi_y ? `
+  Gợi ý bài giảng: ${D.goi_y.bo.length} mã lễ, ${D.goi_y.bo.reduce((n, b) => n + b.goi_y.length, 0)} gợi ý (bản nháp AI — chỉ dùng local, không đưa lên GitHub).` : ""}`);
 }

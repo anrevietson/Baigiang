@@ -39,6 +39,15 @@ Người nhận chỉ cần mở file này bằng Chrome, Edge, Firefox hoặc S
 - **Hiệu năng:** mở mất vài giây; trình duyệt dùng khoảng 500 MB bộ nhớ.
 - **Cập nhật:** mỗi khi thư viện thay đổi thì đóng gói lại và gửi lại file. File có toàn văn các bài, nên chỉ gửi trong nhóm.
 
+### Bản có gợi ý bài giảng (chỉ dùng local)
+
+```bash
+node AI-DAN-Y/CONG-CU/nap-csdl.mjs                  # nạp gợi ý từ AI-DAN-Y/OUTPUT vào SQLite
+node TIM-KIEM/dong-goi-html.mjs --goi-y             # → baigiang-goi-y.html (đã có trong .gitignore)
+```
+
+Khi chọn ngày, chọn mã lễ hoặc gõ tên lễ, trang hiện khối **Gợi ý bài giảng** phía trên **Bài giảng đã có**. Mỗi luận điểm có checkbox; các luận điểm đã chọn (có thể lấy từ nhiều gợi ý) được gom lại để sao chép. Bấm vào nguồn thì mở bài gốc đúng đoạn. Tất cả chạy offline, không gọi AI. Nếu đóng gói không có `--goi-y` thì trang giống hệt trước. Xem `AI-DAN-Y/README.md`.
+
 ## Ba cách tìm
 
 | Cách           | Gõ gì                                                          | Tìm thế nào                                                                                                                                                                                                                                             |

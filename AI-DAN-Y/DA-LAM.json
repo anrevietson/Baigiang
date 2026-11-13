@@ -1,0 +1,49 @@
+{
+ "cap_nhat": "2026-11-13T04:46:09.484Z",
+ "tong_thu_muc": 593,
+ "dem": {
+  "chua": 590,
+  "xong": 3
+ },
+ "da_lam": [
+  {
+   "thu_muc": "1010-A",
+   "trang_thai": "xong",
+   "ten_le": "Chúa Nhật I Mùa Vọng — Năm A",
+   "so_goi_y": 5,
+   "so_luan_diem": 21,
+   "so_bai_da_doc": 110,
+   "ghi_luc": "2026-11-13T04:28:10.044Z",
+   "van_tay_nguon": "035802c9789c9feaf7b87d4fe75fcca1db601415a8652cd8dc10a81eb64e6629",
+   "duyet": {
+    "draft": 5
+   }
+  },
+  {
+   "thu_muc": "5321-I-II",
+   "trang_thai": "xong",
+   "ten_le": "Thứ Hai Tuần XXXII Mùa Thường Niên",
+   "so_goi_y": 5,
+   "so_luan_diem": 20,
+   "so_bai_da_doc": 20,
+   "ghi_luc": "2026-11-13T04:28:10.131Z",
+   "van_tay_nguon": "dfdb827140b2d8d1edfd44949852bf7e159e2f07c1412ad13437b43367345867",
+   "duyet": {
+    "draft": 5
+   }
+  },
+  {
+   "thu_muc": "82612",
+   "trang_thai": "xong",
+   "ten_le": "Thánh Stêphanô, tử đạo tiên khởi (26/12)",
+   "so_goi_y": 5,
+   "so_luan_diem": 20,
+   "so_bai_da_doc": 18,
+   "ghi_luc": "2026-11-13T04:28:10.217Z",
+   "van_tay_nguon": "7e1e45df5441df20ff129b2e0a1a2548fea00bc8ee5404ab44a14b0d5c75593f",
+   "duyet": {
+    "draft": 5
+   }
+  }
+ ]
+}
