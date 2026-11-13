@@ -20,7 +20,7 @@ Chọn theo thứ tự lệnh đầu in ra: mã làm dở trước, rồi tới 
 | Bước | Lệnh / việc | Điểm dừng an toàn |
 |---|---|---|
 | 1 | `node AI-DAN-Y/CONG-CU/doi-chieu-loi-chua.mjs <tm>` rồi `node AI-DAN-Y/CONG-CU/chuan-bi.mjs <tm>` | có `LAM-VIEC/<tm>/goi-NN.txt` |
-| 2 | Tra Phụ lục I (`NGUON/kim-chi-nam-giang-le.en.txt`, phần CYCLE A/B/C) cho Chúa nhật / lễ trọng. Có mục mà `HUONG-DAN/kim-chi-nam-tham-chieu.json` chưa có → thêm, đối chiếu từng dòng | — |
+| 2 | Xem `phu_luc_1["<tm>"]` trong `HUONG-DAN/kim-chi-nam-tham-chieu.json` (đã nhập đủ Phụ lục I). Có mục → gợi ý 01 là `kim-chi-nam-phu-luc`, dùng đúng các số GLHTCG đó | — |
 | 3 | Đọc **hết** từng gói, theo thứ tự. Đọc xong gói nào thì ghi ngay vào `LAM-VIEC/<tm>/trich-y.md` dưới tiêu đề `## goi-NN` (mỗi bài một dòng: hướng chính, số dòng gốc dùng được, ghi chú loại trừ) | mỗi tiêu đề `## goi-NN` |
 | 4 | Thêm mục `## Gom hướng`: 1–5 hướng thật sự độc lập, không thêm cho đủ số | có `## Gom hướng` |
 | 5 | Soạn `LAM-VIEC/<tm>/goi-y.nhap.json` theo `SCHEMA/goi-y.md` và `HUONG-DAN/quy-tac-bien-soan.md` | có bản nháp |
@@ -45,7 +45,7 @@ Commit `baigiang.html` một lần ở cuối phiên. Trả các mã đang giữ
 - **Viết nội dung bằng tiếng Anh** (bản 1010-C, 1015 cũ). Mọi phần tác giả viết phải là tiếng Việt có dấu. Riêng trích Kim Chỉ Nam và trích bài giảng tiếng Anh thì giữ nguyên văn.
 - **Câu đệm / giải thích lặp** ("Grounded interpretation…"). Mỗi luận điểm phải có giải thích riêng, rút từ chính các dòng được trích.
 - **Trích ý chỉ chép tiêu đề bài** mà không đọc. Phải đọc nội dung.
-- **Có mục Phụ lục I mà gợi ý 01 ghi "nguyên tắc chung"** (bản 1010-B cũ). Hiện `kiem.mjs` báo lỗi trường hợp này, nhưng chỉ khi mục đó đã có trong bảng tham chiếu, nên vẫn phải làm bước 2.
+- **Có mục Phụ lục I mà gợi ý 01 ghi "nguyên tắc chung"** (bản 1010-B cũ, khi bảng chưa đủ). Bảng nay đã đủ và `kiem.mjs` báo lỗi trường hợp này.
 - **Bản hướng dẫn cử hành** (dẫn lễ, lời nguyện tín hữu, "Headings for readings") không phải bài giảng → ghi vào `khong_dung`.
 - **Đoạn xếp nhầm ngày** trong một file (vd phần Thứ Bảy nằm trong bài Thứ Sáu) → `khong_dung` với `dong: [a, b]`.
 - Lời Chúa trong `loi-chua.json` dùng chữ `Ð` (U+00D0). Bộ so khớp đã chuẩn hóa sẵn, nhưng câu trích phải chép từ chính `loi-chua.json`, không chép từ trí nhớ.

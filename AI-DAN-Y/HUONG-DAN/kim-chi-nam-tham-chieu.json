@@ -22,6 +22,440 @@
     "153": "Lễ các thánh: có bài đọc riêng thì phải dùng."
   },
   "phu_luc_1": {
+    "3064": {
+      "muc": "CYCLE A/B/C — Thursday of the Lord’s Supper",
+      "dong_trong_ban_van": [
+        407,
+        413
+      ],
+      "dong_cac_chu_ky": [
+        [
+          407,
+          413
+        ],
+        [
+          713,
+          719
+        ],
+        [
+          1007,
+          1013
+        ]
+      ],
+      "chu_de": [
+        {
+          "so": "1337-1344",
+          "en": "the institution of the Eucharist"
+        },
+        {
+          "so": "1359-1361",
+          "en": "Eucharist as thanksgiving"
+        },
+        {
+          "so": "610, 1362-1372, 1382, 1436",
+          "en": "Eucharist as sacrifice"
+        },
+        {
+          "so": "1373-1381",
+          "en": "the real presence of Christ in the Eucharist"
+        },
+        {
+          "so": "1384-1401, 2837",
+          "en": "Holy Communion"
+        },
+        {
+          "so": "1402-1405",
+          "en": "the Eucharist as the pledge of glory"
+        },
+        {
+          "so": "611, 1366",
+          "en": "institution of the priesthood at the Last Supper"
+        }
+      ]
+    },
+    "3065": {
+      "muc": "CYCLE A/B/C — Friday of the Passion of the Lord",
+      "dong_trong_ban_van": [
+        415,
+        418
+      ],
+      "dong_cac_chu_ky": [
+        [
+          415,
+          418
+        ],
+        [
+          721,
+          724
+        ],
+        [
+          1015,
+          1018
+        ]
+      ],
+      "chu_de": [
+        {
+          "so": "602-618, 1992",
+          "en": "the Passion of Christ"
+        },
+        {
+          "so": "612, 2606, 2741",
+          "en": "the prayer of Jesus"
+        },
+        {
+          "so": "467, 540, 1137",
+          "en": "Christ the High Priest"
+        },
+        {
+          "so": "2825",
+          "en": "Christ’s obedience and ours"
+        }
+      ]
+    },
+    "22512": {
+      "muc": "CYCLE A/B/C — The Solemnity of Christmas",
+      "dong_trong_ban_van": [
+        346,
+        352
+      ],
+      "dong_cac_chu_ky": [
+        [
+          346,
+          352
+        ],
+        [
+          649,
+          655
+        ],
+        [
+          943,
+          949
+        ]
+      ],
+      "chu_de": [
+        {
+          "so": "456-460, 466",
+          "en": "\"Why did the Word become flesh?\""
+        },
+        {
+          "so": "461-463, 470-478",
+          "en": "the Incarnation"
+        },
+        {
+          "so": "437, 525-526",
+          "en": "the Christmas mystery"
+        },
+        {
+          "so": "439, 496, 559, 2616",
+          "en": "Jesus is the Son of David"
+        },
+        {
+          "so": "65, 102",
+          "en": "God has said everything in his Word"
+        },
+        {
+          "so": "333",
+          "en": "the incarnate Christ worshipped by the angels"
+        },
+        {
+          "so": "1159-1162, 2131, 2502",
+          "en": "the Incarnation and images of Christ"
+        }
+      ]
+    },
+    "80101": {
+      "muc": "CYCLE A/B/C — The Solemnity of Mary, the Mother of God",
+      "dong_trong_ban_van": [
+        359,
+        365
+      ],
+      "dong_cac_chu_ky": [
+        [
+          359,
+          365
+        ],
+        [
+          663,
+          669
+        ],
+        [
+          959,
+          965
+        ]
+      ],
+      "chu_de": [
+        {
+          "so": "464-469",
+          "en": "Jesus Christ, true God and true Man"
+        },
+        {
+          "so": "495, 2677",
+          "en": "Mary is the Mother of God"
+        },
+        {
+          "so": "1, 52, 270, 294, 422, 654, 1709, 2009",
+          "en": "our adoption as sons"
+        },
+        {
+          "so": "527, 577-582",
+          "en": "Jesus submits to the Law, and perfects it"
+        },
+        {
+          "so": "580, 1972",
+          "en": "the New Law frees from restrictions of the Old Law"
+        },
+        {
+          "so": "683, 689, 1695, 2766, 2777-2778",
+          "en": "in the Holy Spirit we can call God \"Abba\""
+        },
+        {
+          "so": "430-435, 2666-2668, 2812",
+          "en": "the name of Jesus"
+        }
+      ]
+    },
+    "80111": {
+      "muc": "OTHER HOLY DAYS — November 1: The Solemnity of All Saints",
+      "dong_trong_ban_van": [
+        1260,
+        1262
+      ],
+      "chu_de": [
+        {
+          "so": "61, 946-962, 1090, 1137-1139, 1370",
+          "en": "the Church, a communion of saints"
+        },
+        {
+          "so": "956, 2683",
+          "en": "the intercession of the saints"
+        },
+        {
+          "so": "828, 867, 1173, 2030, 2683-2684",
+          "en": "the saints, examples of holiness"
+        }
+      ]
+    },
+    "80812": {
+      "muc": "OTHER HOLY DAYS — December 8: The Solemnity of the Immaculate Conception of the Blessed Virgin Mary",
+      "dong_trong_ban_van": [
+        1264,
+        1264
+      ],
+      "chu_de": [
+        {
+          "so": "411, 489-493, 722, 2001, 2853",
+          "en": "God’s preparation; the Immaculate Conception"
+        }
+      ]
+    },
+    "81508": {
+      "muc": "OTHER HOLY DAYS — August 15: The Solemnity of the Assumption of the Blessed Virgin Mary",
+      "dong_trong_ban_van": [
+        1256,
+        1258
+      ],
+      "chu_de": [
+        {
+          "so": "411, 966-971, 974-975, 2853",
+          "en": "Mary, the New Eve, assumed into heaven"
+        },
+        {
+          "so": "773, 829, 967, 972",
+          "en": "Mary, eschatological icon of the Church"
+        },
+        {
+          "so": "2673-2679",
+          "en": "at prayer with Mary"
+        }
+      ]
+    },
+    "81903": {
+      "muc": "OTHER HOLY DAYS — March 19: The Solemnity of Saint Joseph",
+      "dong_trong_ban_van": [
+        1250,
+        1251
+      ],
+      "chu_de": [
+        {
+          "so": "437, 497, 532-534, 1014, 1846, 2177",
+          "en": "Saint Joseph"
+        },
+        {
+          "so": "2214-2220",
+          "en": "duties of children to their parents"
+        }
+      ]
+    },
+    "82906": {
+      "muc": "OTHER HOLY DAYS — June 29: The Solemnity of the Apostles Peter and Paul",
+      "dong_trong_ban_van": [
+        1253,
+        1254
+      ],
+      "chu_de": [
+        {
+          "so": "153, 424, 440, 442, 552, 765, 880-881",
+          "en": "Saint Peter"
+        },
+        {
+          "so": "442, 601, 639, 642, 1508, 2632-2633, 2636, 2638",
+          "en": "Saint Paul"
+        }
+      ]
+    },
+    "92412": {
+      "muc": "CYCLE A/B/C — The Solemnity of Christmas",
+      "dong_trong_ban_van": [
+        346,
+        352
+      ],
+      "dong_cac_chu_ky": [
+        [
+          346,
+          352
+        ],
+        [
+          649,
+          655
+        ],
+        [
+          943,
+          949
+        ]
+      ],
+      "chu_de": [
+        {
+          "so": "456-460, 466",
+          "en": "\"Why did the Word become flesh?\""
+        },
+        {
+          "so": "461-463, 470-478",
+          "en": "the Incarnation"
+        },
+        {
+          "so": "437, 525-526",
+          "en": "the Christmas mystery"
+        },
+        {
+          "so": "439, 496, 559, 2616",
+          "en": "Jesus is the Son of David"
+        },
+        {
+          "so": "65, 102",
+          "en": "God has said everything in his Word"
+        },
+        {
+          "so": "333",
+          "en": "the incarnate Christ worshipped by the angels"
+        },
+        {
+          "so": "1159-1162, 2131, 2502",
+          "en": "the Incarnation and images of Christ"
+        }
+      ]
+    },
+    "92512": {
+      "muc": "CYCLE A/B/C — The Solemnity of Christmas",
+      "dong_trong_ban_van": [
+        346,
+        352
+      ],
+      "dong_cac_chu_ky": [
+        [
+          346,
+          352
+        ],
+        [
+          649,
+          655
+        ],
+        [
+          943,
+          949
+        ]
+      ],
+      "chu_de": [
+        {
+          "so": "456-460, 466",
+          "en": "\"Why did the Word become flesh?\""
+        },
+        {
+          "so": "461-463, 470-478",
+          "en": "the Incarnation"
+        },
+        {
+          "so": "437, 525-526",
+          "en": "the Christmas mystery"
+        },
+        {
+          "so": "439, 496, 559, 2616",
+          "en": "Jesus is the Son of David"
+        },
+        {
+          "so": "65, 102",
+          "en": "God has said everything in his Word"
+        },
+        {
+          "so": "333",
+          "en": "the incarnate Christ worshipped by the angels"
+        },
+        {
+          "so": "1159-1162, 2131, 2502",
+          "en": "the Incarnation and images of Christ"
+        }
+      ]
+    },
+    "02512": {
+      "muc": "CYCLE A/B/C — The Solemnity of Christmas",
+      "dong_trong_ban_van": [
+        346,
+        352
+      ],
+      "dong_cac_chu_ky": [
+        [
+          346,
+          352
+        ],
+        [
+          649,
+          655
+        ],
+        [
+          943,
+          949
+        ]
+      ],
+      "chu_de": [
+        {
+          "so": "456-460, 466",
+          "en": "\"Why did the Word become flesh?\""
+        },
+        {
+          "so": "461-463, 470-478",
+          "en": "the Incarnation"
+        },
+        {
+          "so": "437, 525-526",
+          "en": "the Christmas mystery"
+        },
+        {
+          "so": "439, 496, 559, 2616",
+          "en": "Jesus is the Son of David"
+        },
+        {
+          "so": "65, 102",
+          "en": "God has said everything in his Word"
+        },
+        {
+          "so": "333",
+          "en": "the incarnate Christ worshipped by the angels"
+        },
+        {
+          "so": "1159-1162, 2131, 2502",
+          "en": "the Incarnation and images of Christ"
+        }
+      ]
+    },
     "1010-A": {
       "muc": "CYCLE A — First Sunday of Advent",
       "dong_trong_ban_van": [
@@ -92,10 +526,4143 @@
           "en": "God is faithful and merciful"
         }
       ]
+    },
+    "1020-A": {
+      "muc": "CYCLE A — Second Sunday of Advent",
+      "dong_trong_ban_van": [
+        332,
+        334
+      ],
+      "chu_de": [
+        {
+          "so": "522, 711-716, 722",
+          "en": "the prophets and the expectation of the Messiah"
+        },
+        {
+          "so": "523, 717-720",
+          "en": "the mission of John the Baptist"
+        },
+        {
+          "so": "1427-29",
+          "en": "conversion of the baptized"
+        }
+      ]
+    },
+    "1020-B": {
+      "muc": "CYCLE B — Second Sunday of Advent",
+      "dong_trong_ban_van": [
+        636,
+        638
+      ],
+      "chu_de": [
+        {
+          "so": "522, 711-716, 722",
+          "en": "the prophets and the expectation of the Messiah"
+        },
+        {
+          "so": "523, 717-720",
+          "en": "the mission of John the Baptist"
+        },
+        {
+          "so": "1042-1050",
+          "en": "a new heaven and a new earth"
+        }
+      ]
+    },
+    "1020-C": {
+      "muc": "CYCLE C — Second Sunday of Advent",
+      "dong_trong_ban_van": [
+        931,
+        934
+      ],
+      "chu_de": [
+        {
+          "so": "522, 711-716, 722",
+          "en": "the prophets and the expectation of the Messiah"
+        },
+        {
+          "so": "523, 717-720",
+          "en": "the mission of John the Baptist"
+        },
+        {
+          "so": "710",
+          "en": "Israel’s exile foreshadowed the Passion"
+        },
+        {
+          "so": "2532, 2636",
+          "en": "Paul’s solicitude"
+        }
+      ]
+    },
+    "1030-A": {
+      "muc": "CYCLE A — Third Sunday of Advent",
+      "dong_trong_ban_van": [
+        336,
+        338
+      ],
+      "chu_de": [
+        {
+          "so": "30, 163, 301, 736, 1829, 1832, 2015, 2362",
+          "en": "joy"
+        },
+        {
+          "so": "227, 2613, 2665, 2772",
+          "en": "patience"
+        },
+        {
+          "so": "439, 547-550, 1751",
+          "en": "Jesus performs messianic signs"
+        }
+      ]
+    },
+    "1030-B": {
+      "muc": "CYCLE B — Third Sunday of Advent",
+      "dong_trong_ban_van": [
+        640,
+        643
+      ],
+      "chu_de": [
+        {
+          "so": "30, 163, 301, 736, 1829, 1832, 2015, 2362",
+          "en": "joy"
+        },
+        {
+          "so": "713-714",
+          "en": "characteristics of the awaited Messiah"
+        },
+        {
+          "so": "218-219",
+          "en": "God’s love for Israel"
+        },
+        {
+          "so": "772, 796",
+          "en": "the Church as the Bride of Christ"
+        }
+      ]
+    },
+    "1030-C": {
+      "muc": "CYCLE C — Third Sunday of Advent",
+      "dong_trong_ban_van": [
+        936,
+        938
+      ],
+      "chu_de": [
+        {
+          "so": "30, 163, 301, 736, 1829, 1832, 2015, 2362",
+          "en": "joy"
+        },
+        {
+          "so": "523-524, 535",
+          "en": "John prepares the way for the Messiah"
+        },
+        {
+          "so": "430-435",
+          "en": "Jesus the Savior"
+        }
+      ]
+    },
+    "1040-A": {
+      "muc": "CYCLE A — Fourth Sunday of Advent",
+      "dong_trong_ban_van": [
+        340,
+        344
+      ],
+      "chu_de": [
+        {
+          "so": "496-507, 495",
+          "en": "Mary’s virginal motherhood"
+        },
+        {
+          "so": "437, 456, 484-486, 721-726",
+          "en": "Mary the Mother of Christ by the Holy Spirit"
+        },
+        {
+          "so": "1846",
+          "en": "Jesus as Savior revealed to Joseph"
+        },
+        {
+          "so": "445, 648, 695",
+          "en": "Christ the Son of God in his Resurrection"
+        },
+        {
+          "so": "143-149, 494, 2087",
+          "en": "the \"obedience of faith\""
+        }
+      ]
+    },
+    "1040-B": {
+      "muc": "CYCLE B — Fourth Sunday of Advent",
+      "dong_trong_ban_van": [
+        645,
+        647
+      ],
+      "chu_de": [
+        {
+          "so": "484-494",
+          "en": "the Annunciation"
+        },
+        {
+          "so": "439, 496, 559, 2616",
+          "en": "Jesus is the Son of David"
+        },
+        {
+          "so": "143-149, 494, 2087",
+          "en": "the \"obedience of faith\""
+        }
+      ]
+    },
+    "1040-C": {
+      "muc": "CYCLE C — Fourth Sunday of Advent",
+      "dong_trong_ban_van": [
+        940,
+        941
+      ],
+      "chu_de": [
+        {
+          "so": "148, 495, 717, 2676",
+          "en": "the Visitation"
+        },
+        {
+          "so": "462, 606-607, 2568, 2824",
+          "en": "the Son becomes incarnate to do the Father’s will"
+        }
+      ]
+    },
+    "2010-A": {
+      "muc": "CYCLE A — The Holy Family",
+      "dong_trong_ban_van": [
+        354,
+        357
+      ],
+      "chu_de": [
+        {
+          "so": "531-534",
+          "en": "the Holy Family"
+        },
+        {
+          "so": "1655-1658, 2204-2206",
+          "en": "the Christian family, a domestic Church"
+        },
+        {
+          "so": "2214-2233",
+          "en": "duties of family members"
+        },
+        {
+          "so": "333, 530",
+          "en": "the Flight into Egypt"
+        }
+      ]
+    },
+    "2010-B": {
+      "muc": "CYCLE B — The Holy Family",
+      "dong_trong_ban_van": [
+        657,
+        661
+      ],
+      "chu_de": [
+        {
+          "so": "531-534",
+          "en": "the Holy Family"
+        },
+        {
+          "so": "1655-1658, 2204-2206",
+          "en": "the Christian family, a domestic Church"
+        },
+        {
+          "so": "2214-2233",
+          "en": "duties of family members"
+        },
+        {
+          "so": "529, 583, 695",
+          "en": "the Presentation in the Temple"
+        },
+        {
+          "so": "144-146, 165, 489, 2572, 2676",
+          "en": "Abraham and Sarah as models of faith"
+        }
+      ]
+    },
+    "2010-C": {
+      "muc": "CYCLE C — The Holy Family",
+      "dong_trong_ban_van": [
+        951,
+        957
+      ],
+      "chu_de": [
+        {
+          "so": "531-534",
+          "en": "the Holy Family"
+        },
+        {
+          "so": "1655-1658, 2204-2206",
+          "en": "the Christian family, a domestic Church"
+        },
+        {
+          "so": "2214-2233",
+          "en": "duties of family members"
+        },
+        {
+          "so": "534, 583, 2599",
+          "en": "the Finding in the Temple"
+        },
+        {
+          "so": "64, 489, 2578",
+          "en": "Hannah and Samuel"
+        },
+        {
+          "so": "1, 104, 239, 1692, 1709, 2009, 2736",
+          "en": "we are God’s children now"
+        },
+        {
+          "so": "163, 1023, 1161, 2519, 2772",
+          "en": "we shall see him face to face and be like him"
+        }
+      ]
+    },
+    "2020-A": {
+      "muc": "CYCLE A — Second Sunday after the Nativity",
+      "dong_trong_ban_van": [
+        367,
+        369
+      ],
+      "chu_de": [
+        {
+          "so": "151, 241, 291, 423, 445, 456-463, 504-505, 526, 1216, 2466, 2787",
+          "en": "John’s Prologue"
+        },
+        {
+          "so": "272, 295, 299, 474, 721, 1831",
+          "en": "Christ the Wisdom of God"
+        },
+        {
+          "so": "158, 283, 1303, 1831, 2500",
+          "en": "God gives us wisdom"
+        }
+      ]
+    },
+    "2020-B": {
+      "muc": "CYCLE B — Second Sunday after the Nativity",
+      "dong_trong_ban_van": [
+        671,
+        673
+      ],
+      "chu_de": [
+        {
+          "so": "151, 241, 291, 423, 445, 456-463, 504-505, 526, 1216, 2466, 2787",
+          "en": "John’s Prologue"
+        },
+        {
+          "so": "272, 295, 299, 474, 721, 1831",
+          "en": "Christ the Wisdom of God"
+        },
+        {
+          "so": "158, 283, 1303, 1831, 2500",
+          "en": "God gives us wisdom"
+        }
+      ]
+    },
+    "2020-C": {
+      "muc": "CYCLE C — Second Sunday after the Nativity",
+      "dong_trong_ban_van": [
+        967,
+        969
+      ],
+      "chu_de": [
+        {
+          "so": "151, 241, 291, 423, 445, 456-463, 504-505, 526, 1216, 2466, 2787",
+          "en": "John’s Prologue"
+        },
+        {
+          "so": "272, 295, 299, 474, 721, 1831",
+          "en": "Christ the Wisdom of God"
+        },
+        {
+          "so": "158, 283, 1303, 1831, 2500",
+          "en": "God gives us wisdom"
+        }
+      ]
+    },
+    "3010-A": {
+      "muc": "CYCLE A — First Sunday of Lent",
+      "dong_trong_ban_van": [
+        375,
+        378
+      ],
+      "chu_de": [
+        {
+          "so": "394, 538-540, 2119",
+          "en": "the temptation of Jesus"
+        },
+        {
+          "so": "2846-2849",
+          "en": "\"Lead us not into temptation\""
+        },
+        {
+          "so": "385-390, 396-400",
+          "en": "the Fall"
+        },
+        {
+          "so": "359, 402-411, 615",
+          "en": "Adam, Original Sin, Christ the New Adam"
+        }
+      ]
+    },
+    "3010-B": {
+      "muc": "CYCLE B — First Sunday of Lent",
+      "dong_trong_ban_van": [
+        679,
+        684
+      ],
+      "chu_de": [
+        {
+          "so": "394, 538-540, 2119",
+          "en": "the temptation of Jesus"
+        },
+        {
+          "so": "2846-2849",
+          "en": "\"Lead us not into temptation\""
+        },
+        {
+          "so": "56-58, 71",
+          "en": "the Covenant with Noah"
+        },
+        {
+          "so": "845, 1094, 1219",
+          "en": "Noah’s Ark prefigures the Church and baptism"
+        },
+        {
+          "so": "1116, 1129, 1222",
+          "en": "Covenant and sacraments (especially baptism)"
+        },
+        {
+          "so": "1257, 1811",
+          "en": "God saves through baptism"
+        }
+      ]
+    },
+    "3010-C": {
+      "muc": "CYCLE C — First Sunday of Lent",
+      "dong_trong_ban_van": [
+        975,
+        979
+      ],
+      "chu_de": [
+        {
+          "so": "394, 538-540, 2119",
+          "en": "the temptation of Jesus"
+        },
+        {
+          "so": "2846-2849",
+          "en": "\"Lead us not into temptation\""
+        },
+        {
+          "so": "1505",
+          "en": "Christ frees from evil"
+        },
+        {
+          "so": "142-143, 309",
+          "en": "faith as submission to God, response to God, answer to evil"
+        },
+        {
+          "so": "59-63",
+          "en": "God forms his priestly people through Abraham and the Exodus"
+        }
+      ]
+    },
+    "3020-A": {
+      "muc": "CYCLE A — Second Sunday of Lent",
+      "dong_trong_ban_van": [
+        380,
+        383
+      ],
+      "chu_de": [
+        {
+          "so": "554-556, 568",
+          "en": "the Transfiguration"
+        },
+        {
+          "so": "59, 145-146, 2570-2571",
+          "en": "the obedience of Abraham"
+        },
+        {
+          "so": "706",
+          "en": "God’s promise to Abraham fulfilled in Christ"
+        },
+        {
+          "so": "2012-2014, 2028, 2813",
+          "en": "the call to holiness"
+        }
+      ]
+    },
+    "3020-B": {
+      "muc": "CYCLE B — Second Sunday of Lent",
+      "dong_trong_ban_van": [
+        686,
+        690
+      ],
+      "chu_de": [
+        {
+          "so": "554-556, 568",
+          "en": "the Transfiguration"
+        },
+        {
+          "so": "59, 145-146, 2570-2572",
+          "en": "the obedience of Abraham"
+        },
+        {
+          "so": "153-159",
+          "en": "characteristics of faith"
+        },
+        {
+          "so": "2059",
+          "en": "God manifests his glory to make known his will"
+        },
+        {
+          "so": "603, 1373, 2634, 2852",
+          "en": "Christ is for us"
+        }
+      ]
+    },
+    "3020-C": {
+      "muc": "CYCLE C — Second Sunday of Lent",
+      "dong_trong_ban_van": [
+        981,
+        984
+      ],
+      "chu_de": [
+        {
+          "so": "554-556, 568",
+          "en": "the Transfiguration"
+        },
+        {
+          "so": "59, 145-146, 2570-2572",
+          "en": "the obedience of Abraham"
+        },
+        {
+          "so": "1000",
+          "en": "faith opens the way to comprehending the mystery of the Resurrection"
+        },
+        {
+          "so": "645, 999-1001",
+          "en": "the resurrection of the body"
+        }
+      ]
+    },
+    "3030-A": {
+      "muc": "CYCLE A — Third Sunday of Lent",
+      "dong_trong_ban_van": [
+        385,
+        388
+      ],
+      "chu_de": [
+        {
+          "so": "1214-1216, 1226-1228",
+          "en": "baptism, rebirth of water and Spirit"
+        },
+        {
+          "so": "727-729",
+          "en": "Jesus reveals the Holy Spirit"
+        },
+        {
+          "so": "694, 733-736, 1215, 1999, 2652",
+          "en": "the Holy Spirit, the living water, a gift of God"
+        },
+        {
+          "so": "604, 733, 1820, 1825, 1992, 2658",
+          "en": "God takes the initiative; hope from the Spirit"
+        }
+      ]
+    },
+    "3030-B": {
+      "muc": "CYCLE B — Third Sunday of Lent",
+      "dong_trong_ban_van": [
+        692,
+        695
+      ],
+      "chu_de": [
+        {
+          "so": "459, 577-582",
+          "en": "Jesus and the Law"
+        },
+        {
+          "so": "593, 583-586",
+          "en": "Temple prefigures Christ; he is the Temple"
+        },
+        {
+          "so": "1967-1968",
+          "en": "the New Law completes the Old"
+        },
+        {
+          "so": "272, 550, 853",
+          "en": "Christ’s power revealed in the Cross"
+        }
+      ]
+    },
+    "3030-C": {
+      "muc": "CYCLE C — Third Sunday of Lent",
+      "dong_trong_ban_van": [
+        986,
+        990
+      ],
+      "chu_de": [
+        {
+          "so": "210, 2575-2577",
+          "en": "God calls Moses, hears prayers of his people"
+        },
+        {
+          "so": "1963-1964",
+          "en": "observance of Law prepares for conversion"
+        },
+        {
+          "so": "2851",
+          "en": "evil and its works as obstacle on way of salvation"
+        },
+        {
+          "so": "128-130, 1094",
+          "en": "Old Testament \"types\" fulfilled in the New Testament"
+        },
+        {
+          "so": "736, 1108-1109, 1129, 1521, 1724, 1852, 2074, 2516, 2345, 2731",
+          "en": "bearing fruit"
+        }
+      ]
+    },
+    "3040-A": {
+      "muc": "CYCLE A — Fourth Sunday of Lent",
+      "dong_trong_ban_van": [
+        390,
+        393
+      ],
+      "chu_de": [
+        {
+          "so": "280, 529, 748, 1165, 2466, 2715",
+          "en": "Christ the light of the nations"
+        },
+        {
+          "so": "439, 496, 559, 2616",
+          "en": "Jesus is the Son of David"
+        },
+        {
+          "so": "1216",
+          "en": "baptism is illumination"
+        },
+        {
+          "so": "782, 1243, 2105",
+          "en": "Christians are to be light of the world"
+        }
+      ]
+    },
+    "3040-B": {
+      "muc": "CYCLE B — Fourth Sunday of Lent",
+      "dong_trong_ban_van": [
+        697,
+        700
+      ],
+      "chu_de": [
+        {
+          "so": "389, 457-458, 846, 1019, 1507",
+          "en": "Christ as Savior"
+        },
+        {
+          "so": "679",
+          "en": "Christ the Lord of eternal life"
+        },
+        {
+          "so": "55",
+          "en": "God wants to give man eternal life"
+        },
+        {
+          "so": "710",
+          "en": "Israel’s exile foreshadowed the Passion"
+        }
+      ]
+    },
+    "3040-C": {
+      "muc": "CYCLE C — Fourth Sunday of Lent",
+      "dong_trong_ban_van": [
+        992,
+        996
+      ],
+      "chu_de": [
+        {
+          "so": "1439, 1465, 1481, 1700, 2839",
+          "en": "the prodigal son"
+        },
+        {
+          "so": "207, 212, 214",
+          "en": "God is faithful to his promises"
+        },
+        {
+          "so": "1441, 1443",
+          "en": "God pardons sin and restores the sinner to the community"
+        },
+        {
+          "so": "982",
+          "en": "the door of pardon is open to all who repent"
+        },
+        {
+          "so": "1334",
+          "en": "Israel’s daily bread was the fruit of the promised land"
+        }
+      ]
+    },
+    "3050-A": {
+      "muc": "CYCLE A — Fifth Sunday of Lent",
+      "dong_trong_ban_van": [
+        395,
+        400
+      ],
+      "chu_de": [
+        {
+          "so": "992-996",
+          "en": "the progressive revelation of resurrection"
+        },
+        {
+          "so": "549, 640, 646",
+          "en": "raisings a messianic sign prefiguring Christ’s Resurrection"
+        },
+        {
+          "so": "2603-2604",
+          "en": "the prayer of Jesus before the raising of Lazarus"
+        },
+        {
+          "so": "1002-1004",
+          "en": "our present experience of resurrection"
+        },
+        {
+          "so": "1402-1405, 1524",
+          "en": "the Eucharist and the Resurrection"
+        },
+        {
+          "so": "989-990",
+          "en": "the resurrection of the body"
+        }
+      ]
+    },
+    "3050-B": {
+      "muc": "CYCLE B — Fifth Sunday of Lent",
+      "dong_trong_ban_van": [
+        702,
+        706
+      ],
+      "chu_de": [
+        {
+          "so": "606-607",
+          "en": "Christ’s life an offering to the Father"
+        },
+        {
+          "so": "542, 607",
+          "en": "Christ’s desire to give his life for our salvation"
+        },
+        {
+          "so": "690, 729",
+          "en": "the Spirit glorifies the Son, the Son glorifies the Father"
+        },
+        {
+          "so": "662, 2853",
+          "en": "Christ ascended in glory as our victory"
+        },
+        {
+          "so": "56-64, 220, 715, 762, 1965",
+          "en": "the history of the covenants"
+        }
+      ]
+    },
+    "3050-C": {
+      "muc": "CYCLE C — Fifth Sunday of Lent",
+      "dong_trong_ban_van": [
+        998,
+        1000
+      ],
+      "chu_de": [
+        {
+          "so": "430, 545, 589, 1846-1847",
+          "en": "Jesus manifests the Father’s mercy"
+        },
+        {
+          "so": "133, 428, 648, 989, 1006",
+          "en": "the surpassing wealth of knowing Christ"
+        },
+        {
+          "so": "2475-2479",
+          "en": "rash judgment"
+        }
+      ]
+    },
+    "3060-A": {
+      "muc": "CYCLE A — Palm Sunday of the Lord’s Passion",
+      "dong_trong_ban_van": [
+        402,
+        405
+      ],
+      "chu_de": [
+        {
+          "so": "557-560",
+          "en": "Christ’s entry into Jerusalem"
+        },
+        {
+          "so": "602-618",
+          "en": "the Passion of Christ"
+        },
+        {
+          "so": "2816",
+          "en": "Christ’s kingship gained through his death and Resurrection"
+        },
+        {
+          "so": "654, 1067-1068, 1085, 1362",
+          "en": "the Paschal Mystery and the liturgy"
+        }
+      ]
+    },
+    "3060-B": {
+      "muc": "CYCLE B — Palm Sunday of the Lord’s Passion",
+      "dong_trong_ban_van": [
+        708,
+        711
+      ],
+      "chu_de": [
+        {
+          "so": "557-560",
+          "en": "Christ’s entry into Jerusalem"
+        },
+        {
+          "so": "602-618",
+          "en": "the Passion of Christ"
+        },
+        {
+          "so": "2816",
+          "en": "Christ’s kingship gained through his death and Resurrection"
+        },
+        {
+          "so": "654, 1067-1068, 1085, 1362",
+          "en": "the Paschal Mystery and the liturgy"
+        }
+      ]
+    },
+    "3060-C": {
+      "muc": "CYCLE C — Palm Sunday of the Lord’s Passion",
+      "dong_trong_ban_van": [
+        1002,
+        1005
+      ],
+      "chu_de": [
+        {
+          "so": "557-560",
+          "en": "Christ’s entry into Jerusalem"
+        },
+        {
+          "so": "602-618",
+          "en": "the Passion of Christ"
+        },
+        {
+          "so": "2816",
+          "en": "Christ’s kingship gained through his death and Resurrection"
+        },
+        {
+          "so": "654, 1067-1068, 1085, 1362",
+          "en": "the Paschal Mystery and the liturgy"
+        }
+      ]
+    },
+    "4010-A": {
+      "muc": "CYCLE A — Easter Sunday of the Resurrection of the Lord",
+      "dong_trong_ban_van": [
+        420,
+        425
+      ],
+      "chu_de": [
+        {
+          "so": "638-655, 989, 1001-1002",
+          "en": "the Resurrection of Christ and our resurrection"
+        },
+        {
+          "so": "647, 1167-1170, 1243, 1287",
+          "en": "Easter, the Lord’s Day"
+        },
+        {
+          "so": "1212",
+          "en": "the Sacraments of Initiation"
+        },
+        {
+          "so": "1214-1222, 1226-1228, 1234-1245, 1254",
+          "en": "Baptism"
+        },
+        {
+          "so": "1286-1289",
+          "en": "Confirmation"
+        },
+        {
+          "so": "1322-1323",
+          "en": "Eucharist"
+        }
+      ]
+    },
+    "4010-B": {
+      "muc": "CYCLE B — Easter Sunday of the Resurrection of the Lord",
+      "dong_trong_ban_van": [
+        726,
+        731
+      ],
+      "chu_de": [
+        {
+          "so": "638-655, 989, 1001-1002",
+          "en": "the Resurrection of Christ and our resurrection"
+        },
+        {
+          "so": "647, 1167-1170, 1243, 1287",
+          "en": "Easter, the Lord’s Day"
+        },
+        {
+          "so": "1212",
+          "en": "the Sacraments of Initiation"
+        },
+        {
+          "so": "1214-1222, 1226-1228, 1234-1245, 1254",
+          "en": "Baptism"
+        },
+        {
+          "so": "1286-1289",
+          "en": "Confirmation"
+        },
+        {
+          "so": "1322-1323",
+          "en": "Eucharist"
+        }
+      ]
+    },
+    "4010-C": {
+      "muc": "CYCLE C — Easter Sunday of the Resurrection of the Lord",
+      "dong_trong_ban_van": [
+        1020,
+        1025
+      ],
+      "chu_de": [
+        {
+          "so": "638-655, 989, 1001-1002",
+          "en": "the Resurrection of Christ and our resurrection"
+        },
+        {
+          "so": "647, 1167-1170, 1243, 1287",
+          "en": "Easter, the Lord’s Day"
+        },
+        {
+          "so": "1212",
+          "en": "the Sacraments of Initiation"
+        },
+        {
+          "so": "1214-1222, 1226-1228, 1234-1245, 1254",
+          "en": "Baptism"
+        },
+        {
+          "so": "1286-1289",
+          "en": "Confirmation"
+        },
+        {
+          "so": "1322-1323",
+          "en": "Eucharist"
+        }
+      ]
+    },
+    "4020-A": {
+      "muc": "CYCLE A — Second Sunday of Easter",
+      "dong_trong_ban_van": [
+        427,
+        432
+      ],
+      "chu_de": [
+        {
+          "so": "448, 641-646",
+          "en": "appearances of the risen Christ"
+        },
+        {
+          "so": "1084-1089",
+          "en": "sanctifying presence of the risen Christ in the liturgy"
+        },
+        {
+          "so": "2177-2178, 1342",
+          "en": "the Sunday Eucharist"
+        },
+        {
+          "so": "654-655, 1988",
+          "en": "our new birth in the Resurrection of Christ"
+        },
+        {
+          "so": "976-983, 1441-1442",
+          "en": "\"I believe in the forgiveness of sins\""
+        },
+        {
+          "so": "949-953, 1329, 1342, 2624, 2790",
+          "en": "communion in spiritual goods"
+        }
+      ]
+    },
+    "4020-B": {
+      "muc": "CYCLE B — Second Sunday of Easter",
+      "dong_trong_ban_van": [
+        733,
+        738
+      ],
+      "chu_de": [
+        {
+          "so": "448, 641-646",
+          "en": "appearances of the risen Christ"
+        },
+        {
+          "so": "1084-1089",
+          "en": "sanctifying presence of the risen Christ in the liturgy"
+        },
+        {
+          "so": "2177-2178, 1342",
+          "en": "the Sunday Eucharist"
+        },
+        {
+          "so": "654-655, 1988",
+          "en": "our new birth in the Resurrection of Christ"
+        },
+        {
+          "so": "976-983, 1441-1442",
+          "en": "\"I believe in the forgiveness of sins\""
+        },
+        {
+          "so": "949-953, 1329, 1342, 2624, 2790",
+          "en": "communion in spiritual goods"
+        }
+      ]
+    },
+    "4020-C": {
+      "muc": "CYCLE C — Second Sunday of Easter",
+      "dong_trong_ban_van": [
+        1027,
+        1033
+      ],
+      "chu_de": [
+        {
+          "so": "448, 641-646",
+          "en": "appearances of the risen Christ"
+        },
+        {
+          "so": "1084-1089",
+          "en": "sanctifying presence of the risen Christ in the liturgy"
+        },
+        {
+          "so": "2177-2178, 1342",
+          "en": "the Sunday Eucharist"
+        },
+        {
+          "so": "654-655, 1988",
+          "en": "our new birth in the Resurrection of Christ"
+        },
+        {
+          "so": "976-983, 1441-1442",
+          "en": "\"I believe in the forgiveness of sins\""
+        },
+        {
+          "so": "949-953, 1329, 1342, 2624, 2790",
+          "en": "communion in spiritual goods"
+        },
+        {
+          "so": "612, 625, 635, 2854",
+          "en": "Christ the \"Living One\" holds the keys of death"
+        }
+      ]
+    },
+    "4030-A": {
+      "muc": "CYCLE A — Third Sunday of Easter",
+      "dong_trong_ban_van": [
+        434,
+        437
+      ],
+      "chu_de": [
+        {
+          "so": "1346-1347",
+          "en": "the Eucharist and the experience of the disciples at Emmaus"
+        },
+        {
+          "so": "642-644, 857, 995-996",
+          "en": "the apostles and disciples as witnesses of the Resurrection"
+        },
+        {
+          "so": "102, 601, 426-429, 2763",
+          "en": "Christ the key to interpreting all Scripture"
+        },
+        {
+          "so": "457, 604-605, 608, 615-616, 1476, 1992",
+          "en": "Jesus, the Lamb offered for our sins"
+        }
+      ]
+    },
+    "4030-B": {
+      "muc": "CYCLE B — Third Sunday of Easter",
+      "dong_trong_ban_van": [
+        740,
+        743
+      ],
+      "chu_de": [
+        {
+          "so": "1346-1347",
+          "en": "the Eucharist and the experience of the disciples at Emmaus"
+        },
+        {
+          "so": "642-644, 857, 995-996",
+          "en": "the apostles and disciples as witnesses of the Resurrection"
+        },
+        {
+          "so": "102, 601, 426-429, 2763",
+          "en": "Christ the key to interpreting all Scripture"
+        },
+        {
+          "so": "519, 662, 1137",
+          "en": "Christ, our Advocate in heaven"
+        }
+      ]
+    },
+    "4030-C": {
+      "muc": "CYCLE C — Third Sunday of Easter",
+      "dong_trong_ban_van": [
+        1035,
+        1037
+      ],
+      "chu_de": [
+        {
+          "so": "642-644, 857, 995-996",
+          "en": "the apostles and disciples as witnesses of the Resurrection"
+        },
+        {
+          "so": "553, 641, 881, 1429",
+          "en": "the risen Christ and Peter"
+        },
+        {
+          "so": "1090, 1137-1139, 1326",
+          "en": "the heavenly liturgy"
+        }
+      ]
+    },
+    "4040-A": {
+      "muc": "CYCLE A — Fourth Sunday of Easter",
+      "dong_trong_ban_van": [
+        439,
+        443
+      ],
+      "chu_de": [
+        {
+          "so": "754, 764, 2665",
+          "en": "Christ the Shepherd and Gate"
+        },
+        {
+          "so": "553, 857, 861, 881, 896, 1558, 1561, 1568, 1574",
+          "en": "Pope and bishops as shepherds"
+        },
+        {
+          "so": "874, 1120, 1465, 1536, 1548-1551, 1564, 2179, 2686",
+          "en": "priests as shepherds"
+        },
+        {
+          "so": "14, 189, 1064, 1226, 1236, 1253-1255, 1427-1429",
+          "en": "conversion, faith, and baptism"
+        },
+        {
+          "so": "618, 2447",
+          "en": "Christ an example in bearing wrongs"
+        }
+      ]
+    },
+    "4040-B": {
+      "muc": "CYCLE B — Fourth Sunday of Easter",
+      "dong_trong_ban_van": [
+        745,
+        749
+      ],
+      "chu_de": [
+        {
+          "so": "754, 764, 2665",
+          "en": "Christ the Shepherd and Gate"
+        },
+        {
+          "so": "553, 857, 861, 881, 896, 1558, 1561, 1568, 1574",
+          "en": "Pope and bishops as shepherds"
+        },
+        {
+          "so": "874, 1120, 1465, 1536, 1548-1551, 1564, 2179, 2686",
+          "en": "priests as shepherds"
+        },
+        {
+          "so": "756",
+          "en": "Christ the cornerstone"
+        },
+        {
+          "so": "1, 104, 239, 1692, 1709, 2009, 2736",
+          "en": "we are God’s children now"
+        }
+      ]
+    },
+    "4040-C": {
+      "muc": "CYCLE C — Fourth Sunday of Easter",
+      "dong_trong_ban_van": [
+        1039,
+        1043
+      ],
+      "chu_de": [
+        {
+          "so": "754, 764, 2665",
+          "en": "Christ the Shepherd and Gate"
+        },
+        {
+          "so": "553, 857, 861, 881, 896, 1558, 1561, 1568, 1574",
+          "en": "Pope and bishops as shepherds"
+        },
+        {
+          "so": "874, 1120, 1465, 1536, 1548-1551, 1564, 2179, 2686",
+          "en": "priests as shepherds"
+        },
+        {
+          "so": "60, 442, 543, 674, 724, 755, 775, 781",
+          "en": "the Church is made up of Jews and Gentiles"
+        },
+        {
+          "so": "957, 1138, 1173, 2473-2474",
+          "en": "our communion with the martyrs"
+        }
+      ]
+    },
+    "4050-A": {
+      "muc": "CYCLE A — Fifth Sunday of Easter",
+      "dong_trong_ban_van": [
+        445,
+        449
+      ],
+      "chu_de": [
+        {
+          "so": "2746-2751",
+          "en": "Christ’s prayer at the Last Supper"
+        },
+        {
+          "so": "661, 1025-1026, 2795",
+          "en": "Christ opens for us the way to heaven"
+        },
+        {
+          "so": "151, 1698, 2614, 2466",
+          "en": "believing in Jesus"
+        },
+        {
+          "so": "1569-1571",
+          "en": "the order of deacons"
+        },
+        {
+          "so": "782, 803, 1141, 1174, 1269, 1322",
+          "en": "\"a chosen race, a royal priesthood\""
+        }
+      ]
+    },
+    "4050-B": {
+      "muc": "CYCLE B — Fifth Sunday of Easter",
+      "dong_trong_ban_van": [
+        751,
+        753
+      ],
+      "chu_de": [
+        {
+          "so": "2746-2751",
+          "en": "Christ’s prayer at the Last Supper"
+        },
+        {
+          "so": "736, 737, 755, 787, 1108, 1988, 2074",
+          "en": "Christ is the vine, we are the branches"
+        },
+        {
+          "so": "953, 1822-1829",
+          "en": "charity"
+        }
+      ]
+    },
+    "4050-C": {
+      "muc": "CYCLE C — Fifth Sunday of Easter",
+      "dong_trong_ban_van": [
+        1045,
+        1047
+      ],
+      "chu_de": [
+        {
+          "so": "2746-2751",
+          "en": "Christ’s prayer at the Last Supper"
+        },
+        {
+          "so": "459, 1823, 2074, 2196, 2822, 2842",
+          "en": "\"as I have loved you\""
+        },
+        {
+          "so": "756, 865, 1042-1050, 2016, 2817",
+          "en": "a new heavens and a new earth"
+        }
+      ]
+    },
+    "4060-A": {
+      "muc": "CYCLE A — Sixth Sunday of Easter",
+      "dong_trong_ban_van": [
+        451,
+        453
+      ],
+      "chu_de": [
+        {
+          "so": "2746-2751",
+          "en": "Christ’s prayer at the Last Supper"
+        },
+        {
+          "so": "243, 388, 692, 729, 1433, 1848",
+          "en": "the Holy Spirit as Advocate/Consoler"
+        },
+        {
+          "so": "1083, 2670-2672",
+          "en": "invoking the Holy Spirit"
+        }
+      ]
+    },
+    "4060-B": {
+      "muc": "CYCLE B — Sixth Sunday of Easter",
+      "dong_trong_ban_van": [
+        755,
+        758
+      ],
+      "chu_de": [
+        {
+          "so": "2746-2751",
+          "en": "Christ’s prayer at the Last Supper"
+        },
+        {
+          "so": "214, 218-221, 231, 257, 733, 2331, 2577",
+          "en": "God is love"
+        },
+        {
+          "so": "1789, 1822-1829, 2067, 2069",
+          "en": "love of God and neighbor fulfills the Commandments"
+        },
+        {
+          "so": "2347, 2709",
+          "en": "friendship with Christ"
+        }
+      ]
+    },
+    "4060-C": {
+      "muc": "CYCLE C — Sixth Sunday of Easter",
+      "dong_trong_ban_van": [
+        1049,
+        1052
+      ],
+      "chu_de": [
+        {
+          "so": "2746-2751",
+          "en": "Christ’s prayer at the Last Supper"
+        },
+        {
+          "so": "243, 388, 692, 729, 1433, 1848",
+          "en": "the Holy Spirit as Advocate/Consoler"
+        },
+        {
+          "so": "1965-1974",
+          "en": "the New Law fulfills the Old"
+        },
+        {
+          "so": "865, 869, 1045, 1090, 1198, 2016",
+          "en": "the heavenly Jerusalem"
+        }
+      ]
+    },
+    "4070-A": {
+      "muc": "CYCLE A — Seventh Sunday of Easter: prayer and the spiritual life",
+      "dong_trong_ban_van": [
+        457,
+        460
+      ],
+      "chu_de": [
+        {
+          "so": "2746-2751",
+          "en": "Christ’s prayer at the Last Supper"
+        },
+        {
+          "so": "312, 434, 648, 664",
+          "en": "the Father glorifies Christ"
+        },
+        {
+          "so": "2614, 2741",
+          "en": "Jesus prays for us"
+        },
+        {
+          "so": "726, 2617-2619, 2673-2679",
+          "en": "at prayer with Mary"
+        }
+      ]
+    },
+    "4070-B": {
+      "muc": "CYCLE B — Seventh Sunday of Easter",
+      "dong_trong_ban_van": [
+        762,
+        764
+      ],
+      "chu_de": [
+        {
+          "so": "2746-2751",
+          "en": "Christ’s prayer at the Last Supper"
+        },
+        {
+          "so": "2614, 2741",
+          "en": "Jesus prays for us"
+        },
+        {
+          "so": "611, 2812, 2821",
+          "en": "Jesus’ prayer sanctifies us, especially in the Eucharist"
+        }
+      ]
+    },
+    "4070-C": {
+      "muc": "CYCLE C — Seventh Sunday of Easter",
+      "dong_trong_ban_van": [
+        1056,
+        1057
+      ],
+      "chu_de": [
+        {
+          "so": "521",
+          "en": "through Christ we live in communion with Father"
+        },
+        {
+          "so": "787-790, 795, 1044-1047",
+          "en": "the Church is communion with and in Christ"
+        }
+      ]
+    },
+    "4077-A": {
+      "muc": "CYCLE A — The Solemnity of the Ascension of the Lord",
+      "dong_trong_ban_van": [
+        455,
+        455
+      ],
+      "chu_de": [
+        {
+          "so": "659-672, 697, 792, 965, 2795",
+          "en": "the Ascension"
+        }
+      ]
+    },
+    "4077-B": {
+      "muc": "CYCLE B — The Solemnity of the Ascension of the Lord",
+      "dong_trong_ban_van": [
+        760,
+        760
+      ],
+      "chu_de": [
+        {
+          "so": "659-672, 697, 792, 965, 2795",
+          "en": "the Ascension"
+        }
+      ]
+    },
+    "4077-C": {
+      "muc": "CYCLE C — The Solemnity of the Ascension of the Lord",
+      "dong_trong_ban_van": [
+        1054,
+        1054
+      ],
+      "chu_de": [
+        {
+          "so": "659-672, 697, 792, 965, 2795",
+          "en": "the Ascension"
+        }
+      ]
+    },
+    "4080-A": {
+      "muc": "CYCLE A — The Solemnity of Pentecost",
+      "dong_trong_ban_van": [
+        462,
+        465
+      ],
+      "chu_de": [
+        {
+          "so": "696, 726, 731-732, 737-741, 830, 1076, 1287, 2623",
+          "en": "Pentecost"
+        },
+        {
+          "so": "599, 597,674, 715",
+          "en": "apostolic witness on Pentecost"
+        },
+        {
+          "so": "1152, 1226, 1302, 1556",
+          "en": "the mystery of Pentecost continues in the Church"
+        },
+        {
+          "so": "767, 775, 798, 796, 813, 1097, 1108-1109",
+          "en": "the Church, communion in the Spirit"
+        }
+      ]
+    },
+    "4080-B": {
+      "muc": "CYCLE B — The Solemnity of Pentecost",
+      "dong_trong_ban_van": [
+        766,
+        769
+      ],
+      "chu_de": [
+        {
+          "so": "696, 726, 731-732, 737-741, 830, 1076, 1287, 2623",
+          "en": "Pentecost"
+        },
+        {
+          "so": "599, 597,674, 715",
+          "en": "apostolic witness on Pentecost"
+        },
+        {
+          "so": "1152, 1226, 1302, 1556",
+          "en": "the mystery of Pentecost continues in the Church"
+        },
+        {
+          "so": "767, 775, 798, 796, 813, 1097, 1108-1109",
+          "en": "the Church, communion in the Spirit"
+        }
+      ]
+    },
+    "4080-C": {
+      "muc": "CYCLE C — The Solemnity of Pentecost",
+      "dong_trong_ban_van": [
+        1059,
+        1062
+      ],
+      "chu_de": [
+        {
+          "so": "696, 726, 731-732, 737-741, 830, 1076, 1287, 2623",
+          "en": "Pentecost"
+        },
+        {
+          "so": "599, 597,674, 715",
+          "en": "apostolic witness on Pentecost"
+        },
+        {
+          "so": "1152, 1226, 1302, 1556",
+          "en": "the mystery of Pentecost continues in the Church"
+        },
+        {
+          "so": "767, 775, 798, 796, 813, 1097, 1108-1109",
+          "en": "the Church, communion in the Spirit"
+        }
+      ]
+    },
+    "5020-A": {
+      "muc": "CYCLE A — Second Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        482,
+        483
+      ],
+      "chu_de": [
+        {
+          "so": "604-609",
+          "en": "Jesus the Lamb of God who takes away sins of all"
+        },
+        {
+          "so": "689-690",
+          "en": "mission of Son and Holy Spirit"
+        }
+      ]
+    },
+    "5020-B": {
+      "muc": "CYCLE B — Second Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        786,
+        790
+      ],
+      "chu_de": [
+        {
+          "so": "462, 516, 2568, 2824",
+          "en": "the Father’s will fulfilled in Christ"
+        },
+        {
+          "so": "543-546",
+          "en": "to welcome the Kingdom, welcome the Word of God"
+        },
+        {
+          "so": "873-874",
+          "en": "Christ the source of Christian vocation"
+        },
+        {
+          "so": "364, 1004",
+          "en": "the dignity of the body"
+        },
+        {
+          "so": "1656, 2226",
+          "en": "helping children discover their vocation"
+        }
+      ]
+    },
+    "5020-C": {
+      "muc": "CYCLE C — Second Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1079,
+        1083
+      ],
+      "chu_de": [
+        {
+          "so": "528",
+          "en": "at Cana, Christ shows himself to be Messiah, Son of God, Savior"
+        },
+        {
+          "so": "796",
+          "en": "the Church as Bride of Christ"
+        },
+        {
+          "so": "1612-1617",
+          "en": "marriage in the Lord"
+        },
+        {
+          "so": "2618",
+          "en": "Mary’s intercession at Cana"
+        },
+        {
+          "so": "799-801, 951, 2003",
+          "en": "charisms at the service of the Church"
+        }
+      ]
+    },
+    "5030-A": {
+      "muc": "CYCLE A — Third Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        485,
+        487
+      ],
+      "chu_de": [
+        {
+          "so": "551, 765",
+          "en": "the call of the Twelve"
+        },
+        {
+          "so": "541-543",
+          "en": "Reign of God calls and gathers Jews and Gentiles"
+        },
+        {
+          "so": "813-822",
+          "en": "unity of the Church"
+        }
+      ]
+    },
+    "5030-B": {
+      "muc": "CYCLE B — Third Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        792,
+        794
+      ],
+      "chu_de": [
+        {
+          "so": "51-64",
+          "en": "God’s plan of Revelation"
+        },
+        {
+          "so": "1427-1433",
+          "en": "inner, ongoing conversion"
+        },
+        {
+          "so": "1886-1889",
+          "en": "conversion and society"
+        }
+      ]
+    },
+    "5030-C": {
+      "muc": "CYCLE C — Third Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1085,
+        1088
+      ],
+      "chu_de": [
+        {
+          "so": "714",
+          "en": "Old Testament expectation of the Messiah and the Spirit"
+        },
+        {
+          "so": "1965-1974",
+          "en": "new Law and Gospel"
+        },
+        {
+          "so": "106, 108, 515",
+          "en": "God inspires human authors of Scripture, and readers"
+        },
+        {
+          "so": "787-795",
+          "en": "the Church as the Body of Christ"
+        }
+      ]
+    },
+    "5040-A": {
+      "muc": "CYCLE A — Fourth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        489,
+        491
+      ],
+      "chu_de": [
+        {
+          "so": "459, 520-521",
+          "en": "Jesus a model of the beatitudes for followers"
+        },
+        {
+          "so": "1716-1724",
+          "en": "call to beatitude"
+        },
+        {
+          "so": "64, 716",
+          "en": "the poor and humble remnant bear hope of Messiah"
+        }
+      ]
+    },
+    "5040-B": {
+      "muc": "CYCLE B — Fourth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        796,
+        799
+      ],
+      "chu_de": [
+        {
+          "so": "547-550",
+          "en": "Jesus accompanies words with miracles"
+        },
+        {
+          "so": "447, 438, 550",
+          "en": "Jesus’ power over demons"
+        },
+        {
+          "so": "64, 762, 2595",
+          "en": "the role of the prophet"
+        },
+        {
+          "so": "922, 1618-1620",
+          "en": "virginity for the sake of the Kingdom"
+        }
+      ]
+    },
+    "5040-C": {
+      "muc": "CYCLE C — Fourth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1090,
+        1095
+      ],
+      "chu_de": [
+        {
+          "so": "436, 1241, 1546",
+          "en": "Christ as prophet"
+        },
+        {
+          "so": "904-907",
+          "en": "our participation in Christ’s prophetic office"
+        },
+        {
+          "so": "103-104",
+          "en": "faith, the beginning of eternal life"
+        },
+        {
+          "so": "1822-1829",
+          "en": "charity"
+        },
+        {
+          "so": "772-773, 953",
+          "en": "communion in the Church"
+        },
+        {
+          "so": "314, 1023, 2519",
+          "en": "those in heaven behold God face to face"
+        }
+      ]
+    },
+    "5050-A": {
+      "muc": "CYCLE A — Fifth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        493,
+        497
+      ],
+      "chu_de": [
+        {
+          "so": "782",
+          "en": "People of God to be salt and light"
+        },
+        {
+          "so": "2044-2046",
+          "en": "moral life and missionary witness"
+        },
+        {
+          "so": "2443-2449",
+          "en": "light on works of mercy, love for the poor"
+        },
+        {
+          "so": "1243",
+          "en": "the baptized (neophytes) are to be light of the world"
+        },
+        {
+          "so": "272",
+          "en": "Christ crucified is the wisdom of God"
+        }
+      ]
+    },
+    "5050-B": {
+      "muc": "CYCLE B — Fifth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        801,
+        803
+      ],
+      "chu_de": [
+        {
+          "so": "547-550",
+          "en": "healing as a sign of messianic times"
+        },
+        {
+          "so": "1502-1505",
+          "en": "Christ the Healer"
+        },
+        {
+          "so": "875, 1122",
+          "en": "the urgency of preaching"
+        }
+      ]
+    },
+    "5050-C": {
+      "muc": "CYCLE C — Fifth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1097,
+        1099
+      ],
+      "chu_de": [
+        {
+          "so": "520, 618, 923, 1618, 1642, 2053",
+          "en": "all are called to follow Christ"
+        },
+        {
+          "so": "2144, 2732",
+          "en": "awe in God’s presence versus presumption"
+        },
+        {
+          "so": "631-644",
+          "en": "the Apostles as witnesses of the Resurrection"
+        }
+      ]
+    },
+    "5060-A": {
+      "muc": "CYCLE A — Sixth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        499,
+        501
+      ],
+      "chu_de": [
+        {
+          "so": "577-582",
+          "en": "Jesus and the Law"
+        },
+        {
+          "so": "1961-1964",
+          "en": "the old Law"
+        },
+        {
+          "so": "2064-2068",
+          "en": "the Decalogue in the tradition of the Church"
+        }
+      ]
+    },
+    "5060-B": {
+      "muc": "CYCLE B — Sixth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        805,
+        807
+      ],
+      "chu_de": [
+        {
+          "so": "1474",
+          "en": "living in Christ unites all believers in him"
+        },
+        {
+          "so": "1939-1942",
+          "en": "human solidarity"
+        },
+        {
+          "so": "2288-2291",
+          "en": "respect for health"
+        }
+      ]
+    },
+    "5060-C": {
+      "muc": "CYCLE C — Sixth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1101,
+        1103
+      ],
+      "chu_de": [
+        {
+          "so": "1820",
+          "en": "Christian hope begins in the giving of the Beatitudes"
+        },
+        {
+          "so": "2544-2547",
+          "en": "poverty of heart; the Lord grieves over the rich"
+        },
+        {
+          "so": "655, 989-991, 1002-1003",
+          "en": "hope in the Resurrection"
+        }
+      ]
+    },
+    "5070-A": {
+      "muc": "CYCLE A — Seventh Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        503,
+        508
+      ],
+      "chu_de": [
+        {
+          "so": "1933, 2303",
+          "en": "love of neighbor incompatible with hatred of enemies"
+        },
+        {
+          "so": "2262-2267",
+          "en": "prohibition to harm others apart from self-defense"
+        },
+        {
+          "so": "2842-2845",
+          "en": "prayer and pardon of enemies"
+        },
+        {
+          "so": "2012-2016",
+          "en": "the heavenly Father’s perfection calls all to holiness"
+        },
+        {
+          "so": "1265",
+          "en": "we become temples of the Holy Spirit in baptism"
+        },
+        {
+          "so": "2684",
+          "en": "saints are temples of the Holy Spirit"
+        }
+      ]
+    },
+    "5070-B": {
+      "muc": "CYCLE B — Seventh Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        809,
+        812
+      ],
+      "chu_de": [
+        {
+          "so": "1421, 1441-1442",
+          "en": "Christ the healer of soul and body"
+        },
+        {
+          "so": "987, 1441, 1741",
+          "en": "Christ forgives sins"
+        },
+        {
+          "so": "1425-1426",
+          "en": "reconciliation after baptism"
+        },
+        {
+          "so": "1065",
+          "en": "Christ our \"Amen\""
+        }
+      ]
+    },
+    "5070-C": {
+      "muc": "CYCLE C — Seventh Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1105,
+        1107
+      ],
+      "chu_de": [
+        {
+          "so": "210-211",
+          "en": "God of mercy"
+        },
+        {
+          "so": "1825, 1935, 1968, 2303, 2647, 2842-2845",
+          "en": "forgiveness of enemies"
+        },
+        {
+          "so": "359, 504",
+          "en": "Christ as the New Adam"
+        }
+      ]
+    },
+    "5080-A": {
+      "muc": "CYCLE A — Eighth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        510,
+        513
+      ],
+      "chu_de": [
+        {
+          "so": "302-314",
+          "en": "divine providence and its role in history"
+        },
+        {
+          "so": "2113-2115",
+          "en": "idolatry subverts values; trust in providence vs. divination"
+        },
+        {
+          "so": "2632",
+          "en": "prayer of faithful petition for coming of the Kingdom"
+        },
+        {
+          "so": "2830",
+          "en": "trust in Providence does not mean idleness"
+        }
+      ]
+    },
+    "5080-B": {
+      "muc": "CYCLE B — Eighth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        814,
+        815
+      ],
+      "chu_de": [
+        {
+          "so": "772-773, 796",
+          "en": "the Church, the mystery of union with God"
+        },
+        {
+          "so": "796",
+          "en": "the Church as the Bride of Christ"
+        }
+      ]
+    },
+    "5080-C": {
+      "muc": "CYCLE C — Eighth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1109,
+        1113
+      ],
+      "chu_de": [
+        {
+          "so": "2563",
+          "en": "the heart is the home of truth"
+        },
+        {
+          "so": "1755-1756",
+          "en": "good acts and evil acts"
+        },
+        {
+          "so": "1783-1794",
+          "en": "forming conscience and decision-making"
+        },
+        {
+          "so": "2690",
+          "en": "spiritual direction"
+        },
+        {
+          "so": "1009-1013",
+          "en": "Christian view of death"
+        }
+      ]
+    },
+    "5090-A": {
+      "muc": "CYCLE A — Ninth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        515,
+        517
+      ],
+      "chu_de": [
+        {
+          "so": "2822-2827",
+          "en": "\"Thy will be done\""
+        },
+        {
+          "so": "2611",
+          "en": "prayer is disposing heart to do God’s will"
+        },
+        {
+          "so": "1987-1995",
+          "en": "justification"
+        }
+      ]
+    },
+    "5090-B": {
+      "muc": "CYCLE B — Ninth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        817,
+        818
+      ],
+      "chu_de": [
+        {
+          "so": "345-349, 582, 2168-2173",
+          "en": "the Lord’s Day"
+        },
+        {
+          "so": "1005-1014, 1470, 1681-1683",
+          "en": "dying and living in Christ"
+        }
+      ]
+    },
+    "5090-C": {
+      "muc": "CYCLE C — Ninth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1115,
+        1118
+      ],
+      "chu_de": [
+        {
+          "so": "543-546",
+          "en": "all are called to enter Kingdom of God"
+        },
+        {
+          "so": "774-776",
+          "en": "the Church as universal sacrament of salvation"
+        },
+        {
+          "so": "2580",
+          "en": "Solomon’s prayer at the dedication of the Temple"
+        },
+        {
+          "so": "583-586",
+          "en": "Jesus and the Temple"
+        }
+      ]
+    },
+    "5100-A": {
+      "muc": "CYCLE A — Tenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        519,
+        521
+      ],
+      "chu_de": [
+        {
+          "so": "545, 589",
+          "en": "Jesus calls and pardons sinners"
+        },
+        {
+          "so": "2099-2100",
+          "en": "the sacrifice pleasing to God"
+        },
+        {
+          "so": "144-146, 2572",
+          "en": "Abraham a model of faith"
+        }
+      ]
+    },
+    "5100-B": {
+      "muc": "CYCLE B — Tenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        820,
+        823
+      ],
+      "chu_de": [
+        {
+          "so": "410-412",
+          "en": "the Protoevangelium"
+        },
+        {
+          "so": "374-379",
+          "en": "man in paradise"
+        },
+        {
+          "so": "385-409",
+          "en": "the fall"
+        },
+        {
+          "so": "517, 550",
+          "en": "Christ as exorcist"
+        }
+      ]
+    },
+    "5100-C": {
+      "muc": "CYCLE C — Tenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1120,
+        1123
+      ],
+      "chu_de": [
+        {
+          "so": "646, 994",
+          "en": "in raising the dead Christ announces his own Resurrection"
+        },
+        {
+          "so": "1681",
+          "en": "Christian meaning of death associated with the Resurrection"
+        },
+        {
+          "so": "2583",
+          "en": "Elijah and the widow"
+        },
+        {
+          "so": "2637",
+          "en": "Christ frees creation from sin and death"
+        }
+      ]
+    },
+    "5110-A": {
+      "muc": "CYCLE A — Eleventh Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        523,
+        525
+      ],
+      "chu_de": [
+        {
+          "so": "551, 761-766",
+          "en": "the Church prefigured in Old Testament community"
+        },
+        {
+          "so": "783-786",
+          "en": "the Church a priestly, prophetic, royal people"
+        },
+        {
+          "so": "849-865",
+          "en": "the apostolic mission of the Church"
+        }
+      ]
+    },
+    "5110-B": {
+      "muc": "CYCLE B — Eleventh Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        825,
+        826
+      ],
+      "chu_de": [
+        {
+          "so": "543-546",
+          "en": "announcing the Kingdom of God"
+        },
+        {
+          "so": "2653-2654, 2660, 2716",
+          "en": "the Kingdom grows by hearing the Word"
+        }
+      ]
+    },
+    "5110-C": {
+      "muc": "CYCLE C — Eleventh Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1125,
+        1128
+      ],
+      "chu_de": [
+        {
+          "so": "1441-1442",
+          "en": "only God forgives sin"
+        },
+        {
+          "so": "1987-1995",
+          "en": "justification"
+        },
+        {
+          "so": "2517-1519",
+          "en": "purification of heart"
+        },
+        {
+          "so": "1481, 1736, 2538",
+          "en": "David and Nathan"
+        }
+      ]
+    },
+    "5120-A": {
+      "muc": "CYCLE A — Twelfth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        527,
+        531
+      ],
+      "chu_de": [
+        {
+          "so": "852",
+          "en": "the Spirit of Christ sustains the Christian mission"
+        },
+        {
+          "so": "905",
+          "en": "evangelizing by the example of life"
+        },
+        {
+          "so": "1808, 1816",
+          "en": "courageous witness of faith overcomes fear and death"
+        },
+        {
+          "so": "2471-2474",
+          "en": "bear witness to the truth"
+        },
+        {
+          "so": "359, 402-411, 615",
+          "en": "Adam, Original Sin, Christ the New Adam"
+        }
+      ]
+    },
+    "5120-B": {
+      "muc": "CYCLE B — Twelfth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        828,
+        830
+      ],
+      "chu_de": [
+        {
+          "so": "423, 464-469",
+          "en": "Jesus, true God and true Man"
+        },
+        {
+          "so": "1814-1816",
+          "en": "faith as gift of God, and human response"
+        },
+        {
+          "so": "671-672",
+          "en": "maintaining faith in adversity"
+        }
+      ]
+    },
+    "5120-C": {
+      "muc": "CYCLE C — Twelfth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1130,
+        1133
+      ],
+      "chu_de": [
+        {
+          "so": "599-605",
+          "en": "Christ’s redemptive death in the plan of salvation"
+        },
+        {
+          "so": "1435",
+          "en": "take up the cross daily and follow Christ"
+        },
+        {
+          "so": "787-791",
+          "en": "Church is communion with Christ"
+        },
+        {
+          "so": "1227, 1243, 1425, 2348",
+          "en": "\"putting on\" Christ; baptism and chastity"
+        }
+      ]
+    },
+    "5130-A": {
+      "muc": "CYCLE A — Thirteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        533,
+        535
+      ],
+      "chu_de": [
+        {
+          "so": "2232-2233",
+          "en": "to follow Christ is first vocation of Christian"
+        },
+        {
+          "so": "537, 628, 790, 1213, 1226-1228, 1694",
+          "en": "baptism, to die to self, to live for Christ"
+        },
+        {
+          "so": "1987",
+          "en": "grace justifies through faith and baptism"
+        }
+      ]
+    },
+    "5130-B": {
+      "muc": "CYCLE B — Thirteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        832,
+        834
+      ],
+      "chu_de": [
+        {
+          "so": "548-549, 646, 994",
+          "en": "Jesus raises the dead"
+        },
+        {
+          "so": "1009-1014",
+          "en": "death transformed by Christ"
+        },
+        {
+          "so": "1042-1050",
+          "en": "hope for a new heaven and a new earth"
+        }
+      ]
+    },
+    "5130-C": {
+      "muc": "CYCLE C — Thirteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1135,
+        1137
+      ],
+      "chu_de": [
+        {
+          "so": "587",
+          "en": "Jesus’ ascent to Jerusalem for his death and Resurrection"
+        },
+        {
+          "so": "2052-2055",
+          "en": "Master, what must I do …?"
+        },
+        {
+          "so": "1036, 1816",
+          "en": "the urgency of discipleship"
+        }
+      ]
+    },
+    "5140-A": {
+      "muc": "CYCLE A — Fourteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        537,
+        539
+      ],
+      "chu_de": [
+        {
+          "so": "514-521",
+          "en": "knowledge of mysteries of Christ, communion in his mysteries"
+        },
+        {
+          "so": "238-242",
+          "en": "the Father is revealed by the Son"
+        },
+        {
+          "so": "989-990",
+          "en": "the resurrection of the body"
+        }
+      ]
+    },
+    "5140-B": {
+      "muc": "CYCLE B — Fourteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        836,
+        839
+      ],
+      "chu_de": [
+        {
+          "so": "2581-2584",
+          "en": "prophets and conversion of heart"
+        },
+        {
+          "so": "436",
+          "en": "Christ as prophet"
+        },
+        {
+          "so": "162",
+          "en": "perseverance in faith"
+        },
+        {
+          "so": "268, 273, 1508",
+          "en": "power is made perfect in weakness"
+        }
+      ]
+    },
+    "5140-C": {
+      "muc": "CYCLE C — Fourteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1139,
+        1143
+      ],
+      "chu_de": [
+        {
+          "so": "541-546",
+          "en": "the Kingdom of God is at hand"
+        },
+        {
+          "so": "787, 858-859",
+          "en": "the Apostles, united to the mission of Christ"
+        },
+        {
+          "so": "2122",
+          "en": "\"the laborer deserves his food\""
+        },
+        {
+          "so": "2816-2821",
+          "en": "\"Your kingdom come\""
+        },
+        {
+          "so": "555, 1816, 2015",
+          "en": "the Cross as the way to follow Christ"
+        }
+      ]
+    },
+    "5150-A": {
+      "muc": "CYCLE A — Fifteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        541,
+        545
+      ],
+      "chu_de": [
+        {
+          "so": "546",
+          "en": "Christ teaches through parables"
+        },
+        {
+          "so": "1703-1709",
+          "en": "capacity to know and correspond to the voice of God"
+        },
+        {
+          "so": "2006-2011",
+          "en": "God associates man in working of grace"
+        },
+        {
+          "so": "1046-1047",
+          "en": "creation part of the new universe"
+        },
+        {
+          "so": "2707",
+          "en": "the value of meditation"
+        }
+      ]
+    },
+    "5150-B": {
+      "muc": "CYCLE B — Fifteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        841,
+        846
+      ],
+      "chu_de": [
+        {
+          "so": "1506-1509",
+          "en": "disciples share in Christ’s healing mission"
+        },
+        {
+          "so": "737-741",
+          "en": "Church called to proclaim and bear witness"
+        },
+        {
+          "so": "849-856",
+          "en": "origin and scope of the Church’s mission"
+        },
+        {
+          "so": "1122, 1533",
+          "en": "mission-mindedness"
+        },
+        {
+          "so": "693, 698, 706, 1107, 1296",
+          "en": "the Holy Spirit as God’s guarantee and seal"
+        },
+        {
+          "so": "492",
+          "en": "Mary as a unique example of being chosen before the foundation of the world"
+        }
+      ]
+    },
+    "5150-C": {
+      "muc": "CYCLE C — Fifteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1145,
+        1149
+      ],
+      "chu_de": [
+        {
+          "so": "299, 381",
+          "en": "man created in the image of God; the first-born"
+        },
+        {
+          "so": "1931-1933",
+          "en": "viewing neighbor as another self"
+        },
+        {
+          "so": "2447",
+          "en": "corporal works of mercy"
+        },
+        {
+          "so": "1465",
+          "en": "the priest as Good Samaritan in the sacrament of Penance"
+        },
+        {
+          "so": "203, 291, 331, 703",
+          "en": "the Word and creation, visible and invisible"
+        }
+      ]
+    },
+    "5160-A": {
+      "muc": "CYCLE A — Sixteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        547,
+        551
+      ],
+      "chu_de": [
+        {
+          "so": "543-550",
+          "en": "the Kingdom of God"
+        },
+        {
+          "so": "309-314",
+          "en": "God’s goodness and the scandal of evil"
+        },
+        {
+          "so": "825, 827",
+          "en": "weeds and seed of Gospel in everyone and in the Church"
+        },
+        {
+          "so": "1425-1429",
+          "en": "need for ongoing conversion"
+        },
+        {
+          "so": "2630",
+          "en": "prayer of petition voiced profoundly by the Holy Spirit"
+        }
+      ]
+    },
+    "5160-B": {
+      "muc": "CYCLE B — Sixteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        848,
+        849
+      ],
+      "chu_de": [
+        {
+          "so": "2302-2306",
+          "en": "Christ our peace"
+        },
+        {
+          "so": "2437-2442",
+          "en": "witnesses and workers for peace and justice"
+        }
+      ]
+    },
+    "5160-C": {
+      "muc": "CYCLE C — Sixteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1151,
+        1155
+      ],
+      "chu_de": [
+        {
+          "so": "2571",
+          "en": "Abraham’s hospitality"
+        },
+        {
+          "so": "2241",
+          "en": "welcome the stranger"
+        },
+        {
+          "so": "2709-2719",
+          "en": "contemplation"
+        },
+        {
+          "so": "618, 1508",
+          "en": "sharing in Christ’s sufferings for his Body"
+        },
+        {
+          "so": "568, 772",
+          "en": "\"the hope of glory\" in the Church and in her sacraments"
+        }
+      ]
+    },
+    "5170-A": {
+      "muc": "CYCLE A — Seventeenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        553,
+        557
+      ],
+      "chu_de": [
+        {
+          "so": "407",
+          "en": "cannot ignore wound of sin in discerning human situation"
+        },
+        {
+          "so": "1777-1785",
+          "en": "moral decision making in rapport with God’s will"
+        },
+        {
+          "so": "1786-1789",
+          "en": "seeking will of God in divine law in difficult circumstances"
+        },
+        {
+          "so": "1038-1041",
+          "en": "separation of good and evil at Judgment"
+        },
+        {
+          "so": "1037",
+          "en": "God predestines no one to hell"
+        }
+      ]
+    },
+    "5170-B": {
+      "muc": "CYCLE B — Seventeenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        851,
+        852
+      ],
+      "chu_de": [
+        {
+          "so": "1335",
+          "en": "the miracle of the loaves and fishes prefigures the Eucharist"
+        },
+        {
+          "so": "814-815, 949-959",
+          "en": "sharing of gifts in the communion of the Church"
+        }
+      ]
+    },
+    "5170-C": {
+      "muc": "CYCLE C — Seventeenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1157,
+        1162
+      ],
+      "chu_de": [
+        {
+          "so": "2634-2636",
+          "en": "prayer of intercession"
+        },
+        {
+          "so": "2566-2567",
+          "en": "universal call to prayer"
+        },
+        {
+          "so": "2761-2772",
+          "en": "the Lord’s Prayer as a synthesis of Gospel"
+        },
+        {
+          "so": "2609-2610, 2613, 2777-2785",
+          "en": "turning to God with persistence and filial trust"
+        },
+        {
+          "so": "2654",
+          "en": "lectio divina"
+        },
+        {
+          "so": "537, 628, 1002, 1227",
+          "en": "buried and risen in baptism"
+        }
+      ]
+    },
+    "5180-A": {
+      "muc": "CYCLE A — Eighteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        559,
+        561
+      ],
+      "chu_de": [
+        {
+          "so": "2828-2837",
+          "en": "give us this day our daily bread"
+        },
+        {
+          "so": "1335",
+          "en": "miracle of loaves prefigures the Eucharist"
+        },
+        {
+          "so": "1391-1401",
+          "en": "the fruits of Holy Communion"
+        }
+      ]
+    },
+    "5180-B": {
+      "muc": "CYCLE B — Eighteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        854,
+        855
+      ],
+      "chu_de": [
+        {
+          "so": "1333-1336",
+          "en": "Eucharistic signs of bread and wine"
+        },
+        {
+          "so": "1691-1696",
+          "en": "life in Christ"
+        }
+      ]
+    },
+    "5180-C": {
+      "muc": "CYCLE C — Eighteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1164,
+        1165
+      ],
+      "chu_de": [
+        {
+          "so": "661, 1042-1050, 1821",
+          "en": "hope for a new heaven and a new earth"
+        },
+        {
+          "so": "2535-2540, 2547, 2728",
+          "en": "the disorder of covetousness"
+        }
+      ]
+    },
+    "5190-A": {
+      "muc": "CYCLE A — Nineteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        563,
+        567
+      ],
+      "chu_de": [
+        {
+          "so": "164",
+          "en": "faith experiences testing"
+        },
+        {
+          "so": "272-274",
+          "en": "only faith can follow mysterious ways of providence"
+        },
+        {
+          "so": "671-672",
+          "en": "in difficult times, cultivate trust that all is subject to Christ"
+        },
+        {
+          "so": "56-64, 121-122, 218-219",
+          "en": "history of covenants; God’s love for Israel"
+        },
+        {
+          "so": "839-840",
+          "en": "the Church’s relationship to the Jewish people"
+        }
+      ]
+    },
+    "5190-B": {
+      "muc": "CYCLE B — Nineteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        857,
+        858
+      ],
+      "chu_de": [
+        {
+          "so": "1341-1344",
+          "en": "\"Do this in memory of me\""
+        },
+        {
+          "so": "1384-1390",
+          "en": "take and eat: Communion"
+        }
+      ]
+    },
+    "5190-C": {
+      "muc": "CYCLE C — Nineteenth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1167,
+        1170
+      ],
+      "chu_de": [
+        {
+          "so": "144-149",
+          "en": "the obedience of faith"
+        },
+        {
+          "so": "1817-1821",
+          "en": "the virtue of hope"
+        },
+        {
+          "so": "2729-2733",
+          "en": "prayer as humble vigilance of heart"
+        },
+        {
+          "so": "144-146, 165, 2572, 2676",
+          "en": "Abraham, a model of faith"
+        }
+      ]
+    },
+    "5200-A": {
+      "muc": "CYCLE A — Twentieth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        569,
+        572
+      ],
+      "chu_de": [
+        {
+          "so": "543-544",
+          "en": "Kingdom first to Israel, now for all who believe"
+        },
+        {
+          "so": "674",
+          "en": "Christ’s coming hope of Israel; their final acceptance of Messiah"
+        },
+        {
+          "so": "2610",
+          "en": "power of invocation with sincere faith"
+        },
+        {
+          "so": "831, 849",
+          "en": "the catholicity of the Church"
+        }
+      ]
+    },
+    "5200-B": {
+      "muc": "CYCLE B — Twentieth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        860,
+        862
+      ],
+      "chu_de": [
+        {
+          "so": "1402-1405",
+          "en": "the Eucharist, pledge of future glory"
+        },
+        {
+          "so": "2828-2837",
+          "en": "the Eucharist is our daily bread"
+        },
+        {
+          "so": "1336",
+          "en": "scandal"
+        }
+      ]
+    },
+    "5200-C": {
+      "muc": "CYCLE C — Twentieth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1172,
+        1176
+      ],
+      "chu_de": [
+        {
+          "so": "575-576",
+          "en": "Christ, a sign of contradiction"
+        },
+        {
+          "so": "1816",
+          "en": "a disciple should witness to the faith with boldness"
+        },
+        {
+          "so": "2471-2474",
+          "en": "giving testimony to the truth"
+        },
+        {
+          "so": "946-957, 1370, 2683-2684",
+          "en": "our communion with the saints"
+        },
+        {
+          "so": "1161",
+          "en": "sacred images remind us of the \"cloud of witnesses\""
+        }
+      ]
+    },
+    "5210-A": {
+      "muc": "CYCLE A — Twenty-first Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        574,
+        575
+      ],
+      "chu_de": [
+        {
+          "so": "551-553",
+          "en": "the Keys of the Kingdom"
+        },
+        {
+          "so": "880-887",
+          "en": "foundations of unity: the college of bishops with its head, the successor of Peter"
+        }
+      ]
+    },
+    "5210-B": {
+      "muc": "CYCLE B — Twenty-first Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        864,
+        866
+      ],
+      "chu_de": [
+        {
+          "so": "796",
+          "en": "the Church as the Bride of Christ"
+        },
+        {
+          "so": "1061-1065",
+          "en": "God’s utter fidelity and love"
+        },
+        {
+          "so": "1612-1617, 2360-2365",
+          "en": "marriage in the Lord"
+        }
+      ]
+    },
+    "5210-C": {
+      "muc": "CYCLE C — Twenty-first Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1178,
+        1181
+      ],
+      "chu_de": [
+        {
+          "so": "543-546",
+          "en": "all called to enter the Kingdom"
+        },
+        {
+          "so": "774-776",
+          "en": "the Church as universal sacrament of salvation"
+        },
+        {
+          "so": "2825-2827",
+          "en": "do the Father’s will to enter the Kingdom"
+        },
+        {
+          "so": "853, 1036, 1344, 1889, 2656",
+          "en": "the narrow way"
+        }
+      ]
+    },
+    "5220-A": {
+      "muc": "CYCLE A — Twenty-second Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        577,
+        580
+      ],
+      "chu_de": [
+        {
+          "so": "618",
+          "en": "Christ calls his disciples to take up the Cross and follow him"
+        },
+        {
+          "so": "555, 1460, 2100",
+          "en": "the Cross as the way to Christ’s glory"
+        },
+        {
+          "so": "2015",
+          "en": "way to perfection by way of the Cross"
+        },
+        {
+          "so": "2427",
+          "en": "carrying our cross in daily life"
+        }
+      ]
+    },
+    "5220-B": {
+      "muc": "CYCLE B — Twenty-second Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        868,
+        869
+      ],
+      "chu_de": [
+        {
+          "so": "577-582",
+          "en": "Christ and the Law"
+        },
+        {
+          "so": "1961-1974",
+          "en": "the Old Law and the Gospel"
+        }
+      ]
+    },
+    "5220-C": {
+      "muc": "CYCLE C — Twenty-second Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1183,
+        1187
+      ],
+      "chu_de": [
+        {
+          "so": "525-526",
+          "en": "the Incarnation as a mystery of humility"
+        },
+        {
+          "so": "2535-2540",
+          "en": "the disorder of concupiscence"
+        },
+        {
+          "so": "2546, 2559, 2631, 2713",
+          "en": "prayer calls for humility and poverty of spirit"
+        },
+        {
+          "so": "1090, 1137-1139",
+          "en": "our participation in the heavenly liturgy"
+        },
+        {
+          "so": "2188",
+          "en": "Sunday lets us share in the festal assembly of heaven"
+        }
+      ]
+    },
+    "5230-A": {
+      "muc": "CYCLE A — Twenty-third Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        582,
+        584
+      ],
+      "chu_de": [
+        {
+          "so": "2055",
+          "en": "the Decalogue summed up in one command to love"
+        },
+        {
+          "so": "1443-1445",
+          "en": "reconciliation with the Church"
+        },
+        {
+          "so": "2842-2845",
+          "en": "\"as we forgive those who trespass against us\""
+        }
+      ]
+    },
+    "5230-B": {
+      "muc": "CYCLE B — Twenty-third Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        871,
+        873
+      ],
+      "chu_de": [
+        {
+          "so": "1503-1505",
+          "en": "Christ the Physician"
+        },
+        {
+          "so": "1151-1152",
+          "en": "signs used by Christ; sacramental signs"
+        },
+        {
+          "so": "270-271",
+          "en": "the mercy of God"
+        }
+      ]
+    },
+    "5230-C": {
+      "muc": "CYCLE C — Twenty-third Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1189,
+        1192
+      ],
+      "chu_de": [
+        {
+          "so": "273, 300, 314",
+          "en": "God’s transcendence"
+        },
+        {
+          "so": "36-43",
+          "en": "knowledge of God according to the Church"
+        },
+        {
+          "so": "2544",
+          "en": "prefer Christ to all else"
+        },
+        {
+          "so": "914-919, 931-932",
+          "en": "following Christ in consecrated life"
+        }
+      ]
+    },
+    "5240-A": {
+      "muc": "CYCLE A — Twenty-fourth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        586,
+        588
+      ],
+      "chu_de": [
+        {
+          "so": "218-221",
+          "en": "God is love"
+        },
+        {
+          "so": "294",
+          "en": "God manifests his glory by sharing his goodness"
+        },
+        {
+          "so": "2838-2845",
+          "en": "\"forgive us our trespasses\""
+        }
+      ]
+    },
+    "5240-B": {
+      "muc": "CYCLE B — Twenty-fourth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        875,
+        878
+      ],
+      "chu_de": [
+        {
+          "so": "713-716",
+          "en": "the path of the Messiah traced out in the \"Servant Songs\""
+        },
+        {
+          "so": "440, 571-572, 601",
+          "en": "Jesus suffered and died for our salvation"
+        },
+        {
+          "so": "618",
+          "en": "our participation in Christ’s sacrifice"
+        },
+        {
+          "so": "2044-2046",
+          "en": "good works manifest faith"
+        }
+      ]
+    },
+    "5240-C": {
+      "muc": "CYCLE C — Twenty-fourth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1194,
+        1197
+      ],
+      "chu_de": [
+        {
+          "so": "210-211",
+          "en": "God of mercy"
+        },
+        {
+          "so": "604-605, 1846-1848",
+          "en": "God takes the initiative in redemption"
+        },
+        {
+          "so": "1439, 1700, 2839",
+          "en": "the Prodigal Son as an example of conversion"
+        },
+        {
+          "so": "1465, 1481",
+          "en": "the Prodigal Son and the sacrament of Penance"
+        }
+      ]
+    },
+    "5250-A": {
+      "muc": "CYCLE A — Twenty-fifth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        590,
+        591
+      ],
+      "chu_de": [
+        {
+          "so": "210-211",
+          "en": "God of mercy and piety"
+        },
+        {
+          "so": "588-589",
+          "en": "Jesus identifies his compassion to sinners with God’s"
+        }
+      ]
+    },
+    "5250-B": {
+      "muc": "CYCLE B — Twenty-fifth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        880,
+        884
+      ],
+      "chu_de": [
+        {
+          "so": "539, 565, 600-605, 713",
+          "en": "Christ, obedient Servant of God"
+        },
+        {
+          "so": "786",
+          "en": "to serve is to reign"
+        },
+        {
+          "so": "1547, 1551",
+          "en": "priestly ministry as service"
+        },
+        {
+          "so": "2538-2540",
+          "en": "the sin of envy"
+        },
+        {
+          "so": "2302-2306",
+          "en": "safeguarding peace"
+        }
+      ]
+    },
+    "5250-C": {
+      "muc": "CYCLE C — Twenty-fifth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1199,
+        1204
+      ],
+      "chu_de": [
+        {
+          "so": "2407-2414",
+          "en": "respect for the property of others"
+        },
+        {
+          "so": "2443-2449",
+          "en": "love for the poor"
+        },
+        {
+          "so": "2635",
+          "en": "pray for others’ interest, not just for one’s own"
+        },
+        {
+          "so": "65-67, 480, 667",
+          "en": "Christ our one Mediator"
+        },
+        {
+          "so": "2113, 2424, 2848",
+          "en": "no one can serve two masters"
+        },
+        {
+          "so": "1900, 2636",
+          "en": "intercession for rulers"
+        }
+      ]
+    },
+    "5260-A": {
+      "muc": "CYCLE A — Twenty-sixth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        593,
+        597
+      ],
+      "chu_de": [
+        {
+          "so": "1807",
+          "en": "just person distinguished by habitual rectitude toward others"
+        },
+        {
+          "so": "2842",
+          "en": "only Holy Spirit can give us the mind of Christ"
+        },
+        {
+          "so": "1928-1930, 2425-2426",
+          "en": "the obligation of social justice"
+        },
+        {
+          "so": "446-461",
+          "en": "the Lordship of Christ"
+        },
+        {
+          "so": "2822-2827",
+          "en": "\"Thy will be done\""
+        }
+      ]
+    },
+    "5260-B": {
+      "muc": "CYCLE B — Twenty-sixth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        886,
+        888
+      ],
+      "chu_de": [
+        {
+          "so": "821, 1126, 1636",
+          "en": "ecumenical dialogue"
+        },
+        {
+          "so": "2445-2446, 2536, 2544-2547",
+          "en": "the danger of immoderate riches"
+        },
+        {
+          "so": "1852",
+          "en": "jealousy"
+        }
+      ]
+    },
+    "5260-C": {
+      "muc": "CYCLE C — Twenty-sixth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1206,
+        1210
+      ],
+      "chu_de": [
+        {
+          "so": "1939-1942",
+          "en": "human solidarity"
+        },
+        {
+          "so": "2437-2449",
+          "en": "solidarity among nations; love for poor"
+        },
+        {
+          "so": "2831",
+          "en": "hunger in world; solidarity; prayer"
+        },
+        {
+          "so": "633, 1021, 2463, 2831",
+          "en": "Lazarus"
+        },
+        {
+          "so": "1033-1037",
+          "en": "Hell"
+        }
+      ]
+    },
+    "5270-A": {
+      "muc": "CYCLE A — Twenty-seventh Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        599,
+        601
+      ],
+      "chu_de": [
+        {
+          "so": "755",
+          "en": "the Church as God’s vineyard"
+        },
+        {
+          "so": "1830-1832",
+          "en": "gifts and fruits of the Holy Spirit"
+        },
+        {
+          "so": "443",
+          "en": "prophets are the servants, Christ is the Son"
+        }
+      ]
+    },
+    "5270-B": {
+      "muc": "CYCLE B — Twenty-seventh Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        890,
+        893
+      ],
+      "chu_de": [
+        {
+          "so": "1602-1617, 1643-1651, 2331-2336",
+          "en": "conjugal fidelity"
+        },
+        {
+          "so": "2331-2336",
+          "en": "divorce"
+        },
+        {
+          "so": "1832",
+          "en": "fidelity, a fruit of Spirit"
+        },
+        {
+          "so": "2044, 2147, 2156, 2223, 2787",
+          "en": "the fidelity of the baptized"
+        }
+      ]
+    },
+    "5270-C": {
+      "muc": "CYCLE C — Twenty-seventh Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1212,
+        1214
+      ],
+      "chu_de": [
+        {
+          "so": "153-165, 2087-2089",
+          "en": "faith"
+        },
+        {
+          "so": "84",
+          "en": "the deposit of faith given to Church"
+        },
+        {
+          "so": "91-93",
+          "en": "the supernatural sense of faith"
+        }
+      ]
+    },
+    "5280-A": {
+      "muc": "CYCLE A — Twenty-eighth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        603,
+        604
+      ],
+      "chu_de": [
+        {
+          "so": "543-546",
+          "en": "Jesus invites sinners, but demands conversion"
+        },
+        {
+          "so": "1402-1405, 2837",
+          "en": "the Eucharist is the foretaste of the Messianic Banquet"
+        }
+      ]
+    },
+    "5280-B": {
+      "muc": "CYCLE B — Twenty-eighth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        895,
+        898
+      ],
+      "chu_de": [
+        {
+          "so": "101-104",
+          "en": "Christ, unique Word of Scripture"
+        },
+        {
+          "so": "131-133",
+          "en": "Scripture in life of the Church"
+        },
+        {
+          "so": "2653-2654",
+          "en": "Scripture as a fountain of prayer"
+        },
+        {
+          "so": "1723, 2536, 2444-2447",
+          "en": "poverty of heart"
+        }
+      ]
+    },
+    "5280-C": {
+      "muc": "CYCLE C — Twenty-eighth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1216,
+        1219
+      ],
+      "chu_de": [
+        {
+          "so": "1503-1505, 2616",
+          "en": "Christ the healer"
+        },
+        {
+          "so": "543-550, 1151",
+          "en": "signs of the Kingdom of God"
+        },
+        {
+          "so": "224, 2637-2638",
+          "en": "thanksgiving"
+        },
+        {
+          "so": "1010",
+          "en": "the Christian meaning of death"
+        }
+      ]
+    },
+    "5290-A": {
+      "muc": "CYCLE A — Twenty-ninth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        606,
+        607
+      ],
+      "chu_de": [
+        {
+          "so": "1897-1917",
+          "en": "participation in the social sphere"
+        },
+        {
+          "so": "2238-2244",
+          "en": "duties of citizens"
+        }
+      ]
+    },
+    "5290-B": {
+      "muc": "CYCLE B — Twenty-ninth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        900,
+        902
+      ],
+      "chu_de": [
+        {
+          "so": "599-609",
+          "en": "Christ’s redemptive death in the plan of salvation"
+        },
+        {
+          "so": "520",
+          "en": "Christ’s self-emptying as an example for us to imitate"
+        },
+        {
+          "so": "467, 540, 1137",
+          "en": "Christ the High Priest"
+        }
+      ]
+    },
+    "5290-C": {
+      "muc": "CYCLE C — Twenty-ninth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1221,
+        1225
+      ],
+      "chu_de": [
+        {
+          "so": "2574-2577",
+          "en": "Moses and prayer of intercession"
+        },
+        {
+          "so": "2629-2633",
+          "en": "prayer of petition"
+        },
+        {
+          "so": "2653-2654",
+          "en": "the Word of God, a source of prayer"
+        },
+        {
+          "so": "2816-2821",
+          "en": "\"Thy kingdom come\""
+        },
+        {
+          "so": "875",
+          "en": "urgency of the preaching task"
+        }
+      ]
+    },
+    "5300-A": {
+      "muc": "CYCLE A — Thirtieth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        609,
+        610
+      ],
+      "chu_de": [
+        {
+          "so": "2052-2074",
+          "en": "the Ten Commandments interpreted through twofold love"
+        },
+        {
+          "so": "2061-2063",
+          "en": "moral life a response to the Lord’s initiative of love"
+        }
+      ]
+    },
+    "5300-B": {
+      "muc": "CYCLE B — Thirtieth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        904,
+        906
+      ],
+      "chu_de": [
+        {
+          "so": "547-550",
+          "en": "Jesus performed messianic signs"
+        },
+        {
+          "so": "1814-1816",
+          "en": "faith, a gift of God"
+        },
+        {
+          "so": "2734-2737",
+          "en": "filial confidence in prayer"
+        }
+      ]
+    },
+    "5300-C": {
+      "muc": "CYCLE C — Thirtieth Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1227,
+        1230
+      ],
+      "chu_de": [
+        {
+          "so": "588, 2559, 2613, 2631",
+          "en": "humility as the foundation of prayer"
+        },
+        {
+          "so": "2616",
+          "en": "Jesus hears prayer made in faith"
+        },
+        {
+          "so": "2628",
+          "en": "adoration as the attitude of man who knows he is a creature"
+        },
+        {
+          "so": "2631",
+          "en": "prayer for pardon as the first kind of prayer of petition"
+        }
+      ]
+    },
+    "5310-A": {
+      "muc": "CYCLE A — Thirty-first Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        612,
+        613
+      ],
+      "chu_de": [
+        {
+          "so": "2044",
+          "en": "moral life and Christian witness"
+        },
+        {
+          "so": "876, 1550-1551",
+          "en": "priesthood for service; human frailty of leaders"
+        }
+      ]
+    },
+    "5310-B": {
+      "muc": "CYCLE B — Thirty-first Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        908,
+        910
+      ],
+      "chu_de": [
+        {
+          "so": "2083",
+          "en": "commandments as a call for a response of love"
+        },
+        {
+          "so": "2052, 2093-2094",
+          "en": "the first commandment"
+        },
+        {
+          "so": "1539-1547",
+          "en": "holy orders in the economy of salvation"
+        }
+      ]
+    },
+    "5310-C": {
+      "muc": "CYCLE C — Thirty-first Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1232,
+        1233
+      ],
+      "chu_de": [
+        {
+          "so": "293-294, 299, 341, 353",
+          "en": "the universe created for God’s glory"
+        },
+        {
+          "so": "1459, 2412, 2487",
+          "en": "reparation"
+        }
+      ]
+    },
+    "5320-A": {
+      "muc": "CYCLE A — Thirty-second Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        615,
+        617
+      ],
+      "chu_de": [
+        {
+          "so": "671-672",
+          "en": "we wait for all to be made subject to Christ"
+        },
+        {
+          "so": "988-991",
+          "en": "the just will live forever with the risen Christ"
+        },
+        {
+          "so": "1036, 2612",
+          "en": "vigilant waiting for the Lord’s return"
+        }
+      ]
+    },
+    "5320-B": {
+      "muc": "CYCLE B — Thirty-second Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        912,
+        916
+      ],
+      "chu_de": [
+        {
+          "so": "519-521",
+          "en": "Christ gave his life for us"
+        },
+        {
+          "so": "2544-2547",
+          "en": "poverty of heart"
+        },
+        {
+          "so": "1434, 1438, 1753, 1969, 2447",
+          "en": "almsgiving"
+        },
+        {
+          "so": "2581-2584",
+          "en": "Elijah and conversion of heart"
+        },
+        {
+          "so": "1021-1022",
+          "en": "the particular judgment"
+        }
+      ]
+    },
+    "5320-C": {
+      "muc": "CYCLE C — Thirty-second Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1235,
+        1238
+      ],
+      "chu_de": [
+        {
+          "so": "992-996",
+          "en": "the progressive revelation of resurrection"
+        },
+        {
+          "so": "997-1004",
+          "en": "our resurrection in Christ"
+        },
+        {
+          "so": "1023-1029",
+          "en": "heaven"
+        },
+        {
+          "so": "1030-1032",
+          "en": "purgatory, the final purification"
+        }
+      ]
+    },
+    "5330-A": {
+      "muc": "CYCLE A — Thirty-third Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        619,
+        624
+      ],
+      "chu_de": [
+        {
+          "so": "2006-2011",
+          "en": "our merits for good works come from God’s goodness"
+        },
+        {
+          "so": "1038-1041",
+          "en": "our works manifested at the Last Judgment"
+        },
+        {
+          "so": "1048-1050",
+          "en": "keeping busy as we await the Lord’s return"
+        },
+        {
+          "so": "1936-1937",
+          "en": "diversity of talents"
+        },
+        {
+          "so": "2331, 2334",
+          "en": "dignity of woman"
+        },
+        {
+          "so": "1603-1605",
+          "en": "marriage in the order of creation"
+        }
+      ]
+    },
+    "5330-B": {
+      "muc": "CYCLE B — Thirty-third Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        918,
+        919
+      ],
+      "chu_de": [
+        {
+          "so": "1038-1050",
+          "en": "the Last Judgment; hope of a new heaven and a new earth"
+        },
+        {
+          "so": "613-614, 1365-1367",
+          "en": "Christ’s one perfect sacrifice and the Eucharist"
+        }
+      ]
+    },
+    "5330-C": {
+      "muc": "CYCLE C — Thirty-third Sunday in Ordinary Time",
+      "dong_trong_ban_van": [
+        1240,
+        1243
+      ],
+      "chu_de": [
+        {
+          "so": "162-165",
+          "en": "perseverance in faith; faith as the beginning of eternal life"
+        },
+        {
+          "so": "675-677",
+          "en": "the final trial of the Church"
+        },
+        {
+          "so": "307, 531, 2427-2429",
+          "en": "human labor as redemptive"
+        },
+        {
+          "so": "673, 1001, 2730",
+          "en": "the last day"
+        }
+      ]
+    },
+    "5340-A": {
+      "muc": "CYCLE A — Solemnity of Christ the King: Christ the origin and goal of history",
+      "dong_trong_ban_van": [
+        626,
+        628
+      ],
+      "chu_de": [
+        {
+          "so": "440, 446-451, 668-672, 783, 786, 908, 2105, 2628",
+          "en": "Christ as Lord and King"
+        },
+        {
+          "so": "678-679, 1001, 1038-1041",
+          "en": "Christ as Judge"
+        },
+        {
+          "so": "2816-2821",
+          "en": "\"Thy Kingdom Come\""
+        }
+      ]
+    },
+    "5340-B": {
+      "muc": "CYCLE B — Solemnity of Christ the King: Christ the origin and goal of history",
+      "dong_trong_ban_van": [
+        921,
+        923
+      ],
+      "chu_de": [
+        {
+          "so": "440, 446-451, 668-672, 783, 786, 908, 2105, 2628",
+          "en": "Christ as Lord and King"
+        },
+        {
+          "so": "678-679, 1001, 1038-1041",
+          "en": "Christ as Judge"
+        },
+        {
+          "so": "2816-2821",
+          "en": "\"Thy Kingdom Come\""
+        }
+      ]
+    },
+    "5340-C": {
+      "muc": "CYCLE C — Solemnity of Christ the King: Christ the origin and goal of history",
+      "dong_trong_ban_van": [
+        1245,
+        1247
+      ],
+      "chu_de": [
+        {
+          "so": "440, 446-451, 668-672, 783, 786, 908, 2105, 2628",
+          "en": "Christ as Lord and King"
+        },
+        {
+          "so": "678-679, 1001, 1038-1041",
+          "en": "Christ as Judge"
+        },
+        {
+          "so": "2816-2821",
+          "en": "\"Thy Kingdom Come\""
+        }
+      ]
+    },
+    "5420-A": {
+      "muc": "CYCLE A — The Solemnity of the Most Holy Trinity",
+      "dong_trong_ban_van": [
+        467,
+        470
+      ],
+      "chu_de": [
+        {
+          "so": "202, 232-260, 684, 732",
+          "en": "the mystery of the Trinity"
+        },
+        {
+          "so": "249, 813, 950, 1077-1109, 2845",
+          "en": "the Trinity in the Church and her liturgy"
+        },
+        {
+          "so": "2655, 2664-2672",
+          "en": "the Trinity and prayer"
+        },
+        {
+          "so": "2205",
+          "en": "the family as an image of the Trinity"
+        }
+      ]
+    },
+    "5420-B": {
+      "muc": "CYCLE B — The Solemnity of the Most Holy Trinity",
+      "dong_trong_ban_van": [
+        771,
+        774
+      ],
+      "chu_de": [
+        {
+          "so": "202, 232-260, 684, 732",
+          "en": "the mystery of the Trinity"
+        },
+        {
+          "so": "249, 813, 950, 1077-1109, 2845",
+          "en": "the Trinity in the Church and her liturgy"
+        },
+        {
+          "so": "2655, 2664-2672",
+          "en": "the Trinity and prayer"
+        },
+        {
+          "so": "2205",
+          "en": "the family as an image of the Trinity"
+        }
+      ]
+    },
+    "5420-C": {
+      "muc": "CYCLE C — The Solemnity of the Most Holy Trinity",
+      "dong_trong_ban_van": [
+        1064,
+        1067
+      ],
+      "chu_de": [
+        {
+          "so": "202, 232-260, 684, 732",
+          "en": "the mystery of the Trinity"
+        },
+        {
+          "so": "249, 813, 950, 1077-1109, 2845",
+          "en": "the Trinity in the Church and her liturgy"
+        },
+        {
+          "so": "2655, 2664-2672",
+          "en": "the Trinity and prayer"
+        },
+        {
+          "so": "2205",
+          "en": "the family as an image of the Trinity"
+        }
+      ]
+    },
+    "5430-A": {
+      "muc": "CYCLE A — The Solemnity of the Most Holy Body and Blood of Christ",
+      "dong_trong_ban_van": [
+        472,
+        474
+      ],
+      "chu_de": [
+        {
+          "so": "790, 1003, 1322-1419",
+          "en": "the Holy Eucharist"
+        },
+        {
+          "so": "805, 950, 2181-2182, 2637, 2845",
+          "en": "the Eucharist and the communion of believers"
+        },
+        {
+          "so": "1212, 1275, 1436, 2837",
+          "en": "the Eucharist as spiritual food"
+        }
+      ]
+    },
+    "5430-B": {
+      "muc": "CYCLE B — The Solemnity of the Most Holy Body and Blood of Christ",
+      "dong_trong_ban_van": [
+        776,
+        778
+      ],
+      "chu_de": [
+        {
+          "so": "790, 1003, 1322-1419",
+          "en": "the Holy Eucharist"
+        },
+        {
+          "so": "805, 950, 2181-2182, 2637, 2845",
+          "en": "the Eucharist and the communion of believers"
+        },
+        {
+          "so": "1212, 1275, 1436, 2837",
+          "en": "the Eucharist as spiritual food"
+        }
+      ]
+    },
+    "5430-C": {
+      "muc": "CYCLE C — The Solemnity of the Most Holy Body and Blood of Christ",
+      "dong_trong_ban_van": [
+        1069,
+        1071
+      ],
+      "chu_de": [
+        {
+          "so": "790, 1003, 1322-1419",
+          "en": "the Holy Eucharist"
+        },
+        {
+          "so": "805, 950, 2181-2182, 2637, 2845",
+          "en": "the Eucharist and the communion of believers"
+        },
+        {
+          "so": "1212, 1275, 1436, 2837",
+          "en": "the Eucharist as spiritual food"
+        }
+      ]
+    },
+    "5440-A": {
+      "muc": "CYCLE A — The Solemnity of the Most Sacred Heart of Jesus",
+      "dong_trong_ban_van": [
+        476,
+        480
+      ],
+      "chu_de": [
+        {
+          "so": "210-211, 604",
+          "en": "God’s mercy"
+        },
+        {
+          "so": "430, 478, 545, 589, 1365, 1439, 1825, 1846",
+          "en": "Christ’s love for all"
+        },
+        {
+          "so": "2669",
+          "en": "the Heart of Christ worthy of adoration"
+        },
+        {
+          "so": "766, 1225",
+          "en": "the Church born from the pierced side of Christ"
+        },
+        {
+          "so": "1432, 2100",
+          "en": "Christ’s love moves our hearts"
+        }
+      ]
+    },
+    "5440-B": {
+      "muc": "CYCLE B — The Solemnity of the Most Sacred Heart of Jesus",
+      "dong_trong_ban_van": [
+        780,
+        784
+      ],
+      "chu_de": [
+        {
+          "so": "210-211, 604",
+          "en": "God’s mercy"
+        },
+        {
+          "so": "430, 478, 545, 589, 1365, 1439, 1825, 1846",
+          "en": "Christ’s love for all"
+        },
+        {
+          "so": "2669",
+          "en": "the Heart of Christ worthy of adoration"
+        },
+        {
+          "so": "766, 1225",
+          "en": "the Church born from the pierced side of Christ"
+        },
+        {
+          "so": "1432, 2100",
+          "en": "Christ’s love moves our hearts"
+        }
+      ]
+    },
+    "5440-C": {
+      "muc": "CYCLE C — The Solemnity of the Most Sacred Heart of Jesus",
+      "dong_trong_ban_van": [
+        1073,
+        1077
+      ],
+      "chu_de": [
+        {
+          "so": "210-211, 604",
+          "en": "God’s mercy"
+        },
+        {
+          "so": "430, 478, 545, 589, 1365, 1439, 1825, 1846",
+          "en": "Christ’s love for all"
+        },
+        {
+          "so": "2669",
+          "en": "the Heart of Christ worthy of adoration"
+        },
+        {
+          "so": "766, 1225",
+          "en": "the Church born from the pierced side of Christ"
+        },
+        {
+          "so": "1432, 2100",
+          "en": "Christ’s love moves our hearts"
+        }
+      ]
+    },
+    "6000-A": {
+      "muc": "CYCLE A — The Solemnity of the Epiphany",
+      "dong_trong_ban_van": [
+        371,
+        373
+      ],
+      "chu_de": [
+        {
+          "so": "528, 724",
+          "en": "the Epiphany"
+        },
+        {
+          "so": "280, 529, 748, 1165, 2466, 2715",
+          "en": "Christ the light of the nations"
+        },
+        {
+          "so": "60, 442, 674, 755, 767, 774-776, 781, 831",
+          "en": "the Church, sacrament of human unity"
+        }
+      ]
+    },
+    "6000-B": {
+      "muc": "CYCLE B — Solemnity of the Epiphany",
+      "dong_trong_ban_van": [
+        675,
+        677
+      ],
+      "chu_de": [
+        {
+          "so": "528, 724",
+          "en": "the Epiphany"
+        },
+        {
+          "so": "280, 529, 748, 1165, 2466, 2715",
+          "en": "Christ the light of the nations"
+        },
+        {
+          "so": "60, 442, 674, 755, 767, 774-776, 781, 831",
+          "en": "the Church, sacrament of human unity"
+        }
+      ]
+    },
+    "6000-C": {
+      "muc": "CYCLE C — Solemnity of the Epiphany",
+      "dong_trong_ban_van": [
+        971,
+        973
+      ],
+      "chu_de": [
+        {
+          "so": "528, 724",
+          "en": "the Epiphany"
+        },
+        {
+          "so": "280, 529, 748, 1165, 2466, 2715",
+          "en": "Christ the light of the nations"
+        },
+        {
+          "so": "60, 442, 674, 755, 767, 774-776, 781, 831",
+          "en": "the Church, sacrament of human unity"
+        }
+      ]
     }
   },
   "khong_co_muc_phu_luc_1": {
     "82612": "Phụ lục I không có lễ Thánh Stêphanô (26/12).",
     "5321-I-II": "Phụ lục I chỉ gồm Chúa nhật, lễ trọng và một số lễ (Other Holy Days: 19/3, 29/6, 15/8, 1/11, 8/12). Không có ngày thường."
+  },
+  "phu_luc_1_nhap": {
+    "luc": "2026-11-13T08:50:44.966Z",
+    "cong_cu": "CONG-CU/nhap-phu-luc.mjs",
+    "so_thu_muc": 186,
+    "ghi_chu": "Toàn bộ Phụ lục I, chép nguyên văn số GLHTCG và chủ đề tiếng Anh. Giáng Sinh áp cho cả 4 thánh lễ (92412, 92512, 22512, 02512)."
   }
 }

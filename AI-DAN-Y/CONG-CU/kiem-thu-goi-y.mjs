@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync, mkdtempSync, rmSync, existsSync, readdirSy
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { execFileSync } from 'node:child_process';
-import { doiChieuThuMuc, layBoBaiDoc, OUTPUT, LAM_VIEC, LIB_ROOT, CONG_CU } from './chung.mjs';
+import { doiChieuThuMuc, layBoBaiDoc, OUTPUT, LAM_VIEC, LIB_ROOT, CONG_CU, AI_DIR } from './chung.mjs';
 import { shingles, chongLap, thuThap } from './chuan-bi.mjs';
 import { kiemTra, nguonDaDoi } from './kiem.mjs';
 import { napTatCa } from './nap-csdl.mjs';
@@ -85,6 +85,12 @@ phai('giải thích lặp nguyên văn', (d) => { d.goi_y[1].luan_diem[1].giai_t
   const d = doc(join(LAM_VIEC, '1010-C', 'goi-y.nhap.json'));
   d.goi_y[0].loai_nguon = 'kim-chi-nam-nguyen-tac';
   thu('Bắt lỗi: có mục Phụ lục I mà gợi ý 01 ghi "nguyên tắc chung"', kiemTra(d).loi.some((m) => m.includes('Phụ lục I có mục')));
+}
+{
+  const pl = doc(join(AI_DIR, 'HUONG-DAN', 'kim-chi-nam-tham-chieu.json')).phu_luc_1;
+  thu('Phụ lục I đủ 186 thư mục (58 CN/lễ × 3 năm + 12 lễ không theo năm)', Object.keys(pl).length === 186, Object.keys(pl).length);
+  thu('Phụ lục I: Chúa Kitô Vua năm B, Giáng Sinh ban đêm, Thánh Giuse có mục; Thánh Stêphanô không',
+    !!pl['5340-B'] && !!pl['92512'] && !!pl['81903'] && !pl['82612'] && pl['5340-B'].muc.includes('Christ the King'));
 }
 for (const tm of ['1010-B', '1010-C']) {
   const ma = doc(join(OUTPUT, tm, 'goi-y.json')).goi_y[0];

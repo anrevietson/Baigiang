@@ -1,5 +1,5 @@
 {
- "cap_nhat": "2026-11-13T08:35:25.530Z",
+ "cap_nhat": "2026-11-13T08:51:22.608Z",
  "tong_thu_muc": 593,
  "dem": {
   "chua": 582,
@@ -130,10 +130,11 @@
    "so_goi_y": 5,
    "so_luan_diem": 20,
    "so_bai_da_doc": 20,
-   "ghi_luc": "2026-11-13T04:28:10.131Z",
+   "ghi_luc": "2026-11-13T08:51:22.510Z",
    "van_tay_nguon": "dfdb827140b2d8d1edfd44949852bf7e159e2f07c1412ad13437b43367345867",
    "duyet": {
-    "draft": 5
+    "draft": 4,
+    "da-duyet": 1
    }
   },
   {
