@@ -1,0 +1,553 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "5332-I-II",
+ "celebrationCode": "5332",
+ "ten_le": "Thứ Ba Tuần XXXIII Mùa Thường Niên",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  "I",
+  "II"
+ ],
+ "bien_soan": {
+  "boi": "Codex, theo AI-DAN-Y/HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-14",
+  "ghi_chu": "Biên soạn từ 16/16 bài (15 bài độc lập); Tin Mừng Lc 19,1-10 chung hai năm."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "5310-C/001.md",
+   "ly_do": "Bản trùng 99% với bản chính 5332-I-II/013.md"
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Chúa nhìn lên và gọi đích danh",
+   "chu_de": "Lòng thương xót của Đức Giêsu đi bước trước, nhìn thấy thiện chí bị che khuất và mở cho người tội lỗi một tương lai mới.",
+   "loi_chua_nen": {
+    "ref": "Lc 19,5",
+    "doan": "gospel",
+    "trich": "Hỡi Gia-kêu, hãy xuống mau, vì hôm nay Ta phải lưu lại tại nhà ngươi"
+   },
+   "luan_de": "Gia-kêu muốn nhìn mà không muốn bị nhìn thấy; Đức Giêsu dừng lại, gọi tên và tự mời vào nhà. Ánh mắt không kết án ấy làm điều lời chỉ trích không làm được: đánh thức tự do hoán cải.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Một khát vọng nhỏ được Chúa nhận ra",
+     "giai_thich": "Gia-kêu vượt vóc dáng, địa vị và dư luận để tìm cách nhìn Chúa. Thiện chí chưa trọn vẹn ấy trở thành chỗ cho ân sủng bắt đầu.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,4",
+       "doan": "gospel",
+       "trich": "ông chạy lên trước, trèo lên một cây sung để nhìn xem Người"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/013.md",
+       "dong": [
+        22,
+        24
+       ],
+       "trich": "Một là những cố gắng của chính Dakêu : “tìm cách xem” mặt Chúa Giêsu, “chạy tới phía trước”, “leo lên một cây sung để xem Chúa Giêsu”.",
+       "sha256": "ddf3a290a9ca408a311536a3eeb36b64228dd543570609e1df59d9704dfda1ac",
+       "bam_dong": "0f2679db1400e4ffb38ed56ac384072bb890ad7f"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Ánh mắt không đóng khung người tội lỗi",
+     "giai_thich": "Đám đông chỉ thấy một người bất chính; Chúa thấy một con người đáng cứu và khả năng ông có thể trở nên.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/004.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "Chúa Giêsu nhìn những kẻ thu thuế và những kẻ tội lỗi mang hai trạng thái: trạng thái hiện tại của họ và những trạng thái họ có thể trở nên trong tương lai.",
+       "sha256": "4a0b1e2fca4e1b5d1bb4fa9538a37909003c4c6f52cf736bde49836877fb295a",
+       "bam_dong": "89334d162249668ef0969890c7d2652572dd8996"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tình thương thay đổi điều kết án không đổi được",
+     "giai_thich": "Chúa chưa kể tội Gia-kêu; sự hiện diện và tình thân hữu của Người khiến ông tự đứng lên sửa lại đời mình.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/001.md",
+       "dong": [
+        20,
+        22
+       ],
+       "trich": "Chỉ có tình thương mới thay đổi được con người chứ không phải những lời chỉ trích, phê bình hay lên án.",
+       "sha256": "7c39b3764ea2136c0994bb06d2576b038c69e32d667fb405f768bdc13d0bcd43",
+       "bam_dong": "6074976285b7a05d712a84a841755d137c448003"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Lời được đón nhận dẫn vào bàn tiệc",
+     "giai_thich": "Theo Kim Chỉ Nam, suy niệm ngày thường ngắn gọn giúp Lời sinh hoa trái và chuẩn bị cộng đoàn cử hành Thánh Thể; Chúa vẫn muốn ngự vào căn nhà tâm hồn.",
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "150",
+       "trich": "brief and timely reflections which can help the faithful to welcome the word which was proclaimed and to let it bear fruit in their lives"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "13",
+       "trich": "The second part of the homily prepares the community to celebrate the Eucharist"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/006.md",
+       "dong": [
+        38,
+        40
+       ],
+       "trich": "chúng ta hãy mặc lấy tâm tình của Da-kêu để chuẩn bị tâm hồn xứng đáng được đồng bàn với Đức Ki-tô nơi bàn tiệc Thánh Thể của Người",
+       "sha256": "7b18c1bc28bbeedca6dd77696244cb6c8bc7207b9346788c53c726fce8442a91",
+       "bam_dong": "dee5877f2788453db4582f5a990b5ac41976b9c3"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng chung I/II là trục; không gượng ép Bài đọc I của từng năm.",
+   "su_diep": "Chúa không đợi ta hoàn hảo mới đến; Người đến để tình thương làm ta có khả năng bắt đầu lại.",
+   "ap_dung": [
+    "Nhìn một người mình thường gắn nhãn bằng khả năng họ có thể trở nên trong ân sủng.",
+    "Thưa với Chúa một khát vọng còn vụng về nhưng chân thật."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Không có Phụ lục I; đây là nguyên tắc chung, không phải dàn ý chính thức."
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Hoán cải có hình hài",
+   "chu_de": "Ơn cứu độ đi vào tiền bạc và tương quan: Gia-kêu chia sẻ, đền bù và dùng của cải để chữa lành điều mình đã làm tổn thương.",
+   "loi_chua_nen": {
+    "ref": "Lc 19,8",
+    "doan": "gospel",
+    "trich": "tôi xin bố thí nửa phần của cải tôi cho kẻ khó, và nếu tôi có làm thiệt hại cho ai điều gì, tôi xin đền gấp bốn"
+   },
+   "luan_de": "Gia-kêu không dừng ở cảm xúc được Chúa đón nhận. Ông gọi đúng bất công của mình và tự nguyện sửa chữa vượt mức tối thiểu; đó là dấu chỉ xã hội của một cuộc trở về thật.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Tin và yêu phải tới sám hối",
+     "giai_thich": "Ánh mắt yêu thương khởi động cuộc trở về, nhưng sám hối là điểm đến cụ thể chứ không phải cảm xúc mơ hồ.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/005.md",
+       "dong": [
+        26,
+        42
+       ],
+       "trich": "tiến trình của mọi cuộc trở về đều có khởi điểm là TIN và YÊU, kết điểm là SÁM HỐI",
+       "sha256": "b398e5c11c1575c3d8e6ca42c38c9c8d79be83fbc9caf68e6785ad31d109e422",
+       "bam_dong": "8c91e527cb0612d370205af8a423b4a25e2259b4"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đền bù gọi đúng thiệt hại đã gây ra",
+     "giai_thich": "Gia-kêu không dùng bố thí để né công lý. Ông vừa trao cho người nghèo vừa hoàn trả người bị mình làm hại.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/003.md",
+       "dong": [
+        60,
+        64
+       ],
+       "trich": "ông Giakêu đã chọn tiêu chuẩn khó nhất cho mình",
+       "sha256": "4a29c6d048d5fb2d2ab682ec42e90b8fd8d5abfc86a218d1dc218d7272808742",
+       "bam_dong": "836379085cf6473cbe4c79ab547154c5da7ded15"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Cách dùng tiền cho thấy con người mới",
+     "giai_thich": "Trước kia ông thu gom và làm hại; sau gặp Chúa, tiền trở thành phương tiện nối lại tương quan và phục vụ.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/013.md",
+       "dong": [
+        34,
+        36
+       ],
+       "trich": "Sau khi hoàn cải, ông không tiếc tiền, dùng tiền một cách quảng đại để đền bù thiệt hại mình đã gây ra cho người khác, lại còn bố thí cho người nghèo.",
+       "sha256": "ddf3a290a9ca408a311536a3eeb36b64228dd543570609e1df59d9704dfda1ac",
+       "bam_dong": "4c4f6d637c368d88c5692b6db2f9ebef5efe525e"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Dựa hoàn toàn trên Lc 19,1-10 chung hai năm.",
+   "su_diep": "Hoán cải thật không chỉ đổi cảm nghĩ về Chúa mà còn sửa lại những bất công đối với người khác.",
+   "ap_dung": [
+    "Gọi tên một thiệt hại mình cần xin lỗi hoặc đền bù.",
+    "Trích một phần cụ thể trong thu nhập để chia sẻ thay vì chỉ hứa sống quảng đại."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Hôm nay Ta phải ở lại nhà ngươi",
+   "chu_de": "Khao khát nhìn Chúa trở thành niềm vui đón Chúa, và sự hiện diện của Người biến căn nhà người bị loại trừ thành nơi ơn cứu độ.",
+   "loi_chua_nen": {
+    "ref": "Lc 19,5",
+    "doan": "gospel",
+    "trich": "hôm nay Ta phải lưu lại tại nhà ngươi"
+   },
+   "luan_de": "Từ ‘hôm nay’ lặp lại nhịp cứu độ của Luca: Chúa không chỉ đi ngang qua nhưng muốn ở lại. Gia-kêu từ chỗ ẩn trên cây xuống, mở nhà, mở lòng và trở lại cộng đoàn Ápraham.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Chúa biến cuộc nhìn lén thành cuộc gặp mặt",
+     "giai_thich": "Gia-kêu chỉ muốn quan sát từ xa; Chúa gọi ông bước ra ánh sáng và đi vào tương quan hai chiều.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/003.md",
+       "dong": [
+        40,
+        48
+       ],
+       "trich": "Ngài mời gọi Giakêu làm một việc mà ông không muốn làm, chỉ muốn tránh né",
+       "sha256": "4a29c6d048d5fb2d2ab682ec42e90b8fd8d5abfc86a218d1dc218d7272808742",
+       "bam_dong": "77430baed178dcb7cbf40054a6e0c38c19ab9505"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Niềm vui là câu trả lời đầu tiên",
+     "giai_thich": "Trước khi sửa được quá khứ, ông đón Chúa với niềm vui; đó là dấu ân sủng đã chạm tới căn nhà.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,6",
+       "doan": "gospel",
+       "trich": "Ông vội vàng trụt xuống và vui vẻ đón tiếp Người."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/012.md",
+       "dong": [
+        28,
+        32
+       ],
+       "trich": "Niềm vui đáp lại lời mời gọi của Thiên Chúa để trở về thật chứa chan",
+       "sha256": "efa3156002c0e9ceecda9d09480eebfb4f07422e8929a0633706b4844418eabb",
+       "bam_dong": "15feb62a5e59eabf7c408db19431d1371ac2c7cb"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Ơn cứu độ trả lại căn tính thuộc về",
+     "giai_thich": "Đám đông gọi ông là người tội lỗi; Đức Giêsu gọi ông là con cái Ápraham. Ơn cứu độ nối lại tương quan với Chúa và cộng đoàn.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,9",
+       "doan": "gospel",
+       "trich": "người này cũng là con cái Áp-ra-ham"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/014.md",
+       "dong": [
+        20,
+        24
+       ],
+       "trich": "Ông đã thể hiện sự trở lại của mình bằng một hành động cụ thể thiết thực",
+       "sha256": "713d32bed7594c1fcafc29f9baef8a4fc0f3c7b6d077f2c1160cce7c0cfc03f0",
+       "bam_dong": "513572488cfe819d91ede06ff2d7dabef09ac732"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng chung là trục. Hình ảnh Chúa vào nhà cũng vang với Kh 3 năm II, nhưng không dùng liên hệ ấy cho năm I.",
+   "su_diep": "Ơn cứu độ là Đức Kitô muốn ở lại, trả ta từ chỗ ẩn náu về lại căn nhà và cộng đoàn.",
+   "ap_dung": [
+    "Dành một khoảng thinh lặng trong nhà để đón Chúa thay vì chỉ ‘nhìn’ Người từ xa.",
+    "Mời lại vào tương quan một người từng bị gia đình hay cộng đoàn gắn nhãn."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 4,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I"
+   ],
+   "tieu_de": "Năm I — Không giả vờ trước mặt Chúa",
+   "chu_de": "Êlêazarô chọn sự trung thực với giao ước thay vì một lối thoát giả tạo, để tuổi già của ông trở thành gương sáng cho thế hệ trẻ.",
+   "loi_chua_nen": {
+    "ref": "2 Mcb 6,24",
+    "doan": "firstReading",
+    "nam": "I",
+    "trich": "Vì ở tuổi chúng tôi không nên giả vờ"
+   },
+   "luan_de": "Bạn hữu đề nghị một cách giữ hình thức bên ngoài mà vẫn thoát chết. Êlêazarô hiểu rằng hành vi giả vờ của người có uy tín có thể làm người trẻ lầm đường; ông chọn sống và chết trước mặt Thiên Chúa.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Một thỏa hiệp xem ra vô hại",
+     "giai_thich": "Ông có thể ăn thịt hợp luật nhưng giả như ăn của cúng. Bên ngoài giữ mạng, bên trong tạo một chứng tá sai lệch.",
+     "kinh_thanh": [
+      {
+       "ref": "2 Mcb 6,21",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "rồi ông chỉ giả vờ ăn thịt cúng như nhà vua đã truyền"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/011.md",
+       "dong": [
+        42,
+        42
+       ],
+       "trich": "Mặc dầu có thể dễ dàng thoát chết và nhờ cảm tình của những người bạn cố tri, nhưng Êlêazaro đã muốn sống trung thực với Chúa",
+       "sha256": "3f303be4d8d92e2c58cc84a708a0c7e5e1d2a786edcb4012e6c175c3da264180",
+       "bam_dong": "026e23d819b42a6d349cb9b96ce9326423d25141"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Người lớn chịu trách nhiệm về chứng tá",
+     "giai_thich": "Êlêazarô nghĩ tới người trẻ sẽ diễn giải hành vi của ông. Uy tín làm lựa chọn cá nhân có sức giáo dục hoặc gây vấp ngã.",
+     "kinh_thanh": [
+      {
+       "ref": "2 Mcb 6,25",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "tôi sẽ làm cho chính họ cũng lầm lạc"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/011.md",
+       "dong": [
+        42,
+        44
+       ],
+       "trich": "còn mong ước được trở thành tấm gương cho hậu thế nhờ thái độ trung thực và anh dũng hy sinh của mình",
+       "sha256": "3f303be4d8d92e2c58cc84a708a0c7e5e1d2a786edcb4012e6c175c3da264180",
+       "bam_dong": "d88efd4403f5f2e95a937d7caf1209a594ef728b"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đặt mình trước mặt Thiên Chúa",
+     "giai_thich": "Ông có thể thoát hình phạt loài người nhưng không muốn sống hai mặt trước Đấng thấu suốt. Niềm vui nội tâm đến từ sự thống nhất ấy.",
+     "kinh_thanh": [
+      {
+       "ref": "2 Mcb 6,30",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "con xin chịu đòn vọt đau đớn trong thân xác con, với niềm vui trong lòng vì kính sợ Chúa"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/011.md",
+       "dong": [
+        44,
+        48
+       ],
+       "trich": "Êlêazaro đã sẵn sàng chọn lựa cái chết để được sống",
+       "sha256": "3f303be4d8d92e2c58cc84a708a0c7e5e1d2a786edcb4012e6c175c3da264180",
+       "bam_dong": "0101bfe405b1f3db7ce71d2ad9d07897e2f13951"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý riêng năm I từ 2 Mcb 6. Kho có một bài giảng triển khai trực tiếp Bài đọc I.",
+   "su_diep": "Sự trung thực trước mặt Chúa là gia sản quý hơn việc kéo dài đời sống bằng một chứng tá giả.",
+   "ap_dung": [
+    "Xét một chỗ mình đang giữ vẻ đạo đức bên ngoài nhưng thỏa hiệp bên trong.",
+    "Người có trách nhiệm tự hỏi lựa chọn của mình đang dạy gì cho người trẻ."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Chỉ dùng năm I; nguồn trực tiếp mỏng."
+   }
+  },
+  {
+   "so": 5,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "II"
+   ],
+   "tieu_de": "Năm II — Hãy tỉnh dậy và mở cửa",
+   "chu_de": "Đức Kitô đánh thức cộng đoàn sống bằng danh tiếng và chữa sự hâm hẩm bằng lời mời mở cửa để Người vào dùng bữa.",
+   "loi_chua_nen": {
+    "ref": "Kh 3,20",
+    "doan": "firstReading",
+    "nam": "II",
+    "trich": "Này Ta đứng ngoài cửa, Ta gõ"
+   },
+   "luan_de": "Sarđê có tiếng là sống nhưng đã chết; Laođixê tưởng giàu mà mù và nghèo. Lời sửa dạy nghiêm khắc phát xuất từ tình yêu và kết thúc bằng hình ảnh thân mật của bữa ăn.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Danh tiếng không thay thế sự sống",
+     "giai_thich": "Sarđê dựa vào vinh quang quá khứ như thành phố từng hùng mạnh. Chúa nhìn thực trạng chứ không nhìn nhãn hiệu cộng đoàn.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 3,1",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "ngươi có tiếng là đang sống, nhưng ngươi đã chết"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/022.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "John suggests that its Christianity has similarly fallen away from its former eagerness.",
+       "sha256": "b4b28833198dca47fa759b3c146407d8b27d3f298fef27ab99a4e1369a8cbfc0",
+       "bam_dong": "2fc0e151297d95efb91675faa95f2822a250dd73"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Hâm hẩm là sự tự mãn không đáp lại Thần Khí",
+     "giai_thich": "Không lạnh cũng không nóng là đời sống đạo đủ để yên ổn nhưng không đủ để làm chứng; sự tầm thường bít tai trước lời mời của Thần Khí.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 3,16",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "Bởi vì ngươi hâm hẩm, không lạnh không nóng"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/026.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "Mediocrity is an enemy of true faith and keeps us from responding to the urging of the Spirit.",
+       "sha256": "875e28a3a6e2dcb0ef659675bdb57b458f8fbb6ed903f1883c3f9202ce4b73e6",
+       "bam_dong": "b68c6b2d64d95fce4706f6d6e66767c76f1a312e"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Lời trách kết thúc bằng lời mời dùng bữa",
+     "giai_thich": "Chúa sửa dạy người Người yêu, rồi đứng ngoài chứ không phá cửa. Sự sốt sắng trở lại là mở cửa tự do cho tình thân với Đức Kitô.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 3,20",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "Ta sẽ vào nhà người ấy và dùng bữa tối với nó, và nó sẽ dùng bữa với Ta."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5332-I-II/022.md",
+       "dong": [
+        13,
+        13
+       ],
+       "trich": "The letter concludes with an allusion to the Eucharist, where Christ pressingly invites all his faithful to fellowship with himself.",
+       "sha256": "b4b28833198dca47fa759b3c146407d8b27d3f298fef27ab99a4e1369a8cbfc0",
+       "bam_dong": "751750bac20b4cc0f4dcd396ba5f21d1140bfa68"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý riêng năm II từ Kh 3. Hình ảnh Chúa vào nhà tạo một vang âm tự nhiên với Lc 19, nhưng nền chính là hai thư gửi Sarđê và Laođixê.",
+   "su_diep": "Đức Kitô không muốn một danh tiếng đạo đức nhưng một cánh cửa thật sự mở cho Người.",
+   "ap_dung": [
+    "Chọn một thực hành giúp phá sự hâm hẩm: cầu nguyện đúng giờ, hòa giải hoặc phục vụ cụ thể.",
+    "Xét xem mình đang dựa vào thành tích đạo đức quá khứ nào thay cho sự sống hôm nay."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Chỉ dùng năm II."
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/5332-I-II/loi-chua.json",
+  "sha256": "185a59112d3e5cc1ca77a71ff06289eacbb8891d3d7259fb2d5d78dba56e991e",
+  "lich_commit": null
+ },
+ "nguon_bai_giang": {
+  "so_bai": 16,
+  "so_doc_lap": 15,
+  "van_tay": "6f0b42057421def9856d0c170a5e344c61d23be5de35731d3eb8fdeeab4c82a2"
+ },
+ "van_tay_nguon": "9063367f7333b6070704a41531f3a4cb60f531170852b7839bce4f5a89c3e3e8",
+ "ghi_luc": "2026-11-13T23:33:36.192Z"
+}
