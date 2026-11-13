@@ -1,9 +1,9 @@
 {
- "cap_nhat": "2026-11-13T08:58:15.962Z",
+ "cap_nhat": "2026-11-13T23:07:01.854Z",
  "tong_thu_muc": 593,
  "dem": {
-  "chua": 582,
-  "xong": 11
+  "chua": 581,
+  "xong": 12
  },
  "da_lam": [
   {
@@ -130,11 +130,23 @@
    "so_goi_y": 5,
    "so_luan_diem": 20,
    "so_bai_da_doc": 20,
-   "ghi_luc": "2026-11-13T08:58:15.864Z",
+   "ghi_luc": "2026-11-13T04:28:10.131Z",
    "van_tay_nguon": "dfdb827140b2d8d1edfd44949852bf7e159e2f07c1412ad13437b43367345867",
    "duyet": {
-    "draft": 4,
-    "da-duyet": 1
+    "draft": 5
+   }
+  },
+  {
+   "thu_muc": "5326-I-II",
+   "trang_thai": "xong",
+   "ten_le": "Thứ Bảy tuần XXXII Thường Niên",
+   "so_goi_y": 1,
+   "so_luan_diem": 3,
+   "so_bai_da_doc": 12,
+   "ghi_luc": "2026-11-13T23:07:01.533Z",
+   "van_tay_nguon": "57dd6145d3da58a392cd89e29cbf77696b1fe4504a0315e7d497360e418307f0",
+   "duyet": {
+    "draft": 1
    }
   },
   {

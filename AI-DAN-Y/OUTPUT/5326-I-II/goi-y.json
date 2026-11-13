@@ -1,0 +1,201 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "5326-I-II",
+ "celebrationCode": "5326",
+ "ten_le": "Thứ Bảy tuần XXXII Thường Niên",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  "I",
+  "II"
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y",
+  "luc": "2026-11-14",
+  "ghi_chu": "Gợi ý dựa trên Lời Chúa và các bài giảng đã đọc."
+ },
+ "khong_dung": [],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Cầu nguyện luôn, không nản chí",
+   "chu_de": "Kiên trì cầu nguyện giúp người môn đệ giữ lòng tin và trông cậy trong thời gian chờ Thiên Chúa minh xử.",
+   "loi_chua_nen": {
+    "ref": "Lc 18,1",
+    "doan": "gospel",
+    "nam": "I",
+    "trich": "Khi ấy, Chúa Giêsu phán cùng các môn đệ một dụ ngôn, dạy các ông phải cầu nguyện luôn, đừng ngã lòng mà rằng:"
+   },
+   "luan_de": "Dụ ngôn quan tòa và bà góa không ví Thiên Chúa như quan tòa bất lương, nhưng dùng tương phản để mời gọi người tín hữu kiên trì cầu nguyện và không đánh mất lòng tin.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Kiên trì cầu nguyện là giữ lòng tin",
+     "giai_thich": "Bà góa không có thế lực nhưng vẫn liên lỉ kêu xin. Đức Giêsu đặt câu hỏi về lòng tin khi Con Người đến, cho thấy thử thách lớn nhất của việc chờ đợi không chỉ là chưa được điều mình xin mà là có còn tin tưởng hay không.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,1",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "dạy các ông phải cầu nguyện luôn, đừng ngã lòng"
+      },
+      {
+       "ref": "Lc 18,8",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "Nhưng khi Con Người đến, liệu sẽ còn gặp được lòng tin trên mặt đất nữa chăng?"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5326-I-II/005.md",
+       "dong": [
+        28,
+        40
+       ],
+       "trich": "Đức Giê-su đã dạy các môn đệ phải cầu nguyện luôn và cầu nguyện kiên nhẫn.",
+       "sha256": "9904501f3b7c421427783e51133777e446c90e60d5457ea91e7dcdaa804708e4",
+       "bam_dong": "db74db9218a9a5ee418721b2a0ba1c53eb04b569"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5326-I-II/011.md",
+       "dong": [
+        16,
+        20
+       ],
+       "trich": "Vậy để kiên trì cho đến cùng Đức Giê-su khuyên các ông cầu nguyện không ngừng, không mệt mỏi.",
+       "sha256": "8086d74ea7db60f16bdaef31c487bbe4f5eab42e81589fb7fbf2fdaf7783362e",
+       "bam_dong": "9b2fdad7aef62f570c89a54dad4ba316ed989dfc"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": "I"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Phó thác khi lời cầu chưa được đáp theo ý mình",
+     "giai_thich": "Thiên Chúa không bị giới hạn bởi tiêu chuẩn và thời điểm của con người. Người tín hữu vẫn trình bày ước nguyện, nhưng đồng thời đón nhận sự quan phòng, vì Thiên Chúa có thể dẫn mình vào điều tốt hơn điều mình đang hiểu.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,7",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "Vậy Thiên Chúa lại không minh xử cho những kẻ Người tuyển chọn hằng kêu cứu với Người đêm ngày, mà khoan giãn với họ mãi sao?"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5326-I-II/004.md",
+       "dong": [
+        28,
+        40
+       ],
+       "trich": "Chúa có nhận nhưng Ngài nhận những lời cầu đó theo tiêu cuẩn của Ngài.",
+       "sha256": "fc066d1f4b0872d974890b68b7d41f265085aa8af684588a80a7b0f976330f5e",
+       "bam_dong": "f9f831bbd6aa6acc8a38b2092b250165bf2409d7"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5326-I-II/013.md",
+       "dong": [
+        18,
+        22
+       ],
+       "trich": "không có tâm tình và thái độ nào phải đạo hơn là phó thác cho Thiên Chúa.",
+       "sha256": "ad0780563c6ce185ce90d125e9235a8a55d7ca5739f5c8625b931f1c68a0b34a",
+       "bam_dong": "08076d10752283d4265f8f0bb3d89b8e8ed07bf6"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": "I"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Kiên trì trước bất công để sống theo sự thật",
+     "giai_thich": "Lời cầu nguyện không tách người tín hữu khỏi những đau khổ và bất công của thế giới. Trái lại, lòng tin vào Thiên Chúa công minh giúp họ không coi điều gian ác là bình thường và tiếp tục sống theo sự thật, tình thương và điều thiện.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,3",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "Xin ông minh oan cho tôi khỏi tay kẻ thù"
+      },
+      {
+       "ref": "Kn 18,15",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "lời toàn năng của Chúa tựa như một dũng sĩ rắn rỏi xông tới giữa miền đất bị tiêu diệt"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5326-I-II/009.md",
+       "dong": [
+        16,
+        18
+       ],
+       "trich": "tin tưởng vào sức mạnh của sự thật, của tình thương, của điều thiện, nghĩa là tin tưởng vào các giá trị siêu việt thiêng liêng",
+       "sha256": "8f4af8689661ede0d90018f9075d66e604b98d8cf09b49c694a72f30143fc9b7",
+       "bam_dong": "fd9a0c4a9f207e36bc266fdfdd3132a613c43ac9"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5326-I-II/010.md",
+       "dong": [
+        14,
+        20
+       ],
+       "trich": "Thiên Chúa là Đấng nhân lành, không bao giờ làm ngơ trước lời kêu xin của con cái",
+       "sha256": "64ac01072a32671204b36d9edbffca0c66c0f612689c2310d116847b4aa9e53b",
+       "bam_dong": "fb68631bd9e6ffdc20edfcda720d730176658752"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": "I"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Năm I, bài đọc Khôn Ngoan gợi nhớ quyền năng cứu độ của Lời Chúa trong Xuất hành; năm II, Tin Mừng vẫn là trục chính và lời mời gọi cầu nguyện được áp dụng cho đời sống phục vụ.",
+   "su_diep": "Đừng ngã lòng khi chờ đợi: hãy cầu nguyện bền bỉ, phó thác vào quan phòng và kiên trì sống theo sự thật.",
+   "ap_dung": [
+    "Dành một thời gian cố định mỗi ngày để cầu nguyện cho một ý nguyện đang thử thách lòng tin.",
+    "Khi chưa được như ý, trình bày lại ước nguyện với Chúa và thêm lời xin cho biết đón nhận ý Người.",
+    "Không thỏa hiệp với bất công; chọn một việc cụ thể để bảo vệ sự thật và nâng đỡ người yếu thế."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/5326-I-II/loi-chua.json",
+  "sha256": "374edfba836664186ece9eccc1a1ee1173869d437e2f773b2ee9218a3455354f",
+  "lich_commit": "5dfc080af047f04fa8785d0b244b15f059801dac"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 12,
+  "so_doc_lap": 12,
+  "van_tay": "b111c54e420e6e0e37ac31cb96aa55b30222e1620ba383c50e9065047f0d1043"
+ },
+ "van_tay_nguon": "57dd6145d3da58a392cd89e29cbf77696b1fe4504a0315e7d497360e418307f0",
+ "ghi_luc": "2026-11-13T23:07:01.533Z"
+}
