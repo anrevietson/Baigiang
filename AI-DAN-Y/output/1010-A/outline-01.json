@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "outline_id": "1010-A-01",
+  "title": "Bước đi trong ánh sáng Chúa để tỉnh thức đón Đức Kitô",
+  "status": "draft",
+  "human_approved": false,
+  "type": "homiletic_directory_based",
+  "is_official_vatican_text": false,
+  "liturgical_identity": {
+    "celebration_code": "1010",
+    "reading_code": "1010",
+    "cycle": "A",
+    "reading_source": "sunday",
+    "homily_folder": "1010-A",
+    "celebration_name": "Chúa nhật I Mùa Vọng — Năm A"
+  },
+  "source_document": {
+    "title": "Homiletic Directory",
+    "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20140629_direttorio-omiletico_en.html",
+    "section": "Phần II, III.A; Phụ lục I, Cycle A, First Sunday of Advent",
+    "directory_paragraphs": [
+      "78-79",
+      "80-82",
+      "86"
+    ]
+  },
+  "catechism_topics": [
+    {
+      "references": [
+        "668-677",
+        "769"
+      ],
+      "topic_vi": "Cuộc thử thách sau cùng và Đức Kitô trở lại trong vinh quang",
+      "references_verified_against_appendix": true,
+      "ccc_text_verified": false
+    },
+    {
+      "references": [
+        "451",
+        "671",
+        "1130",
+        "1403",
+        "2817"
+      ],
+      "topic_vi": "Lời khẩn cầu: Lạy Chúa Giêsu, xin ngự đến",
+      "references_verified_against_appendix": true,
+      "ccc_text_verified": false
+    },
+    {
+      "references": [
+        "2729-2733"
+      ],
+      "topic_vi": "Tỉnh thức và khiêm tốn trong tâm hồn",
+      "references_verified_against_appendix": true,
+      "ccc_text_verified": false
+    }
+  ],
+  "scripture_evidence": [
+    {
+      "section": "firstReading",
+      "citation": "Is 2,1-5",
+      "role": "Lời tiên tri: muôn dân tiến về núi nhà Chúa và được mời bước đi trong ánh sáng"
+    },
+    {
+      "section": "psalms",
+      "citation": "Tv 121",
+      "role": "Lời đáp của cộng đoàn: vui mừng tiến về nhà Chúa"
+    },
+    {
+      "section": "secondReading",
+      "citation": "Rm 13,11-14",
+      "role": "Lời khuyên của thánh Phaolô: từ bỏ bóng tối và mặc lấy Đức Kitô"
+    },
+    {
+      "section": "gospel",
+      "citation": "Mt 24,37-44",
+      "role": "Đức Giêsu mời gọi tỉnh thức, sẵn sàng vì không biết giờ Con Người đến"
+    }
+  ],
+  "central_thesis": "Đức Kitô, Đấng đã đến trong lịch sử và sẽ trở lại trong vinh quang, đang mời gọi Hội Thánh bước đi trong ánh sáng của Người bằng đời sống tỉnh thức hôm nay.",
+  "points": [
+    {
+      "id": "1010-A-01-P1",
+      "title": "Thiên Chúa mở ra một cuộc hành trình hướng về Người",
+      "scripture": [
+        "Is 2,1-5",
+        "Tv 121"
+      ],
+      "explanation": "Ngôn sứ Isaia diễn tả viễn tượng muôn dân quy tụ và được Chúa dạy đường lối; Thánh vịnh cho cộng đoàn lời đáp đầy vui mừng. Theo Kim Chỉ Nam số 81–82, có thể đọc viễn tượng này dưới ánh sáng việc Đức Kitô đến trong lịch sử và trở lại trong vinh quang.",
+      "directory_paragraphs": [
+        "81",
+        "82"
+      ],
+      "supports_thesis": "Chính Chúa là đích điểm của hành trình tỉnh thức.",
+      "pastoral_application": "Nhận diện những lối sống đưa mình đến gần hoặc xa Chúa."
+    },
+    {
+      "id": "1010-A-01-P2",
+      "title": "Chúa Giêsu mời gọi tỉnh thức trước cuộc quang lâm",
+      "scripture": [
+        "Mt 24,37-44"
+      ],
+      "explanation": "Tin Mừng nhấn mạnh sự bất ngờ của ngày Con Người đến. Tỉnh thức không phải suy đoán thời điểm, nhưng sống sẵn sàng đón Chúa.",
+      "directory_paragraphs": [
+        "80"
+      ],
+      "catechism_references": [
+        "668-677",
+        "769"
+      ],
+      "supports_thesis": "Lời hứa gặp Chúa đòi hỏi một thái độ sống trong hiện tại.",
+      "pastoral_application": "Xét lại sự ưu tiên trong đời sống và trách nhiệm trước mặt Chúa."
+    },
+    {
+      "id": "1010-A-01-P3",
+      "title": "Tỉnh thức bằng cách từ bỏ bóng tối và mặc lấy Đức Kitô",
+      "scripture": [
+        "Rm 13,11-14"
+      ],
+      "explanation": "Thánh Phaolô chuyển niềm hy vọng về ngày cứu độ thành những chọn lựa cụ thể: từ bỏ việc làm của bóng tối, sống ngay chính và mặc lấy Đức Kitô. Bài đọc II góp một lời khuyên thiết thực, không bị ép thành lời tiên báo.",
+      "directory_paragraphs": [
+        "78",
+        "80"
+      ],
+      "catechism_references": [
+        "2729-2733"
+      ],
+      "supports_thesis": "Bước đi trong ánh sáng là biểu hiện cụ thể của tỉnh thức.",
+      "pastoral_application": "Chọn một việc hoán cải cụ thể trong Mùa Vọng."
+    }
+  ],
+  "eucharistic_connection": "Theo Kim Chỉ Nam số 86, Thánh Thể là sự chuẩn bị mãnh liệt nhất cho việc Chúa đến, vì trong chính cử hành này Đức Kitô đến với cộng đoàn. Lời Chúa được lắng nghe dẫn tín hữu tới việc gặp Người trong mầu nhiệm Thánh Thể.",
+  "pastoral_conclusion": "Mùa Vọng mời gọi mỗi người bước đi trong ánh sáng Đức Kitô ngay hôm nay, để sẵn sàng đón Người trong cuộc sống, trong Thánh Thể và khi Người trở lại.",
+  "provenance": {
+    "calendar_repo": "anrevietson/catholic-cal-vn",
+    "calendar_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb",
+    "calendar_path": "Reading/Sunday.json",
+    "homily_repo": "anrevietson/Baigiang",
+    "homily_commit": "76d5e225b939c8b3c00e5ab62e2da6b68e270c99",
+    "official_document": "Homiletic Directory (2014), Part II §78–86 and Appendix I, Cycle A"
+  },
+  "verification": {
+    "readings_source_structure_checked": true,
+    "scripture_full_text_not_reproduced": true,
+    "appendix_references_verified": true,
+    "ccc_text_verified": false,
+    "source_alignment_reviewed": true,
+    "human_approved": false,
+    "requires_human_review": [
+      "Đối chiếu toàn văn các số GLHTCG được trích",
+      "Duyệt nội dung giải thích và áp dụng mục vụ",
+      "Đối chiếu bản văn phụng vụ cuối trước khi công bố"
+    ]
+  }
+}
