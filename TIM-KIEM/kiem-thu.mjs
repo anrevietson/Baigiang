@@ -94,6 +94,7 @@ await okA('tu-khoa', async () => {
   assert.deepEqual(await paths('mười trinh nữ'), ['5320-A/001.md']);
   assert.deepEqual(await paths('"dầu" "đèn"'), ['5320-A/001.md']);
   assert.deepEqual(await paths('"thương xót" OR "dầu"'), ['4020-C/001.md', '5320-A/001.md']);
+  assert.deepEqual(await paths('"tỉnh thức" OR "thương xót" OR "dầu"'), ['1010-B/001.md', '4020-C/001.md', '5320-A/001.md']);
   assert.deepEqual(await paths('"tỉnh thức" -"trinh nữ"'), ['1010-B/001.md']);
   const r = await timKiem(db, 'tỉnh thức', { che_do: 'tu-khoa' });
   const d = r.ket_qua.find((k) => k.bai.duong_dan === '5320-A/001.md').doan[0];

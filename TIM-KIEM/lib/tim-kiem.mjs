@@ -4,7 +4,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { nfc, boDau, coDau, tach } from './tieng-viet.mjs';
 import { docThamChieuTruyVan, dinhDanh, SACH } from './kinh-thanh.mjs';
-import { taoVector, MO_HINH_MAC_DINH } from './ollama.mjs';
+import { taoVector, ollamaSanSang, MO_HINH_MAC_DINH } from './ollama.mjs';
 import { thongTin, LIB_ROOT } from './csdl.mjs';
 import { nhanNgayLe, bangTuCsdl } from './ngay-le.mjs';
 
@@ -72,7 +72,7 @@ export function bieuThucFts(q) {
     if (!toks.length) return null;
     return { col, phrase: `${col}:${quote(toks.join(' '))}`, near: toks.length > 1 ? `${col}:NEAR(${toks.map(quote).join(' ')}, 8)` : null, toks: [toks], khongDau };
   }
-  const pos = [], neg = [], ors = [], toksAll = [];
+  const groups = [], neg = [], toksAll = [];
   let pendingOr = false;
   for (const m of cum) {
     const neg_ = m[1] || m[3];
@@ -82,10 +82,16 @@ export function bieuThucFts(q) {
     if (!toks.length) continue;
     const e = quote(toks.join(' '));
     if (neg_) neg.push(e);
-    else if (pendingOr && pos.length) { ors.push(pos.pop() + ' OR ' + e); pendingOr = false; toksAll.push(toks); }
-    else { pos.push(e); toksAll.push(toks); }
+    else if (pendingOr && groups.length) {
+      groups[groups.length - 1].push(e);
+      pendingOr = false;
+      toksAll.push(toks);
+    } else {
+      groups.push([e]);
+      toksAll.push(toks);
+    }
   }
-  const all = [...pos, ...ors.map((o) => `(${o})`)];
+  const all = groups.map((group) => group.length === 1 ? group[0] : `(${group.join(' OR ')})`);
   if (!all.length) return null;
   let expr = `${col}:(${all.join(' AND ')})`;
   if (neg.length) expr += ` NOT ${col}:(${neg.join(' OR ')})`;
@@ -160,6 +166,8 @@ export function napVector(db) {
 async function timYNghia(db, q, phep) {
   const M = napVector(db);
   if (!M) return { rows: [], loi: 'Chưa có vector. Chạy: node TIM-KIEM/tao-vector.mjs' };
+  const sanSang = await ollamaSanSang(M.model);
+  if (!sanSang.ok) return { rows: [], loi: sanSang.ly_do };
   let qv;
   try { [qv] = await taoVector([q], M.model, { timeoutMs: 60000 }); }
   catch (e) { return { rows: [], loi: `Không tạo được vector cho câu tìm: ${e.message}` }; }
