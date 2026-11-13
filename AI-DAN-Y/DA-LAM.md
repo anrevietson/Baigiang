@@ -1,6 +1,6 @@
 # Tiến độ ngân hàng gợi ý bài giảng
 
-Cập nhật: 2026-11-13T23:12:10.895Z — tạo tự động bởi `node AI-DAN-Y/CONG-CU/tien-do.mjs`, không sửa tay.
+Cập nhật: 2026-11-13T23:22:52.304Z — tạo tự động bởi `node AI-DAN-Y/CONG-CU/tien-do.mjs`, không sửa tay.
 
 Tổng 593 thư mục mã lễ: ⬜ Chưa làm 580 · ✅ Xong 13.
 
