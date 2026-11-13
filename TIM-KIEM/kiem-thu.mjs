@@ -28,6 +28,16 @@ ok('ref', () => {
   assert.deepEqual(ref('Mk 6,8'), ['Mk 6,8?']);                 // Mk kiểu Việt = Mikha
   assert.deepEqual(ref('CN 7 Thường Niên, Is 5 hôm nay'), []);  // không nhận bừa
   assert.deepEqual(ref('Mt 5'), ['Mt 5?']);                     // chỉ có chương: không chắc
+  // vắt chương: số sau gạch = chương + 1 và nhỏ hơn câu đầu
+  assert.deepEqual(ref('(Mt 9, 35 – 10, 1. 6-8)'), ['Mt 9,35tt', 'Mt 10,1', 'Mt 10,6-8']);
+  assert.deepEqual(ref('Mt 9,35-10,1.6-8'), ['Mt 9,35tt', 'Mt 10,1', 'Mt 10,6-8']);
+  assert.deepEqual(ref('1 Tx 3, 12 – 4, 2'), ['1Tx 3,12tt', '1Tx 4,1-2']);
+  assert.deepEqual(ref('Is 52, 13 – 53, 12'), ['Is 52,13tt', 'Is 53,1-12']);
+  // phẩy giữa các đoạn câu cùng chương — KHÔNG phải vắt chương
+  assert.deepEqual(ref('Lc 21, 25-28, 34-36'), ['Lc 21,25-28', 'Lc 21,34-36']);
+  assert.deepEqual(ref('Lc 1, 1-2, 5'), ['Lc 1,1-2', 'Lc 1,5']);
+  assert.deepEqual(ref('Ga 3,16-18, 2Cr 5,17'), ['Ga 3,16-18', '2Cr 5,17']);
+  assert.equal(docThamChieuTruyVan('Mt 9,35-10,8').length, 2);
   assert.equal(docThamChieuTruyVan('Mt 25,1-13').length, 1);
   assert.equal(docThamChieuTruyVan('tỉnh thức Mt 25').length, 0);
 });

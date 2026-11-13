@@ -133,6 +133,13 @@ try {
   thu('FTS5 có dấu "hạt cải"', q(`SELECT rowid FROM luan_diem_fts WHERE luan_diem_fts MATCH ?`, '"hạt cải"').length >= 1);
   thu('FTS5 không dấu "sinh vao nuoc troi"', q(`SELECT g.ma FROM goi_y_fts f JOIN goi_y g ON g.id=f.rowid WHERE goi_y_fts MATCH ?`, 'khong_dau:"sinh vao nuoc troi"').map((r) => r.ma).includes('82612/05'));
   thu('Nguồn lưu đường dẫn + dòng + hash', q(`SELECT count(*) n FROM nguon_goi_y WHERE loai='bai-giang' AND (duong_dan IS NULL OR dong_dau IS NULL OR sha256 IS NULL OR bam_dong IS NULL)`)[0].n === 0);
+  // bản server (TIM-KIEM/lib/goi-y.mjs): theo ngày, cùng quy tắc với baigiang.html
+  const { goiYTheoMa, goiYTheoNgay } = await import('../../TIM-KIEM/lib/goi-y.mjs');
+  const tom = (r) => r.bo.map((b) => b.tm + ':' + b.goi_y.map((g) => g.so).join(',')).join(' | ');
+  thu('Server: ngày 28/11/2027 → 1010-C (4 gợi ý)', tom(goiYTheoNgay(db, '2027-11-28')) === '1010-C:1,2,3,4');
+  thu('Server: ngày 08/11/2027 (năm I) → 5321 gợi ý 01-04', tom(goiYTheoNgay(db, '2027-11-08')) === '5321-I-II:1,2,3,4');
+  thu('Server: ngày 05/12/2025 → 1015', tom(goiYTheoNgay(db, '2025-12-05')) === '1015:1,2,3');
+  thu('Server: mã 1010 năm B → chỉ 1010-B', tom(goiYTheoMa(db, '1010', 'B')) === '1010-B:1,2,3');
   thu('Trạng thái nguồn tách khỏi trạng thái duyệt', q(`SELECT DISTINCT trang_thai_nguon t FROM goi_y_bo`).map((r) => r.t).join() === 'khop' && q(`SELECT DISTINCT trang_thai_duyet t FROM goi_y`).map((r) => r.t).join() === 'draft');
   db.close();
 } finally { rmSync(tmp, { recursive: true, force: true }); }

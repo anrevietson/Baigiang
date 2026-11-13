@@ -43,9 +43,8 @@ function trongExcerpt(ref, excerpt) {
   // "Cv 6, 8-10; 7,54-59": đoạn sau dấu ";" không ghi sách → kế thừa sách của đoạn trước
   const ex = [];
   let sachTruoc = null;
-  // "Mt 9, 35 – 10, 1. 6-8": khoảng vắt qua chương → "Mt 9,35-999; 10,1. 6-8"
-  const tach = String(excerpt ?? '').replace(/(\d{1,3})\s*,\s*(\d{1,3})\s*[-–—]\s*(\d{1,3})\s*,\s*(\d{1,3})/g, (_, c1, v1, c2, v2) => `${c1},${v1}-999; ${c2},1-${v2}`);
-  for (const phan of tach.split(';')) {
+  // khoảng vắt chương ("Mt 9, 35 – 10, 1. 6-8") do timThamChieu tự tách thành từng chương
+  for (const phan of String(excerpt ?? '').split(';')) {
     let p = timThamChieu(phan);
     if (!p.length && sachTruoc) p = timThamChieu(`${sachTruoc} ${phan.trim()}`);
     if (p.length) { ex.push(...p); sachTruoc = p[0].sach; }

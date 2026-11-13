@@ -3,6 +3,7 @@
 //
 //   node TIM-KIEM/lap-chi-muc.mjs            cập nhật: chỉ làm lại file mới/đã sửa, xóa file đã mất
 //   node TIM-KIEM/lap-chi-muc.mjs --lam-lai  xóa chỉ mục cũ, lập lại từ đầu
+//   node TIM-KIEM/lap-chi-muc.mjs --tham-chieu  chỉ tính lại bảng tham chiếu Kinh Thánh (sau khi sửa lib/kinh-thanh.mjs)
 //   node TIM-KIEM/lap-chi-muc.mjs --thu-muc /duong/dan/PhungVu-MD
 //
 // Không sửa file Markdown nào. Chỉ ghi vào TIM-KIEM/du-lieu/tim-kiem.sqlite.
@@ -73,6 +74,34 @@ const q = {
   ),
   insVec: db.prepare("INSERT INTO vector(doan_id, bam, vec) VALUES (?,?,?)"),
 };
+
+// --tham-chieu: chỉ tính lại bảng tham_chieu từ dữ liệu đã có trong CSDL (sau khi sửa lib/kinh-thanh.mjs).
+// Không đọc lại file Markdown, không xóa CSDL (chạy được cả khi server đang mở CSDL).
+if (args.includes("--tham-chieu")) {
+  const t0 = Date.now();
+  let n = 0;
+  const tc = (baiId, doanId, text, nguon) => {
+    for (const r of timThamChieu(text)) {
+      q.insTc.run(baiId, doanId, r.sach, r.chuong, r.tu, r.den, r.raw, r.khong_chac, nguon);
+      n++;
+    }
+  };
+  db.exec("BEGIN");
+  try {
+    db.exec("DELETE FROM tham_chieu");
+    for (const b of db.prepare("SELECT id, tin_mung FROM bai").all())
+      for (const t of JSON.parse(b.tin_mung || "[]")) tc(b.id, null, t, "yaml");
+    for (const d of db.prepare("SELECT id, bai_id, noi_dung FROM doan").all())
+      tc(d.bai_id, d.id, d.noi_dung, "van-ban");
+    db.exec("COMMIT");
+  } catch (e) {
+    db.exec("ROLLBACK");
+    throw e;
+  }
+  ghiThongTin(db, "cap_nhat", new Date().toISOString());
+  console.log(`Đã tính lại ${n} tham chiếu Kinh Thánh sau ${((Date.now() - t0) / 1000).toFixed(1)} giây.`);
+  process.exit(0);
+}
 
 const arr = (v) =>
   v == null || v === "" ? [] : Array.isArray(v) ? v.map(String) : [String(v)];

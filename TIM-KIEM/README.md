@@ -8,6 +8,8 @@ Công cụ chỉ đọc các file Markdown, không sửa file nào. Mọi chỉ 
 ```bash
 # 1. Lập chỉ mục từ khóa + Kinh Thánh (~1 phút cho 15.000 bài; lần sau chỉ làm lại file đã sửa)
 node TIM-KIEM/lap-chi-muc.mjs
+#    sau khi sửa lib/kinh-thanh.mjs: chỉ tính lại tham chiếu Kinh Thánh (~5 giây, không cần đóng server)
+node TIM-KIEM/lap-chi-muc.mjs --tham-chieu
 
 # 2. (Tùy chọn) chỉ mục ý nghĩa — cần Ollama
 ollama pull bge-m3

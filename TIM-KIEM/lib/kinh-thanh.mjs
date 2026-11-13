@@ -72,9 +72,15 @@ function pat(k) {
   return [...k].map(esc).join('[\\s.\\-]?');
 }
 const BOOK_RE = names.map(pat).join('|');
+// đoạn câu thêm sau ". " hoặc "; ": "Lc 21, 25-28. 34-36"
+const SEG = `(?:\\s*[.;]\\s*\\d{1,3}[a-e]?(?:\\s*[-–—]\\s*\\d{1,3}[a-e]?)?(?![\\d,:]))`;
+// đuôi sau một khoảng có dấu phẩy: vắt chương "Mt 9,35–10,1.6-8" hoặc thêm câu "Lc 21, 25-28, 34-36" (nhóm 6)
+const DUOI = `(\\s*[,:]\\s*\\d{1,3}[a-e]?(?:\\s*[-–—]\\s*\\d{1,3}[a-e]?)?(?![\\d,:])${SEG}*)`;
 const REF_RE = new RegExp(
-  `(?<![\\p{L}\\d])(${BOOK_RE})\\.?\\s*(\\d{1,3})(?:\\s*([,:])\\s*(\\d{1,3})[a-e]?(?:\\s*[-–—]\\s*(\\d{1,3})[a-e]?)?((?:\\s*[.;]\\s*\\d{1,3}[a-e]?(?:\\s*[-–—]\\s*\\d{1,3}[a-e]?)?(?![\\d,:]))*))?(?![\\p{L}\\d])`,
+  `(?<![\\p{L}\\d])(${BOOK_RE})\\.?\\s*(\\d{1,3})(?:\\s*([,:])\\s*(\\d{1,3})[a-e]?(?:\\s*[-–—]\\s*(\\d{1,3})[a-e]?${DUOI}?)?(${SEG}*))?(?![\\p{L}\\d])`,
   'giu');
+/** đến hết chương (vế đầu của khoảng vắt chương) */
+export const HET_CHUONG = 999;
 
 /**
  * Tìm mọi tham chiếu trong một đoạn văn.
@@ -99,13 +105,21 @@ export function timThamChieu(text) {
     if (!sep) { out.push({ sach: code, chuong, tu: null, den: null, raw: m[0].trim(), khong_chac: 1, vi_tri: m.index }); continue; }
     const tu = +m[4];
     const den = m[5] ? +m[5] : tu;
-    out.push({ sach: code, chuong, tu, den: Math.max(tu, den), raw: m[0].trim(), khong_chac: khongChac, vi_tri: m.index });
-    // các đoạn câu thêm: "Lc 21, 25-28. 34-36"
-    if (m[6]) {
-      for (const seg of m[6].matchAll(/(\d{1,3})[a-e]?(?:\s*[-–—]\s*(\d{1,3}))?/g)) {
-        const a = +seg[1], b = seg[2] ? +seg[2] : a;
-        out.push({ sach: code, chuong, tu: a, den: Math.max(a, b), raw: m[0].trim(), khong_chac: khongChac, vi_tri: m.index });
-      }
+    const raw = m[0].trim();
+    const them = (ch, a, b) => out.push({ sach: code, chuong: ch, tu: a, den: Math.max(a, b), raw, khong_chac: khongChac, vi_tri: m.index });
+    const cacDoan = (s) => [...(s ?? '').matchAll(/(\d{1,3})[a-e]?(?:\s*[-–—]\s*(\d{1,3}))?/g)].map((x) => [+x[1], x[2] ? +x[2] : +x[1]]);
+    // "9,35–10,1": số sau gạch là chương kế tiếp (= chương + 1) và nhỏ hơn câu đầu, hoặc dùng gạch dài "–" → vắt chương.
+    // ("Lc 1, 1-2, 5" gạch ngắn, 2 không nhỏ hơn 1 → vẫn là các câu của chương 1)
+    const gach = raw.match(/\d[a-e]?\s*([-–—])\s*\d/)?.[1];
+    const vatChuong = m[6] && den === chuong + 1 && (den < tu || gach !== '-');
+    if (vatChuong) {
+      them(chuong, tu, HET_CHUONG);
+      const ds = cacDoan(m[6] + (m[7] ?? ''));
+      if (ds.length) { them(den, 1, ds[0][1]); for (const [a, b] of ds.slice(1)) them(den, a, b); }   // "10,1" = từ đầu chương 10 đến câu 1
+    } else {
+      them(chuong, tu, den);
+      // các đoạn câu thêm cùng chương: "Lc 21, 25-28. 34-36", "Lc 21, 25-28, 34-36"
+      for (const [a, b] of cacDoan((m[6] ?? '') + (m[7] ?? ''))) them(chuong, a, b);
     }
   }
   return out;
@@ -120,4 +134,4 @@ export function docThamChieuTruyVan(q) {
   return rest ? [] : refs;
 }
 
-export const dinhDanh = (r) => r.tu == null ? `${r.sach} ${r.chuong}` : `${r.sach} ${r.chuong},${r.tu}${r.den !== r.tu ? '-' + r.den : ''}`;
+export const dinhDanh = (r) => r.tu == null ? `${r.sach} ${r.chuong}` : `${r.sach} ${r.chuong},${r.tu}${r.den === HET_CHUONG ? 'tt' : r.den !== r.tu ? '-' + r.den : ''}`;

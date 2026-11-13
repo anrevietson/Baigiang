@@ -61,6 +61,10 @@ try {
   dat('Tìm từ khóa "tỉnh thức" (chức năng cũ)', await ev(`document.querySelectorAll('#kq .bai').length >= 10`), await ev(`document.querySelector('#tt').innerText.split('\\n')[0]`));
   await timQ('Mt 25,1-13');
   dat('Tìm Kinh Thánh "Mt 25,1-13" (chức năng cũ)', await ev(`document.querySelectorAll('#kq .bai').length > 0`), await ev(`document.querySelector('#tt').innerText.split('\\n')[0]`));
+  // tham chiếu vắt chương: bài ghi "Mt 9, 35 – 10, 1. 6-8" phải ra khi tìm "Mt 10,8" (trước khi sửa bộ đọc: 44 bài)
+  await timQ('Mt 10,8');
+  const soMt108 = +(await ev(`(document.querySelector('#tt').innerText.match(/(\\d+) bài có kết quả/)||[])[1]||0`));
+  dat('Tìm "Mt 10,8" ra cả bài ghi tham chiếu vắt chương (≥ 100 bài)', soMt108 >= 100, soMt108 + ' bài');
   await timQ('tinh thuc');
   dat('Tìm không dấu "tinh thuc" (chức năng cũ)', await ev(`document.querySelectorAll('#kq .bai').length > 0`));
   await ev(`(()=>{document.querySelector('#q').value='';document.querySelector('#tac_gia').value='Noël Quesson';document.querySelector('#tac_gia').dispatchEvent(new Event('change'));return 1})()`); await ngu(300);

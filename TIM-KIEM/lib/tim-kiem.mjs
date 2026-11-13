@@ -14,7 +14,7 @@ const MA_TUONG_DUONG = { '95002': '5340' }; // lịch phụng vụ phát 95002 c
 
 // ---------- bộ lọc ----------
 let LICH = null;
-function maTheoNgay(ngay, root = LIB_ROOT) {
+export function maTheoNgay(ngay, root = LIB_ROOT) {
   if (!LICH) {
     const p = join(root, 'TRA-CUU', 'lich-ngay.json');
     LICH = existsSync(p) ? JSON.parse(readFileSync(p, 'utf8')).ngay : {};

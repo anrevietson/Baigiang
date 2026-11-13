@@ -138,9 +138,12 @@ async function tim(them = false) {
   const r = await (await fetch('/api/tim?' + p)).json();
   if (r.loi) { $('#tt').textContent = r.loi; return; }
   if (!them) {
-    const ma = p.get('ma');
-    const gy = ma ? await (await fetch('/api/goi-y-bai?ma=' + encodeURIComponent(ma) + (p.get('nam') ? '&nam=' + encodeURIComponent(p.get('nam')) : ''))).json() : { bo: [] };
-    hienGoiY(gy);
+    // gợi ý bài giảng: theo ngày nếu có chọn ngày, không thì theo mã lễ (+ năm)
+    const ngay = p.get('ngay'), ma = p.get('ma');
+    const qs = ngay ? 'ngay=' + encodeURIComponent(ngay)
+      : ma ? 'ma=' + encodeURIComponent(ma) + (p.get('nam') ? '&nam=' + encodeURIComponent(p.get('nam')) : '') : '';
+    const gy = qs ? await (await fetch('/api/goi-y-bai?' + qs)).json() : { bo: [] };
+    hienGoiY(gy.loi ? { bo: [] } : gy);
   }
   $('#tt').innerHTML = `<div>${r.tong_bai} bài có kết quả.</div>` + r.ghi_chu.map((g) => `<div>• ${esc(g)}</div>`).join('');
   $('#kq').insertAdjacentHTML('beforeend', r.ket_qua.map((k) => {
