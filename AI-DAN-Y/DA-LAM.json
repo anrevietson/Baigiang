@@ -1,9 +1,9 @@
 {
- "cap_nhat": "2026-11-13T23:07:01.854Z",
+ "cap_nhat": "2026-11-13T23:12:10.895Z",
  "tong_thu_muc": 593,
  "dem": {
-  "chua": 581,
-  "xong": 12
+  "chua": 580,
+  "xong": 13
  },
  "da_lam": [
   {
@@ -147,6 +147,19 @@
    "van_tay_nguon": "57dd6145d3da58a392cd89e29cbf77696b1fe4504a0315e7d497360e418307f0",
    "duyet": {
     "draft": 1
+   }
+  },
+  {
+   "thu_muc": "5330-A",
+   "trang_thai": "xong",
+   "ten_le": "Chúa Nhật XXXIII Thường Niên năm A - Ngày Thế giới vì Người nghèo",
+   "so_goi_y": 3,
+   "so_luan_diem": 9,
+   "so_bai_da_doc": 27,
+   "ghi_luc": "2026-11-13T23:12:10.402Z",
+   "van_tay_nguon": "c98675a96d8f822462d3fb78414668c61b184dd2c05f5d5660e7fa24a6aada5d",
+   "duyet": {
+    "draft": 3
    }
   },
   {

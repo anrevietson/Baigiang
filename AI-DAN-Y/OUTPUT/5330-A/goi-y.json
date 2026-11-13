@@ -1,0 +1,460 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "5330-A",
+ "celebrationCode": "5330",
+ "ten_le": "Chúa Nhật XXXIII Thường Niên năm A - Ngày Thế giới vì Người nghèo",
+ "loai_ngay": "chua-nhat",
+ "chu_ky": [
+  "A"
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y",
+  "luc": "2026-11-14",
+  "ghi_chu": "Gợi ý dựa trên Lời Chúa và các bài giảng đã đọc."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "5330-A/051.md",
+   "ly_do": "Trùng 91% với 5330-A/061.md; dùng bản chính 061 nếu cần, nhưng không trích trong gợi ý."
+  },
+  {
+   "duong_dan": "5330-A/047.md",
+   "ly_do": "Trùng với bản chính 044 theo gói đọc."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-phu-luc",
+   "ap_dung_nam": [
+    "A"
+   ],
+   "tieu_de": "Sinh lợi những nén bạc Chúa trao",
+   "chu_de": "Ân huệ Chúa ban trở thành trách nhiệm được hoàn thành bằng những việc lành trong khi tỉnh thức chờ ngày Người trở lại.",
+   "loi_chua_nen": {
+    "ref": "Mt 25,21",
+    "doan": "gospel",
+    "nam": "A",
+    "trich": "Hỡi đầy tớ tốt lành và trung tín, vì ngươi đã trung tín trong việc nhỏ, ta sẽ đặt ngươi làm những việc lớn, ngươi hãy vào hưởng sự vui mừng của chủ ngươi"
+   },
+   "luan_de": "Dụ ngôn không đo giá trị người môn đệ bằng số vốn được trao, nhưng bằng lòng trung thành và việc làm cho ân huệ sinh hoa trái.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Mọi ân huệ đều phát xuất từ lòng tốt của Thiên Chúa",
+     "giai_thich": "Các nén bạc được trao tùy khả năng, nên sự khác biệt không phải lý do để so bì. Người môn đệ đón nhận điều mình có như quà tặng và khởi đầu của một trách nhiệm.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 25,15",
+       "doan": "gospel",
+       "nam": "A",
+       "trich": "Ông trao cho người này năm nén bạc, người kia hai nén, người khác nữa một nén, tuỳ theo khả năng của mỗi người"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "glhtcg",
+       "so": "2006-2011",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/001.md",
+       "dong": [
+        16,
+        22
+       ],
+       "trich": "Thiên Chúa trao cho mỗi người số nén bạc không đồng đều, kẻ nhiều người ít.",
+       "sha256": "8bbc71e2514f67f5261ef21898ac2cfb1de17f8d30e7f9746e84453f663947f3",
+       "bam_dong": "fda38427cfb0a7ab0433147667781de88799e1ad"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": "A"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Trung thành trong việc nhỏ",
+     "giai_thich": "Hai người đầy tớ không được khen vì có cùng số vốn, nhưng vì đã làm việc với điều mình nhận. Lòng trung thành biến những bổn phận bình thường thành sự đáp lại lòng tín nhiệm của Chúa.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 25,21",
+       "doan": "gospel",
+       "nam": "A",
+       "trich": "vì ngươi đã trung tín trong việc nhỏ, ta sẽ đặt ngươi làm những việc lớn"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "glhtcg",
+       "so": "1936-1937",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/044.md",
+       "dong": [
+        49,
+        58
+       ],
+       "trich": "Những đầy tớ được khen không chỉ vì đã làm cho những nén bạc sinh lời, mà còn vì tấm lòng của họ đối với chủ",
+       "sha256": "d074b682738b1ba2e2d4b60c2e941d61ba3fe1de3476dce9694cfd4b583b57e0",
+       "bam_dong": "758acfee45ea70f4be4ff5ed4deb386434abfeb8"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/052.md",
+       "dong": [
+        14,
+        26
+       ],
+       "trich": "bạn hãy làm một công việc khéo léo với những điều nhỏ bé được chỉ định cho bạn",
+       "sha256": "f7317aa934891427732a04528a60393de09a39e3646afe57e0c3624c107c9795",
+       "bam_dong": "867d68adde9158edb92cb5046f6129250fb3d69b"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tỉnh thức trong khi chờ ngày Chúa đến",
+     "giai_thich": "Chờ đợi không phải là ngồi yên. Người con cái ánh sáng tỉnh thức bằng cách sử dụng thời gian và khả năng để phục vụ, vì ngày Chúa đến sẽ đưa đời sống hiện tại ra ánh sáng.",
+     "kinh_thanh": [
+      {
+       "ref": "1 Tx 5,6",
+       "doan": "secondReading",
+       "nam": "A",
+       "trich": "Vậy chúng ta đừng mê ngủ như những người khác, nhưng hãy tỉnh thức và điều độ."
+      },
+      {
+       "ref": "Mt 25,19",
+       "doan": "gospel",
+       "nam": "A",
+       "trich": "Sau một thời gian lâu dài, ông chủ các đầy tớ ấy trở về và đòi họ tính sổ."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "glhtcg",
+       "so": "1038-1041",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      },
+      {
+       "loai": "glhtcg",
+       "so": "1048-1050",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/003.md",
+       "dong": [
+        14,
+        18
+       ],
+       "trich": "HoÏ không thụ động ngồi yên chờ ngày Chúa đến, nhưng cần mẫn và đảm đang, làm việc sinh lời lãi và giúp ích cho đời.",
+       "sha256": "c8d72b5c64d9e4010327fa8950e044611419f8c7893607e0d0973ef0674f69b0",
+       "bam_dong": "fd4ba9c95c3dc56a905c1c6583824e2a07673324"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "secondReading",
+       "nam": "A"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": "A"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài đọc I cho thấy người kính sợ Chúa dùng đôi tay để làm việc và rộng tay giúp người nghèo; bài đọc II gọi người tín hữu là con cái ánh sáng; Tin Mừng cho thấy việc tỉnh thức được cụ thể hóa bằng trách nhiệm sinh lợi.",
+   "su_diep": "Đừng so bì số vốn đã nhận; hãy trung thành làm sinh lợi điều Chúa trao và phục vụ tha nhân.",
+   "ap_dung": [
+    "Liệt kê một khả năng, thời gian hoặc phương tiện Chúa đã trao và chọn một việc cụ thể để dùng cho người khác.",
+    "Làm tốt một bổn phận nhỏ đang bị xem nhẹ, với ý thức đó là cách đáp lại lòng tín nhiệm của Chúa.",
+    "Mỗi tối xét xem hôm nay mình đã làm cho ân huệ nào sinh hoa trái."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "A"
+   ],
+   "tieu_de": "Đừng chôn giấu ân huệ vì sợ hãi",
+   "chu_de": "Cái nhìn sai về Thiên Chúa làm con người sợ hãi và bất động, còn lòng tin giúp họ dấn thân để ân huệ trở thành ích lợi cho cộng đoàn.",
+   "loi_chua_nen": {
+    "ref": "Mt 25,25",
+    "doan": "gospel",
+    "nam": "A",
+    "trich": "Còn người lãnh một nén bạc đến và nói: “Thưa ông, tôi biết ông là người keo kiệt, gặt nơi không gieo và thu nơi ông không phát: nên tôi khiếp sợ (mà) đi chôn giấu nén bạc của ông dưới đất."
+   },
+   "luan_de": "Người đầy tớ thứ ba không thiếu cơ hội nhưng bị khóa lại bởi sợ hãi, ích kỷ và hình ảnh méo mó về ông chủ.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Nỗi sợ có thể làm tê liệt điều tốt",
+     "giai_thich": "Người đầy tớ đã biến sự thận trọng thành cái cớ để không làm gì. Khi chỉ nhìn thấy nguy hiểm và so sánh mình với người khác, ta dễ chôn giấu khả năng thay vì phục vụ.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 25,25",
+       "doan": "gospel",
+       "nam": "A",
+       "trich": "nên tôi khiếp sợ (mà) đi chôn giấu nén bạc của ông dưới đất"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/044.md",
+       "dong": [
+        61,
+        66
+       ],
+       "trich": "Suy nghĩ bi quan tiêu cực dẫn tới tình cảm bi quan tiêu cực, và làm phát sinh hành động bi quan tiêu cực.",
+       "sha256": "d074b682738b1ba2e2d4b60c2e941d61ba3fe1de3476dce9694cfd4b583b57e0",
+       "bam_dong": "c77666d1f01fa49c6f157b4943a7d51f6854c223"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/050.md",
+       "dong": [
+        30,
+        36
+       ],
+       "trich": "chính anh ta có lỗi về sự lười biếng, nhút nhát và ích kỷ của mình.",
+       "sha256": "78c884db2fa34d366f028ed25e0f74febab169bb4ca7b44bd191edc529965a06",
+       "bam_dong": "f323abc79b55f67ffc2318bb1ac59022d810a11e"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đón nhận Thiên Chúa như Đấng tín nhiệm",
+     "giai_thich": "Hai người đầy tớ làm việc vì tin rằng chủ đã giao phó tài sản cho họ. Cái nhìn về Thiên Chúa quyết định cách ta đáp lại: tin tưởng thì dấn thân, còn nghi ngờ thì co cụm.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 25,20-21",
+       "doan": "gospel",
+       "nam": "A",
+       "trich": "Thưa ông, ông trao cho tôi năm nén bạc, đây tôi làm lợi được năm nén khác"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/037.md",
+       "dong": [
+        18,
+        24
+       ],
+       "trich": "Niềm hi vọng đó phát xuất từ niềm tin tưởng ơng chủ sẽ ban niềm vui lớn lao vào lúc ơng trở về.",
+       "sha256": "f46f511e699c0a3cef52fa9ab6151c0ea5262e7c6fe971ac61430237635a9c83",
+       "bam_dong": "49e31fddb8e6c3b0acf1e20570c5e1ba01122a73"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/042.md",
+       "dong": [
+        35,
+        35
+       ],
+       "trich": "Chúng ta phải lo lắng đến những lợi ích của Thiện Chúa, đánh cuộc đời sống chúng ta vì Người",
+       "sha256": "e22dc8bf3e653197d811eed5cd1d0146ccdbee279a487d500967d7fc795404d3",
+       "bam_dong": "5436a6876d7316ce33a47693b73632f21c066739"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Dấn thân thay vì chỉ bảo toàn",
+     "giai_thich": "Thiên Chúa không trao Tin Mừng để người môn đệ giữ kín cho an toàn. Đức tin trưởng thành khi dám đưa điều đã nhận vào hành động và chấp nhận học hỏi trong phục vụ.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 25,27",
+       "doan": "gospel",
+       "nam": "A",
+       "trich": "vậy lẽ ra người phải giao bạc của ta cho người đổi tiền, và khi ta trở về, ta sẽ thu cả vốn lẫn lời"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/042.md",
+       "dong": [
+        35,
+        37
+       ],
+       "trich": "Tin Mừng được ban cho không phải để chúng ta \"giữ nó lại\" như một thứ kho tàng cằn cỗi",
+       "sha256": "e22dc8bf3e653197d811eed5cd1d0146ccdbee279a487d500967d7fc795404d3",
+       "bam_dong": "474b6d40b3b349e88638bb37808e0fb9defa0a33"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng soi sáng lời mời gọi tỉnh thức của bài đọc II: người con cái ánh sáng không để sợ hãi biến mình thành người thụ động.",
+   "su_diep": "Hãy thay cái nhìn bi quan bằng lòng tin tưởng và bắt đầu từ điều nhỏ mình có thể làm.",
+   "ap_dung": [
+    "Nhận diện một nỗi sợ đang khiến mình trì hoãn việc tốt và thực hiện một bước nhỏ trong tuần này.",
+    "Ngừng so sánh với người khác; ghi nhận một khả năng mình có thể dùng để nâng đỡ một người cụ thể."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "A"
+   ],
+   "tieu_de": "Làm sinh lợi cho người nghèo và cộng đoàn",
+   "chu_de": "Ân huệ chỉ thực sự sinh hoa trái khi được chuyển thành hành động yêu thương và phục vụ, nhất là đối với người nghèo khó.",
+   "loi_chua_nen": {
+    "ref": "Cn 31,20",
+    "doan": "firstReading",
+    "nam": "A",
+    "trich": "Nàng rộng tay bố thí cho người nghèo khó, và giơ tay hướng dẫn kẻ bần cùng."
+   },
+   "luan_de": "Dụ ngôn các nén bạc nối trách nhiệm cá nhân với ích chung: điều Chúa trao không phải để tích trữ cho mình nhưng để làm cho người khác được sống.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Phát triển khả năng để phục vụ",
+     "giai_thich": "Người có tài năng, thời gian, của cải hay đức tin đều được mời gọi biến những điều ấy thành lợi ích cụ thể cho cộng đoàn, chứ không chỉ thành thành tích riêng.",
+     "kinh_thanh": [
+      {
+       "ref": "Cn 31,20",
+       "doan": "firstReading",
+       "nam": "A",
+       "trich": "Nàng rộng tay bố thí cho người nghèo khó, và giơ tay hướng dẫn kẻ bần cùng."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/001.md",
+       "dong": [
+        26,
+        28
+       ],
+       "trich": "Tôi chỉ nên nghĩ tới Chúa thôi",
+       "sha256": "8bbc71e2514f67f5261ef21898ac2cfb1de17f8d30e7f9746e84453f663947f3",
+       "bam_dong": "76550f29e2af57df3ce0f9a99a822471b5c11c3c"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/013.md",
+       "dong": [
+        18,
+        24
+       ],
+       "trich": "Chúa trao cho mỗi người tùy theo mức độ lãnh nhận và đáp trả",
+       "sha256": "1a402039946564d9c59e4f879285657d10167e853299edbd800b0d99e1d00304",
+       "bam_dong": "31a6fc74f9579ee46cb5cfbfee0eeef4f9cc613f"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Việc phục vụ nhỏ bé vẫn có giá trị",
+     "giai_thich": "Không phải ai cũng nhận cùng một vai trò, nhưng mọi người đều có thể phục vụ bằng việc phù hợp với khả năng. Điều làm nên giá trị là tình yêu và sự trung thành trong việc mình được trao.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 25,21",
+       "doan": "gospel",
+       "nam": "A",
+       "trich": "vì ngươi đã trung tín trong việc nhỏ, ta sẽ đặt ngươi làm những việc lớn"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/052.md",
+       "dong": [
+        20,
+        26
+       ],
+       "trich": "Hãy làm những việc này và hàng trăm phận sự khác của đời sống hàng ngày một cách tốt đẹp",
+       "sha256": "f7317aa934891427732a04528a60393de09a39e3646afe57e0c3624c107c9795",
+       "bam_dong": "e1efbc19a7308175b10460fc926c85e09fdff6ae"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/059.md",
+       "dong": [
+        40,
+        44
+       ],
+       "trich": "Chính vì con đã làm tất cả vì tình yêu Thiên chúa và để phục vụ tha nhân.",
+       "sha256": "47e5973e8d2b6c8891384f499bfdd1b9f4d99e34918d71d6e8d3c457c88f6a4c",
+       "bam_dong": "620704cb184f84d611991d3666fec2e96b23f724"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tỉnh thức qua bổn phận hằng ngày",
+     "giai_thich": "Những công việc gia đình, học tập và phục vụ đều có thể trở thành nơi làm sinh lợi ân huệ. Người môn đệ không chờ một cơ hội phi thường mới bắt đầu sống trung tín.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 25,21",
+       "doan": "gospel",
+       "nam": "A",
+       "trich": "vì ngươi đã trung tín trong việc nhỏ, ta sẽ đặt ngươi làm những việc lớn"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5330-A/059.md",
+       "dong": [
+        40,
+        44
+       ],
+       "trich": "Từng ngày, từng giờ phút, chúng ta hãy hoàn thành bổn phận vời một ý thức, một tinh thần đức tin.",
+       "sha256": "47e5973e8d2b6c8891384f499bfdd1b9f4d99e34918d71d6e8d3c457c88f6a4c",
+       "bam_dong": "620704cb184f84d611991d3666fec2e96b23f724"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Người phụ nữ trong Châm Ngôn dùng đôi tay làm việc và rộng tay giúp người nghèo; đó là hình ảnh cụ thể của việc sinh lợi những gì Thiên Chúa trao.",
+   "su_diep": "Hãy biến một ân huệ cụ thể thành một hành động phục vụ cụ thể.",
+   "ap_dung": [
+    "Dành thời gian hoặc kỹ năng để giúp một người đang thiếu thốn.",
+    "Trong gia đình và giáo xứ, nhận một việc nhỏ và chu toàn với tình yêu thay vì chờ việc lớn."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/5330-A/loi-chua.json",
+  "sha256": "4e0934d329e5d5630f73a2a1108365fa268961911d2ba79c7e1b663cb4ecbc23",
+  "lich_commit": "5dfc080af047f04fa8785d0b244b15f059801dac"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 27,
+  "so_doc_lap": 25,
+  "van_tay": "e8f5aac40090bb58a9e68c252527c0500c46b444071b4050958b69f8cb9c1013"
+ },
+ "van_tay_nguon": "c98675a96d8f822462d3fb78414668c61b184dd2c05f5d5660e7fa24a6aada5d",
+ "ghi_luc": "2026-11-13T23:12:10.402Z"
+}
