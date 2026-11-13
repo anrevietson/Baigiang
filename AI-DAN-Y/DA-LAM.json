@@ -1,9 +1,9 @@
 {
- "cap_nhat": "2026-11-13T23:22:52.304Z",
+ "cap_nhat": "2026-11-13T23:29:32.204Z",
  "tong_thu_muc": 593,
  "dem": {
-  "chua": 580,
-  "xong": 13
+  "chua": 579,
+  "xong": 14
  },
  "da_lam": [
   {
@@ -160,6 +160,19 @@
    "van_tay_nguon": "c98675a96d8f822462d3fb78414668c61b184dd2c05f5d5660e7fa24a6aada5d",
    "duyet": {
     "draft": 3
+   }
+  },
+  {
+   "thu_muc": "5331-I-II",
+   "trang_thai": "xong",
+   "ten_le": "Thứ Hai Tuần XXXIII Mùa Thường Niên",
+   "so_goi_y": 5,
+   "so_luan_diem": 19,
+   "so_bai_da_doc": 18,
+   "ghi_luc": "2026-11-13T23:29:31.854Z",
+   "van_tay_nguon": "95656d2ac52994716036472a71df586df7ab5a36ca682820c3666a5061cb42e0",
+   "duyet": {
+    "draft": 5
    }
   },
   {

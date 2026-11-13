@@ -1,0 +1,653 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "5331-I-II",
+ "celebrationCode": "5331",
+ "ten_le": "Thứ Hai Tuần XXXIII Mùa Thường Niên",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  "I",
+  "II"
+ ],
+ "bien_soan": {
+  "boi": "Codex, theo AI-DAN-Y/HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-14",
+  "ghi_chu": "Bản nháp biên soạn từ 18/18 bài trong gói đọc và bộ Lời Chúa đã đối chiếu. Tin Mừng Lc 18,35-43 chung cho năm I và II; Bài đọc I năm I là 1 Mcb 1,11-16.43-45.57-60.65-67, năm II là Kh 1,1-4; 2,1-5a."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "5331-I-II/041.md",
+   "dong": [
+    38,
+    76
+   ],
+   "ly_do": "Phần từ tiêu đề Thứ Ba trở đi thuộc ngày kế tiếp, với Kh 3 và 2 Mcb 6"
+  },
+  {
+   "duong_dan": "5331-I-II/042.md",
+   "dong": [
+    14,
+    48
+   ],
+   "ly_do": "Nội dung thực tế chú giải Mt 9,27-31 về hai người mù và người câm trong Mùa Vọng, không phải Lc 18,35-43"
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "“Lạy Con vua Đavít, xin thương xót tôi”",
+   "chu_de": "Đức tin không câm lặng trước trở ngại nhưng kiên trì kêu xin lòng thương xót, nói thật nhu cầu của mình và để Đức Kitô chữa lành.",
+   "loi_chua_nen": {
+    "ref": "Lc 18,38",
+    "doan": "gospel",
+    "trich": "Lạy ông Giê-su con vua Ða-vít, xin thương xót tôi!"
+   },
+   "luan_de": "Người mù không thấy bằng mắt nhưng nhận ra Đấng Cứu Thế và không để tiếng quát nạt dập tắt lời cầu. Một bài giảng ngày thường có thể dẫn cộng đoàn từ việc nhận biết sự mù tối của mình, qua lời kêu xin cụ thể, đến bàn tiệc nơi Đức Kitô vẫn dừng lại và chữa lành.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Người không thấy lại nhận ra Đấng Cứu Thế",
+     "giai_thich": "Đám đông chỉ báo có Đức Giêsu Nadarét đi qua; người mù lại gọi Người là Con vua Đavít. Đức tin là đôi mắt bên trong nhận ra căn tính và quyền cứu độ của Đức Giêsu.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,38",
+       "doan": "gospel",
+       "trich": "Lạy ông Giê-su con vua Ða-vít, xin thương xót tôi!"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/009.md",
+       "dong": [
+        22,
+        24
+       ],
+       "trich": "Còn anh mù lại thấy xa hơn họ, Thánh Thần Thiên Chúa đã đem chân lý vào con tim anh và anh tin.",
+       "sha256": "f3eea84b90cdbb771f2b616fb98c7b4f879bce84a2f16c5dd50dc189793147d6",
+       "bam_dong": "3631624775a6eae210bd7c6f30739144357c7392"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Tiếng quát nạt không dập tắt lời cầu",
+     "giai_thich": "Sự kiên trì của anh không phải ồn ào vô ích mà là một đức tin biết cơ hội gặp Chúa quý giá hơn áp lực phải im lặng.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,39",
+       "doan": "gospel",
+       "trich": "Những người đi trước mắng bảo anh nín đi, nhưng anh lại càng kêu lớn tiếng hơn"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/040.md",
+       "dong": [
+        16,
+        17
+       ],
+       "trich": "người ta quát nạt anh, bảo anh im đi, “anh càng kêu lớn tiếng”",
+       "sha256": "af87f99d0eadbc0eefae37d50b240e0dd32495f1814f6a4228b3a91ac858bde2",
+       "bam_dong": "6f5bfe80eb4fbe5794c0dfd3e51631507088a353"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Chúa hỏi để người đau khổ nói rõ điều mình muốn",
+     "giai_thich": "Câu hỏi của Đức Giêsu trả lại tiếng nói và phẩm giá cho người ăn xin. Lời cầu trưởng thành bắt đầu khi ta nhận ra bệnh của mình và thành thật xin ơn chữa lành.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,41",
+       "doan": "gospel",
+       "trich": "Ngươi muốn Ta làm gì cho ngươi?"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/005.md",
+       "dong": [
+        28,
+        30
+       ],
+       "trich": "Trước hết anh ta phải nhận ra và ý thức được tình trạng bệnh hoạn của mình",
+       "sha256": "b9ff73a85c1e9387911b174ce547bb7a38d3b15038143d83887d10d26ca71de1",
+       "bam_dong": "01a00f81e797d7cc85dec9277a7176805d6015ca"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Từ Lời Chúa đến lời cầu và bàn tiệc chữa lành",
+     "giai_thich": "Theo Kim Chỉ Nam, suy niệm ngày thường cần ngắn gọn, giúp Lời được đón nhận và sinh hoa trái; đồng thời bài giảng chuẩn bị cộng đoàn cử hành Thánh Thể. Lời xin của người mù có thể trở thành lời cầu của cộng đoàn khi tiến đến bàn tiệc.",
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "150",
+       "trich": "brief and timely reflections which can help the faithful to welcome the word which was proclaimed and to let it bear fruit in their lives"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "13",
+       "trich": "The second part of the homily prepares the community to celebrate the Eucharist"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/008.md",
+       "dong": [
+        48,
+        50
+       ],
+       "trich": "chúng ta hãy tha thiết nài xin đức Kitô mở mắt đức tin cho chúng ta, để chúng ta có thể khám phá ra và đón nhận Người nơi bàn tiệc Thánh thể hôm nay",
+       "sha256": "abfc4a19bfd54ecb342a00ae556a337647bdd153fbe92ede53c79bc3303edd0d",
+       "bam_dong": "76f502733677e8e7127504777d60f16d44fd04e7"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng chung cho hai năm là trục. Không gượng ép liên hệ với Bài đọc I riêng của từng năm.",
+   "su_diep": "Đức tin là dám kêu xin lòng thương xót, nói thật sự mù tối của mình và tin Đức Giêsu có thể cứu chữa.",
+   "ap_dung": [
+    "Trong giờ cầu nguyện, trả lời cụ thể câu hỏi của Chúa: ‘Con muốn Ta làm gì cho con?’",
+    "Lặp lại chậm lời cầu ‘Lạy Con vua Đavít, xin thương xót con’ khi gặp một trở ngại khiến mình muốn bỏ cuộc."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Không có mục Phụ lục I cho ngày thường; gợi ý này theo nguyên tắc chung của Kim Chỉ Nam, KHÔNG phải dàn ý chính thức."
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Chúa dừng lại trước người bên lề",
+   "chu_de": "Đức Giêsu nghe tiếng người bị đám đông gạt ra ngoài và biến những kẻ từng cản đường thành cộng đoàn ca tụng Thiên Chúa.",
+   "loi_chua_nen": {
+    "ref": "Lc 18,40",
+    "doan": "gospel",
+    "trich": "Vậy Chúa Giê-su dừng lại, truyền dẫn anh đến cùng Người."
+   },
+   "luan_de": "Ba nhân vật tạo nên một cuộc hoán cải cộng đoàn: người mù từ vệ đường đi vào hành trình môn đệ, đám đông từ quát nạt chuyển sang ca ngợi, và Đức Giêsu là Đấng dừng lại để mở đường cho cả hai.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Vệ đường là dấu chỉ của một đời bị đẩy ra ngoài",
+     "giai_thich": "Anh ngồi thụ động, sống nhờ bố thí và ở bên lề. Việc chữa lành không chỉ phục hồi thị giác mà còn đưa anh trở lại tương quan và phẩm giá.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/040.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "Ban đầu anh “ngồi” (thụ động) “ăn xin” (sống bám) “bên vệ đường” (ở ngoài rìa xã hội)",
+       "sha256": "af87f99d0eadbc0eefae37d50b240e0dd32495f1814f6a4228b3a91ac858bde2",
+       "bam_dong": "0a6577df53d060cabd3ca0ba06e1e7290b6f6d68"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Lòng đạo sai chỗ có thể thành hàng rào",
+     "giai_thich": "Những người đi trước tưởng bắt anh im là bảo vệ Chúa khỏi bị quấy rầy. Người môn đệ cần xét xem mình đang đưa người đau khổ tới Chúa hay đang giữ đặc quyền ở gần Chúa.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,39",
+       "doan": "gospel",
+       "trich": "Những người đi trước mắng bảo anh nín đi"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/011.md",
+       "dong": [
+        18,
+        18
+       ],
+       "trich": "những người này cho rằng chỉ có họ mới được quyền đi bên cạnh Chúa",
+       "sha256": "7eb0e312a79e960f56600a8789bcfcc4e9c75ec6a96a17d5734c05028080dad2",
+       "bam_dong": "14bd621f93d38f9415b58f0c939650cc5233296a"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đức Giêsu nghe, dừng lại và truyền dẫn anh đến",
+     "giai_thich": "Giữa cuộc hành trình và đám đông, Người không coi tiếng kêu của một người là sự quấy rầy. Lòng thương xót làm gián đoạn lịch trình để gặp một con người cụ thể.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,40",
+       "doan": "gospel",
+       "trich": "Vậy Chúa Giê-su dừng lại, truyền dẫn anh đến cùng Người."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/040.md",
+       "dong": [
+        23,
+        24
+       ],
+       "trich": "Dù “đang đi” (bận rộn) và ở giữa đám đông, Ngài cũng để ý đến tiếng kêu xin của một người mù.",
+       "sha256": "af87f99d0eadbc0eefae37d50b240e0dd32495f1814f6a4228b3a91ac858bde2",
+       "bam_dong": "3464fcfbbeaffd99f9fc2b08dd405f3fff63db4a"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Cả đám đông cũng được chữa lành",
+     "giai_thich": "Kết thúc trình thuật, người từng bị quát nạt đã đi theo Chúa, còn toàn dân ca ngợi Thiên Chúa. Cuộc gặp gỡ cá nhân sinh ra một cộng đoàn mới biết tôn vinh.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,43",
+       "doan": "gospel",
+       "trich": "Thấy vậy toàn dân liền ca ngợi Thiên Chúa."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/009.md",
+       "dong": [
+        32,
+        34
+       ],
+       "trich": "Lập tức anh thấy được và đi theo Người để cảm tạ Thiên Chúa đã tỏ bày quyền nang của Ngài, và đám đông cùng hòa đồng với anh hát Thánh vịnh ca ngợi Thiên Chúa.",
+       "sha256": "f3eea84b90cdbb771f2b616fb98c7b4f879bce84a2f16c5dd50dc189793147d6",
+       "bam_dong": "f999188cedd84f6bc20ab00881f51dc715d101da"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Chỉ dựa trên Tin Mừng chung I/II. Trọng tâm là chuyển động của ba nhân vật trong Lc 18,35-43.",
+   "su_diep": "Cộng đoàn ở gần Chúa thật sự không chặn tiếng người đau khổ nhưng giúp họ đến gần Người.",
+   "ap_dung": [
+    "Nhận diện một người đang ở ‘bên lề’ trong giáo xứ, gia đình hoặc nơi làm việc và chủ động lắng nghe họ.",
+    "Xét lại một quy tắc hay thái độ đạo đức đang vô tình khiến người yếu thế khó đến gần cộng đoàn."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Xin cho con đôi mắt mới để đi theo Chúa",
+   "chu_de": "Được thấy trong Tin Mừng là nhận ánh sáng đức tin để hiểu con đường thập giá, nhận ra Chúa trong đời và bước theo Người.",
+   "loi_chua_nen": {
+    "ref": "Lc 18,41",
+    "doan": "gospel",
+    "trich": "Lạy Ngài, xin cho tôi được xem thấy"
+   },
+   "luan_de": "Phép lạ xảy ra ngay sau khi các Tông đồ không hiểu lời loan báo Thương Khó. Vì thế sự mù lòa của anh ăn xin soi rõ sự mù lòa của mọi môn đệ: ta cần Chúa mở mắt để thấy Đấng Mêsia đi qua thập giá và để cùng Người lên Giêrusalem.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Các môn đệ sáng mắt mà chưa thấy con đường của Thầy",
+     "giai_thich": "Bối cảnh ngay trước phép lạ là lời loan báo Thương Khó bị che khuất đối với Nhóm Mười Hai. Người mù thể lý trở thành tấm gương cho người môn đệ mù trước mầu nhiệm Vượt Qua.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/041.md",
+       "dong": [
+        17,
+        20
+       ],
+       "trich": "Như các Tông-đồ, ta không nhìn rõ. Chính Chúa phải cho chúng ta “đôi mắt mới”, để chúng ta có thể hiểu biết ý nghĩa của cuộc “hành trình lên Giêrusalem”.",
+       "sha256": "509dfe598e0e105bafae76147d7639504e64643a9ff344170d4b034338d26df6",
+       "bam_dong": "9434d6f6ed3a0339c64304a3d3bc5a501fbc271e"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Ánh sáng từ trên cao mở mầu nhiệm thập giá",
+     "giai_thich": "Trí khôn tự nó không đủ để hiểu một Đấng Cứu Thế chịu đóng đinh. Đức tin không loại bỏ lý trí nhưng cho lý trí ánh sáng để đón nhận cách cứu độ của Thiên Chúa.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/007.md",
+       "dong": [
+        16,
+        24
+       ],
+       "trich": "Chỉ trong ánh sáng của Chúa, chúng ta mới có thể đón nhận mầu nhiệm thập giá.",
+       "sha256": "0781104c5735284905861fe4339f9619e495c34aeaff2dbb7756dca51b956594",
+       "bam_dong": "ea84033545e0327edb8d3f499688c8f30c1e4de3"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Được thấy là nhìn đời dưới ánh sáng mới",
+     "giai_thich": "Con mắt đức tin nhận ra Chúa trong đời thường, nhận ra phẩm giá của người khác và tìm thấy ý nghĩa cả khi đi qua tối tăm.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/001.md",
+       "dong": [
+        20,
+        24
+       ],
+       "trich": "khi ta đến với Chúa, con mắt Đức Tin chúng ta cũng được sáng, nhận ra Chúa trong cuộc sống đời thường",
+       "sha256": "2094d5cb7224a0e52b5731169bcbd70d3876339d8675593478ce6b1f188f4f24",
+       "bam_dong": "5ec91c6e73032cadaae1caf7c924192a08f2d452"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Ánh sáng dẫn tới bước chân môn đệ",
+     "giai_thich": "Phép lạ không kết thúc ở đôi mắt mở ra. Anh đi theo Chúa và ca tụng Thiên Chúa; ánh sáng đức tin phải trở thành hướng đi và chứng tá.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,43",
+       "doan": "gospel",
+       "trich": "Tức khắc anh thấy được và anh đi theo Người, và ca tụng Thiên Chúa."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/005.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "Khi được sáng mắt, anh đã hồ hởi nhập vào đoàn nguời ca tụng tôn vinh Thiên Chúa.",
+       "sha256": "b9ff73a85c1e9387911b174ce547bb7a38d3b15038143d83887d10d26ca71de1",
+       "bam_dong": "8f174bbce1209ca7d65f9e75b4b3b21e8e3c3f5c"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng chung là trục; bối cảnh văn chương Lc 18,31-34 giúp hiểu sự mù tối của người môn đệ trước thập giá. Không đưa Bài đọc I riêng của hai năm vào gợi ý này.",
+   "su_diep": "Chúa mở mắt đức tin không chỉ để ta hiểu, mà để ta bước theo Người trên đường Vượt Qua.",
+   "ap_dung": [
+    "Trước một đau khổ khó hiểu, cầu xin ánh sáng để nhận ra bước trung thành hôm nay thay vì đòi thấy toàn bộ con đường.",
+    "Chọn một việc cụ thể diễn tả rằng mình đang ‘đi theo Người’ sau khi nghe Lời Chúa."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 4,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I"
+   ],
+   "tieu_de": "Năm I — Trung thành giữa áp lực đồng hóa",
+   "chu_de": "Khi quyền lực và số đông đòi dân Chúa bỏ giao ước, lòng trung thành chọn thuộc về Thiên Chúa dù phải trả giá.",
+   "loi_chua_nen": {
+    "ref": "1 Mcb 1,67",
+    "doan": "firstReading",
+    "nam": "I",
+    "trich": "họ thà chết chẳng thà làm cho mình ra ô uế bởi của ăn dơ và phạm đến Giao Ước thánh"
+   },
+   "luan_de": "Bài đọc không chỉ kể một cuộc bách hại cổ xưa. Nó cho thấy tiến trình đồng hóa bắt đầu từ lời mời xem ra hợp lý, đi qua việc tự xóa căn tính, rồi trở thành cưỡng bức; giữa đó vẫn có những người kiên quyết thuộc về giao ước.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Từ lời hứa tránh tai họa đến sự thỏa hiệp",
+     "giai_thich": "Những người bất lương thuyết phục dân rằng giao ước với các dân chung quanh sẽ giải quyết khó khăn; rồi một số người tự nguyện chối bỏ giao ước trước khi sắc chỉ cưỡng bức được ban hành. Cám dỗ đầu tiên là coi căn tính đức tin như nguyên nhân của bất lợi.",
+     "kinh_thanh": [
+      {
+       "ref": "1 Mcb 1,11",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "Này, ta hãy giao ước với các dân ở chung quanh chúng ta"
+      },
+      {
+       "ref": "1 Mcb 1,15",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "Họ tự bán mình để làm sự dữ."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/008.md",
+       "dong": [
+        42,
+        42
+       ],
+       "trich": "Nhiều người Do thái đã bị khuất phục trước sắc chỉ cấm đạo, họ đã phản đối với truyền thống đạo đức của tổ tiên và tôn thờ thần tượng của các dân ngoại.",
+       "sha256": "abfc4a19bfd54ecb342a00ae556a337647bdd153fbe92ede53c79bc3303edd0d",
+       "bam_dong": "2a4adfe3f770632d5f5e55bb6a17f537f46b7e47"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Vẫn có những người nhất định không làm mình ô uế",
+     "giai_thich": "Lòng trung thành của họ không phải cố chấp văn hóa nhưng là gắn bó với Giao Ước thánh. Khi lựa chọn trở nên đắt giá, căn tính thật được bộc lộ.",
+     "kinh_thanh": [
+      {
+       "ref": "1 Mcb 1,66",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "Nhưng cũng có nhiều người Ít-ra-en tỏ ra kiên quyết"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/008.md",
+       "dong": [
+        44,
+        44
+       ],
+       "trich": "Hoàn cảnh thống khổ của dân Chúa trong thời kỳ bách hạị của đế quốc Hy Lạp được phản ánh trung thực và sống động qua tâm trạng đen tối của người mù thành Gêricô",
+       "sha256": "abfc4a19bfd54ecb342a00ae556a337647bdd153fbe92ede53c79bc3303edd0d",
+       "bam_dong": "2d3b424ee3b18f23d00b0626c9c2c37b5c09fa72"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đức Kitô đưa dân đang trong bóng tối vào ánh sáng",
+     "giai_thich": "Tin Mừng không xóa nhẹ cái giá của lòng trung thành nhưng cho thấy đích đến: Đức Kitô là Đấng cứu khỏi bóng tối tội lỗi và sự chết. Người trung thành không chỉ chống lại điều xấu; họ bước về phía ánh sáng và sự sống.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 18,42",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "Hãy nhìn xem, lòng tin của ngươi đã cứu chữa ngươi"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/008.md",
+       "dong": [
+        46,
+        46
+       ],
+       "trich": "Chúa Giêsu đã muốn khẳng định Người là Đấng Cứu thế duy nhất có thể đem lại ơn cứu độ toàn diện cho con người",
+       "sha256": "abfc4a19bfd54ecb342a00ae556a337647bdd153fbe92ede53c79bc3303edd0d",
+       "bam_dong": "0df4c259bb6519f482decf632f93a850f550664e"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý riêng cho năm I, dựa trên 1 Mcb 1. Bài 008 nối bóng tối của cuộc bách hại với người mù, nhưng trọng tâm ở đây là tiến trình đồng hóa và lòng trung thành với Giao Ước.",
+   "su_diep": "Đức tin trưởng thành biết phân biệt giữa hội nhập chính đáng và việc đánh đổi căn tính giao ước để được dễ dàng.",
+   "ap_dung": [
+    "Nhận diện một thỏa hiệp nhỏ đang khiến mình xấu hổ hoặc che giấu căn tính Kitô hữu.",
+    "Cầu nguyện cho những người đang chịu bách hại vì đức tin và thực hành một việc trung thành âm thầm hôm nay."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Chỉ dùng cho năm I; kho chỉ có một bài nối trực tiếp với Bài đọc I."
+   }
+  },
+  {
+   "so": 5,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "II"
+   ],
+   "tieu_de": "Năm II — Trở lại tình yêu thuở ban đầu",
+   "chu_de": "Một cộng đoàn có việc làm, sự kiên nhẫn và giáo lý đúng vẫn cần sám hối nếu lòng yêu mến ban đầu đã nguội lạnh.",
+   "loi_chua_nen": {
+    "ref": "Kh 2,5",
+    "doan": "firstReading",
+    "nam": "II",
+    "trich": "hãy ăn năn hối cải và làm lại những việc thuở ban đầu"
+   },
+   "luan_de": "Lời gửi Êphêsô vừa khen vừa trách. Chúa không phủ nhận lao nhọc và khả năng phân định của cộng đoàn, nhưng Người nhìn sâu hơn hiệu quả bên ngoài để hỏi tình yêu nào đang làm cho các việc ấy sống động.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Khải Huyền là lời nâng đỡ cộng đoàn trong thử thách",
+     "giai_thich": "Thể văn biểu tượng không nhằm thỏa trí tò mò về tương lai nhưng giúp Hội Thánh đọc lịch sử dưới ánh sáng Đức Kitô và giữ vững niềm hy vọng khi bị bách hại.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/043.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "One of the main purposes of an apocalypse is to encourage the community in difficulties",
+       "sha256": "49360f0e7b8140429c312b9118536d8f763c24b5a89a1fa80e13d5607230cdf9",
+       "bam_dong": "815a504935598331d1a0fff0eda935b1a9104fcb"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Chúa biết việc làm và lòng kiên nhẫn",
+     "giai_thich": "Lời sửa dạy bắt đầu bằng việc ghi nhận điều tốt. Cộng đoàn đã làm việc, chịu đựng và không dung túng giả dối; sám hối không có nghĩa phủ nhận mọi cố gắng đã có.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 2,2",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "Ta biết việc làm của ngươi nổi bật và lòng kiên nhẫn của ngươi"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/045.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "the Christians are encouraged and praised for their work and patience",
+       "sha256": "f17013fee0ebdc9a6f8f5b9eefa497eede46155999b66f84e3d0642f5c008914",
+       "bam_dong": "4c2f983f84748fb5e6754bdc5592a32b74787075"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đúng và bền vẫn chưa đủ nếu thiếu tình yêu",
+     "giai_thich": "Êphêsô có khả năng thử những kẻ tự xưng tông đồ, nhưng Chúa trách họ bỏ tình yêu ban đầu. Chính thống và hoạt động phải được linh hồn hóa bởi lòng mến.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 2,4",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "ngươi đã bỏ lòng yêu mến thuở ban đầu"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/043.md",
+       "dong": [
+        13,
+        13
+       ],
+       "trich": "Though the author praises their constancy, he also reproaches them with lack of love",
+       "sha256": "49360f0e7b8140429c312b9118536d8f763c24b5a89a1fa80e13d5607230cdf9",
+       "bam_dong": "e2896878c3dbdedb308d2df90c556eecd23b72e5"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Nhớ lại, sám hối, và làm lại",
+     "giai_thich": "Chúa không chỉ đòi một cảm xúc cũ. Ba động từ dẫn tới đổi mới cụ thể: nhớ mình đã rơi từ đâu, quay lại với Chúa và thực hành lại những việc phát sinh từ tình yêu.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 2,5",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "Vậy hãy nhớ lại xem ngươi đã sa sút từ mức nào, hãy ăn năn hối cải và làm lại những việc thuở ban đầu"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5331-I-II/046.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "A special greeting to the Church of Ephesus, once faithful but now in need of repentance and renewal.",
+       "sha256": "8c514d755b22140c29bd9e2c854d6ba4e6114b2818754815e422e97d80d75979",
+       "bam_dong": "1c9eb44f0f4871b603bda6689d7c07c93ffc34ba"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý riêng cho năm II, dựa trên Kh 1,1-4; 2,1-5a. Kho có bốn bài chú giải ngắn bằng tiếng Anh. Không tự tạo liên hệ với Tin Mừng.",
+   "su_diep": "Chúa không chỉ hỏi ta đã làm được gì, mà hỏi tình yêu nào đang sống trong những việc ta làm.",
+   "ap_dung": [
+    "Nhớ lại một việc đạo đức hoặc phục vụ mình từng làm vì lòng mến, rồi thực hiện lại với chủ ý mới.",
+    "Xét xem sự đúng đắn của mình có đang thiếu kiên nhẫn, dịu dàng hoặc lòng thương đối với người khác không."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Chỉ dùng cho năm II; nguồn bài giảng về Bài đọc I gồm bốn chú giải ngắn bằng tiếng Anh."
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/5331-I-II/loi-chua.json",
+  "sha256": "dd30d7636ed31ce290d27a1acdeae1c47bf5cdc12e88ec90c6c5948b170ded22",
+  "lich_commit": null
+ },
+ "nguon_bai_giang": {
+  "so_bai": 18,
+  "so_doc_lap": 18,
+  "van_tay": "7d2c58c1571c3569e0280757304f3dade61de3bddfa10ed38076893ef8796814"
+ },
+ "van_tay_nguon": "95656d2ac52994716036472a71df586df7ab5a36ca682820c3666a5061cb42e0",
+ "ghi_luc": "2026-11-13T23:29:31.854Z"
+}
