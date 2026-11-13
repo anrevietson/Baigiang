@@ -43,7 +43,9 @@ function trongExcerpt(ref, excerpt) {
   // "Cv 6, 8-10; 7,54-59": đoạn sau dấu ";" không ghi sách → kế thừa sách của đoạn trước
   const ex = [];
   let sachTruoc = null;
-  for (const phan of String(excerpt ?? '').split(';')) {
+  // "Mt 9, 35 – 10, 1. 6-8": khoảng vắt qua chương → "Mt 9,35-999; 10,1. 6-8"
+  const tach = String(excerpt ?? '').replace(/(\d{1,3})\s*,\s*(\d{1,3})\s*[-–—]\s*(\d{1,3})\s*,\s*(\d{1,3})/g, (_, c1, v1, c2, v2) => `${c1},${v1}-999; ${c2},1-${v2}`);
+  for (const phan of tach.split(';')) {
     let p = timThamChieu(phan);
     if (!p.length && sachTruoc) p = timThamChieu(`${sachTruoc} ${phan.trim()}`);
     if (p.length) { ex.push(...p); sachTruoc = p[0].sach; }
@@ -125,6 +127,7 @@ export function kiemTra(data) {
     if (!LOAI_NGUON.includes(g.loai_nguon)) L(`${n}: loai_nguon không hợp lệ`);
     if (g.so === 1 && !g.loai_nguon?.startsWith('kim-chi-nam')) W(`${n}: gợi ý 01 nên theo Kim Chỉ Nam`);
     if (g.loai_nguon === 'kim-chi-nam-phu-luc' && !phuLuc) L(`${n}: ghi "kim-chi-nam-phu-luc" nhưng Phụ lục I không có mục cho ${tm}`);
+    if (g.so === 1 && g.loai_nguon === 'kim-chi-nam-nguyen-tac' && phuLuc) L(`${n}: Phụ lục I có mục "${phuLuc.muc}" cho ${tm} — gợi ý 01 phải là "kim-chi-nam-phu-luc"`);
     if (!g.ap_dung_nam?.length || g.ap_dung_nam.some((x) => !data.chu_ky.includes(x))) L(`${n}: ap_dung_nam phải là tập con của chu_ky`);
     for (const f of ['tieu_de', 'chu_de', 'luan_de', 'lien_he_bai_doc', 'su_diep']) if (!String(g[f] ?? '').trim()) L(`${n}: thiếu ${f}`);
     if (!g.ap_dung?.length) L(`${n}: thiếu ap_dung`);
@@ -192,7 +195,35 @@ export function kiemTra(data) {
     for (const t of tapTu[i][2]) if (tapTu[j][2].has(t)) L(`gợi ý ${tapTu[i][0]} và ${tapTu[j][0]} có luận điểm trùng tiêu đề "${t}"`);
   }
   if (!(data.goi_y?.length >= 1 && data.goi_y.length <= 5)) L('cần 1–5 gợi ý');
+  kiemChu(data, L);
   return { loi, canh_bao: cb, thong_ke: { so_goi_y: data.goi_y?.length ?? 0, so_luan_diem: (data.goi_y ?? []).reduce((s, g) => s + (g.luan_diem?.length ?? 0), 0), do_giong: doGiong } };
+}
+
+const CO_DAU = /[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/i;
+const LOI_MA = /[\p{L}]\?[\p{L}]|�|Ã[\u0080-¿]|Ä‘|á»/u;   // "Th? B?y", U+FFFD, UTF-8 đọc nhầm Latin-1
+const CAU_DEM = /grounded interpretation|lorem ipsum|placeholder|TODO|TBD/i;
+/** Phần tác giả viết phải là tiếng Việt có dấu, không lỗi mã hoá, không câu đệm, không giải thích lặp. */
+function kiemChu(data, L) {
+  const truong = [['ten_le', data.ten_le]];
+  for (const g of data.goi_y ?? []) {
+    const n = `gợi ý ${g.so}`;
+    for (const f of ['tieu_de', 'chu_de', 'luan_de', 'lien_he_bai_doc', 'su_diep']) truong.push([`${n} · ${f}`, g[f]]);
+    (g.ap_dung ?? []).forEach((a, i) => truong.push([`${n} · ap_dung[${i}]`, a]));
+    for (const d of g.luan_diem ?? []) truong.push([`${n} · luận điểm ${d.so} · tieu_de`, d.tieu_de], [`${n} · luận điểm ${d.so} · giai_thich`, d.giai_thich]);
+  }
+  for (const [noi, s] of truong) {
+    const t = String(s ?? '');
+    if (!t.trim()) continue;
+    if (LOI_MA.test(t)) L(`${noi}: lỗi mã hoá ký tự (vd "?" thay chữ có dấu): "${t.slice(0, 50)}"`);
+    else if (/[a-z]{2,}/i.test(t) && !CO_DAU.test(t) && t.split(/\s+/).length >= 3) L(`${noi}: không phải tiếng Việt có dấu: "${t.slice(0, 50)}"`);
+    if (CAU_DEM.test(t)) L(`${noi}: câu đệm, chưa viết nội dung thật: "${t.slice(0, 50)}"`);
+  }
+  const gt = new Map();
+  for (const g of data.goi_y ?? []) for (const d of g.luan_diem ?? []) {
+    const k = chuanVanBan(d.giai_thich ?? '').toLowerCase();
+    if (k && gt.has(k)) L(`gợi ý ${g.so} · luận điểm ${d.so}: giải thích trùng nguyên văn với ${gt.get(k)}`);
+    else gt.set(k, `gợi ý ${g.so} · luận điểm ${d.so}`);
+  }
 }
 
 /** Gắn hash nguồn (bài giảng, Lời Chúa, Kim Chỉ Nam) */

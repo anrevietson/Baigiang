@@ -293,7 +293,7 @@ let chon = new Set();
 try { chon = new Set(JSON.parse(localStorage.getItem(KHOA_CHON) || '[]')); } catch {}
 const luuChon = () => { try { localStorage.setItem(KHOA_CHON, JSON.stringify([...chon])); } catch {} };
 const NHAN_LOAI = { 'kim-chi-nam-phu-luc': 'Theo Kim Chỉ Nam Giảng Lễ (Phụ lục I)', 'kim-chi-nam-nguyen-tac': 'Theo nguyên tắc chung của Kim Chỉ Nam Giảng Lễ — không phải dàn ý chính thức', 'bai-giang': 'Tổng hợp từ kho bài giảng' };
-const TT_DUYET = { draft: 'Bản nháp AI — chưa duyệt', 'da-duyet': 'Đã được duyệt', 'can-sua': 'Cần sửa', 'tu-choi': 'Đã từ chối' };
+const TT_DUYET = { 'da-duyet': 'Đã được duyệt', 'can-sua': 'Cần sửa', 'tu-choi': 'Đã từ chối' };
 const so2 = (n) => String(n).padStart(2, '0');
 
 /** bộ lọc đang áp → [{ b, nam, gs }] ; null khi không có lễ cụ thể */
@@ -329,7 +329,7 @@ const ktChu = (k) => k.trich ? `${k.ref ? k.ref + ' ' : ''}“${k.trich}”` : (
 function theGoiY(b, g) {
   const chiNam = g.nam.length === 1 && g.nam[0] && b.chu_ky.length > 1 ? ` · chỉ dùng năm ${g.nam[0]}` : '';
   return `<details class="gy" data-gy="${esc(g.ma)}"><summary><span class="gy-so">Gợi ý ${so2(g.so)}</span> — ${esc(g.tieu_de)}
-      <span class="gy-loai">${esc(NHAN_LOAI[g.loai] || g.loai)}${chiNam} · <span class="nhap">${esc(TT_DUYET[g.duyet?.trang_thai] || 'Bản nháp AI')}</span></span></summary>
+      <span class="gy-loai">${esc(NHAN_LOAI[g.loai] || g.loai)}${chiNam}${TT_DUYET[g.duyet?.trang_thai] ? ` · <span class="nhap">${esc(TT_DUYET[g.duyet.trang_thai])}</span>` : ''}</span></summary>
     <div class="gy-than">
       <p><b>Chủ đề xuyên suốt:</b> ${esc(g.chu_de)}</p>
       ${g.nen ? `<p><b>Lời Chúa nền tảng:</b> ${esc(ktChu(g.nen))}</p>` : ''}
@@ -351,7 +351,7 @@ function dsCoGoiY() {
   return `<div class="gy-khung"><h2>Gợi ý bài giảng</h2>
     <p class="gy-luu">Chọn một ngày, một lễ hoặc gõ tên lễ để xem gợi ý bên cạnh các bài giảng đã có. Các lễ đã có gợi ý:</p>
     <div>${GY.bo.map((b) => `<button type="button" class="gy-chip" data-gy-le="${esc(b.tm)}">${esc(b.ten)} <span class="nho">(${b.goi_y.length})</span></button>`).join('')}</div>
-    <p class="gy-luu">Gợi ý do AI biên soạn từ Lời Chúa và kho bài giảng, mỗi luận điểm kèm nguồn để kiểm. Chưa được người phụ trách duyệt.</p></div>`;
+    <p class="gy-luu">Gợi ý tổng hợp từ Lời Chúa, kho bài giảng và Kim Chỉ Nam Giảng Lễ; mỗi luận điểm đều kèm nguồn để kiểm.</p></div>`;
 }
 function hienGoiY(l) {
   if (!GY) return;
@@ -396,7 +396,7 @@ function vanBanChon() {
       ra.push(`  Nguồn: ${d.ng.map(nguonChu).join('; ')}`);
     }
   }
-  if (ra.length) ra.push('\n— Gợi ý bài giảng do AI biên soạn (bản nháp, chưa duyệt). Kiểm tra nguồn trước khi dùng.');
+  if (ra.length) ra.push('\n— Gợi ý bài giảng tổng hợp từ các nguồn đã ghi. Kiểm tra nguồn trước khi dùng.');
   return ra.join('\n');
 }
 async function saoChep(t) {

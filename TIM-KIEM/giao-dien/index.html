@@ -40,6 +40,15 @@
   .dong { display:flex; gap:12px; } .dong i { color:var(--mute); font-style:normal; font-size:12px; min-width:34px; text-align:right; padding-top:3px; user-select:none; }
   .dong span { white-space:pre-wrap; flex:1; } .dong.chon { background:var(--hl); } .dong.yaml { color:var(--mute); font-size:13px; }
   details { font-size:13.5px; color:var(--mute); margin-top:8px; } code { font-size:13px; }
+  #goi-y { margin-bottom:16px; }
+  .gy-khung { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin-bottom:14px; }
+  .gy-khung h2 { font-size:18px; margin:0 0 6px; }
+  .gy { border-top:1px solid var(--line); padding:8px 0; color:var(--fg); }
+  .gy summary { cursor:pointer; }
+  .gy .meta { display:block; }
+  .gy-ld { margin:8px 0 0 20px; }
+  .gy-ld li { margin:8px 0; }
+  .gy-nguon { color:var(--mute); font-size:13px; }
 </style>
 </head>
 <body>
@@ -74,6 +83,7 @@
 </div></header>
 <main><div class="wrap">
   <div class="tt" id="tt"></div>
+  <div id="goi-y" class="an"></div>
   <div id="kq"></div>
   <button class="them an" id="them">Xem thêm</button>
 </div></main>
@@ -107,6 +117,19 @@ function thamSo() {
   for (const k of ['ngay', 'nam', 'tac_gia', 'sach']) { const v = $('#' + k).value.trim(); if (v) p.set(k, v); }
   return p;
 }
+function hienGoiY(data) {
+  const box = $('#goi-y');
+  if (!data.bo?.length) { box.classList.add('an'); box.innerHTML = ''; return; }
+  box.classList.remove('an');
+  box.innerHTML = data.bo.map((b) => `<div class="gy-khung"><h2>Gợi ý bài giảng</h2>
+    <div class="meta">${esc(b.ten)} · ${b.goi_y.length} gợi ý</div>
+    ${b.goi_y.map((g) => `<details class="gy"><summary><b>Gợi ý ${String(g.so).padStart(2, '0')}</b> — ${esc(g.tieu_de)}</summary>
+      <p><b>Chủ đề:</b> ${esc(g.chu_de)}</p><p><b>Luận đề:</b> ${esc(g.luan_de)}</p>
+      <ol class="gy-ld">${g.ld.map((d) => `<li><b>${esc(d.tieu_de)}</b><div>${esc(d.giai_thich)}</div>
+        <div class="gy-nguon">Nguồn: ${d.ng.map((n) => esc(n.dd ? `${n.dd} (dòng ${n.dong_dau}–${n.dong_cuoi})` : n.loai)).join('; ')}</div></li>`).join('')}</ol>
+      <p><b>Sứ điệp:</b> ${esc(g.su_diep)}</p>
+    </details>`).join('')}</div>`).join('');
+}
 async function tim(them = false) {
   const p = thamSo();
   if (!p.get('q') && !['ngay','ma','tac_gia','sach'].some((k) => p.get(k))) return;
@@ -114,6 +137,11 @@ async function tim(them = false) {
   if (!them) { $('#kq').innerHTML = ''; $('#tt').textContent = 'Đang tìm…'; history.replaceState(null, '', '?' + p); }
   const r = await (await fetch('/api/tim?' + p)).json();
   if (r.loi) { $('#tt').textContent = r.loi; return; }
+  if (!them) {
+    const ma = p.get('ma');
+    const gy = ma ? await (await fetch('/api/goi-y-bai?ma=' + encodeURIComponent(ma) + (p.get('nam') ? '&nam=' + encodeURIComponent(p.get('nam')) : ''))).json() : { bo: [] };
+    hienGoiY(gy);
+  }
   $('#tt').innerHTML = `<div>${r.tong_bai} bài có kết quả.</div>` + r.ghi_chu.map((g) => `<div>• ${esc(g)}</div>`).join('');
   $('#kq').insertAdjacentHTML('beforeend', r.ket_qua.map((k) => {
     const b = k.bai;

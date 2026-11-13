@@ -1,6 +1,6 @@
 # Quy tắc biên soạn gợi ý bài giảng (AI-DAN-Y)
 
-Áp dụng cho mọi gợi ý trong `AI-DAN-Y/OUTPUT/<thư mục>/goi-y.json`. Kiểm tra máy: `node AI-DAN-Y/CONG-CU/kiem-tra.mjs`.
+Áp dụng cho mọi gợi ý trong `AI-DAN-Y/OUTPUT/<thư mục>/goi-y.json`. Kiểm tra máy: `node AI-DAN-Y/CONG-CU/ghi-goi-y.mjs <tm> --thu` (logic trong `CONG-CU/kiem.mjs`).
 
 ## 1. Thứ tự làm việc cho một mã lễ
 1. `doi-chieu-loi-chua.mjs <tm>` — lấy đúng bộ Lời Chúa theo quy tắc của `catholic-cal-vn` (celebrationCode → readingCode qua `TRA-CUU/lich-ngay.json`, rồi `resolveReadingSource`). Lưu `loi-chua.json` nguyên văn.
@@ -14,6 +14,7 @@
 - Có mục Phụ lục I Kim Chỉ Nam: `loai_nguon = "kim-chi-nam-phu-luc"`; dùng đúng các số GLHTCG của mục đó (xem `kim-chi-nam-tham-chieu.json`).
 - Không có mục: `loai_nguon = "kim-chi-nam-nguyen-tac"`; chỉ viện dẫn các số đoạn Kim Chỉ Nam đã đối chiếu; ghi rõ đây KHÔNG phải dàn ý chính thức.
 - Gợi ý 02–05: `loai_nguon = "bai-giang"`.
+- `kim-chi-nam-tham-chieu.json` chỉ chứa các mục Phụ lục I **đã đối chiếu** (hiện: 1010-A, 1010-B, 1010-C). Trước khi soạn một Chúa nhật/lễ trọng mới, tra Phụ lục I trong `NGUON/kim-chi-nam-giang-le.en.txt` và thêm mục nếu có; `kiem.mjs` báo lỗi khi có mục mà gợi ý 01 lại ghi "nguyên tắc chung".
 
 ## 3. Nguồn và trích dẫn
 - Mỗi luận điểm có ít nhất một nguồn. Mỗi nguồn `bai-giang` có `duong_dan`, `dong` [đầu, cuối] theo file gốc, và `trich` là **nguyên văn** một đoạn ngắn trong các dòng đó.

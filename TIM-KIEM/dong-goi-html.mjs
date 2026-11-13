@@ -188,5 +188,5 @@ if (
   console.log(`Xong sau ${((Date.now() - t0) / 1000).toFixed(1)} giây: ${out}
   ${D.bai.length} bài, ${D.doan.length} đoạn · dữ liệu ${(json.length / 1e6).toFixed(0)} MB → nén ${(gz.length / 1e6).toFixed(0)} MB · file HTML ${(Buffer.byteLength(html) / 1e6).toFixed(0)} MB.
   Chỉ mục cập nhật lúc: ${thongTin(db, "cap_nhat")}.${D.goi_y ? `
-  Gợi ý bài giảng: ${D.goi_y.bo.length} mã lễ, ${D.goi_y.bo.reduce((n, b) => n + b.goi_y.length, 0)} gợi ý (bản nháp AI — chỉ dùng local, không đưa lên GitHub).` : ""}`);
+  Gợi ý bài giảng: ${D.goi_y.bo.length} mã lễ, ${D.goi_y.bo.reduce((n, b) => n + b.goi_y.length, 0)} gợi ý.` : ""}`);
 }

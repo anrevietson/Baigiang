@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Kiểm thử ngân hàng gợi ý bài giảng (không gọi AI, không mạng, không sửa Markdown gốc).
 //   node AI-DAN-Y/CONG-CU/kiem-thu-goi-y.mjs
-import { readFileSync, writeFileSync, mkdtempSync, rmSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdtempSync, rmSync, existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { execFileSync } from 'node:child_process';
@@ -77,6 +77,19 @@ phai('trích bản trùng thay vì bản chính', (d) => { d.goi_y[2].luan_diem[
 phai('trích Kim Chỉ Nam bịa', (d) => { d.goi_y[0].luan_diem[3].nguon[0].trich = 'The homily must last ten minutes'; });
 phai('chép nguyên văn câu Kinh Thánh ngoài bài đọc', (d) => { d.goi_y[0].luan_diem[0].kinh_thanh.push({ ref: 'Mt 18,22', qua: { duong_dan: '5321-I-II/001.md', dong: [22, 22] }, trich: 'bảy mươi lần bảy' }); });
 phai('hai gợi ý trùng luận điểm', (d) => { d.goi_y[4].luan_diem[0].tieu_de = d.goi_y[0].luan_diem[0].tieu_de; });
+phai('nội dung không phải tiếng Việt có dấu', (d) => { d.goi_y[1].chu_de = 'Faith opens the eyes of the heart'; });
+phai('lỗi mã hoá "?" thay chữ có dấu', (d) => { d.ten_le = 'Th? Hai Tu?n XXXII'; });
+phai('câu đệm thay cho giải thích', (d) => { d.goi_y[1].luan_diem[0].giai_thich = 'Grounded interpretation from the cited source lines.'; });
+phai('giải thích lặp nguyên văn', (d) => { d.goi_y[1].luan_diem[1].giai_thich = d.goi_y[1].luan_diem[0].giai_thich; });
+{
+  const d = doc(join(LAM_VIEC, '1010-C', 'goi-y.nhap.json'));
+  d.goi_y[0].loai_nguon = 'kim-chi-nam-nguyen-tac';
+  thu('Bắt lỗi: có mục Phụ lục I mà gợi ý 01 ghi "nguyên tắc chung"', kiemTra(d).loi.some((m) => m.includes('Phụ lục I có mục')));
+}
+for (const tm of ['1010-B', '1010-C']) {
+  const ma = doc(join(OUTPUT, tm, 'goi-y.json')).goi_y[0];
+  thu(`${tm} gợi ý 01 theo Phụ lục I`, ma.loai_nguon === 'kim-chi-nam-phu-luc');
+}
 
 // 5. Phát hiện nguồn thay đổi (giả lập bằng dữ liệu, KHÔNG sửa file Markdown)
 const dDoi = doc(join(OUTPUT, '82612', 'goi-y.json'));
@@ -107,7 +120,8 @@ try {
   const db = moCsdl(join(tmp, 't.sqlite'));
   const st1 = napTatCa(db, { log: () => {} });
   const st2 = napTatCa(db, { log: () => {} });
-  thu('Nạp SQLite: lần 1 nạp 3, lần 2 giữ nguyên 3 (gia tăng)', st1.nap === 3 && st2.giu === 3 && st2.nap === 0);
+  const soBo = readdirSync(OUTPUT).filter((tm) => existsSync(join(OUTPUT, tm, 'goi-y.json'))).length;
+  thu(`Nạp SQLite: lần 1 nạp ${soBo}, lần 2 giữ nguyên ${soBo} (gia tăng)`, st1.nap === soBo && st2.giu === soBo && st2.nap === 0);
   const q = (s, ...p) => db.prepare(s).all(...p);
   thu('Tra theo mã + năm (5321, II) → 01,02,03,05', q(`SELECT g.so FROM goi_y_ma m JOIN goi_y g ON g.id=m.goi_y_id WHERE m.ma=? AND (m.nam IS NULL OR m.nam=?) ORDER BY g.so`, '5321', 'II').map((r) => r.so).join(',') === '1,2,3,5');
   thu('FTS5 có dấu "hạt cải"', q(`SELECT rowid FROM luan_diem_fts WHERE luan_diem_fts MATCH ?`, '"hạt cải"').length >= 1);

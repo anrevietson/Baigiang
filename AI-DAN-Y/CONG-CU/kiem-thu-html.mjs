@@ -70,7 +70,7 @@ try {
   if (khongGoiY) {
     dat('Bản không kèm gợi ý: khối gợi ý ẩn', await ev(`document.querySelector('#goi-y').classList.contains('an') && !document.querySelector('.gy')`));
   } else {
-    dat('Trang đầu liệt kê các lễ đã có gợi ý', await ev(`document.querySelectorAll('#goi-y [data-gy-le]').length === 3`));
+    dat('Trang đầu liệt kê các lễ đã có gợi ý', await ev(`document.querySelectorAll('#goi-y [data-gy-le]').length === GY.bo.length && GY.bo.length > 0`));
     // ---- chọn ngày 30/11/2025: CN I Mùa Vọng năm A ----
     const chonNgay = async (d) => { await ev(`(()=>{const n=document.querySelector('#ngay');n.value=${JSON.stringify(d)};n.dispatchEvent(new Event('change'));return 1})()`); await ngu(400); };
     await chonNgay('2025-11-30');
@@ -78,7 +78,7 @@ try {
     dat('Ngày 30/11/2025 → 5 gợi ý của 1010-A', g1010 === '1010-A/01,1010-A/02,1010-A/03,1010-A/04,1010-A/05', g1010);
     dat('…và vẫn hiện "Bài giảng đã có" bên dưới', await ev(`!document.querySelector('#nhom-bai').classList.contains('an') && document.querySelectorAll('#kq .bai').length > 0`), await ev(`document.querySelector('#tt').innerText.split('\\n')[0]`));
     dat('Gợi ý 01 ghi rõ theo Phụ lục I Kim Chỉ Nam', await ev(`document.querySelector('details[data-gy="1010-A/01"] .gy-loai').innerText.includes('Phụ lục I')`));
-    dat('Có nhãn "Bản nháp AI — chưa duyệt"', await ev(`document.querySelector('.gy .nhap').innerText.includes('Bản nháp')`));
+    dat('Không còn nhãn "Bản nháp AI"', await ev(`!document.querySelector('#goi-y').innerText.includes('Bản nháp')`));
     // mở gợi ý, chọn checkbox
     await ev(`(()=>{document.querySelector('details[data-gy="1010-A/01"]').open=true;document.querySelector('details[data-gy="1010-A/03"]').open=true;return 1})()`);
     await ev(`document.querySelector('[data-chon="1010-A/01#2"]').click()`);
@@ -118,9 +118,9 @@ try {
     // tải lại trang: lựa chọn còn
     await goi('Page.reload'); await doi(`!document.getElementById('mo') && typeof GY!=='undefined' && GY`, 180000, 500);
     dat('Tải lại trang (offline): lựa chọn vẫn còn', await ev(`document.querySelector('#khay-so').innerText==='2'`));
-    // ---- năm B: chưa có gợi ý ----
+    // ---- năm B: có gợi ý theo mã 1010-B ----
     await chonNgay('2026-11-29');
-    dat('Ngày 29/11/2026 (CN I MV năm B) → báo chưa có gợi ý, vẫn hiện bài giảng', await ev(`document.querySelector('#goi-y').innerText.includes('chưa có gợi ý') && document.querySelectorAll('#kq .bai').length>0`));
+    dat('Ngày 29/11/2026 (CN I MV năm B) → hiện gợi ý và bài giảng', await ev(`document.querySelectorAll('#goi-y details.gy').length === 3 && document.querySelectorAll('#kq .bai').length>0`));
     // ---- 5321 năm I ----
     await chonNgay('2027-11-08');
     const g5321 = await ev(`[...document.querySelectorAll('#goi-y details.gy')].map(d=>d.dataset.gy).join(',')`);
@@ -129,6 +129,20 @@ try {
     await chonNgay('2025-12-26');
     const g82612 = await ev(`[...document.querySelectorAll('#goi-y details.gy')].map(d=>d.dataset.gy).join(',')`);
     dat('Ngày 26/12/2025 (Thánh Stêphanô) → 5 gợi ý', g82612.split(',').length === 5 && g82612.startsWith('82612/01'), g82612);
+    // ---- các mã soạn lại: 1015, 1016, 1010-C ----
+    const dsGy = () => ev(`[...document.querySelectorAll('#goi-y details.gy')].map(d=>d.dataset.gy).join(',')`);
+    // xét từng nút chữ (textContent của cả khối dính liền các phần tử, gây báo nhầm "không?Nguồn")
+    const chuHong = () => ev(`(()=>{const w=document.createTreeWalker(document.querySelector('#goi-y'),NodeFilter.SHOW_TEXT);let n;while((n=w.nextNode()))if(/\\p{L}\\?\\p{L}|\\uFFFD/u.test(n.data))return true;return false})()`);
+    await chonNgay('2025-12-05');
+    const g1015 = await dsGy();
+    dat('Ngày 05/12/2025 (Thứ Sáu tuần I MV) → 3 gợi ý 1015, không chữ hỏng', g1015 === '1015/01,1015/02,1015/03' && !(await chuHong()), g1015);
+    await chonNgay('2025-12-06');
+    const g1016 = await dsGy();
+    dat('Ngày 06/12/2025 (Thứ Bảy tuần I MV) → 3 gợi ý 1016, không chữ hỏng', g1016 === '1016/01,1016/02,1016/03' && !(await chuHong()), g1016);
+    await chonNgay('2027-11-28');
+    const g1010C = await dsGy();
+    dat('Ngày 28/11/2027 (CN I MV năm C) → 4 gợi ý 1010-C, gợi ý 01 theo Phụ lục I', g1010C === '1010-C/01,1010-C/02,1010-C/03,1010-C/04'
+      && await ev(`document.querySelector('details[data-gy="1010-C/01"] .gy-loai').innerText.includes('Phụ lục I')`), g1010C);
     // ---- gõ tên lễ ----
     await ev(`document.querySelector('#ngay').value=''`);
     await timQ('chúa nhật 1 mùa vọng năm A');

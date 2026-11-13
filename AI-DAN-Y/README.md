@@ -1,6 +1,8 @@
 # AI-DAN-Y — ngân hàng gợi ý bài giảng (local)
 
-Gợi ý bài giảng có cấu trúc (1–5 cho mỗi mã lễ). Mỗi gợi ý được soạn từ bộ Lời Chúa của `catholic-cal-vn`, kho bài giảng Markdown và *Kim Chỉ Nam Giảng Lễ*. Mọi luận điểm đều có nguồn kiểm tra được. Đây là **bản nháp AI** cho đến khi người phụ trách duyệt.
+Gợi ý bài giảng có cấu trúc (1–5 cho mỗi mã lễ). Mỗi gợi ý được soạn từ bộ Lời Chúa của `catholic-cal-vn`, kho bài giảng Markdown và *Kim Chỉ Nam Giảng Lễ*. Đây là phần tổng hợp: mọi luận điểm đều có nguồn kiểm tra được (bài giảng + số dòng, Lời Chúa, Kim Chỉ Nam). Trạng thái `draft` nghĩa là người phụ trách chưa duyệt; trang không hiện nhãn cho trạng thái này.
+
+**Ghi file bằng UTF-8** (công cụ Write/Node). Không ghi JSON tiếng Việt qua PowerShell `Set-Content`/`>`: bản 1016 trước đây hỏng hết dấu ("Th? B?y") vì vậy. `ghi-goi-y.mjs` nay từ chối nội dung không dấu, lỗi mã hoá, câu đệm và giải thích lặp.
 
 | Thư mục | Nội dung | Git |
 |---|---|---|
@@ -24,7 +26,8 @@ node AI-DAN-Y/CONG-CU/chuan-bi.mjs 1010-A              # thu thập mọi bài, 
 node AI-DAN-Y/CONG-CU/ghi-goi-y.mjs 1010-A --thu       # chỉ kiểm tra
 node AI-DAN-Y/CONG-CU/ghi-goi-y.mjs 1010-A             # kiểm tra + ghi OUTPUT (không ghi đè gợi ý đã duyệt)
 node AI-DAN-Y/CONG-CU/nap-csdl.mjs                     # nạp SQLite + FTS5, gắn cờ nguồn đã đổi
-node TIM-KIEM/dong-goi-html.mjs --goi-y                # → baigiang-goi-y.html (chỉ dùng local)
+node TIM-KIEM/dong-goi-html.mjs --goi-y --ra baigiang.html   # trang chính kèm gợi ý
+node AI-DAN-Y/CONG-CU/kiem-thu-html.mjs baigiang.html  # kiểm thử trang chính (offline)
 ```
 
 ## Kiểm thử
