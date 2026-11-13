@@ -1,0 +1,1001 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "1010-A",
+ "celebrationCode": "1010",
+ "ten_le": "Chúa Nhật I Mùa Vọng — Năm A",
+ "loai_ngay": "chua-nhat",
+ "chu_ky": [
+  "A"
+ ],
+ "bien_soan": {
+  "boi": "Claude Code (claude-opus-5-5), theo AI-DAN-Y/HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Bản nháp do AI biên soạn sau khi đọc đủ 110/110 file của thư mục (96 bài nội dung độc lập, 14 bản trùng). Gợi ý 01 theo Kim Chỉ Nam Giảng Lễ §78-86 và Phụ lục I (năm A). Chưa được người phụ trách duyệt."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "1010-A/094-tach-08.md",
+   "ly_do": "Xếp nhầm: nội dung Chúa nhật II Mùa Vọng"
+  },
+  {
+   "duong_dan": "1010-A/117-tach-03.md",
+   "ly_do": "Thông báo giáo xứ, có họ tên người thật (rao hôn phối)"
+  },
+  {
+   "duong_dan": "1010-A/117-tach-02.md",
+   "ly_do": "Giai thoại thời sự, không phải bài giảng"
+  },
+  {
+   "duong_dan": "1010-A/003-tach-06.md",
+   "ly_do": "Tài liệu phương pháp nguyện gẫm, không phải bài giảng"
+  },
+  {
+   "duong_dan": "1010-A/003-tach-07.md",
+   "ly_do": "Bài về chầu Thánh Thể, có dữ kiện sai"
+  },
+  {
+   "duong_dan": "1010-A/064-tach-02.md",
+   "dong": [
+    59,
+    61
+   ],
+   "ly_do": "Thông tin cá nhân (email) của tác giả"
+  },
+  {
+   "duong_dan": "1010-A/114.md",
+   "dong": [
+    40,
+    42
+   ],
+   "ly_do": "Nhắc tên người đã qua đời trong giáo xứ"
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-phu-luc",
+   "ap_dung_nam": [
+    "A"
+   ],
+   "tieu_de": "Hai cuộc đến và cuộc đến hôm nay: “Hãy bước đi trong ánh sáng của Chúa”",
+   "chu_de": "Mùa Vọng mở ra với ý nghĩa kép của chữ “Chúa đến”. Đấng đã đến trong thân phận hèn mọn sẽ đến trong vinh quang, và hôm nay Người đến trong Thánh Thể. Cộng đoàn chuẩn bị bằng sự tỉnh thức khiêm tốn của con tim.",
+   "loi_chua_nen": {
+    "ref": "Mt 24,42",
+    "doan": "gospel",
+    "trich": "Vậy hãy tỉnh thức, vì không biết giờ nào Chúa các con sẽ đến."
+   },
+   "luan_de": "Kim Chỉ Nam nhắc rằng ngay CN I Mùa Vọng, phụng vụ đặt trước mắt ta Con Người đến trong vinh quang, Đấng cũng sinh ra tại Bêlem. Bài đọc Isaia cho thấy muôn dân đang tiến về Người, và Thánh Thể là cách chuẩn bị mạnh mẽ nhất cho cuộc đến ấy.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Con Người sẽ đến trong vinh quang: chuẩn bị cho cuộc đến và cuộc phán xét",
+     "giai_thich": "Tin Mừng CN I Mùa Vọng cả ba năm đều loan báo Con Người đến bất ngờ. Phụ lục I nối bài này với giáo lý về cuộc thử thách cuối cùng và cuộc trở lại vinh hiển của Đức Kitô. Với Kitô hữu, đó là ngày vui chứ không phải ngày tai biến.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 24,44",
+       "doan": "gospel",
+       "trich": "Vậy các con cũng phải sẵn sàng, vì lúc các con không ngờ, Con Người sẽ đến"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "80",
+       "trich": "On this Sunday it is the preacher’s responsibility to remind the Christian people that they need always prepare themselves for this coming and judgment."
+      },
+      {
+       "loai": "glhtcg",
+       "so": "668-677, 769",
+       "theo": "Phụ lục I Kim Chỉ Nam, năm A: the final tribulation and Christ’s return in glory",
+       "nguyen_van": "chua-xac-minh"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/118.md",
+       "dong": [
+        46,
+        46
+       ],
+       "trich": "đối với Kitô hữu, ngày trở lại của Chủ là một ngày vui chứ chẳng phải là một ngày tai biến",
+       "sha256": "0384b5dfd8093d4dddadec611c2c1708dc7e79ee238593ceea7fb4d158dd5d1b",
+       "bam_dong": "920d5a08530dc479ee55d5a4742aef611270ba7f"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Núi Nhà Chúa: Hội Thánh, nơi muôn dân tuôn về Đức Kitô",
+     "giai_thich": "Kim Chỉ Nam đọc Is 2 theo nhiều tầng: núi Nhà Chúa là hình ảnh Hội Thánh; muôn dân tuôn về Hài Nhi nơi máng cỏ (ứng nghiệm trong lễ Hiển Linh); cũng chính lời ấy chỉ về ngày sau hết. Cộng đoàn hôm nay là một trong những dân tộc đang tiến về Đức Kitô. Đáp ca hát lên niềm vui ấy.",
+     "kinh_thanh": [
+      {
+       "ref": "Is 2,2",
+       "doan": "firstReading",
+       "trich": "núi của nhà Chúa được xây đắp trên đỉnh các núi, và núi ấy sẽ cao hơn các đồi, và các dân nước sẽ đổ về đó"
+      },
+      {
+       "ref": "Tv 121,1",
+       "doan": "psalms",
+       "trich": "Tôi vui mừng khi người ta nói với tôi: “Chúng ta sẽ tiến vào nhà Chúa”"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "82",
+       "trich": "might well be explained as an image of the Church, to which all nations are destined to be joined"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "82",
+       "trich": "A homilist could remind his own people that they too are among the many nations that are streaming toward Christ"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/069.md",
+       "dong": [
+        15,
+        15
+       ],
+       "trich": "The prophet's yearning was fulfilled in Christ.",
+       "sha256": "a1d057686c20ad89b4f71b1232f3836783aff3d89e6df098c592f8129318bef1",
+       "bam_dong": "fda37f72dfcae32d0e601b0043b821356c65c2d3"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "“Lạy Chúa Giêsu, xin ngự đến!”: Thánh Thể là chính cuộc Người đến",
+     "giai_thich": "Phụ lục I gom các số giáo lý về lời kêu “Lạy Chúa Giêsu, xin ngự đến”. Kim Chỉ Nam nói Thánh Thể sắp cử hành là sự chuẩn bị mạnh mẽ nhất vì chính đó là việc Người đến. Lời nguyện sau Kinh Lạy Cha diễn tả cùng niềm trông đợi.",
+     "kinh_thanh": [
+      {
+       "ref": "Tv 84,8",
+       "doan": "alleluia",
+       "trich": "Lạy Chúa, xin tỏ lòng từ bi Chúa cho chúng con, và ban ơn cứu rỗi cho chúng con."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "86",
+       "trich": "The Eucharist itself which is about to be celebrated is, of course, the most intense preparation the community has for the Lord’s coming, for it is itself his coming."
+      },
+      {
+       "loai": "glhtcg",
+       "so": "451, 671, 1130, 1403, 2817",
+       "theo": "Phụ lục I Kim Chỉ Nam, năm A: \"Come, Lord Jesus!\"",
+       "nguyen_van": "chua-xac-minh"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/104.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "đang khi trong niềm hy vọng hồng phúc, chúng con trông đợi Đấng cứu thế là đức Giêsu Kitô sẽ đến",
+       "sha256": "7bdeaef03ea11730aa4232cf2f73b8937420bb1ee3ce7b6051f432408e5a8499",
+       "bam_dong": "f5a93babaac8945b5656e449edbf2cd406e083fb"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Tỉnh thức khiêm tốn của con tim: cuộc đến vô hình hôm nay",
+     "giai_thich": "Giữa hai cuộc đến hữu hình còn có một cuộc đến vô hình ngay bây giờ (theo giáo huấn thánh Bênađô mà Kim Chỉ Nam dẫn). Phụ lục I nối với giáo lý về cầu nguyện như sự tỉnh thức khiêm tốn của con tim. Tỉnh thức không phải lo âu mà là chú tâm vào Chúa.",
+     "kinh_thanh": [
+      {
+       "ref": "Rm 13,11",
+       "doan": "secondReading",
+       "trich": "biết rằng thời này là lúc chúng ta phải thức dậy"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "79",
+       "trich": "between Christ’s two visible comings, in history and at the end of time, there is an invisible coming here and now"
+      },
+      {
+       "loai": "glhtcg",
+       "so": "2729-2733",
+       "theo": "Phụ lục I Kim Chỉ Nam, năm A: humble vigilance of heart",
+       "nguyen_van": "chua-xac-minh"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/090-tach-02.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "Không lo lắng, nhưng chú ý, chú ý vào Chúa Cha, chú ý vào Đức Giêsu Kitô.",
+       "sha256": "01d8ceb58822e10bd96e22897ff07d4d7fa2dbdd44c6efd6395d4a6da8f7240d",
+       "bam_dong": "29b28192f14735a3ec9d65a31e1e53388bb6d22d"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Theo Kim Chỉ Nam §78-82: Tin Mừng nói về Chúa đến lúc cùng tận; Bài đọc I (Is 2) vừa chỉ về ngày sau hết vừa chỉ về Giáng Sinh; Thánh Vịnh 121 là lời đáp của cộng đoàn đang lên nhà Chúa; Bài đọc II (Rm 13) nêu thái độ của người sống giữa “đêm sắp tàn, ngày gần đến”.",
+   "su_diep": "Đấng ta chờ đợi ở Bêlem và ở cuối thời gian cũng là Đấng đến với ta hôm nay trên bàn thờ; ai gặp Người hôm nay sẽ không sợ ngày Người đến.",
+   "ap_dung": [
+    "Mỗi Chúa nhật Mùa Vọng, khi tung hô sau truyền phép (“…cho tới khi Chúa lại đến”), ý thức rằng mình đang chờ đợi một Đấng sống.",
+    "Dành mỗi ngày vài phút cầu nguyện thầm lặng như “canh thức của con tim”.",
+    "Mời một người đang xa nhà thờ cùng “lên núi Chúa” trong Mùa Vọng này."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Các số GLHTCG lấy đúng theo Phụ lục I (đã đối chiếu vatican.va). Chưa đối chiếu nguyên văn tiếng Việt của GLHTCG. Phần tiếng Việt là diễn ý của AI, không phải bản dịch chính thức Kim Chỉ Nam. Chưa có file 01-HUONG-DAN-DAN-Y-TOA-THANH.md để đối chiếu."
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "A"
+   ],
+   "tieu_de": "Không phải tội ác mà là “không hay biết gì”: tỉnh thức giữa đời thường",
+   "chu_de": "Người thời Nôê không bị trách vì tội ác mà vì sống như thể không có gì sẽ xảy ra; Chúa đến ngay giữa những công việc bình thường nhất.",
+   "loi_chua_nen": {
+    "ref": "Mt 24,38",
+    "doan": "gospel",
+    "trich": "người ta ăn uống, dựng vợ gả chồng, mãi đến chính ngày ông Noe vào tàu mà người ta cũng không ngờ"
+   },
+   "luan_de": "Đức Giêsu không liệt kê tội lỗi của thời Nôê. Ngài mô tả những sinh hoạt bình thường. Nguy cơ của chúng ta cũng không phải là làm điều xấu mà là đắm mình trong cái thường ngày đến mức quên Đấng đang đến.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Đức Giêsu không kể một tội nào của thời Nôê",
+     "giai_thich": "Ăn uống, cưới hỏi tự nó không có gì xấu. Các chú giải nhấn mạnh rằng Mt không chủ ý nhắc đến sự đồi trụy truyền kỳ của thời Nôê. (Một số bài giảng khác trong kho đọc theo hướng sa đọa; nên nói rõ khi giảng.)",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/093.md",
+       "dong": [
+        26,
+        26
+       ],
+       "trich": "Đức Giêsu , trái lại, tuyệt đối không hề nói gì về nạn vô luân.",
+       "sha256": "118d483560884113bfe28fac262c88d6f31521d30ed87933b3ae9bf7ad102de0",
+       "bam_dong": "d2cf5181446aa229a9a72ef370dadcf309b80203"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/118.md",
+       "dong": [
+        54,
+        54
+       ],
+       "trich": "Mt không chủ ý nhắc đến sự đồi trụy có tính cách truyền kỳ của thời Noe",
+       "sha256": "0384b5dfd8093d4dddadec611c2c1708dc7e79ee238593ceea7fb4d158dd5d1b",
+       "bam_dong": "ef9d3b2d3005b27a92c5015a7d2a3e8bcfeac09d"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/002.md",
+       "dong": [
+        28,
+        28
+       ],
+       "trich": "Không phải vì họ làm gì tội, mà vì họ không làm những việc phải làm.",
+       "sha256": "eda13a2069713718ebc1286a12547f24c8a664dbe716609ef1e7ce2495fbd173",
+       "bam_dong": "b36529fcebac37f8ea9d49e81ae66668f40cc6a1"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "“Không hay biết” là không muốn biết",
+     "giai_thich": "Việc ông Nôê đóng tàu là một tín hiệu ai cũng thấy. Họ không muốn biết vì tưởng mình bất tử. Chúng ta luôn ở “thời ông Nôê” khi tiện nghi và tiến bộ ru ngủ ta.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 24,37",
+       "doan": "gospel",
+       "trich": "Trong thời ông Noe xảy ra thế nào, thì lúc Con Người đến cũng như vậy."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/107.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "không hẳn có nghĩa là không có khả năng nhận ra, mà là không muốn biết",
+       "sha256": "79c9480fbd221f137f48aa5ddfade3b6584f010ee6d4babc1775e7770c340592",
+       "bam_dong": "f81f83f91bac7b83a2eaf39007b01cd49c2276a5"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/093.md",
+       "dong": [
+        31,
+        31
+       ],
+       "trich": "Họ có vẻ tin là họ bất tử !",
+       "sha256": "118d483560884113bfe28fac262c88d6f31521d30ed87933b3ae9bf7ad102de0",
+       "bam_dong": "13e73ea4649d00b856a9a9ec4158d322ad00b724"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/003.md",
+       "dong": [
+        31,
+        31
+       ],
+       "trich": "Chúng ta luôn luôn ở vào thời ông Nô-ê.",
+       "sha256": "3e967392e60e553fc2159e66437123e97b5569a5be9d3eb3b3a477377e127b54",
+       "bam_dong": "76de840beadb530a46dda8e50d5d0a2809017c0c"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Cùng một công việc, hai số phận: khác nhau ở cách sống trước mặt Chúa",
+     "giai_thich": "Hai người cùng làm ruộng, hai bà cùng xay bột. Bề ngoài không khác gì nhau, chỉ Thiên Chúa thấy khác biệt nơi thái độ bên trong. Chính trong lúc bận rộn thường ngày mà Đức Giêsu đến.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 24,40",
+       "doan": "gospel",
+       "trich": "một người được tiếp nhận, một người bị bỏ rơi"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/118.md",
+       "dong": [
+        66,
+        66
+       ],
+       "trich": "Một chỉ nghĩ đến công việc riêng tư còn người kia làm việc trước mặt Thiên Chúa",
+       "sha256": "0384b5dfd8093d4dddadec611c2c1708dc7e79ee238593ceea7fb4d158dd5d1b",
+       "bam_dong": "78cda645cdfc7733515f7215a7dc9b1e8a2315f8"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/093.md",
+       "dong": [
+        43,
+        43
+       ],
+       "trich": "Chính trong những lúc bận rộn rất thường ngày của chúng ta mà Đức Giêsu đến",
+       "sha256": "118d483560884113bfe28fac262c88d6f31521d30ed87933b3ae9bf7ad102de0",
+       "bam_dong": "53b97e4c54bb1bc0ad69bd6a596a5b14d0bdbd05"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Tỉnh thức không phải sợ hãi hay khoanh tay, mà là sống trọn hiện tại",
+     "giai_thich": "Tỉnh thức không phải là lo âu đến tê liệt, cũng không phải là ngồi chờ. Đó là làm tốt bổn phận lúc này theo ý Chúa. Giai thoại “con sẽ tiếp tục chơi” được các bài gán cho thánh Đaminh Saviô (003-tach-05) hoặc thánh Luy Gonzaga (019); chưa xác minh.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/003.md",
+       "dong": [
+        45,
+        45
+       ],
+       "trich": "không phải là quá lo âu sợ hãi đến nỗi tê liệt cả nhịp sống hiện tại",
+       "sha256": "3e967392e60e553fc2159e66437123e97b5569a5be9d3eb3b3a477377e127b54",
+       "bam_dong": "942bdfc153c802d86cab98f49698f2d402c99cb8"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/002.md",
+       "dong": [
+        62,
+        62
+       ],
+       "trich": "tỉnh thức không có nghĩa là ngồi đó khoanh tay mà chờ đợi",
+       "sha256": "eda13a2069713718ebc1286a12547f24c8a664dbe716609ef1e7ce2495fbd173",
+       "bam_dong": "df87f5e4c3a07be22b3d6bf50d6f0f69d38835d2"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/019.md",
+       "dong": [
+        65,
+        65
+       ],
+       "trich": "Con sẽ tiếp tục chơi, vì bây giờ là giờ chơi",
+       "sha256": "96c924179950ea9f38bec6e0023030526b1d3c32f03b3c1122fe2cecb3503fa0",
+       "bam_dong": "11b60aa58902c96ddc32b340c5fe68826d9a8bef"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Dựa trên Mt 24,37-41. Rm 13 (sống “như giữa ban ngày”) cho biết nội dung của sự tỉnh thức; xem gợi ý 04.",
+   "su_diep": "Điều nguy hiểm không phải là đời thường mà là sống đời thường như thể không có Chúa.",
+   "ap_dung": [
+    "Chọn một công việc thường ngày (nấu ăn, lái xe, làm việc văn phòng) và làm nó “trước mặt Chúa” với một lời nguyện ngắn.",
+    "Xét lại: điều gì đang “ru ngủ” tôi đến mức không còn nghĩ đến Chúa?"
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "A"
+   ],
+   "tieu_de": "Núi Nhà Chúa và giấc mơ hòa bình: đến gần Thiên Chúa là đến gần nhau",
+   "chu_de": "Thiên Chúa quy tụ muôn dân và dạy họ đường lối của Người. Khi con người để Chúa dạy, gươm giáo trở thành lưỡi cày; người Kitô hữu được mời góp phần vào giấc mơ ấy ngay từ bây giờ.",
+   "loi_chua_nen": {
+    "ref": "Is 2,4",
+    "doan": "firstReading",
+    "trich": "Họ sẽ lấy gươm mà rèn nên lưỡi cày, lấy giáo rèn nên lưỡi liềm."
+   },
+   "luan_de": "Lời ngôn sứ không chỉ là an ủi mà là kế hoạch cứu độ. Hòa bình không đến từ hiệp ước mà từ việc mọi dân để Thiên Chúa dạy dỗ. Mùa Vọng là thời leo lên ngọn núi ấy bằng những bước cụ thể.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Kế hoạch của Thiên Chúa là quy tụ muôn dân",
+     "giai_thich": "Giao ước với Israel được mở ra cho toàn nhân loại; Nhà Thiên Chúa mở cửa cho mọi dân.",
+     "kinh_thanh": [
+      {
+       "ref": "Is 2,3",
+       "doan": "firstReading",
+       "trich": "Hãy đến, chúng ta hãy lên núi Chúa và lên nhà Thiên Chúa của Giacóp."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/030.md",
+       "dong": [
+        18,
+        18
+       ],
+       "trich": "Nhà Thiên Chúa sẽ mở rộng cửa đón nhận mọi người từ muôn dân muôn nước quy tụ về.",
+       "sha256": "af57951f452be42af38c2fcc98fa737a8c7dabcb48bd512edcf7f0bc893c6b23",
+       "bam_dong": "3c17fe876760edac72817dd652862cddf56af68a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/069.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "looks forward to a time when the covenant between God and Israel will be extended to all mankind",
+       "sha256": "a1d057686c20ad89b4f71b1232f3836783aff3d89e6df098c592f8129318bef1",
+       "bam_dong": "9c789c53fe286f45a08a4c0de608d82abe14a0bf"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Hòa bình bắt đầu khi để Chúa dạy đường lối",
+     "giai_thich": "Gốc rễ chiến tranh nằm trong lòng người. Khi các dân tiến về Thiên Chúa, họ cũng tiến về phía nhau, và công cụ chiến tranh được biến thành phương tiện phục vụ sự sống.",
+     "kinh_thanh": [
+      {
+       "ref": "Is 2,3",
+       "doan": "firstReading",
+       "trich": "Người sẽ dạy chúng ta đường lối của Người, và chúng ta sẽ đi theo ý định của Người"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/030.md",
+       "dong": [
+        18,
+        18
+       ],
+       "trich": "Nguồn gốc của chiến tranh đã nằm ngay trong tâm hồn mỗi người",
+       "sha256": "af57951f452be42af38c2fcc98fa737a8c7dabcb48bd512edcf7f0bc893c6b23",
+       "bam_dong": "3c17fe876760edac72817dd652862cddf56af68a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/077.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "In coming towards God, the peoples of the nations come toward each other.",
+       "sha256": "58e0d75184ceddd8fe6e05f1ace650dd6f19297ae94c3df4bdca14e2e97e7ee7",
+       "bam_dong": "90595240ab1b0ba6fc57951f379e64da89a5bb11"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/040.md",
+       "dong": [
+        18,
+        18
+       ],
+       "trich": "những công cụ chinh chiến một thời sẽ được cải tiến thành phương tiện phục vụ cho sự sống của con người",
+       "sha256": "40704a3213a8cbf8b6ec712e6b31ae730b0e7da74204f4f0afff9c3b0dfc4f3d",
+       "bam_dong": "1c1c62554be24b9f2098a44c9b6c5ba22e1877de"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Giấc mơ không phải ảo tưởng mà là ngọn núi phải leo",
+     "giai_thich": "Bài giảng kể về Alan Paton và cuộc đấu tranh chống apartheid, cùng chuyện người thợ săn đi tìm con chim trắng. Thị kiến của Isaia định hướng cả cuộc đời dù chưa thành hiện thực trọn vẹn.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/100.md",
+       "dong": [
+        25,
+        25
+       ],
+       "trich": "Đó là ngọn núi mà cả cuộc đời chúng ta tiến đến trong hy vọng.",
+       "sha256": "5d10ba9592e4d0179b0b26ee40ff58ca86166f78b1cece5fa10eed559439a9a2",
+       "bam_dong": "33962c29bac921e027bf9fa273a16402f08777c7"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/091-tach-02.md",
+       "dong": [
+        19,
+        19
+       ],
+       "trich": "Điều quan trọng không phải là đạt được mục đích mà là sống có mục đích.",
+       "sha256": "299474ebd0cef3c83d5e7c603f49edc6b0e07afa40da5f1eba719a1fddcc958f",
+       "bam_dong": "c0cd669bc48df11967e9c90e538d28ad1dab419d"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "“Ta còn tập luyện nghề binh đao”: xây hòa bình bằng những việc cụ thể",
+     "giai_thich": "Lời nói hành, lối sống vô trách nhiệm, sự ích kỷ là cách ta còn “luyện binh đao”. Hòa giải thường bắt đầu bằng một nghĩa cử đơn giản. Không có công lý và tình thương thì không có hòa bình.",
+     "kinh_thanh": [
+      {
+       "ref": "Tv 121,6",
+       "doan": "psalms",
+       "trich": "Hãy nguyện cầu cho Giêrusalem được thanh bình"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/101.md",
+       "dong": [
+        45,
+        46
+       ],
+       "trich": "Chúng ta còn tập luyện nghề binh đao, khi chúng ta",
+       "sha256": "9670a06e5de2f1cefd33166ccfa7b68964b32ac7a270ab7cfc5c93f614fc02c2",
+       "bam_dong": "f29586f1c0f19ae8fcbd072f4065e6752e1a6e6c"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/100.md",
+       "dong": [
+        33,
+        33
+       ],
+       "trich": "Việc hoà giải này thường bắt đầu bằng một nghĩa cử đơn giản.",
+       "sha256": "5d10ba9592e4d0179b0b26ee40ff58ca86166f78b1cece5fa10eed559439a9a2",
+       "bam_dong": "eba866dc95431b33ff0619bb676569d573b1b65c"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/024.md",
+       "dong": [
+        54,
+        54
+       ],
+       "trich": "Không có công lý và tình thương không thể có hòa bình!",
+       "sha256": "56464a73d2a2bc26450f4963f82c640a1adfe92b1945163c755262514c042756",
+       "bam_dong": "e5e289823e3769bb172a6115df19956a51db7e0d"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài đọc I là trục; Đáp ca (Tv 121) là lời đáp của người đang lên nhà Chúa và cầu cho Giêrusalem được bình an. Liên hệ với Tin Mừng: tỉnh thức cũng là đọc ra lời mời gọi của Thiên Chúa trong lịch sử hôm nay.",
+   "su_diep": "Mùa Vọng là cuộc hành hương lên núi Chúa; ai càng đến gần Chúa thì càng không thể sống thù nghịch với anh em.",
+   "ap_dung": [
+    "Trong tuần, làm một bước hòa giải cụ thể trong gia đình hay xóm đạo.",
+    "Biến một “thanh gươm” của mình (lời nói cay độc, thói chỉ trích) thành “lưỡi cày” (một lời khích lệ)."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Các giai thoại (Alan Paton, chim trắng) do bài giảng thuật lại, chưa kiểm chứng."
+   }
+  },
+  {
+   "so": 4,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "A"
+   ],
+   "tieu_de": "Đêm sắp tàn, ngày gần đến: mặc lấy Đức Kitô",
+   "chu_de": "Ơn cứu độ đã đến và đang đến gần. Người Kitô hữu thức dậy khỏi những việc làm đen tối và mặc lấy chính Đức Kitô như khí giới ánh sáng.",
+   "loi_chua_nen": {
+    "ref": "Rm 13,14",
+    "doan": "secondReading",
+    "trich": "Nhưng hãy mặc lấy Chúa Giêsu Kitô"
+   },
+   "luan_de": "Thánh Phaolô cho biết tỉnh thức cụ thể là gì: nhận diện bóng tối trong đời mình và để Đức Kitô trở thành “y phục” của mình. Câu Lời Chúa này từng làm thay đổi đời thánh Augustinô.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Ngày đã đến, và chúng ta đang chờ Ngày",
+     "giai_thich": "Ơn cứu độ đã hoàn tất nơi Đức Kitô nhưng còn phải thành hiện thực trong đời mỗi người. “Ban ngày” là đời sống mới của người đã chịu phép rửa.",
+     "kinh_thanh": [
+      {
+       "ref": "Rm 13,12",
+       "doan": "secondReading",
+       "trich": "Đêm sắp tàn, ngày gần đến."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/070.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "So we can both say 'The Day has come' and 'We wait for the Day'.",
+       "sha256": "69da0d5b75ced6b7fe532e61599eb4194504f56dab8f00a7d25a15a91290a242",
+       "bam_dong": "b0064145f2252839ca76ced643dd0d5ffd9cd99d"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/106.md",
+       "dong": [
+        22,
+        22
+       ],
+       "trich": "hình ảnh ban ngày thường được dùng để diễn tả cuộc sống mới của Ki-tô hữu",
+       "sha256": "f6d97b1d41b2c1c3bf22c636f6d717f0589ae92147c3c9bb5017ba9552677453",
+       "bam_dong": "0159a663c34cfc8d98fe44441e851898f7fc509f"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Gọi đúng tên bóng tối trong đời mình",
+     "giai_thich": "Phaolô kể ra vài việc làm đen tối tiêu biểu. Bài giảng mở rộng: giận ghét, không hòa giải, bất công, nghiện ngập… Đổi đời có hai mặt: nhận diện bóng tối và dùng vũ khí của ánh sáng.",
+     "kinh_thanh": [
+      {
+       "ref": "Rm 13,13",
+       "doan": "secondReading",
+       "trich": "không ăn uống say sưa, không chơi bời dâm đãng, không tranh chấp ganh tị"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/099.md",
+       "dong": [
+        33,
+        33
+       ],
+       "trich": "Bất cứ điều gì dính dáng đến giận ghét, thù hận, không tha thứ, không hoà giải, bất công, vô luân, say sưa, nghiện ngập thì đều là bóng tối.",
+       "sha256": "8ff2020195f9af7d37c9d9bb84f14a532f6ddb0887aaa1c62a19f563bf7d5b90",
+       "bam_dong": "329e91ecfa807e507d7898aebf0c0ebf8a7d3a7e"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/106.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "tiêu cực là nhận diện lối sống đen tối, và tích cực là sử dụng những vũ khí của sự sáng",
+       "sha256": "f6d97b1d41b2c1c3bf22c636f6d717f0589ae92147c3c9bb5017ba9552677453",
+       "bam_dong": "32d549298edc0a2fd6b89bf43674e4c7e613fd36"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Mặc lấy Đức Kitô là mặc lấy tâm tình của Người",
+     "giai_thich": "Không phải bắt chước vài cử chỉ bên ngoài mà là mặc lấy tâm tình khiêm nhường và hòa bình của Người. Đời Kitô hữu có tính chiến đấu nên cần “áo giáp”.",
+     "kinh_thanh": [
+      {
+       "ref": "Rm 13,12",
+       "doan": "secondReading",
+       "trich": "Chúng ta hãy từ bỏ những hành vi ám muội và mang khí giới ánh sáng."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/101.md",
+       "dong": [
+        52,
+        52
+       ],
+       "trich": "Điều này không có nghĩa là bắt chước một số thái độ, cử chỉ bên ngoài, nhưng là mặc lấy những tâm tình của Người",
+       "sha256": "9670a06e5de2f1cefd33166ccfa7b68964b32ac7a270ab7cfc5c93f614fc02c2",
+       "bam_dong": "8e929b21fe9f30e9248372213abe231c53e9ede5"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/086.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "The Christian life has something of the quality of a warfare",
+       "sha256": "c6b17de52e88865555851f2e39e40991c79637810587ac3094faf2a9ba56e320",
+       "bam_dong": "7ee89f18aa95b24a3f1b02f5a4fbdeaaa4c2ed2b"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Câu Lời Chúa đã đổi đời thánh Augustinô",
+     "giai_thich": "Augustinô đã cảm thấy bất an vì tội từ trước nhưng cứ trì hoãn. Lời Rm 13 đến đúng lúc, và ơn Chúa giúp ngài vượt qua điều ý chí không tự làm nổi (theo bài giảng, dựa vào Tự Thuật).",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/014.md",
+       "dong": [
+        57,
+        57
+       ],
+       "trich": "Chính ơn Chúa đã giúp cho ngài vượt qua biên giới hầu như bất khả đối với ý chí.",
+       "sha256": "d1afdab28eb218d32fc368f58d7a5561ee96628078397a743dac7c77e77073ed",
+       "bam_dong": "7d4b0b3033e6e7883ffb7ddeec42f3788c694b80"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/103-tach-07.md",
+       "dong": [
+        19,
+        19
+       ],
+       "trich": "Hãy cầm lấy và đọc.",
+       "sha256": "582eb31a6566ed11107f7f6680f6e44fac7f431621f7e5955d5bba47b4e38660",
+       "bam_dong": "8d8211689df19dee2c78da637c3b1e90c2259ae0"
+      }
+     ]
+    },
+    {
+     "so": 5,
+     "tieu_de": "Trời sáng khi nhận ra khuôn mặt anh chị em",
+     "giai_thich": "Theo câu chuyện về vị rabbi, đêm chỉ thực sự qua khi ta nhìn ai cũng thấy đó là anh chị em mình. Ánh sáng của Đức Kitô hiện ra trong tình huynh đệ.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/099.md",
+       "dong": [
+        29,
+        29
+       ],
+       "trich": "Chính là khi các con nhìn vào khuôn mặt của bất cứ ai và thấy đó là khuôn mặt của người anh em hay chị em mình.",
+       "sha256": "8ff2020195f9af7d37c9d9bb84f14a532f6ddb0887aaa1c62a19f563bf7d5b90",
+       "bam_dong": "6f3e83dd7defbedd5ee5b9a927e81689ec480ef5"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/103-tach-05.md",
+       "dong": [
+        27,
+        27
+       ],
+       "trich": "tha nhân là anh chị em mình, mới làm cho bóng tối ran đi và ánh sáng toả rạng",
+       "sha256": "8230982e1d9e49c6380da981904073518f4c4972720f756981137e11151a21f1",
+       "bam_dong": "7850977e1b04bdf58a1332bf4e0650f588c18bff"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài đọc II là trục. Is 2,5 (“bước đi trong ánh sáng của Chúa”) và Rm 13,12 (“khí giới ánh sáng”) cùng một hình ảnh; Tin Mừng nói phải tỉnh thức, còn Phaolô nói tỉnh thức là gì.",
+   "su_diep": "Tỉnh thức là thay áo: cởi bỏ bóng tối và mặc lấy chính Đức Kitô.",
+   "ap_dung": [
+    "Viết ra một “việc làm đen tối” cụ thể và một “vũ khí ánh sáng” sẽ dùng thay thế trong Mùa Vọng.",
+    "Đọc chậm Rm 13,11-14 như thánh Augustinô và để một câu chạm đến mình."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 5,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "A"
+   ],
+   "tieu_de": "Đừng để đến ngày mai: sống hôm nay như cuộc hẹn với “Chúa của anh em”",
+   "chu_de": "Không biết ngày giờ không phải là lý do để lo sợ hay trì hoãn. Đó là lời mời sống từng ngày trong tương quan thân tình với Chúa, Đấng đến và chờ ta mở cửa.",
+   "loi_chua_nen": {
+    "ref": "Mt 24,44",
+    "doan": "gospel",
+    "trich": "Vậy các con cũng phải sẵn sàng, vì lúc các con không ngờ, Con Người sẽ đến"
+   },
+   "luan_de": "Ngày giờ thuộc về Chúa Cha nhân từ. Phần ta là đừng nghe theo cám dỗ “cứ tà tà, còn ngày mai”. Canh thức là vun đắp tương quan với Chúa để Người không là người xa lạ khi đến.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Ngày giờ ở trong tay nhân từ của Chúa Cha",
+     "giai_thich": "Chỉ Chúa Cha biết ngày giờ, nghĩa là thế giới nằm trong tay Người, nên ta thanh thản. Tìm cách tính toán ngày tận thế là đi sai hướng; phận sự của ta là chuẩn bị.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 24,42",
+       "doan": "gospel",
+       "trich": "Vậy hãy tỉnh thức, vì không biết giờ nào Chúa các con sẽ đến."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/090-tach-02.md",
+       "dong": [
+        15,
+        15
+       ],
+       "trich": "có nghĩa là đặt thế giới và nhân loại trong tay của Ngài, trong đôi tay nhân từ của Ngài",
+       "sha256": "01d8ceb58822e10bd96e22897ff07d4d7fa2dbdd44c6efd6395d4a6da8f7240d",
+       "bam_dong": "dc4203df4f3b92d68955d0b5e037780e8c023e3a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/109.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "Phận sự của con người không phải là tìm cách xác định ngày Chúa trở lại nhưng là chuẩn bị chính mình và tỉnh thức đợi chờ ngày đó.",
+       "sha256": "f9a1c3ceda0a1cb8e958b77ab2d6d6263c8ca68f99dc00cd9edf664d82ccdfe1",
+       "bam_dong": "a710113313130d3590520d8b596438d1acda80ee"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Cám dỗ của chữ “ngày mai”",
+     "giai_thich": "Chuyện ngụ ngôn ba tên quỷ học việc: lời cám dỗ hiệu quả nhất là “đừng vội, cứ tà tà”. Chần chừ là cơn cám dỗ hiểm độc.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/008.md",
+       "dong": [
+        28,
+        28
+       ],
+       "trich": "Cái ngày nguy hiểm nhất trong đời một người là khi người đó học được chữ",
+       "sha256": "7f160b36e54a879260c6e6d4be268d21cbad7c11cb0acf360083a72d4071f57a",
+       "bam_dong": "9767ac671f76d77411da66d9686370a3941345f0"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/105.md",
+       "dong": [
+        30,
+        30
+       ],
+       "trich": "Tôi sẽ khuyên người ta đừng vội vàng, cứ tà tà.",
+       "sha256": "89f9f7cbe8d451fdeca87e654a8441057228ca117628215afe9283aeeb30e2ac",
+       "bam_dong": "29c21aa2847965ca6ca84b688ca1d18dc13c413a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/012.md",
+       "dong": [
+        47,
+        47
+       ],
+       "trich": "Chần chừ, khất lần chính là cơn cám dỗ hiểm độc nhất của ma quỉ.",
+       "sha256": "f95db4ec65dcc271de5607c23b81f8bd712dbab31ccb551d655de739a95c5de5",
+       "bam_dong": "546713c85da070fece96ba9e5ce24e229195bfee"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Sám hối và hòa giải không thể hẹn đến giờ chết",
+     "giai_thich": "Người đàn bà quét nhà mỗi tối vì “biết đâu đêm nay Đức Kitô đến”. Ngược lại là người hẹn “khi gần chết sẽ làm hòa”. Ơn cứu độ đã gần hơn lúc ta mới tin.",
+     "kinh_thanh": [
+      {
+       "ref": "Rm 13,11",
+       "doan": "secondReading",
+       "trich": "phần rỗi chúng ta gần đến, hơn lúc chúng ta mới tin đạo"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/008.md",
+       "dong": [
+        32,
+        32
+       ],
+       "trich": "Biết đâu, đêm nay Đức Ki-tô đến thăm?",
+       "sha256": "7f160b36e54a879260c6e6d4be268d21cbad7c11cb0acf360083a72d4071f57a",
+       "bam_dong": "fa790d0c8b006a3e22a988c294101ed34723e110"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/103-tach-07.md",
+       "dong": [
+        19,
+        19
+       ],
+       "trich": "khi gần chết thì tôi sẽ làm hoà lại",
+       "sha256": "582eb31a6566ed11107f7f6680f6e44fac7f431621f7e5955d5bba47b4e38660",
+       "bam_dong": "8d8211689df19dee2c78da637c3b1e90c2259ae0"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Canh thức là làm quen với dung mạo của Người",
+     "giai_thich": "“Chúa của anh em” nói lên một tương quan. Canh thức là phát triển tương quan ấy để khi Người đến, ta không là kẻ xa lạ. Chính Người đang chờ ta mở lòng. Như cô bé muốn được thưởng: phải giữ bàn ngăn nắp lúc nào cũng được.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/105.md",
+       "dong": [
+        32,
+        32
+       ],
+       "trich": "Canh thức là cố gắng phát triển mối quan hệ giữa ta với Người, làm quen với dung mạo của Người",
+       "sha256": "89f9f7cbe8d451fdeca87e654a8441057228ca117628215afe9283aeeb30e2ac",
+       "bam_dong": "8ee58fdcad0df4bf83735b9b08753f66978816ab"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/108.md",
+       "dong": [
+        34,
+        34
+       ],
+       "trich": "Người đến và trông chờ chúng ta mở lòng ra đón tiếp Người.",
+       "sha256": "6381a2248f7957b0db1ed5e2d63562adeaa37f4a1ef05075682c37d98f5a2c3c",
+       "bam_dong": "bfce084821eca0e53d83b819b50cca683084fcdb"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-A/109.md",
+       "dong": [
+        48,
+        48
+       ],
+       "trich": "thì lúc nào tôi cũng phải giữ bàn của tôi cho được tề chỉnh",
+       "sha256": "f9a1c3ceda0a1cb8e958b77ab2d6d6263c8ca68f99dc00cd9edf664d82ccdfe1",
+       "bam_dong": "86c49cce4fca2cfb5d117e47a07e8195b0083322"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Dựa trên Mt 24,42-44 (dụ ngôn kẻ trộm) và Rm 13,11 (“phần rỗi gần đến”).",
+   "su_diep": "Hôm nay là thời gian của ân sủng; ai sống từng ngày với Chúa thì ngày nào Người đến cũng là ngày vui.",
+   "ap_dung": [
+    "Làm ngay trong tuần này một việc đã hẹn mãi: xưng tội, gọi điện làm hòa, thăm người già.",
+    "Mỗi tối, xét mình ngắn: “Nếu Chúa đến đêm nay, tôi có vui mừng mở cửa không?”"
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/1010-A/loi-chua.json",
+  "sha256": "715aebc760861ad99825ebe5b89b8cddca08f5ea9d75baab53bfa7759fdba158",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 110,
+  "so_doc_lap": 96,
+  "van_tay": "98b1a7f779b17f34e679190a7cc93a90fc4fc165f8521bad8b4cb509d5fd333b"
+ },
+ "van_tay_nguon": "035802c9789c9feaf7b87d4fe75fcca1db601415a8652cd8dc10a81eb64e6629",
+ "ghi_luc": "2026-11-13T04:28:10.044Z"
+}

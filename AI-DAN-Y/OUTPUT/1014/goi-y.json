@@ -1,0 +1,311 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "1014",
+ "celebrationCode": "1014",
+ "ten_le": "Thứ Năm Tuần I Mùa Vọng",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  null
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y, theo HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Đã đọc đủ 26 bài trong gói 1014; 24 bài độc lập. Hai bản trùng được loại; bài 004 và 011 trùng một phần nhưng đều được đọc. Ngày thường Mùa Vọng, Tin Mừng làm trục."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "1014/023.md",
+   "ly_do": "Trùng 92% với 1014/031.md; dùng bản chính."
+  },
+  {
+   "duong_dan": "1014/048.md",
+   "ly_do": "Trùng 97% với 1014/011.md; dùng bản chính."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Nghe và làm: dấu chỉ người môn đệ",
+   "chu_de": "Người môn đệ đích thực không dừng ở lời tuyên xưng nhưng nghe Lời Chúa và thực thi ý Cha.",
+   "loi_chua_nen": {
+    "ref": "Mt 7,21",
+    "doan": "gospel",
+    "trich": "Khi ấy, Chúa Giê-su phán cùng các môn đệ rằng: “Không phải tất cả những ai nói với Ta, “Lạy Chúa, lạy Chúa!”, là được vào nước trời, nhưng chỉ có người thực hiện ý Cha Ta ở trên trời, kẻ ấy mới được vào nước trời."
+   },
+   "luan_de": "Đức tin sống động được nhận ra qua việc vâng phục và hành động.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Không nói suông nhưng thực hành",
+     "giai_thich": "Lời tuyên xưng hay cầu nguyện không tự động bảo đảm phần rỗi; tiêu chuẩn là sống theo điều Đức Giêsu dạy.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/001.md",
+       "dong": [
+        17,
+        19
+       ],
+       "trich": "Không phải những người cứ nói lạy Chúa, lạy Chúa là được vào Nước Trời đâu, nhưng là những kẻ nghe lời Chúa và đem ra thực hành thì mới được vào mà thôi",
+       "sha256": "9a33b172528229a65a11887fde7b0b9498fa1340f7c10baf1f8e680a1287d810",
+       "bam_dong": "b80f33fa2b263ae422a1dc1c86ef4c4b3dc85535"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Ý Chúa là thước đo môn đệ",
+     "giai_thich": "Dụ ngôn kết thúc Bài giảng trên núi đòi người nghe phải đem giáo huấn vào đời sống.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/005.md",
+       "dong": [
+        17,
+        17
+       ],
+       "trich": "Đức Giêsu đưa ra nguyên tắc để đo lường sự hoàn thiện của người môn đệ, đó là ta cố sống đúng ý Thiên Chúa hay không.",
+       "sha256": "a6d4afcd7131c8dd09a70c36f18765efb0a5a6b96025a6567e7e22fe6f0740b7",
+       "bam_dong": "4777079cb634c267dfb9e7d15b5476d99e29c67e"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/005.md",
+       "dong": [
+        29,
+        29
+       ],
+       "trich": "Đức Gêsu đã dùng dụ ngôn xây nhà kết thúc bài giảng và nhắc nhở thính giả nghe xong thì phải đem ra thực hành trong đời sống để được vào Nước Trời.",
+       "sha256": "a6d4afcd7131c8dd09a70c36f18765efb0a5a6b96025a6567e7e22fe6f0740b7",
+       "bam_dong": "42899025a6a08b138dc5b3340791380bc48a6e5e"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Vâng lời biến hiểu biết thành sự sống",
+     "giai_thich": "Kiến thức đức tin chỉ có ý nghĩa khi chuyển thành hành động và sự vâng phục cụ thể.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/049.md",
+       "dong": [
+        27,
+        29
+       ],
+       "trich": "Kiến thức chỉ có ý nghĩa khi nó được chuyển thành hành động. Một người có thể đậu hạng ưu môn đạo đức Kitô giáo nhưng vẫn không phải là kitô hữu.",
+       "sha256": "324e302c89831007de09ddb205ae63fea8208ed3d0c8267607341df2793726a5",
+       "bam_dong": "e89d30688354170ca6a0921febeddaa70b442935"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng nêu điều kiện vào Nước Trời; Bài đọc I cũng nói dân công chính giữ trung tín mới tiến vào thành trì của Chúa.",
+   "su_diep": "Hãy để Lời Chúa dẫn đến một quyết định vâng phục và một việc làm cụ thể.",
+   "ap_dung": [
+    "Mỗi ngày chọn một lời Đức Giêsu để thực hành.",
+    "Xét lại một việc đạo đức chỉ làm theo thói quen.",
+    "Biến một lời tuyên xưng thành hành động yêu thương."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Xây đời trên nền đá",
+   "chu_de": "Giữa những bất ổn và thử thách, đời người vững bền khi đặt nền trên Lời Chúa và chính Đức Kitô.",
+   "loi_chua_nen": {
+    "ref": "Mt 7,24",
+    "doan": "gospel",
+    "trich": "Vậy ai nghe những lời Ta nói đây và đem ra thực hành, thì giống như người khôn ngoan, đã xây nhà mình trên đá; mưa có đổ xuống, nước có tràn vào, gió bão có thổi đến và lùa vào nhà đó, nhà vẫn không sập, vì nhà ấy được xây trên nền đá."
+   },
+   "luan_de": "Nền móng quyết định sức bền của đời sống trước mưa bão.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Lời Chúa là nền móng",
+     "giai_thich": "Lời Chúa không phải khẩu hiệu đạo đức; chỉ khi dùng Lời ấy đo đời sống và thực hành, ta mới xây trên đá.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/007.md",
+       "dong": [
+        13,
+        13
+       ],
+       "trich": "Nhưng chỉ vì không đem khuôn vàng thước ngọc mà đo cuộc sống của mình. Không chịu thực hành những chân lý đó, thì lời giáo huấn dù hay dù đẹp đến đâu cũng sẽ trở nên vô dụng.",
+       "sha256": "7ab627d34c01b55db98256fc6d61dec406e4be9eed5a87efdabbf04e72f8d4cb",
+       "bam_dong": "d3431c4a9315624ead04be4aaed6cf2a0d69a3c0"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đức Kitô là thành trì giữa bất ổn",
+     "giai_thich": "Các bảo đảm trần gian có thể sụp đổ; nơi Đức Kitô, người tin nhận và trung thành có thành trì cứu độ.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/013.md",
+       "dong": [
+        27,
+        31
+       ],
+       "trich": "Thiên Chúa đã lập cho chúng ta một thành trì vô cùng kiên cố trong nước Ngài, nếu chúng ta tin nhận Chúa Giêsu và trung thành với niềm tin ấy cho đến cùng.",
+       "sha256": "af313c4d3afd9599a4845e1b7b64eebdf1403892973f052c1713e60bad0097b3",
+       "bam_dong": "889dfc1166befbb133008f4d526b2d7b910a46f4"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Chuẩn bị nền móng cho ngày thử thách",
+     "giai_thich": "Không thể đợi đến lúc bão đến mới xây nền; việc nghe và làm hôm nay tạo sức đứng vững ngày mai.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/034.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "We must live and act out our beliefs in a positive way, and so build our whole lives on the rock of his word.",
+       "sha256": "3346a04201d0f5b0f7ab86ad8513d899cd100e906c484297856e0b7ec72c6ffc",
+       "bam_dong": "0cbfb43bd325b2e74ebe945feb77573093e05a67"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Hình ảnh nhà trên đá trong Tin Mừng soi sáng lời Isaia về thành trì kiên cố và niềm trông cậy nơi Chúa.",
+   "su_diep": "Đừng đặt sự an toàn tối hậu nơi tiền tài hay danh vọng; hãy xây từng chọn lựa trên Lời Chúa.",
+   "ap_dung": [
+    "Nhận diện một nền móng giả đang chi phối mình.",
+    "Đọc lại một lời Tin Mừng trước quyết định quan trọng.",
+    "Kiên trì một việc thực hành dù gặp thử thách."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Thành trì của người bé mọn và trung tín",
+   "chu_de": "Thiên Chúa là đá tảng che chở người nghèo và công chính; lòng trung tín mở cửa vào thành bình an của Người.",
+   "loi_chua_nen": {
+    "ref": "Is 26,4",
+    "doan": "firstReading",
+    "trich": "Hãy trông cậy Chúa đến muôn đời, trông cậy Chúa, Ðấng quyền năng mãi mãi."
+   },
+   "luan_de": "Nương tựa Chúa và sống công chính là con đường bình an bền vững.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Đá tảng bảo vệ người nghèo",
+     "giai_thich": "Bài đọc I trình bày Thiên Chúa như đá tảng vĩnh cửu, thành trì của người ngay chính và người nghèo khiêm hạ.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/022.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "He is the 'everlasting rock', a very common Old Testament metaphor expressing utter dependability.",
+       "sha256": "907a8bf044c52e855a40214498b2da24fd268b589fd7d5ab23c111193bb79e96",
+       "bam_dong": "8e2f4331f29405a1d5de6dfdc21753c601d1134d"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Trung tín thay cho đặc quyền",
+     "giai_thich": "Cửa thành mở cho người công chính và trung tín, không phải chỉ vì thuộc về một dân tộc hay cơ chế.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/050.md",
+       "dong": [
+        27,
+        29
+       ],
+       "trich": "Chính “sự công chính, sự trung tín\" tạo nên tư cách của người dân thành... Chứ không phải vì được thuộc về một dòng giống hày một xứ sở nào.",
+       "sha256": "2f9a14e58f9658b92ab5f282012740cfee4b7e0578d11386c823cd4e5af70924",
+       "bam_dong": "d560b14b1adb730677a4c87e7016e3682ef7943f"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tình yêu làm cho việc thi hành có nền",
+     "giai_thich": "Việc làm ý Cha không phải thành tích hình thức; đức tin phải được đặt trên lòng mến Chúa và yêu người.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1014/036.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "charismatic professions of belief that are not solidly based on a whole-hearted love of God and neighbour can collapse.",
+       "sha256": "b5b664cfd2f48c8276551971cbb5dc863f47ceb44a6dc8b91cecc0287f802c41",
+       "bam_dong": "c16bfb1f147a28c2d33b4444932c36fd79e9e2e9"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Is 26 hứa thành trì và bình an cho dân công chính; Tin Mừng cho thấy nền đá ấy được biểu lộ bằng việc làm ý Cha.",
+   "su_diep": "Hãy khiêm hạ nương tựa Chúa, sống trung tín và để tình yêu hướng dẫn mọi việc thực hành.",
+   "ap_dung": [
+    "Cầu nguyện cho người nghèo và người bị áp bức.",
+    "Thực hiện một việc công chính âm thầm.",
+    "Kiểm tra xem lòng mến có hiện diện trong một việc đạo đức của mình không."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/1014/loi-chua.json",
+  "sha256": "5d259706f89a729b78c1514739301901d797dac2d9c2ef0d00a2ef6a7094554a",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 26,
+  "so_doc_lap": 24,
+  "van_tay": "ee4ea50334130efac2a27e2b27a883de79d36583a18236914da3e822731b9090"
+ },
+ "van_tay_nguon": "f270f77fbecab9d35f17d85fc9f164808931afb04818f74d22a343eb5b7bc9ce",
+ "ghi_luc": "2026-11-13T08:14:05.696Z"
+}

@@ -1,0 +1,575 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "1015",
+ "celebrationCode": "1015",
+ "ten_le": "Thứ Sáu Tuần I Mùa Vọng",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  null
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y, theo HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Đã đọc đủ 20 bài trong gói 1015. Ngày thường Mùa Vọng, Tin Mừng làm trục; gợi ý 01 theo nguyên tắc Kim Chỉ Nam, không phải dàn ý chính thức. Soạn lại 2026-11-13 thay bản trước viết bằng tiếng Anh và có câu đệm."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "1015/047.md",
+   "dong": [
+    33,
+    51
+   ],
+   "ly_do": "Phần này là bài Thứ Bảy (Is 30,19-21.23-26), xếp nhầm ngày."
+  },
+  {
+   "duong_dan": "1015/004.md",
+   "dong": [
+    53,
+    57
+   ],
+   "ly_do": "Nói về người câm (Mt 9,32-34), không thuộc Tin Mừng hôm nay."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Tiếng kêu Mùa Vọng: xin thương xót",
+   "chu_de": "Hai người mù kêu lên, kiên trì theo Đức Giêsu và phó thác cho lòng thương xót của Người; tiếng kêu ấy trở thành lời cầu nguyện của cộng đoàn chờ Chúa đến.",
+   "loi_chua_nen": {
+    "ref": "Mt 9,27",
+    "doan": "gospel",
+    "trich": "có hai người mù chạy theo Chúa và kêu lớn tiếng"
+   },
+   "luan_de": "Nỗi khổ và khát vọng của con người có thể trở thành điểm khởi đầu cho cuộc tìm kiếm Thiên Chúa, khi được nói lên bằng một lời cầu xin đơn sơ, kiên trì và tín thác.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Tiếng kêu từ nơi khổ đau",
+     "giai_thich": "Tiếng kêu của hai người mù là dấu chỉ của một nhu cầu rất mạnh. Quanh ta, nhiều người cũng đang chờ mong dù không nói ra. Một nhu cầu rất con người vẫn có thể là điểm xuất phát để tìm Thiên Chúa; vì thế cầu nguyện là dám nói thật với Chúa điều mình thiếu và nỗi đau mình thấy.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/052.md",
+       "dong": [
+        55,
+        55
+       ],
+       "trich": "Tiếng kêu là một dấu chỉ. Dấu chỉ nói lên một nhu cầu rất mạnh, một đau khổ rất lớn, một cảm xúc nóng bỏng.",
+       "sha256": "41f06588f7659e81f9f26855588f1ec30584cc254669fd9ee6c50d9fecfab008",
+       "bam_dong": "be2d3d0a673d78a11701768454fb091332a28469"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/052.md",
+       "dong": [
+        61,
+        61
+       ],
+       "trich": "Tôi cũng cần phải cầu nguyện tự nhiên như thế: bày tỏ chân thành điều thiếu sót trong tôi, chung quanh tôi",
+       "sha256": "41f06588f7659e81f9f26855588f1ec30584cc254669fd9ee6c50d9fecfab008",
+       "bam_dong": "900a2ba4ea669b4dbc790e07d21ddfd77ffbc4b2"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": null
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Kiên trì theo Chúa đến tận nhà",
+     "giai_thich": "Lúc đầu Đức Giêsu im lặng, như để thử thách đức tin. Hai người mù không bỏ cuộc: không thấy đường mà vẫn chạy theo, vẫn kêu, vẫn theo Người về tận nhà. Lời cầu nguyện Mùa Vọng cũng cần sự bền bỉ ấy.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/004.md",
+       "dong": [
+        23,
+        23
+       ],
+       "trich": "thái độ yên lặng của Đức Giêsu có giá trị như một việc thử thách đức tin của họ",
+       "sha256": "581805b716191c42ee7673b4eb000b45e3d354e452e22b5edc2ce96bb82d2a2e",
+       "bam_dong": "8a5aaa0c0526418ef6e34a0aae658c653afeea8c"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/011.md",
+       "dong": [
+        45,
+        45
+       ],
+       "trich": "Mù, không thấy đường vậy mà đã liều lĩnh chạy theo Chúa Giêsu",
+       "sha256": "fd20880fe239054a1f878459fdf1ac11a6dc71b5294af3fad11926912ad3fcad",
+       "bam_dong": "52de0e5fa735caf7226a75d5def21bd55c6b68d2"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Để Chúa chọn cách thương xót",
+     "giai_thich": "Họ không vạch kế hoạch cho Chúa; họ chỉ xin \"thương xót chúng tôi\". Cách xin ấy vừa khiêm tốn vừa tuyên xưng quyền năng của Chúa: để Người toàn quyền quyết định cách tỏ lòng thương xót.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 9,27",
+       "doan": "gospel",
+       "trich": "xin thương chúng tôi"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/011.md",
+       "dong": [
+        49,
+        49
+       ],
+       "trich": "Hai anh đã không xin : “Xin Ngài cho chúng tôi được thấy” mà các anh chỉ dám xin :  “Xin thương xót chúng tôi”.",
+       "sha256": "fd20880fe239054a1f878459fdf1ac11a6dc71b5294af3fad11926912ad3fcad",
+       "bam_dong": "698563d253a909d8f7c92a7e06276dd33bb336bf"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/011.md",
+       "dong": [
+        51,
+        51
+       ],
+       "trich": "hình như các anh để cho Chúa toàn quyền định đoạt về cách thức mà Ngài tỏ lòng thương xót",
+       "sha256": "fd20880fe239054a1f878459fdf1ac11a6dc71b5294af3fad11926912ad3fcad",
+       "bam_dong": "f1b1fcc6ae856c2342182aff4fe4d827f487427e"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Kyrie eleison trong mỗi Thánh lễ",
+     "giai_thich": "Lời kêu của hai người mù vang lên trong mỗi Thánh lễ: Lạy Chúa, xin thương xót. Cộng đoàn mang những nỗi đau cụ thể vào lời chuyển cầu và đón Chúa đến trong Thánh Thể, như Mùa Vọng chuẩn bị tâm hồn đón Người qua các bí tích.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/052.md",
+       "dong": [
+        63,
+        65
+       ],
+       "trich": "Trong mỗi Thánh lễ, đó là một kinh nguyện thường được đề nghị. Ta dâng lên Chúa nội dung cụ thể: những lời chuyển cầu.",
+       "sha256": "41f06588f7659e81f9f26855588f1ec30584cc254669fd9ee6c50d9fecfab008",
+       "bam_dong": "c1ec11b6b92bdc1996c7d105e2cc75055d6007d2"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/004.md",
+       "dong": [
+        59,
+        59
+       ],
+       "trich": "để chúng ta biết chuẩn bị tâm hồn và đời sống mỗi khi chúng ta  đến với Chúa trong những việc đạo đức cũng như đón nhận Chúa vào tâm hồn qua các bí tích",
+       "sha256": "581805b716191c42ee7673b4eb000b45e3d354e452e22b5edc2ce96bb82d2a2e",
+       "bam_dong": "56b0b85e19ee1a1a2669e5cf59343a6cd4d0dca1"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "13",
+       "trich": "The second part of the homily prepares the community to celebrate the Eucharist"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Isaia loan báo ngày người mù được xem thấy và người nghèo nhảy mừng; Tin Mừng cho thấy ngày ấy đã bắt đầu khi Đức Giêsu đáp lại tiếng kêu của hai người mù.",
+   "su_diep": "Hãy mang nỗi khổ và khát vọng của mình đến với Chúa bằng một lời kêu xin đơn sơ, bền bỉ và phó thác.",
+   "ap_dung": [
+    "Nói thật với Chúa một điều mình đang thiếu hoặc một nỗi đau mình đang thấy.",
+    "Kiên trì một lời cầu nguyện trong suốt Mùa Vọng, kể cả khi chưa thấy được nhận lời.",
+    "Đọc kinh Thương Xót trong Thánh lễ với ý chỉ cụ thể cho một người đang đau khổ."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Các anh có tin không? Đức tin được thanh luyện",
+   "chu_de": "Đức Giêsu không chữa ngay mà đặt câu hỏi, để lời xin vì nhu cầu trở thành đức tin hướng về chính Người.",
+   "loi_chua_nen": {
+    "ref": "Mt 9,29",
+    "doan": "gospel",
+    "trich": "Các ngươi tin thế nào, thì hãy được như vậy"
+   },
+   "luan_de": "Thiên Chúa không ban ơn như một thứ ma thuật; Người tôn trọng tự do, khơi dậy và thanh luyện đức tin, mời mỗi người tự mình tuyên xưng và sống điều mình tin.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Câu hỏi hướng về chính Đức Giêsu",
+     "giai_thich": "Lúc kêu xin, hai người mù chỉ nghĩ đến nhu cầu của mình. Câu hỏi của Đức Giêsu giúp họ đi xa hơn: không chỉ mong phép lạ, mà tin vào chính Người.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 9,28",
+       "doan": "gospel",
+       "trich": "Các ngươi có tin rằng Ta có thể làm việc ấy không?"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/052.md",
+       "dong": [
+        79,
+        79
+       ],
+       "trich": "Nhờ câu chất vấn, Chúa Giêsu giúp họ tiến triển trong một lòng tin đơn thuần hơn",
+       "sha256": "41f06588f7659e81f9f26855588f1ec30584cc254669fd9ee6c50d9fecfab008",
+       "bam_dong": "1e0fc31d2a5bc170db2293c2d76a585c80c886eb"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/011.md",
+       "dong": [
+        57,
+        57
+       ],
+       "trich": "Chúa Giêsu đã nắm lấy ngay cơ hội đó, để hướng các anh về với chính Ngài",
+       "sha256": "fd20880fe239054a1f878459fdf1ac11a6dc71b5294af3fad11926912ad3fcad",
+       "bam_dong": "f60a71c4387aad91356bba455b2f0f3a6afe8cbb"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Ơn Chúa không phải ma thuật",
+     "giai_thich": "Phép lạ và các bí tích không vận hành tự động; chúng đòi đức tin. Chúa không áp đặt, Người chờ đợi và khơi lên niềm tin, vì Người tôn trọng tự do của con người.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/052.md",
+       "dong": [
+        81,
+        81
+       ],
+       "trich": "Các Bí tích không là những tác động ma thuật: Chúng đòi hỏi Đức tin.",
+       "sha256": "41f06588f7659e81f9f26855588f1ec30584cc254669fd9ee6c50d9fecfab008",
+       "bam_dong": "e71fb5d0e1c165b01c88bc4ea10a9771facda386"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/052.md",
+       "dong": [
+        83,
+        83
+       ],
+       "trich": "điều làm con cảm kích là thái độ tôn trọng của Chúa trước tự do của con người",
+       "sha256": "41f06588f7659e81f9f26855588f1ec30584cc254669fd9ee6c50d9fecfab008",
+       "bam_dong": "90899fac1aaae7c982c0cffd7399b0b3fe20e4fb"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tin cả vào lòng tốt của Thiên Chúa",
+     "giai_thich": "Có một cám dỗ âm thầm: tin Chúa có thể làm phép lạ nhưng nghĩ rằng Người không muốn làm cho mình. Đức tin trọn vẹn tin cả quyền năng lẫn thiện ý của Thiên Chúa đối với ta.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/037.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "There is also a recurring temptation to believe God can indeed perform miracles if so inclined but to think God does not desire to do so.",
+       "sha256": "1bc4adf9d3bc5e1e605e44d91fd03daff28d28ff5d523df57371f03d21760cea",
+       "bam_dong": "490ee096fd782c4e4cebf338ceb1c0520d488464"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/037.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "We need to believe in God's good will toward us in order to be able to receive all that God deeply desires to give to us.",
+       "sha256": "1bc4adf9d3bc5e1e605e44d91fd03daff28d28ff5d523df57371f03d21760cea",
+       "bam_dong": "490ee096fd782c4e4cebf338ceb1c0520d488464"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Đối diện Chúa một mình và sống điều mình tin",
+     "giai_thich": "Đức Giêsu chỉ chữa khi họ vào nhà gặp riêng Người. Sớm muộn, mỗi người phải tự mình đứng trước Chúa và nói lời tin. Đọc thuộc Kinh Tin Kính thì dễ; sống điều mình tuyên xưng mới là thử thách.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/051.md",
+       "dong": [
+        33,
+        33
+       ],
+       "trich": "Quy luật của đời sống thuộc linh là chẳng sớm thì muộn mỗi người phải đối diện với Chúa Giê-su một mình.",
+       "sha256": "babec5e1e7d270f8338f201d9bf5669ec1cc288d0ca8ede80f878590690c26e6",
+       "bam_dong": "79e6e7c7229480a4b8251aab8e224567fdba33c9"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/051.md",
+       "dong": [
+        37,
+        37
+       ],
+       "trich": "Đọc thuộc lòng Kinh Tin Kính thì dễ, nhưng sống Kinh Tin Kính lại là chuyện khác.",
+       "sha256": "babec5e1e7d270f8338f201d9bf5669ec1cc288d0ca8ede80f878590690c26e6",
+       "bam_dong": "d58eba5531082997229ae3e5097afdb351f52096"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/025.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "The kernel of the passage is the profession of faith the men are brought to make by the question of Jesus.",
+       "sha256": "1d8bca61bb2c61bfcdc41837ccd36086a84ad33b840660f911f69ab3dcd28586",
+       "bam_dong": "313eecadf6ccddb7792e3eac272585dd4c9d389b"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Isaia hứa những người lầm lạc sẽ được hiểu biết; Tin Mừng cho thấy con đường đến sự hiểu biết ấy là đức tin được Đức Giêsu khơi dậy và thanh luyện.",
+   "su_diep": "Chúa vẫn hỏi mỗi người: con có tin không? Hãy trả lời bằng lời tuyên xưng và bằng đời sống.",
+   "ap_dung": [
+    "Trong giờ cầu nguyện, trả lời câu hỏi của Đức Giêsu bằng chính lời của mình.",
+    "Xét xem mình có đang tin Chúa có quyền năng nhưng nghi ngờ lòng tốt của Người không.",
+    "Chọn một điều trong Kinh Tin Kính để sống cụ thể trong tuần này."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Chúa là ánh sáng: nhận ra mình đang mù",
+   "chu_de": "Lời Isaia về người mù được xem thấy ứng nghiệm nơi Đức Giêsu; ánh sáng ấy chỉ đến với ai nhận ra mình đang mù và muốn được chữa.",
+   "loi_chua_nen": {
+    "ref": "Is 29,18",
+    "doan": "firstReading",
+    "trich": "từ bóng tối, mắt người mù sẽ được xem thấy"
+   },
+   "luan_de": "Mùa Vọng mời ta xin Chúa mở con mắt đức tin: thấy Người là ánh sáng, thấy những vùng tối trong lòng mình, và thấy những người nghèo khổ đang chờ được nâng dậy.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Lời ngôn sứ thành hiện thực",
+     "giai_thich": "Isaia loan báo một thời người điếc được nghe, người mù được thấy. Khi Đức Giêsu mở mắt hai người mù, lời hứa ấy bắt đầu thành hiện thực, và đức tin là điều kiện để đón nhận.",
+     "kinh_thanh": [
+      {
+       "ref": "Tv 26,1",
+       "doan": "psalms",
+       "trich": "Chúa là sự sáng"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/038.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "Isaiah's prophecy is fulfilled as Jesus restores sight to the blind men. Faith is a condition for their healing.",
+       "sha256": "c8b4d67c58d69a09f3aca8110d3a09c63c7f643c1f1fcb9f49edb663556a61be",
+       "bam_dong": "c30e78d22f7db2aeef108aeab9c304cc8bb9a21e"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/049.md",
+       "dong": [
+        26,
+        26
+       ],
+       "trich": "Chủ đề bài đọc Cựu Ước, và sẽ được ứng nghiệm rõ ràng trong đoạn TM",
+       "sha256": "0e747b82dc3d5304f36a1bb65bc91deb6a47a5741f2dd3c770e27bb8a4754423",
+       "bam_dong": "42b2135992ea29cad1362f0a5539b1a405fe1783"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Những thứ mù của tâm hồn",
+     "giai_thich": "Ít nhiều ai cũng mù: mù vì thiển cận, ích kỷ, tham lam, hận thù; mù vì không thấy người đau khổ chung quanh, không thấy tội mình, không thấy kỳ công của Chúa. Chỉ cái mù phần hồn mới thật đáng sợ.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/011.md",
+       "dong": [
+        67,
+        67
+       ],
+       "trich": "chúng ta cũng đang là những người mù tâm linh, mù vì thiển cận, ích kỷ, mù vì tham lam tự phụ, mù vì hận thù ghen ghét, mù vì bất công thiếu bác ái",
+       "sha256": "fd20880fe239054a1f878459fdf1ac11a6dc71b5294af3fad11926912ad3fcad",
+       "bam_dong": "c82d0d01d06d029f17e849e507ca937769f1226a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/050.md",
+       "dong": [
+        17,
+        17
+       ],
+       "trich": "mù vì tôi không thấy được bao nhiêu con người đau khổ đang vây quanh cuộc dời của tôi",
+       "sha256": "ee81f8f6b8db48f62277f80af78f52fcd0ac80b1963197b0cc913c0dcefab040",
+       "bam_dong": "dff3851b536995b887afc09c21d930cac7ab639f"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/006.md",
+       "dong": [
+        27,
+        27
+       ],
+       "trich": "chỉ có cái mù phần hồn mới đáng sợ",
+       "sha256": "96c353dce4a93005eadfe9c7a8ae94fd6e64d22e37ca8f46b1d1863ca85733b8",
+       "bam_dong": "f3c9a5723e1d7358bf42c4c352f0e02128bfaa70"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Nhận ra mình mù là bước đầu hoán cải",
+     "giai_thich": "Muốn đón ánh sáng của Đức Kitô, trước hết phải ý thức mình đang mù và quyết tâm ra khỏi bóng tối ấy. Tìm về ánh sáng là việc vất vả, nhưng Mùa Vọng là thời gian để xin: Lạy Chúa, xin thêm đức tin cho con.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/049.md",
+       "dong": [
+        27,
+        27
+       ],
+       "trich": "điều kiện tiên quyết là chúng ta phải ý thức được sự mù lòa của mình và quyết tâm ra khỏi sự mù lòa ấy",
+       "sha256": "0e747b82dc3d5304f36a1bb65bc91deb6a47a5741f2dd3c770e27bb8a4754423",
+       "bam_dong": "f950d2930ce09003151f5972ddd91cf396d9db7c"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/049.md",
+       "dong": [
+        29,
+        29
+       ],
+       "trich": "khi nhận ra mình đang mù và mong tìm về ánh sáng đó là những bước khởi đầu rất tốt cho sự hoán cải",
+       "sha256": "0e747b82dc3d5304f36a1bb65bc91deb6a47a5741f2dd3c770e27bb8a4754423",
+       "bam_dong": "a1f0812370dc808d4f31160d4b7a1b884bb8c2f5"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/050.md",
+       "dong": [
+        19,
+        19
+       ],
+       "trich": "Ánh sáng mà phần đông chúng ta cần đến là ánh sáng của con mắt đức tin.",
+       "sha256": "ee81f8f6b8db48f62277f80af78f52fcd0ac80b1963197b0cc913c0dcefab040",
+       "bam_dong": "6d3b0f23006aa03365e778e9d3b70775e53c6dc9"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Sáng mắt để thấy người nghèo",
+     "giai_thich": "Isaia hứa người nghèo sẽ nhảy mừng và không còn phải hổ ngươi. Thời Thiên Sai đã đến, nhưng còn bao người nghèo khó mà nhảy mừng nổi; ta vẫn còn mù trước bất công. Được sáng mắt là bắt đầu quan tâm và làm điều gì đó cho họ.",
+     "kinh_thanh": [
+      {
+       "ref": "Is 29,19",
+       "doan": "firstReading",
+       "trich": "những kẻ nghèo khó sẽ nhảy mừng"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/052.md",
+       "dong": [
+        37,
+        39
+       ],
+       "trich": "Dầu vậy, còn biết bao người nghèo đau khổ và rên siết khó mà nhảy mừng nổi.",
+       "sha256": "41f06588f7659e81f9f26855588f1ec30584cc254669fd9ee6c50d9fecfab008",
+       "bam_dong": "6172cb64d3ecb19a5f2279325987d586f8f4bdb7"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/052.md",
+       "dong": [
+        45,
+        45
+       ],
+       "trich": "Tôi có quan tâm tới những người nghèo hơn mình không?",
+       "sha256": "41f06588f7659e81f9f26855588f1ec30584cc254669fd9ee6c50d9fecfab008",
+       "bam_dong": "50a02fde34ac037f71e8e2c71d3748626160fcd5"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1015/042.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "we remain uncomfortably aware that blindness both to injustice and to the ways of God bind all of us",
+       "sha256": "198f6b6583869481f61eb99c753afc726b6d90e01a5707fb39d388a845e3f6c9",
+       "bam_dong": "3454dfa1e843c19af891f9e208e2f31e65bf8f1f"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài đọc I và Đáp ca nói về ánh sáng và ơn cứu độ cho người mù, người nghèo; Tin Mừng cho thấy Đức Giêsu là ánh sáng ấy khi mở mắt hai người mù tin vào Người.",
+   "su_diep": "Xin Chúa mở mắt đức tin cho ta, để thấy Người, thấy chính mình và thấy anh chị em đang cần được nâng dậy.",
+   "ap_dung": [
+    "Gọi tên một điều đang làm mình \"mù\" và xin Chúa chữa lành trong bí tích Hoà Giải.",
+    "Mỗi tối Mùa Vọng xét mình: hôm nay tôi đã không thấy ai đang cần giúp?",
+    "Làm một việc cụ thể để một người nghèo bớt phải hổ ngươi."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/1015/loi-chua.json",
+  "sha256": "a2eceddee247b3220f45b16132b0298b5dc9163584087cb4941b5232ea7c29fc",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 20,
+  "so_doc_lap": 20,
+  "van_tay": "218877ffe5771849dec8bc269d040b1ca19e9d6c255996a59ea74114328f99f6"
+ },
+ "van_tay_nguon": "8ad77a43fb5278bb0ad5fbe047a6fa48a303f4efd4dd208708dc4d7eb4d2abc8",
+ "ghi_luc": "2026-11-13T08:26:24.258Z"
+}

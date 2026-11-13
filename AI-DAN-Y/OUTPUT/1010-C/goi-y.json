@@ -1,0 +1,844 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "1010-C",
+ "celebrationCode": "1010",
+ "ten_le": "Chúa Nhật I Mùa Vọng — Năm C",
+ "loai_ngay": "chua-nhat",
+ "chu_ky": [
+  "C"
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y, theo HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Đã đọc đủ 47 bài trong 5 gói 1010-C; 46 bài độc lập (015 trùng 020). Gợi ý 01 theo Phụ lục I Kim Chỉ Nam, mục CYCLE C — First Sunday of Advent. Bỏ hai bản hướng dẫn cử hành tiếng Anh (051, 053) vì không phải bài giảng, và phần CN III trong 068. Soạn lại 2026-11-13 thay bản trước viết bằng tiếng Anh."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "1010-C/051.md",
+   "ly_do": "Bản hướng dẫn cử hành (dẫn lễ, lời nguyện) tiếng Anh, không phải bài giảng."
+  },
+  {
+   "duong_dan": "1010-C/053.md",
+   "ly_do": "Bản hướng dẫn cử hành (dẫn lễ, lời nguyện) tiếng Anh, không phải bài giảng."
+  },
+  {
+   "duong_dan": "1010-C/068.md",
+   "dong": [
+    44,
+    50
+   ],
+   "ly_do": "Phần này nói về Chúa nhật Vui mừng (CN III Mùa Vọng), xếp nhầm."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-phu-luc",
+   "ap_dung_nam": [
+    "C"
+   ],
+   "tieu_de": "Ngẩng đầu lên: Đấng đã đến, đang đến và sẽ đến",
+   "chu_de": "Mùa Vọng mở ra bằng lời loan báo Con Người ngự đến trong vinh quang; người môn đệ đứng thẳng, ngẩng đầu, vì Thiên Chúa trung tín đang hoàn tất lời hứa nơi Đức Kitô.",
+   "loi_chua_nen": {
+    "ref": "Lc 21,28",
+    "doan": "gospel",
+    "nam": "C",
+    "trich": "các con hãy đứng dậy và ngẩng đầu lên, vì giờ cứu rỗi các con đã gần đến"
+   },
+   "luan_de": "Những gì làm thế gian sợ hãi lại là lời báo tin vui cho người tin: Đấng đã đến ở Bêlem, đang đến trong Thánh Thể, sẽ đến trong vinh quang để hoàn tất ơn cứu độ.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Khi mọi chỗ dựa lung lay",
+     "giai_thich": "Mặt trời, mặt trăng, biển cả — những thứ người ta tưởng vững chắc nhất — đều rung chuyển để nhường chỗ cho quyền năng của Con Người. Ai dựa vào chúng sẽ hoảng sợ; môn đệ thì ngẩng đầu chờ Chúa. Mùa Vọng luôn mang hai chiều: chuẩn bị mừng Chúa đến ở Bêlem và chờ Người đến trong vinh quang.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 21,27",
+       "doan": "gospel",
+       "nam": "C",
+       "trich": "Con Người hiện đến đầy quyền năng và uy nghi cao cả"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/003.md",
+       "dong": [
+        22,
+        22
+       ],
+       "trich": "các môn đệ Chúa thì hãy vui mừng và ngẩng đầu lên chờ đợi Chúa ngự đến",
+       "sha256": "d51a97392208bf80820b00de070ba0031e0a3eb69beeec373be835b7cbdf4239",
+       "bam_dong": "8a571bf3b5ebef45d74dd9eb44d3b2f87b96bf8b"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "79",
+       "trich": "So there is always this double sense of adventus – a double sense of the Lord’s coming."
+      },
+      {
+       "loai": "glhtcg",
+       "so": "668-677, 769",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Tin Vui, không phải lời đe dọa",
+     "giai_thich": "Hình ảnh vũ trụ đảo lộn là ngôn ngữ khải huyền quen thuộc, không nhằm mô tả ngày tận thế cách khoa học, càng không để gieo sợ hãi. Đức Giêsu gỡ nỗi sợ ấy: Người không đến như quan án đối với người tin, mà như Đấng Cứu Độ. Thế giới cũ không bị hủy diệt, nhưng được đổi mới nhờ ân sủng.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/007.md",
+       "dong": [
+        54,
+        54
+       ],
+       "trich": "không phải để loan báo sự tận cùng, sự chấm dứt mọi sự, nhưng là để loan báo cho mọi người biết một Tin Vui là Đấng Cứu độ đang đến",
+       "sha256": "484157c1e729c1a09685cbd2551824acb1be04a85c016cd011359e6476c1e3b2",
+       "bam_dong": "cba12b4833927c0ab80e309b8f3067518f83f6eb"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/064.md",
+       "dong": [
+        26,
+        26
+       ],
+       "trich": "Đức Giêsu không khai thác, nhưng giải gỡ cho ta sự sợ hãi đó.",
+       "sha256": "27e24c8eaff607f489c88282df99563bafc69f7ca404e4fdf071f621db12678b",
+       "bam_dong": "1866ef1f33976476695f24b868ff5f2a85c9bb20"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/050.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "he is not their judge but their Saviour",
+       "sha256": "f4d54ace273ebf119c775434acf584b5664a56d67009571b24b56ce585e1af5e",
+       "bam_dong": "098528fb2cbd8be7c3d6cffcec68995248f3f0f7"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/035.md",
+       "dong": [
+        29,
+        29
+       ],
+       "trich": "Thế giới mới đó là chính thế giới đã cũ vì tội lỗi này nhưng được đổi mới nhờ ân sủng",
+       "sha256": "23016b9b69fc14e48f2c1f41f8c63364b50511b1ce93c9c62c7ab5c55d43a2dc",
+       "bam_dong": "097c6dc9a86de35b911a95e92e4b26b7c7686953"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "80",
+       "trich": "But the liturgy takes us to such images by means of others that remind us that the same Lord born in Bethlehem"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Thiên Chúa trung tín: Chồi Công Chính của Đavít",
+     "giai_thich": "Giữa cảnh lưu đày, Giêrêmia vẫn thấy tia sáng vì tin vào Thiên Chúa. Dân Cựu Ước sống giữa lời hứa và niềm mong hoàn tất; nơi Đức Giêsu, Con vua Đavít, lời hứa ấy đã thành hiện thực, và vẫn còn hướng tới ngày Người trở lại. Thiên Chúa trung tín và thương xót không để dân Người chờ mãi.",
+     "kinh_thanh": [
+      {
+       "ref": "Gr 33,15",
+       "doan": "firstReading",
+       "nam": "C",
+       "trich": "một chồi công chính, Ngài sẽ xét xử và thi hành công lý trong xứ sở"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/063.md",
+       "dong": [
+        68,
+        68
+       ],
+       "trich": "Từ trong tối tăm của hiện tại, Giêrêmia vẫn thấy trước tia sáng của tương lai, bởi vì Giêrêmia tin vào nguồn sáng là Thiên Chúa",
+       "sha256": "099815e9fa274f15bfaacf028bb0ff379cb816ba7949da28e012ead0ab5c5741",
+       "bam_dong": "f1bd88e8aed41ef737485e9e29400cf0e7bcc820"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/054.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "For the Old Testament people lived between a divine promise made in the past but always remembered, and their hope of divine fulfilment at a future time.",
+       "sha256": "52e6645d72701b525f2766cf707d108c36dff6e3a7121289eb81e3304b18a4de",
+       "bam_dong": "e9de384484cdcb20ccd292b236dcc1b8eb48f81d"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/073.md",
+       "dong": [
+        22,
+        22
+       ],
+       "trich": "Thiên Chúa Đấng luôn trung tín với lời đã hứa, đã không để cho con người phải sống mãi trong nỗi chờ mong",
+       "sha256": "c240884d3e689bd95c7ae6464cfba4bc53d7d93001d5f4d4b0a43e3e2ec96946",
+       "bam_dong": "ddc985c1f0aeb7f7c8dd6d85b71dfd6aa9009349"
+      },
+      {
+       "loai": "glhtcg",
+       "so": "439, 496, 559, 2616",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      },
+      {
+       "loai": "glhtcg",
+       "so": "207, 210-214, 270, 1062-1063",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Thánh Thể: cuộc đến hôm nay",
+     "giai_thich": "Giữa hai lần đến, Chúa đến với cộng đoàn trong Thánh Thể. Sau truyền phép, ta tuyên xưng \"cho tới khi Chúa lại đến\"; lời Maranatha — Lạy Chúa Giêsu, xin ngự đến — là kinh nguyện của Mùa Vọng. Mỗi Thánh lễ là một cuộc tập dượt cho ngày gặp Chúa.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "86",
+       "trich": "for it is itself his coming"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/066.md",
+       "dong": [
+        28,
+        28
+       ],
+       "trich": "Giáo Hội luôn nhắc lại trong mỗi Thánh lễ",
+       "sha256": "9f95e4ff69d64703b360fcfaa40fad7433ce3bca9aaf158651443e7410646e27",
+       "bam_dong": "5bcc9ca2ee354e2649558f3152a98010a6ef5614"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/064.md",
+       "dong": [
+        38,
+        38
+       ],
+       "trich": "Mỗi khi cử hành Thánh Thể là một chuẩn bị trước cho ngày đó",
+       "sha256": "27e24c8eaff607f489c88282df99563bafc69f7ca404e4fdf071f621db12678b",
+       "bam_dong": "07c45ff25bea14a6e2395b5d74497a9e1e973cda"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/040.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "Câu nói cuối cùng của Kinh Thánh là Maranatha",
+       "sha256": "c7092f67db6332b005c9a17b074ca18037a76f7d7987d5adc7e82d79276c3a14",
+       "bam_dong": "f34834b7aea1fd12d8891376896548f750104c1b"
+      },
+      {
+       "loai": "glhtcg",
+       "so": "451, 671, 1130, 1403, 2817",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Giêrêmia loan báo Chồi Công Chính của Đavít; Thánh Phaolô cầu cho cộng đoàn vững bền trong thánh thiện khi Chúa Giêsu ngự đến; Tin Mừng mời đứng thẳng, ngẩng đầu, tỉnh thức chờ Con Người.",
+   "su_diep": "Đừng sợ: Đấng ta chờ là Đấng Cứu Độ trung tín. Hãy ngẩng đầu lên và đón Người ngay trong Thánh lễ hôm nay.",
+   "ap_dung": [
+    "Mỗi ngày Mùa Vọng thưa lời Maranatha: Lạy Chúa Giêsu, xin ngự đến.",
+    "Khi đọc \"cho tới khi Chúa lại đến\" trong Thánh lễ, ý thức mình đang chờ ai.",
+    "Đọc một tin xấu trong ngày bằng ánh mắt hy vọng thay vì sợ hãi."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "C"
+   ],
+   "tieu_de": "Giữ mình kẻo lòng ra nặng nề",
+   "chu_de": "Tỉnh thức là không để chè chén, lo toan và thói quen đè nặng tâm hồn đến nỗi không còn ngẩng đầu lên được.",
+   "loi_chua_nen": {
+    "ref": "Lc 21,34",
+    "doan": "gospel",
+    "nam": "C",
+    "trich": "Các con hãy giữ mình, kẻo lòng các con ra nặng nề, vì chè chén say sưa và lo lắng việc đời"
+   },
+   "luan_de": "Mùa Vọng là thời gian làm cho lòng mình nhẹ lại: bỏ bớt điều phụ, chọn lại điều chính yếu và bắt đầu ngay hôm nay.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Thói quen cúi đầu xuống",
+     "giai_thich": "Chúa bảo ngẩng đầu lên vì ta thường cúi đầu: chỉ thấy, chỉ tìm, chỉ thỏa mãn với những gì dưới đất. Nhiều người đang oằn lưng vì gánh nặng đời sống. Lời mời ngẩng đầu là lời đánh thức để khát khao điều thật sự đem lại hạnh phúc.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/068.md",
+       "dong": [
+        22,
+        22
+       ],
+       "trich": "Chúa Giêsu bảo chúng ta phải ngẩng đầu lên vì chúng ta thường cúi đầu xuống.",
+       "sha256": "42a18a519e44adb2d6742217bcd76adf967344ff4ac903f8b5e4e8a9dd5f0346",
+       "bam_dong": "e182f944df1de67347f00646e8f2d1add690832a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/068.md",
+       "dong": [
+        30,
+        30
+       ],
+       "trich": "Chúa Giêsu bảo chúng ta hãy ngẩng đầu lên là muốn thức tỉnh chúng ta.",
+       "sha256": "42a18a519e44adb2d6742217bcd76adf967344ff4ac903f8b5e4e8a9dd5f0346",
+       "bam_dong": "557f0ec35f4049b99057945a825114be42efd227"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/085.md",
+       "dong": [
+        21,
+        21
+       ],
+       "trich": "Hôm nay, nhiều người đang oằn lưng vì những gánh nặng cuộc đời.",
+       "sha256": "e3bafac79f3600db9549f4b73cfd9cd295e8ca12d1eedd8c702206365ad3a1c4",
+       "bam_dong": "f93335b5a28f46b607aa9220d3cb469ca82cf4e0"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Mùa Vọng làm cho lòng nhẹ lại",
+     "giai_thich": "Lòng con người dễ nặng nề vì lo âu, vì đời sống quay cuồng, vì quá bận tâm chuyện vật chất. Một chương trình Mùa Vọng thiết thực là làm cho mình nhẹ đi: sống tiết độ, không để điều gì làm sao nhãng việc cầu nguyện và đời sống thiêng liêng.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/064.md",
+       "dong": [
+        34,
+        34
+       ],
+       "trich": "Lòng chúng ta có nguy cơ trở nên nặng nề, vì những lo âu và vì đời sống quay cuồng, vì quá bận tâm đến thế trần và vật chất",
+       "sha256": "27e24c8eaff607f489c88282df99563bafc69f7ca404e4fdf071f621db12678b",
+       "bam_dong": "2610cf19dabbf94562f789ca4c47d4e4db289b26"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/064.md",
+       "dong": [
+        36,
+        36
+       ],
+       "trich": "Nên đề ra một chương trình tốt đẹp cho Mùa Vọng : đó là thời gian làm cho mình ra nhẹ !",
+       "sha256": "27e24c8eaff607f489c88282df99563bafc69f7ca404e4fdf071f621db12678b",
+       "bam_dong": "d31696d14df71800c97c25cb9f9a2939ce508e6b"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/037.md",
+       "dong": [
+        34,
+        34
+       ],
+       "trich": "cái đáng cho chúng ta phải chăm lo để ý chính là cuộc sống tiết độ chừng mực",
+       "sha256": "36e5f4e6fb4a422fdeacb0acc295777644e1091a211bbc8f85a113d03996c3ba",
+       "bam_dong": "b0d88ba8146a5a8588a379309f12d2ec6e72dc11"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tỉnh thức là chọn điều chính yếu",
+     "giai_thich": "Tỉnh thức là sáng suốt phân biệt điều trường tồn với điều chóng qua, sống có ý thức thay vì máy móc. Người ta có thể mải dọn bàn ghế trên con tàu đang chìm: lo việc lặt vặt mà quên việc chính yếu.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/020.md",
+       "dong": [
+        21,
+        21
+       ],
+       "trich": "Tỉnh thức là sáng suốt nhận ra đâu là những gì quan trọng, ý nghĩa cho cuộc sống vĩnh cửu mai sau, đâu là những gì tạm bợ chóng qua",
+       "sha256": "bd3129795d66927edcfe2202f097ace78e6225a107a21b53a0aa01822f61feb3",
+       "bam_dong": "cb8be98a5e51a1659d875c70028e6b55eb3df280"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/066.md",
+       "dong": [
+        30,
+        30
+       ],
+       "trich": "Tỉnh thức là sống cho ra sống, biết vì sao mình sống, sống có chủ ý, sống có ý thức chứ không phải sống cách máy móc thụ động.",
+       "sha256": "9f95e4ff69d64703b360fcfaa40fad7433ce3bca9aaf158651443e7410646e27",
+       "bam_dong": "15d1e1a07acd68363f09f0abfbc49dc075e1c740"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/066.md",
+       "dong": [
+        42,
+        42
+       ],
+       "trich": "Mải lo những việc lặt vặt tạm bợ, mà quên đi việc chính yếu trường tồn !",
+       "sha256": "9f95e4ff69d64703b360fcfaa40fad7433ce3bca9aaf158651443e7410646e27",
+       "bam_dong": "908047b1e970fe59f9a5614dc5a56b754cce2be2"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Đừng để đến ngày mai",
+     "giai_thich": "Cám dỗ quen thuộc là hẹn sẽ hoán cải, nhưng không phải hôm nay. Người tỉnh thức xếp lại ưu tiên ngay bây giờ: Thánh lễ Chúa nhật, kinh nguyện hằng ngày, giữ giới răn, việc bác ái; và không nhượng bộ điều xấu dù rất nhỏ.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/040.md",
+       "dong": [
+        28,
+        28
+       ],
+       "trich": "tôi sẽ trở lại sẽ canh tân sẽ hoán cải nhưng không phải hôm nay mà ngày mai",
+       "sha256": "c7092f67db6332b005c9a17b074ca18037a76f7d7987d5adc7e82d79276c3a14",
+       "bam_dong": "18742a978f868a55c5f5bd1598e878f7fe28cc96"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/037.md",
+       "dong": [
+        35,
+        35
+       ],
+       "trich": "chúng ta cần xếp đặt ưu tiên cho việc thờ phượng Chúa ngày Chúa Nhật, kinh nguyện hàng ngày, giữ gìn giới răn của Chúa, làm việc tông đồ bác ái trong cuộc sống",
+       "sha256": "36e5f4e6fb4a422fdeacb0acc295777644e1091a211bbc8f85a113d03996c3ba",
+       "bam_dong": "f8323744fcd711bbf8cdb6ed9dfc5440ea37decf"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/082.md",
+       "dong": [
+        58,
+        58
+       ],
+       "trich": "Điều tôi biết là xấu, dù rất nhỏ, tôi không nhượng bộ",
+       "sha256": "467b34849b7684361f3c4691e946751df02c3ad0de117e1663fd45faa154a43a",
+       "bam_dong": "40c131bc65011c3a50bf9a4c0556c2f2674145ee"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng cảnh giác về lòng nặng nề; Thánh Phaolô mời sống đẹp lòng Chúa và cứ tiến thêm nữa; Giêrêmia cho thấy Thiên Chúa đến để thi hành công lý, nên ta cần một tâm hồn thẳng ngay đón Người.",
+   "su_diep": "Hãy cởi bớt gánh nặng trong lòng để có thể ngẩng đầu lên đón Chúa — và bắt đầu từ hôm nay.",
+   "ap_dung": [
+    "Chọn một điều làm lòng mình nặng nề (thói quen, lo âu, tiêu xài) để giảm bớt trong Mùa Vọng.",
+    "Xếp lại thời gian biểu tuần này cho Thánh lễ, cầu nguyện và một việc bác ái.",
+    "Thực hiện ngay một quyết tâm hoán cải đã hẹn lâu nay."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "C"
+   ],
+   "tieu_de": "Cầu nguyện luôn để đứng vững",
+   "chu_de": "Lời cầu nguyện liên lỉ giữ người môn đệ gắn với Chúa và cho họ sức đứng vững trước mặt Con Người.",
+   "loi_chua_nen": {
+    "ref": "Lc 21,36",
+    "doan": "gospel",
+    "nam": "C",
+    "trich": "Vậy các con hãy tỉnh thức và cầu nguyện luôn, để có thể thoát khỏi những việc sắp xảy đến và đứng vững trước mặt Con Người"
+   },
+   "luan_de": "Cầu nguyện không phải là trốn khỏi đời sống, nhưng là sống mọi sự trong tương quan với Chúa; nhờ đó ta quen thuộc với Người trước ngày gặp Người.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Cầu nguyện là sợi dây nối với Chúa",
+     "giai_thich": "Cầu nguyện là đặt mình trong mối liên kết với Chúa và quy hướng mọi điều về Người. Nhờ đó người tín hữu đứng thẳng, kiên vững, nhất là trong thử thách. Thánh Luca nhấn mạnh: chuẩn bị cho ngày ấy chính là cầu nguyện mọi lúc để có sức vượt qua.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/020.md",
+       "dong": [
+        22,
+        22
+       ],
+       "trich": "Cầu nguyện là biết đặt mình trong mối liên kết với Chúa, quy hướng mọi điều về Chúa là cùng đích",
+       "sha256": "bd3129795d66927edcfe2202f097ace78e6225a107a21b53a0aa01822f61feb3",
+       "bam_dong": "cd2aa2e40878fd1cd740473195b3088cfb609e75"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/035.md",
+       "dong": [
+        36,
+        36
+       ],
+       "trich": "Luôn là những con người đứng thẳng, kiên vững, đĩnh đạc, nhất là trong cơn thử thách.",
+       "sha256": "23016b9b69fc14e48f2c1f41f8c63364b50511b1ce93c9c62c7ab5c55d43a2dc",
+       "bam_dong": "16e9c20e47ee5dd089a038081ba979bfeee49c41"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/052.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "an important aspect of preparing for this day consists in 'praying at all times' for the strength to come through the ordeal.",
+       "sha256": "548280c69f2a0e243f6d8df59e47546d212b47c19be5713b84223c89f1703a55",
+       "bam_dong": "4670f39a4e8969061fb99c455948c69b7c97d492"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Cầu nguyện không thay cho trách nhiệm",
+     "giai_thich": "Cầu nguyện luôn không có nghĩa là đọc kinh suốt ngày hay khoanh tay chờ Chúa làm thay. Ta cầu nguyện liên tục khi kết hợp ý mình với ý Chúa trong từng việc, và cùng Người dấn thân vào thế giới mới.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/065.md",
+       "dong": [
+        41,
+        41
+       ],
+       "trich": "Kết hợp ý của ta với ý của Chúa, cố gắng thực hiện thánh ý của Người từng giây từng phút, đó là cách chúng ta cầu nguyện liên tục.",
+       "sha256": "882e68752b36be517a0c0fc22c8f1bd70bf72df88aaec5cda1e8d841c0dbb182",
+       "bam_dong": "aa8d5848b11b8051f8102f81df4ca368592b7621"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/008.md",
+       "dong": [
+        89,
+        89
+       ],
+       "trich": "Cầu nguyện không phải bỏ trách nhiệm, cũng không ỷ lại vào quyền năng Thiên Chúa rồi khoanh tay lười biếng.",
+       "sha256": "c61512da050fdeda3e47cd0f67259742b7f0b06b1cbf4e5d57da7a2f57ac7940",
+       "bam_dong": "325681d64beb31c5417477e3dd3e51b286b0ba93"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/081.md",
+       "dong": [
+        67,
+        67
+       ],
+       "trich": "cầu nguyện không chỉ là phủ phục trước Thiên Chúa, nhưng còn là cùng với Người, tham gia tích cực vào thế giới mới",
+       "sha256": "45e53721fe91ef009340ba0ae9c1d50756c83cb6c5e5dcce369e141f99539fb9",
+       "bam_dong": "4744fb9271b0cffc1a00673d77aeb651dc6ae4e9"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tập quen thuộc với Chúa từ bây giờ",
+     "giai_thich": "Người quen trò chuyện với Chúa mỗi ngày sẽ không thấy Người xa lạ khi giờ khắc quyết định đến. Mỗi buổi sáng là dịp tìm lại Đức Giêsu và Tin Mừng: một Thánh lễ, một đoạn Kinh Thánh, một phút cầu nguyện ngắn.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/066.md",
+       "dong": [
+        46,
+        46
+       ],
+       "trich": "nhờ những lời tâm sự, nói chuyện hằng ngày với Chúa Giê-su trước đó, mà giữa Ngài với tôi chẳng có gì xa lạ",
+       "sha256": "9f95e4ff69d64703b360fcfaa40fad7433ce3bca9aaf158651443e7410646e27",
+       "bam_dong": "a2d11ae8ae200ffda7e55691b3b99977c396f03c"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/066.md",
+       "dong": [
+        48,
+        48
+       ],
+       "trich": "Hãy tập quen thuộc với Chúa Giê-su ngay từ bây giờ.",
+       "sha256": "9f95e4ff69d64703b360fcfaa40fad7433ce3bca9aaf158651443e7410646e27",
+       "bam_dong": "e2e51499e5ef880eeb2846cf6a2c15e654e30311"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/035.md",
+       "dong": [
+        35,
+        35
+       ],
+       "trich": "Mỗi buổi sáng là một cuộc tìm lại Đức Giêsu và Tin Mừng của Người.",
+       "sha256": "23016b9b69fc14e48f2c1f41f8c63364b50511b1ce93c9c62c7ab5c55d43a2dc",
+       "bam_dong": "eebb9df3092120e6638147b4b8215d36b333a726"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Cầu nguyện cho người không cầu nguyện nổi",
+     "giai_thich": "Có những người đang trải qua \"ngày tận thế\" của riêng mình: mất người thân, thất nghiệp, bệnh tật. Họ có thể không còn sức cầu nguyện. Cộng đoàn mời họ đến và cầu nguyện thay cho họ, cho đến ngày họ lại cầu nguyện được — và cầu cho chính chúng ta.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/084.md",
+       "dong": [
+        29,
+        29
+       ],
+       "trich": "Giải pháp là mời họ đến cầu nguyện cùng với chúng ta. Họ không cần làm gì cả, chỉ cần hiện diện, chúng ta sẽ cầu xin cho họ",
+       "sha256": "fa75c59551edf255ffaf1bf42c1f4eb052accb12a26866225fd27e881fe2ac64",
+       "bam_dong": "78a81770fe58dfc6bc1be7f87d03c2464049a741"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/084.md",
+       "dong": [
+        29,
+        29
+       ],
+       "trich": "vì bất cứ ai, lúc này hay lúc khác kinh nghiệm tận thế về đời mình.",
+       "sha256": "fa75c59551edf255ffaf1bf42c1f4eb052accb12a26866225fd27e881fe2ac64",
+       "bam_dong": "78a81770fe58dfc6bc1be7f87d03c2464049a741"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng kết bằng lời mời cầu nguyện luôn; Thánh Phaolô mở đầu bằng lời cầu nguyện cho cộng đoàn; Đáp ca là lời cầu \"Lạy Chúa, con vươn linh hồn lên tới Chúa\".",
+   "su_diep": "Ai cầu nguyện mỗi ngày sẽ không gặp một Đấng xa lạ khi Chúa đến; hãy cầu nguyện cho mình và cho người không còn sức cầu nguyện.",
+   "ap_dung": [
+    "Dành năm phút đầu ngày trong Mùa Vọng để đọc Tin Mừng và thưa chuyện với Chúa.",
+    "Dâng công việc hằng ngày như một lời cầu nguyện bằng cách làm cho tốt vì Chúa.",
+    "Ghi tên một người đang khủng hoảng và cầu nguyện thay cho họ mỗi ngày."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 4,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "C"
+   ],
+   "tieu_de": "Lớn lên trong tình yêu khi chờ Chúa",
+   "chu_de": "Thánh Phaolô cho thấy cách chờ Chúa đúng nhất là để tình yêu huynh đệ ngày càng tràn đầy và lan đến mọi người.",
+   "loi_chua_nen": {
+    "ref": "1 Tx 3,12",
+    "doan": "secondReading",
+    "nam": "C",
+    "trich": "xin Chúa gia tăng và ban cho anh em tràn đầy lòng thương yêu nhau, và thương yêu mọi người"
+   },
+   "luan_de": "Chờ đợi Chúa không phải là ngồi yên hay nôn nóng, mà là để Chúa làm cho tình yêu lớn lên trong cộng đoàn, thành dấu chỉ cho lời hứa về một triều đại công chính.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Chờ đợi không phải là ngồi yên",
+     "giai_thich": "Tín hữu Thêxalônica nôn nóng chờ Chúa đến nay mai; lâu không thấy, họ mất kiên nhẫn và sống buông thả. Thánh Phaolô chỉ ra thái độ đúng: bồi dưỡng tình thương. Chờ đợi của môn đệ không phải là lười biếng, nhàn rỗi.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/016.md",
+       "dong": [
+        20,
+        20
+       ],
+       "trich": "Họ nôn nóng chờ Chúa đến là điều hết sức quí báu, nhưng lại hiểu lầm Chúa sẽ đến nay mai, từ đó đâm ra mất bình tĩnh, không còn kiên nhẫn được nữa.",
+       "sha256": "fa18555b480bea4d3185283506294d5709020b981ed8f61dd857bc656009635e",
+       "bam_dong": "5fb3387c55af18dfbd726fa0dfa5b870e2c5a687"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/063.md",
+       "dong": [
+        56,
+        56
+       ],
+       "trich": "Thái độ đúng đắn là phải bồi dưỡng tình thương",
+       "sha256": "099815e9fa274f15bfaacf028bb0ff379cb816ba7949da28e012ead0ab5c5741",
+       "bam_dong": "7b17e05369243731d094dae55fe462b3b766a1b8"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/065.md",
+       "dong": [
+        34,
+        34
+       ],
+       "trich": "sự chờ đợi của các môn đệ Chúa không phải là một sự chờ đợi lười biếng, nhàn rỗi",
+       "sha256": "882e68752b36be517a0c0fc22c8f1bd70bf72df88aaec5cda1e8d841c0dbb182",
+       "bam_dong": "dd5d1f33991da22ed1e5a53523b58fbbb14532f6"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Từ tình huynh đệ đến mọi người",
+     "giai_thich": "Tình yêu phải bắt đầu từ trong cộng đoàn, như tình anh em; một cộng đoàn thật sự yêu thương nhau sẽ tràn ra yêu cả người ngoài. Lớn lên trong tình yêu cũng chính là lớn lên trong thánh thiện, và đó là cách đứng vững khi Chúa đến.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/074.md",
+       "dong": [
+        17,
+        17
+       ],
+       "trich": "For love must begin as love of one another, as love of the brethren. When a community is truly a brotherhood of mutual love it will then flow over in love for others.",
+       "sha256": "ef81e0b2989d251709eee3abb0d34079edcc6248a483d1df650ede158403f29d",
+       "bam_dong": "eaea42e458e367929797119093b25d783b38611e"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/080.md",
+       "dong": [
+        26,
+        26
+       ],
+       "trich": "Lớn lên trong tình yêu cũng tương đương với sự thánh thiện và là một bảo đảm cho ơn giải thốt và cứu độ khi Chúa quang lâm.",
+       "sha256": "e91654d94a7d20d3916df59a3d46d618883093053bfcdb50913eaba6038127e0",
+       "bam_dong": "61f9782736e990b6ddadee3521755993f0f410a4"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "secondReading",
+       "nam": "C"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Chúa làm tình yêu tăng trưởng, ta cộng tác",
+     "giai_thich": "Thánh Phaolô cầu xin Chúa gia tăng tình yêu, vì tình yêu không chỉ là thành quả cố gắng của con người mà là việc Thiên Chúa làm. Phần ta là đáp lại Thần Khí: tha thứ, bỏ lời chua cay, xây dựng hiệp thông, san sẻ với người khó khăn.",
+     "kinh_thanh": [
+      {
+       "ref": "1 Tx 4,1",
+       "doan": "secondReading",
+       "nam": "C",
+       "trich": "xin anh em cứ tiến thêm nữa"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/076.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "An increase in love cannot just be the fruit of human effort but is, ultimately, God's doing among them.",
+       "sha256": "4794dc5f7c1735e0348faaf65d608581cbf39f2662e8eb76afcf5185b240dc90",
+       "bam_dong": "96a76ef1eebb21f3374f5f995ea7424caf3cf290"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/073.md",
+       "dong": [
+        34,
+        34
+       ],
+       "trich": "Mở rộng lòng tha thứ.",
+       "sha256": "c240884d3e689bd95c7ae6464cfba4bc53d7d93001d5f4d4b0a43e3e2ec96946",
+       "bam_dong": "0e7abe2d420b01b839a169ab4611a078fab9c418"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/087.md",
+       "dong": [
+        28,
+        28
+       ],
+       "trich": "nhịn đi những lời nói chua cay",
+       "sha256": "d9067eaa3b5be4d4a28c586b3a3ae9e6a39da688e77498afdc3e0a9b7ad8e4e4",
+       "bam_dong": "3758504177a7a5e7c81dc5d9f88b6abe397eea49"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Cộng đoàn công chính là dấu chỉ lời hứa",
+     "giai_thich": "Theo các ngôn sứ, ơn cứu độ là một cộng đoàn sống công bình, bác ái, gắn bó với Thiên Chúa. Hiệp thông với Chồi Công Chính, người tín hữu được mời làm dấu chỉ cho lời hứa: đứng về phía người yếu thế, tha thứ, bảo vệ sự sống.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/084.md",
+       "dong": [
+        21,
+        21
+       ],
+       "trich": "việc cứu vớt của Thiên Chúa đồng nghĩa với việc xây dựng một cộng đoàn công chính",
+       "sha256": "fa75c59551edf255ffaf1bf42c1f4eb052accb12a26866225fd27e881fe2ac64",
+       "bam_dong": "d6b9145cb273971b7dbad5e144edb231e9b9436d"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-C/079.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "Trong sự hiệp thông với Ngài, mầm non công chính, chúng ta được kêu gọi làm nên dấu chỉ cho lời hứa của Đức Chúa Trời.",
+       "sha256": "8ed0a26b41a6542b40c3352825fa3f84229925f509ba09c0f0e0e3c2828b51c7",
+       "bam_dong": "c72cf156a27657c1dc3d1a6cdad8df0e0a2fc036"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài đọc II là trục: tình yêu tăng trưởng để vững bền khi Chúa đến; Giêrêmia hứa một triều đại công lý; Tin Mừng cho thấy sống hôm nay quyết định cách ta đứng trước Con Người.",
+   "su_diep": "Cách chờ Chúa tốt nhất là yêu thương nhiều hơn hôm qua, từ trong gia đình, cộng đoàn đến mọi người.",
+   "ap_dung": [
+    "Làm hòa với một người trong gia đình hoặc cộng đoàn trước lễ Giáng Sinh.",
+    "Mỗi tuần Mùa Vọng làm một việc san sẻ cụ thể cho người nghèo hay người cô đơn.",
+    "Kiềm chế một lời chỉ trích, thay bằng một lời nâng đỡ."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/1010-C/loi-chua.json",
+  "sha256": "053dc8a60d1425c6f6294ade9272b122faa153a454f790dfcb601e0d4b855a69",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 47,
+  "so_doc_lap": 46,
+  "van_tay": "5c279e9999c934c4e27a365449f7b9e37549576a1d5c5ed7e3e3bedca95ee497"
+ },
+ "van_tay_nguon": "95207cfce9790f6adf63ab175ff7bbff956de1ed685a627c1b882507da21dfe6",
+ "ghi_luc": "2026-11-13T08:31:37.798Z"
+}

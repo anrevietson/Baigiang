@@ -1,0 +1,365 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "1013",
+ "celebrationCode": "1013",
+ "ten_le": "Thứ Tư Tuần I Mùa Vọng",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  null
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y, theo HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Đã đọc đủ 20 bài trong gói 1013; 17 bài độc lập theo REPORTS/1013/nguon-bai-giang.json. Ngày thường Mùa Vọng, Tin Mừng làm trục; gợi ý 01 theo Kim Chỉ Nam nguyên tắc, không phải dàn ý chính thức."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "1013/044.md",
+   "ly_do": "Trùng 97% với 1013/011.md; dùng bản chính."
+  },
+  {
+   "duong_dan": "1013/047.md",
+   "ly_do": "Trùng 81% với 1013/011.md; dùng bản chính."
+  },
+  {
+   "duong_dan": "1013/051.md",
+   "ly_do": "Trùng 83% với 1013/049.md; dùng bản chính."
+  },
+  {
+   "duong_dan": "1013/046.md",
+   "dong": [
+    37,
+    102
+   ],
+   "ly_do": "Phần này thuộc Thứ Năm và Thứ Sáu; chỉ dùng dòng 11-33."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Lòng thương xót chữa lành và nuôi dưỡng",
+   "chu_de": "Trong Mùa Vọng, Đức Giêsu cho thấy lòng thương xót của Thiên Chúa bằng cách chữa lành và chăm lo sự sống của đám đông.",
+   "loi_chua_nen": {
+    "ref": "Mt 15,32",
+    "doan": "gospel",
+    "trich": "Ta thương xót đoàn lũ này, vì đã ba ngày, họ ở lại với Ta, nhưng không có gì ăn."
+   },
+   "luan_de": "Đón Đấng Cứu Thế bằng lòng thương xót cụ thể đối với những người đau khổ và thiếu thốn.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Đức Giêsu nhìn thấy toàn bộ nỗi khổ của con người",
+     "giai_thich": "Người không chỉ chữa bệnh mà còn quan tâm đến cái đói và sự mệt mỏi của dân chúng.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/005.md",
+       "dong": [
+        33,
+        39
+       ],
+       "trich": "Trước nhất, Người tỏ lòng thương xót dân chúng : “Thầy chạnh lòng thương đám đông”. Người tông đồ phải có lòng yêu thương đối với người mình phục vụ.",
+       "sha256": "9b0c3a93d9da536299a274f9fe43c347363ff8c6ad41f8f8c16e17a7ed37862e",
+       "bam_dong": "f49de46f021b00271827cf7e7913e67e4f3d0372"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": null
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Lòng thương xót phải thành hành động",
+     "giai_thich": "Mùa Vọng thúc đẩy ta nhận ra những nhu cầu vật chất và tinh thần quanh mình, rồi đáp lại trong khả năng.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/007.md",
+       "dong": [
+        23,
+        27
+       ],
+       "trich": "Chúa nuôi sống cả mấy ngàn người như thế. Một người mà nuôi ít là 4.000 người như vậy là một chuyện duy nhất, Chúa Giêsu đã thông cảm và gần gũi con người.",
+       "sha256": "98dda28b8a86bdaa64fd7e357b90d461479c0cf0cf16dab23e39cf32ade19d62",
+       "bam_dong": "060359b559f0a53c424160d92b1ca6dcdf6daee3"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Hội Thánh tiếp tục việc chăm sóc",
+     "giai_thich": "Môn đệ học nơi Đức Giêsu để nâng đỡ người yếu đuối và phục vụ cả đời sống thể xác lẫn tâm linh.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/005.md",
+       "dong": [
+        81,
+        87
+       ],
+       "trich": "Là người tông đồ của Chúa, chúng ta phải đón nhận tinh thần của Chúa để nâng đỡ những người yếu đuối, an ủi những kẻ âu lo, đem bình an đến những nơi tranh chấp",
+       "sha256": "9b0c3a93d9da536299a274f9fe43c347363ff8c6ad41f8f8c16e17a7ed37862e",
+       "bam_dong": "f555a286c1ef4979d93b35041d20264cef86c7b4"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "151",
+       "trich": "A homily at daily Mass is encouraged particularly in the liturgical seasons of Advent/Christmas and Lent/Easter."
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng hiện thực hóa bữa tiệc cứu độ và lau nước mắt được Isaia loan báo; Đức Giêsu chữa lành và cho dân ăn.",
+   "su_diep": "Hãy để lòng thương xót của Đức Kitô chạm đến những người đang đau khổ qua hành động của chúng ta.",
+   "ap_dung": [
+    "Nhận diện một nhu cầu cụ thể quanh mình và đáp lại trong khả năng.",
+    "Thăm hỏi hoặc nâng đỡ một người bệnh, nghèo hay cô đơn.",
+    "Phục vụ không chỉ bằng lời nói nhưng bằng thời gian và việc làm."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Đóng góp nhỏ bé thành phục vụ quảng đại",
+   "chu_de": "Đức Giêsu đón nhận phần nhỏ bé của con người và biến nó thành sự sống dồi dào cho cộng đoàn.",
+   "loi_chua_nen": {
+    "ref": "Mt 15,34",
+    "doan": "gospel",
+    "trich": "Chúa Giê-su nói với họ: “Các con có bao nhiêu chiếc bánh?” Họ thưa: “Có bảy chiếc, và ít con cá nhỏ”."
+   },
+   "luan_de": "Không chờ có thật nhiều mới phục vụ; hãy trao điều mình có để Chúa làm cho sinh ích.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Chúa hỏi điều ta đang có",
+     "giai_thich": "Câu hỏi của Đức Giêsu chuyển cái nhìn từ sự thiếu thốn sang trách nhiệm và khả năng cộng tác.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/005.md",
+       "dong": [
+        45,
+        53
+       ],
+       "trich": "Việc cần phải cậy trông đến Chúa bằng cách sẵn sàng cộng tác với Chúa.",
+       "sha256": "9b0c3a93d9da536299a274f9fe43c347363ff8c6ad41f8f8c16e17a7ed37862e",
+       "bam_dong": "098a322f6b8d2aad483eca1693c0ad861e1155e0"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đóng góp nhỏ bé trở thành quà tặng cho nhiều người",
+     "giai_thich": "Bánh và cá ít ỏi không bị coi thường; trong tay Đức Kitô, chúng trở thành của ăn cho đám đông.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/011.md",
+       "dong": [
+        51,
+        55
+       ],
+       "trich": "Với 7 chiếc bánh và một ít cá nhỏ của ai đó dâng tặng, Chúa Giêsu đã làm cho hàng ngàn người được no nê.",
+       "sha256": "e69251ad4be7e52cce25e4687f41b72568c0208cee659b76fc3c21949a3878a5",
+       "bam_dong": "4be20cd1c1e1683cda003d25d4fd752603f94811"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/030.md",
+       "dong": [
+        11,
+        13
+       ],
+       "trich": "we too can put our resources, however meagre, at Christ's disposition and thus participate in his messianic work.",
+       "sha256": "3fc0e0b43ab3d30c767d2c7e243529a904986e67006cd4d77055888c42f26b99",
+       "bam_dong": "4ed6408c9b803363e4cde72c734c74006b3cbc2a"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Chia sẻ làm nảy sinh sự sống",
+     "giai_thich": "Phép lạ không dẫn đến tích trữ nhưng đến việc trao bánh qua tay các môn đệ cho dân chúng.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/004.md",
+       "dong": [
+        19,
+        21
+       ],
+       "trich": "Giàu tình người, giàu lòng quảng đại, giàu tình liên đới, đó là sự giàu có đích thực",
+       "sha256": "f0c62a8c8e3b54c24b3c9f4ba22903d04ad577dd7c15da80d5625b2b14d343b4",
+       "bam_dong": "2df94a281c53c1cd45db00c23630cf87b2140f0d"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": null
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bữa tiệc Isaia được hiện thực qua việc Đức Giêsu nhận phần nhỏ bé của các môn đệ và trao lại cho đám đông.",
+   "su_diep": "Trao phần nhỏ bé của mình cho Chúa và cho anh em, thay vì viện cớ bất lực.",
+   "ap_dung": [
+    "Dâng một khả năng cụ thể cho việc phục vụ chung.",
+    "Chia sẻ thực phẩm, thời gian hoặc kỹ năng với người thiếu thốn.",
+    "Cộng tác với một hoạt động bác ái của cộng đoàn."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Bàn tiệc cứu độ mở cho muôn dân",
+   "chu_de": "Bàn tiệc Đức Kitô mở ra niềm hy vọng cứu độ và quy tụ mọi người, nhất là những ai đau khổ.",
+   "loi_chua_nen": {
+    "ref": "Is 25,6",
+    "doan": "firstReading",
+    "trich": "Ngày ấy, Chúa các đạo binh sẽ thết tất cả các dân trên núi này một bữa tiệc đầy thịt rượu, thịt thì béo, rượu thì ngon."
+   },
+   "luan_de": "Mùa Vọng hướng về bữa tiệc Nước Chúa đã bắt đầu nơi Đức Giêsu và được mở rộng cho mọi dân tộc.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Thiên Chúa hứa một bữa tiệc cho mọi dân",
+     "giai_thich": "Lời Isaia diễn tả ơn cứu độ phổ quát, nơi Thiên Chúa cất đau khổ và ban niềm vui.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/035.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "There will be universal peace and harmony, an intimate friendship with God, and there will be no evils to spoil the idyll.",
+       "sha256": "e960777fd33f694d6e49a0de43b62695abff2f8ed40357694d6ee3ab5f8bee0f",
+       "bam_dong": "e5d4db9240cd57eb2aecdf25445237bed55aaefb"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "firstReading",
+       "nam": null
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đức Giêsu làm dấu chỉ của bữa tiệc ấy",
+     "giai_thich": "Chữa lành và cho ăn cho thấy thời đại cứu độ đã đến; công thức trao bánh hướng về Thánh Thể.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/029.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "On this same mountainside Jesus prepares an abundant meal of bread and fish and uses the Eucharistic formula of taking the food, giving thanks, breaking the bread, handing it over to the disciples",
+       "sha256": "0cfdf7d9c89a77144ac23f4ecb001dffa6df920d3f351617ef92e1c3c18e0ecf",
+       "bam_dong": "385c20c576681b01963e2731a505347ff188aa33"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/048.md",
+       "dong": [
+        31,
+        33
+       ],
+       "trich": "Ngài tụ họp người ta lại để cho họ ăn bánh hằng sống.",
+       "sha256": "6836b0ab51ef5af0eae86e72cd65f762a7f3c720eeeee44619d138a07cfdc00c",
+       "bam_dong": "73da60471fabd0b308e701e4474de37e36f8f135"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Người đau khổ được mời vào niềm hy vọng",
+     "giai_thich": "Đón chờ Chúa không phải trốn khỏi nỗi đau, nhưng để cộng tác làm vơi nước mắt và mở rộng bàn tiệc.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/049.md",
+       "dong": [
+        21,
+        29
+       ],
+       "trich": "Tính chất phổ quát và thời đại này thật lạ lùng. Đấng Thiên Sai không dành riêng cho dân Israel.",
+       "sha256": "cf426ea76fa9e4bff96ff4e8479ebea917cabd60136fc0dd6714a824de3e9142",
+       "bam_dong": "7008aefb0fe831ee942a0d4888a0604c731ed54b"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1013/013.md",
+       "dong": [
+        15,
+        25
+       ],
+       "trich": "Thiên Chúa sẽ thiết đãi mọi dân tộc một bữa tiệc đầy thịt béo và rượu ngon.",
+       "sha256": "35c67cf5a5a165c921fa880ea48ae5d1ed908e0177e5a80509c299d0fbe78f93",
+       "bam_dong": "47a3c646a55d08cbdc3d39aed58727e81a8fbc6b"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng cho thấy bữa tiệc Isaia đang diễn ra nơi Đức Giêsu: Người chữa lành, nuôi dưỡng và quy tụ cả những người ngoài Israel.",
+   "su_diep": "Hãy sống như người đã được mời vào bàn tiệc cứu độ bằng cách mở lòng và an ủi người khác.",
+   "ap_dung": [
+    "Đón tiếp một người bị gạt ra bên lề.",
+    "Đem niềm hy vọng Kitô giáo đến cho người đang đau khổ.",
+    "Tham dự Thánh Thể với lòng tạ ơn và ý thức được sai đi phục vụ."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/1013/loi-chua.json",
+  "sha256": "0cb48527d4afa44f0543af99a16fad8338a177a1aae30091d968317dac84e6c0",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 20,
+  "so_doc_lap": 17,
+  "van_tay": "a5e3f602ddf7e9421feb54934cbbe3e64062c831621e91f70494e34b18e37643"
+ },
+ "van_tay_nguon": "93aa8350180a81ab37fa226016e5b3017dec715149491e9e2e45af32f4e7636c",
+ "ghi_luc": "2026-11-13T08:13:38.869Z"
+}

@@ -1,0 +1,860 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "5321-I-II",
+ "celebrationCode": "5321",
+ "ten_le": "Thứ Hai Tuần XXXII Mùa Thường Niên",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  "I",
+  "II"
+ ],
+ "bien_soan": {
+  "boi": "Claude Code (claude-opus-5-5), theo AI-DAN-Y/HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Bản nháp do AI biên soạn từ 20/20 bài giảng của thư mục (18 bài độc lập) và bộ Lời Chúa của catholic-cal-vn. Chưa được người phụ trách duyệt. Tin Mừng (Lc 17,1-6) chung cho năm I và II; Bài đọc I khác nhau (năm I: Kn 1,1-7; năm II: Tt 1,1-9)."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "5321-I-II/040.md",
+   "dong": [
+    36,
+    83
+   ],
+   "ly_do": "Nội dung của Thứ Ba (Tt 2; Kn 2,23–3,9), không thuộc ngày này"
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "“Xin Thầy ban thêm lòng tin cho chúng con”",
+   "chu_de": "Những đòi hỏi vượt sức của đời môn đệ chỉ sống được nhờ đức tin là ân ban, đức tin được nuôi dưỡng nơi bàn tiệc Lời Chúa và Thánh Thể.",
+   "loi_chua_nen": {
+    "ref": "Lc 17,5",
+    "doan": "gospel",
+    "trich": "Xin Thầy ban thêm lòng tin cho chúng con"
+   },
+   "luan_de": "Nghe hai đòi hỏi khó — đừng gây vấp ngã và hãy tha thứ đến bảy lần — các Tông đồ không xin thêm sức mà xin thêm lòng tin. Bài giảng ngắn của ngày thường có thể đi trọn con đường ấy: từ Lời Chúa, đến nhận biết mình yếu, đến lời cầu xin, và đến Thánh Thể.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Ba lời dạy rời rạc được nối bằng một sự thật: sức người không đủ",
+     "giai_thich": "Thánh Luca gom ba lời dạy ngắn. Điều nối kết chúng là nhận thức về sự yếu đuối của con người: gương xấu sẽ xảy ra, anh em sẽ lỗi phạm. Đây là bức tranh thực tế về đời môn đệ.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 17,1",
+       "doan": "gospel",
+       "trich": "Không thể nào mà không xảy ra gương xấu"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/001.md",
+       "dong": [
+        18,
+        18
+       ],
+       "trich": "suy nghĩ kỹ ta thấy Chúa Giêsu nói lên sự yếu đuối hầu như tất nhiên của con người",
+       "sha256": "325d292828a6c34f0f9dd43393522e25e42cfdb0a010ef7c1c37b2ac64cfeb77",
+       "bam_dong": "612518a970fee020d356c64b9930a0a88408ab65"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/034.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "This short Gospel has three separate teachings of Jesus loosely linked in the idea of what it is to be a disciple.",
+       "sha256": "a788fb9b9a75f1093d3b2f854ba026c69214c7089716bf8641e01b0abdbf7d63",
+       "bam_dong": "f05dc9a095a40bce9d6db6f9691e6dc96f1860a4"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Lời cầu của các Tông đồ là khuôn mẫu cho lời cầu của Hội Thánh",
+     "giai_thich": "Nghe Lời, thấy mình yếu, rồi hướng về Thiên Chúa xin ơn: đó cũng là nhịp của phần Phụng vụ Lời Chúa, khép lại bằng Lời nguyện chung.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 17,5",
+       "doan": "gospel",
+       "trich": "Xin Thầy ban thêm lòng tin cho chúng con"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/040.md",
+       "dong": [
+        27,
+        29
+       ],
+       "trich": "Lạy Thầy, xin ban ơn giúp chúng con đạt được điều Thầy yêu cầu",
+       "sha256": "b75c1e1bf90696c31341f21516bbf823f7a1c4ccfcf2a585c24b0040cc5a8e4a",
+       "bam_dong": "66efc97c14aafbec6ecdf36df0e7e775ea1a7dfd"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/036.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "With faith we pray that we may never lead anyone astray and that we may forgive others as the Lord forgives us.",
+       "sha256": "6229ed8dc54ec00100d1ec6b431fdd000546b9298184474b90ab766e3544627e",
+       "bam_dong": "c7dbc61fd10661a7d77682f6ea9d240f12e5a92a"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đức tin nhỏ như hạt cải nhưng mạnh vì tựa vào Thiên Chúa",
+     "giai_thich": "Sức mạnh của hạt cải không ở kích thước mà ở sự sống bên trong. Đức tin phó thác cho Thiên Chúa sinh ra can đảm để tha thứ và để không bỏ cuộc trước người anh em yếu đuối.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 17,6",
+       "doan": "gospel",
+       "trich": "Nếu các con có lòng tin bằng hạt cải"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/010.md",
+       "dong": [
+        36,
+        36
+       ],
+       "trich": "Lòng tin tự phó thác vào sự quan phòng của Thiên Chúa đem lại can đảm và sức mạnh để có lòng tha thứ.",
+       "sha256": "36e6c2b50a8f79dec0b4cbef676a3302e2be411e8c05d644adc6a6a5d09d0e0d",
+       "bam_dong": "4215598bc1700565f0cf6cc8158bfad54d0a2834"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/032.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "the image of the mulberry tree stresses that faith must certainly be powerful",
+       "sha256": "b8d739763d1419ad8ab36e90ca66baf92053ad6752be0ccc30b2b49cfb762f73",
+       "bam_dong": "f9d1be38ba4916d19007f6b938f78957523c5dd4"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Từ Lời Chúa đến bàn thờ và vào đời thường",
+     "giai_thich": "Theo Kim Chỉ Nam, bài giảng dẫn cộng đoàn vào Thánh Thể rồi gợi cách mang Tin Mừng vào đời. Ngày thường thì cần ngắn gọn, đúng lúc. Tấm bánh được chia sẻ liên kết những người hôm nay được mời tha thứ cho nhau.",
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "13",
+       "trich": "The second part of the homily prepares the community to celebrate the Eucharist"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "150",
+       "trich": "brief and timely reflections which can help the faithful to welcome the word which was proclaimed and to let it bear fruit in their lives"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/008.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "ước gì tấm bánh là Đức Kitô mà chúng ta chia sẻ cho nhau, liên kết chúng ta với nhau như anh em trong cùng một gia đình",
+       "sha256": "a6b91c3f93e4d7b4706079dec4c5dd192e8a7063678a65878cf3e4381c968f92",
+       "bam_dong": "713448b642e44ef886584568aba29b2fbf5175f4"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng là trục chính (Kim Chỉ Nam §150-152 về Thánh lễ ngày thường). Câu Tung hô Tin Mừng (Mt 11,25: mạc khải cho những kẻ bé mọn) chuẩn bị cho lời cầu khiêm tốn của các Tông đồ. Không gượng ép liên hệ với Bài đọc I.",
+   "su_diep": "Đức tin không phải thành tích của người mạnh mà là ân ban cho người biết mình yếu và biết xin.",
+   "ap_dung": [
+    "Hôm nay, trước một người khó tha thứ, thay vì tự hứa “tôi sẽ cố”, hãy thưa: “Xin Chúa thêm lòng tin cho con.”",
+    "Khi rước lễ, dâng lên Chúa một mối quan hệ đang cần được chữa lành."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Không có mục Phụ lục I cho ngày thường; gợi ý này theo nguyên tắc chung của Kim Chỉ Nam, KHÔNG phải dàn ý chính thức."
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Không ai là một hòn đảo: trách nhiệm không gây vấp ngã",
+   "chu_de": "Đời sống đức tin của tôi luôn có âm hưởng nơi người khác, nhất là nơi những người bé mọn.",
+   "loi_chua_nen": {
+    "ref": "Lc 17,2",
+    "doan": "gospel",
+    "trich": "Thà nó bị cột cối đá vào cổ mà ném xuống biển còn hơn là làm gương xấu cho một trong những trẻ nhỏ này."
+   },
+   "luan_de": "Lời cảnh cáo nặng nề của Đức Giêsu xuất phát từ lòng Thiên Chúa không muốn mất một ai. Vì thế người môn đệ không thể nói “tôi có phải là người giữ em tôi đâu”.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Lời cảnh cáo nghiêm khắc nói lên lòng Thiên Chúa đối với kẻ bé mọn",
+     "giai_thich": "“Trẻ nhỏ” không chỉ là trẻ em mà là mọi người đơn sơ, yếu thế trong đức tin. Thiên Chúa bênh vực họ.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 17,1",
+       "doan": "gospel",
+       "trich": "vô phúc cho kẻ nào gây ra gương xấu"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/007.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "Thiên Chúa là Đấng yêu thương con người, Ngài không muốn để mất một ai.",
+       "sha256": "2806eb906dfee148cfd92339b56e8eb8fe42091b9924393d14523feb5559dc36",
+       "bam_dong": "312c880ce06b6989b5bb0be1613ec23d94c1d01b"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/040.md",
+       "dong": [
+        17,
+        17
+       ],
+       "trich": "Ở đây, không chỉ nói đến trẻ thơ, nhưng còn nhắm đến mọi người nghèo khó",
+       "sha256": "b75c1e1bf90696c31341f21516bbf823f7a1c4ccfcf2a585c24b0040cc5a8e4a",
+       "bam_dong": "a753644e1248a7f363525aff76c36e9aca3d0dc7"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Cám dỗ chối bỏ trách nhiệm có từ khởi thủy",
+     "giai_thich": "Ađam đổ lỗi, Cain hỏi lại “tôi có phải là người giữ em tôi đâu?”. Đức tin thì ràng buộc tôi vào số phận người anh em.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/012.md",
+       "dong": [
+        20,
+        20
+       ],
+       "trich": "Sự chối bỏ này lại càng rõ nét trong thái độ của Cain sau khi đã giết em mình là Abel",
+       "sha256": "a981173c017110da9582231fa80e889015cd8a580b28c9002752fbe8c8801ac4",
+       "bam_dong": "7b8a589d50020fe52c428c89fc6c43de493224e9"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/008.md",
+       "dong": [
+        18,
+        18
+       ],
+       "trich": "Sống đức tin thiết yếu là tự ràng buộc vào số phận của người anh em mình.",
+       "sha256": "a6b91c3f93e4d7b4706079dec4c5dd192e8a7063678a65878cf3e4381c968f92",
+       "bam_dong": "0fc081a7dc83cf408714bf67f44e864d7ea098bf"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Gương xấu có thể thành rào cản cho người đang tìm Chúa",
+     "giai_thich": "Bài giảng kể giai thoại Gandhi bị chặn ở cửa nhà thờ (giai thoại do bài giảng thuật lại, chưa kiểm chứng). Câu hỏi đặt ra: đời sống của chúng ta là cửa mở hay rào cản?",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/008.md",
+       "dong": [
+        22,
+        22
+       ],
+       "trich": "cuộc sống của người Kitô hữu không là một thứ rào cản những người muốn tìm đến với Đức Kitô và Giáo hội nữa",
+       "sha256": "a6b91c3f93e4d7b4706079dec4c5dd192e8a7063678a65878cf3e4381c968f92",
+       "bam_dong": "9b63e91df917a0dba0e0f2d265dab844b5b34e65"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/001.md",
+       "dong": [
+        18,
+        18
+       ],
+       "trich": "Ai trong thế giới người lớn, vô tình hay hữu ý đều có lúc đã làm gương mù gương xấu cho con cái, lớn làm gương xấu cho nhỏ.",
+       "sha256": "325d292828a6c34f0f9dd43393522e25e42cfdb0a010ef7c1c37b2ac64cfeb77",
+       "bam_dong": "612518a970fee020d356c64b9930a0a88408ab65"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Phân định giữa điều “được làm” và điều “nên làm”",
+     "giai_thich": "Có việc tự nó không xấu nhưng trong hoàn cảnh cụ thể lại thành cớ vấp ngã. Nếp sống của ta luôn tạo ảnh hưởng, dù ta có ý hay không.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/011.md",
+       "dong": [
+        30,
+        32
+       ],
+       "trich": "Bởi đó tuy được làm nhưng tôi không nên làm.",
+       "sha256": "9c002eec867c8392db13fcae4e4cd0e2f8b5f493a1c7b62293b9bb2392044c8c",
+       "bam_dong": "38e3699f76a0f9b84fccf229bbfca1c60becb449"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/040.md",
+       "dong": [
+        13,
+        13
+       ],
+       "trich": "Chung quanh chúng con, còn có một khu vực ảnh hưởng.",
+       "sha256": "b75c1e1bf90696c31341f21516bbf823f7a1c4ccfcf2a585c24b0040cc5a8e4a",
+       "bam_dong": "76279eec0a5b00361eeb785e7c2e953264c4e2fb"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Dựa trên câu 1-2 của Tin Mừng. Năm II có thể nối với Tt 1,7: người quản lý của Chúa “không có gì đáng trách” (xem gợi ý 05).",
+   "su_diep": "Tôi là người giữ em tôi: đức tin của tôi hoặc nâng đỡ, hoặc làm vấp ngã người bên cạnh.",
+   "ap_dung": [
+    "Cha mẹ xét lại một thói quen trong nhà mà con cái đang nhìn và học theo.",
+    "Trong cộng đoàn, nhận ra một “người bé mọn” (người mới, người yếu đức tin) và làm cho họ thấy cửa nhà Chúa đang mở."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Tha thứ bảy lần một ngày: cộng đoàn thật, không phải cộng đoàn lý tưởng",
+   "chu_de": "Đức Giêsu đặt sự tha thứ không giới hạn làm nền cho đời sống chung của những người tội lỗi đang được thánh hóa.",
+   "loi_chua_nen": {
+    "ref": "Lc 17,4",
+    "doan": "gospel",
+    "trich": "cho dù một ngày nó phạm đến con bảy lần"
+   },
+   "luan_de": "Tha thứ của Kitô hữu không phải là làm ngơ. Nó bắt đầu bằng lời sửa lỗi thẳng thắn, được đo bằng lòng Thiên Chúa tha thứ cho ta, và hoàn tất khi ta thật sự đón nhận lại người trở về.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Tha thứ đi đôi với sửa lỗi huynh đệ",
+     "giai_thich": "Đức Giêsu dạy “hãy răn bảo nó” trước khi nói “hãy tha thứ”. Nói thẳng với người lỗi phạm là tôn trọng họ. Tha thứ không loại trừ sự thật.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 17,3",
+       "doan": "gospel",
+       "trich": "nếu có anh em con lỗi phạm, con hãy răn bảo nó, và nếu nó hối cải, thì hãy tha thứ cho nó"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/011.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "Khi đó ta hãy nói thẳng với người đó. Nếu người đó hối hận thì ta phải tha thứ.",
+       "sha256": "9c002eec867c8392db13fcae4e4cd0e2f8b5f493a1c7b62293b9bb2392044c8c",
+       "bam_dong": "6b4d00774df0f41d9c624697a61246221ada3722"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/001.md",
+       "dong": [
+        26,
+        26
+       ],
+       "trich": "chúng ta không tức giận hay loại trừ, nhưng phải giúp sửa chừa người anh em và tha thứ cho nó",
+       "sha256": "325d292828a6c34f0f9dd43393522e25e42cfdb0a010ef7c1c37b2ac64cfeb77",
+       "bam_dong": "765b566c5f6fcaf8bbed729426955856f20df079"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đức Giêsu không mơ một cộng đoàn hoàn hảo",
+     "giai_thich": "Con số “bảy lần một ngày” cho thấy một cộng đoàn có va chạm thật. Hội Thánh là cộng đồng tội nhân đang được thánh hóa, không phải câu lạc bộ của người hoàn hảo.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/040.md",
+       "dong": [
+        20,
+        20
+       ],
+       "trich": "Các Kitô hữu đều là anh em cả ! nhưng không phải là những con người hoàn hảo.",
+       "sha256": "b75c1e1bf90696c31341f21516bbf823f7a1c4ccfcf2a585c24b0040cc5a8e4a",
+       "bam_dong": "e656f88ba9d2261472798ca20149504c21b16977"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/010.md",
+       "dong": [
+        30,
+        30
+       ],
+       "trich": "Giáo hội là một cộng đồng anh chị em tội lỗi đang được thánh hóa.",
+       "sha256": "36e6c2b50a8f79dec0b4cbef676a3302e2be411e8c05d644adc6a6a5d09d0e0d",
+       "bam_dong": "e5845ae8752b226730646971ee3affe527dde7c0"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Thước đo của tha thứ là lòng Thiên Chúa tha thứ cho tôi",
+     "giai_thich": "Suốt lịch sử cứu độ, Thiên Chúa luôn sẵn sàng tha thứ. Ai từng xin ơn tha thứ trong tòa giải tội thì không thể đặt giới hạn cho người khác.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/001.md",
+       "dong": [
+        22,
+        22
+       ],
+       "trich": "chúng ta cũng thấy Thiên Chúa luôn luôn sẵn sàng tha thứ cho con người",
+       "sha256": "325d292828a6c34f0f9dd43393522e25e42cfdb0a010ef7c1c37b2ac64cfeb77",
+       "bam_dong": "9c2c9be84ca28d2cbe07644ddf4ae867fb1d9159"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/011.md",
+       "dong": [
+        40,
+        46
+       ],
+       "trich": "Vậy anh có muốn Chúa cũng nói với anh như thế khi anh đi xưng tội không ?",
+       "sha256": "9c002eec867c8392db13fcae4e4cd0e2f8b5f493a1c7b62293b9bb2392044c8c",
+       "bam_dong": "2b2060a421208c697889389206f50a3d73499102"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/040.md",
+       "dong": [
+        21,
+        21
+       ],
+       "trich": "Đó là điều Cha trên trời đã thực hiện đối với chúng ta.",
+       "sha256": "b75c1e1bf90696c31341f21516bbf823f7a1c4ccfcf2a585c24b0040cc5a8e4a",
+       "bam_dong": "6bbdd901091e0cd10df29d836560515ee74c16a8"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Tha thứ là đón nhận lại người trở về",
+     "giai_thich": "Câu chuyện người mãn hạn tù trở về xóm (do bài giảng kể) cho thấy những ánh mắt dè chừng có thể đẩy người ta sa ngã lần nữa. Tha thứ đúng nghĩa là mở lại chỗ đứng cho người ấy.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/011.md",
+       "dong": [
+        52,
+        54
+       ],
+       "trich": "Những ánh mắt dè chừng, những nụ cười gượng gạo, cáo lui.",
+       "sha256": "9c002eec867c8392db13fcae4e4cd0e2f8b5f493a1c7b62293b9bb2392044c8c",
+       "bam_dong": "be4f9e1c31a213d4be5ccc642b5172d644a95b73"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/011.md",
+       "dong": [
+        36,
+        36
+       ],
+       "trich": "Giới hạn của tha thứ là thứ tha vô giới hạn",
+       "sha256": "9c002eec867c8392db13fcae4e4cd0e2f8b5f493a1c7b62293b9bb2392044c8c",
+       "bam_dong": "a4e07346baf7a0cb9390ab65e251adb040831428"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Dựa trên câu 3-4 của Tin Mừng. Đáp ca năm I (Tv 138) nói về Thiên Chúa thấu suốt con người. Đó là cái nhìn vừa biết rõ tội ta vừa không bỏ ta, có thể gợi ý cho lòng tha thứ.",
+   "su_diep": "Cộng đoàn Kitô hữu đứng vững không nhờ không có lỗi lầm mà nhờ không ngừng tha thứ.",
+   "ap_dung": [
+    "Chọn một người đã nhiều lần làm mình buồn và làm một cử chỉ hòa giải cụ thể trong tuần này.",
+    "Trước khi “nói thẳng”, cầu nguyện để lời sửa lỗi xuất phát từ yêu thương chứ không phải từ bực tức."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 4,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I"
+   ],
+   "tieu_de": "Năm I — Tìm Chúa với tâm hồn đơn sơ",
+   "chu_de": "Sự khôn ngoan đích thực là ân ban cho người sống ngay thẳng và tìm Thiên Chúa với lòng đơn sơ; Thần Khí Chúa tràn ngập vũ trụ nhưng lánh xa lòng gian dối.",
+   "loi_chua_nen": {
+    "ref": "Kn 1,1",
+    "doan": "firstReading",
+    "nam": "I",
+    "trich": "hãy tìm kiếm Người với tâm hồn đơn sơ"
+   },
+   "luan_de": "Sách Khôn Ngoan, được viết cho cộng đoàn Do Thái giữa môi trường ngoại giáo, mời ta chọn đời sống công chính. Lời ấy đạt tới viên mãn nơi Đức Giêsu, Đấng mạc khải lòng Cha cho những kẻ bé mọn.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "“Hãy chuộng đức công chính”: lời mời cho toàn bộ đời sống",
+     "giai_thich": "Công chính ở đây không chỉ là một nhân đức mà là toàn bộ đời sống luân lý. Tác giả viết để giúp những người đang bị cám dỗ bỏ đạo được kiên trì.",
+     "kinh_thanh": [
+      {
+       "ref": "Kn 1,1",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "Hỡi các vị lãnh đạo trần gian, hãy chuộng đức công chính."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/031.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "Justice here is not the virtue but the whole of moral life.",
+       "sha256": "292052b4139d6402fc9fbf0c1cfa551c319e12b20b5672b62642ba2494aca95f",
+       "bam_dong": "9a9d49d7cebae64cfd2462b6c221f466f4b088d3"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/009.md",
+       "dong": [
+        20,
+        20
+       ],
+       "trich": "Tác giả sách Khôn ngoan chép sách với mục đích giúp họ kiên trì hơn.",
+       "sha256": "7d46f4108b111e9461a567ae23323e25fdcc43b0a9f5f08d7af0c0666e2b219a",
+       "bam_dong": "992e47b62a4d2030cde674e82f4d74908c683cfa"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Ai không thử thách Chúa sẽ gặp được Người",
+     "giai_thich": "Lòng đơn sơ và tin tưởng đưa đến gần Thiên Chúa. Tà ý, ích kỷ và gian dối cắt đứt con người khỏi Người.",
+     "kinh_thanh": [
+      {
+       "ref": "Kn 1,2",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "Vì những ai không thử thách Chúa, sẽ gặp thấy Người, và Người sẽ tỏ mình cho những ai tin vào Người."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/024.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "a virtuous life, lived with simplicity and trust, brings one close to God",
+       "sha256": "56b7c94afaea636b8e0db43834587e5e2c96f7e50f20daa446980683cb73922a",
+       "bam_dong": "a5210b55e7362e1f012309b061ed7fa3bba40c75"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/023.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "cut a man off from God",
+       "sha256": "abdf047f89f592245c2c18d3d45546d2c04a8505efc613d025d40a23b9ef33aa",
+       "bam_dong": "d55f121a0081e2aca9c2afa337dd434fa3c87a17"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Thần trí Chúa tràn ngập hoàn cầu",
+     "giai_thich": "Bài đọc và Đáp ca cùng nói rằng không có nơi nào ở ngoài tầm nhìn của Thiên Chúa. Đó không phải là sự dò xét đáng sợ mà là sự hiện diện bao bọc.",
+     "kinh_thanh": [
+      {
+       "ref": "Kn 1,7",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "Vì thần trí Chúa tràn ngập hoàn cầu."
+      },
+      {
+       "doan": "psalms",
+       "nam": "I",
+       "trich": "Con đi đâu xa khuất được thần linh của Chúa?"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/009.md",
+       "dong": [
+        22,
+        22
+       ],
+       "trich": "thần trí Thiên Chúa tràn ngập hoàn cầu và Người nắm giữ mọi sự, thông biết mọi lời",
+       "sha256": "7d46f4108b111e9461a567ae23323e25fdcc43b0a9f5f08d7af0c0666e2b219a",
+       "bam_dong": "11655964f956a6f4cc8dcf811914e29b11e63242"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/033.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "We have a very wide view of the Spirit of God here",
+       "sha256": "20d6d5570afda81bd1a20f469bc9845c9d26c8490f2ab7c6189f7de15c4f8e9a",
+       "bam_dong": "bade06116e80e41051e6159c237f393829a79d31"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Đức Giêsu là Khôn Ngoan của Thiên Chúa mạc khải cho kẻ bé mọn",
+     "giai_thich": "Lời Kinh Thánh hơn các châm ngôn của hiền triết vì đằng sau là chính Thiên Chúa. Cầu xin “thêm lòng tin” trong Tin Mừng cũng là cầu xin sự khôn ngoan ấy.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 11,25",
+       "doan": "alleluia",
+       "nam": "I",
+       "trich": "vì Cha đã mạc khải những mầu nhiệm nước trời cho những kẻ bé mọn"
+      },
+      {
+       "ref": "Lc 17,5",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "Xin Thầy ban thêm lòng tin cho chúng con"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/009.md",
+       "dong": [
+        18,
+        18
+       ],
+       "trich": "trong lời của hai bài Kinh thánh hôm nay vừa khác, vừa hơn hẳn so với tư tuỏng của các hiền nhân trên thế gian",
+       "sha256": "7d46f4108b111e9461a567ae23323e25fdcc43b0a9f5f08d7af0c0666e2b219a",
+       "bam_dong": "8b3b141dc5b1583a30b85220fe05f54973e14f8e"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/009.md",
+       "dong": [
+        28,
+        28
+       ],
+       "trich": "Giờ đây trong thánh lễ, ta được gặp Chúa Giêsu là chính sự khôn ngoan của Thiên Chúa đến giữa trần gian.",
+       "sha256": "7d46f4108b111e9461a567ae23323e25fdcc43b0a9f5f08d7af0c0666e2b219a",
+       "bam_dong": "8b8f944ea8ff7b229f096d7923bbaf0688149957"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý độc lập dựa trên Bài đọc I năm I. Liên hệ với Tin Mừng ở luận điểm 4, theo cách bài 009 đã làm: cả hai bài là “lời khôn ngoan” ngắn gọn, đằng sau có lòng Thiên Chúa.",
+   "su_diep": "Ai muốn gặp Chúa thì hãy sống ngay thẳng và đơn sơ; Thiên Chúa không ẩn mình trước người lòng ngay.",
+   "ap_dung": [
+    "Xét lại một vùng “gian dối nhỏ” trong đời sống (lời nói, công việc) đang làm tâm hồn mất đơn sơ.",
+    "Đọc chậm Kn 1,1-7 và Tv 138 như lời cầu nguyện buổi tối."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Chỉ dùng cho năm I."
+   }
+  },
+  {
+   "so": 5,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "II"
+   ],
+   "tieu_de": "Năm II — Người quản lý của Chúa",
+   "chu_de": "Người được giao trách nhiệm trong cộng đoàn phục vụ đức tin của người khác, nên đời sống của họ phải “không có gì đáng trách”.",
+   "loi_chua_nen": {
+    "ref": "Tt 1,7",
+    "doan": "firstReading",
+    "nam": "II",
+    "trich": "chủ tịch cộng đoàn, theo tư cách là người quản lý của Chúa, phải là người không có gì đáng trách"
+   },
+   "luan_de": "Thánh Phaolô không mơ một Hội Thánh lý tưởng. Ngài đặt những tiêu chuẩn rất cụ thể cho người lãnh đạo, vì thẩm quyền của họ đến từ Thiên Chúa và phải phục vụ chân lý.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Thẩm quyền đến từ Thiên Chúa để phục vụ đức tin",
+     "giai_thich": "Phaolô không rao giảng sứ điệp của riêng mình mà sứ điệp được ủy thác. Người lãnh đạo cộng đoàn cũng thế.",
+     "kinh_thanh": [
+      {
+       "ref": "Tt 1,1",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "để rao giảng đức tin cho những kẻ được Thiên Chúa kén chọn và làm cho họ nhận biết chân lý"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/026.md",
+       "dong": [
+        13,
+        13
+       ],
+       "trich": "The apostle is not teaching his own message but one that has been entrusted to him by God.",
+       "sha256": "1a5548ec4657576431f9126713565cae4e65f0d8331e3e85737ebfc6fd22d03d",
+       "bam_dong": "af078000f7a5e0e458e8ad469c3c4fcd04aaadd2"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Những phẩm chất rất nhân bản",
+     "giai_thich": "Danh sách đức tính rất cụ thể và rất người: không kiêu căng, không nóng nảy, hiếu khách, tiết độ. Thêm vào đó là sự vững vàng trong đạo lý.",
+     "kinh_thanh": [
+      {
+       "ref": "Tt 1,7",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "không kiêu căng, không nóng nảy, không mê rượu, không gây gỗ, không trục lợi đê hèn, nhưng hiếu khách, hiền lành, tiết độ"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/042.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "His moral life must be above reproach and he must have a solid grasp of the faith.",
+       "sha256": "96ad191e7ea1ae533cbadbe9462a46e889c10edf174e4a562a05ac9be27418c5",
+       "bam_dong": "b4fa9c7adc768b49321dafb002adc1e1b9029fa6"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/026.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "The virtues which Titus is to look for in rulers of the community are not specifically Christian.",
+       "sha256": "1a5548ec4657576431f9126713565cae4e65f0d8331e3e85737ebfc6fd22d03d",
+       "bam_dong": "a50e4ec130bd3c4801bd448bba5a2b08d3e39906"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Hội Thánh thật cần người phục vụ thật",
+     "giai_thich": "Phải có danh sách điều kiện cho thấy cộng đoàn sơ khai cũng có những người không xứng đáng. Mộng tưởng về một cộng đoàn thuần khiết làm ta xao lãng thực tế cần được chăm sóc.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/035.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "Dreaming about some pure fellowship of the spirit is a distraction from the reality of experience",
+       "sha256": "35262c8c7b1f8a76b1c7c62a03ca05047359b8d3b5107470a57a22455c9127a4",
+       "bam_dong": "ce32c836eb1980850fde9536d7151a2a7dc3c67f"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Người lãnh đạo là người đầu tiên không được gây vấp ngã",
+     "giai_thich": "(Liên hệ do AI đề xuất; các bài giảng nguồn không nối trực tiếp.) Lời cảnh cáo của Tin Mừng về gương xấu áp dụng trước hết cho người được giao coi sóc. Đáp ca nêu chân dung người được lên núi Chúa.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 17,1",
+       "doan": "gospel",
+       "nam": "II",
+       "trich": "vô phúc cho kẻ nào gây ra gương xấu"
+      },
+      {
+       "ref": "Tv 23,4",
+       "doan": "psalms",
+       "nam": "II",
+       "trich": "Người tay vô tội và lòng thanh khiết"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5321-I-II/026.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "they themselves must be convinced of the truth of the apostolic message and eager to spread and defend it",
+       "sha256": "1a5548ec4657576431f9126713565cae4e65f0d8331e3e85737ebfc6fd22d03d",
+       "bam_dong": "a50e4ec130bd3c4801bd448bba5a2b08d3e39906"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": "II"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý dựa trên Bài đọc I năm II. Nguồn bài giảng ít (3 bài chú giải ngắn bằng tiếng Anh). Liên hệ với Tin Mừng ở luận điểm 4 là đề xuất của AI, cần người phụ trách cân nhắc.",
+   "su_diep": "Ai được giao phục vụ cộng đoàn thì trước hết phải để cho chính Tin Mừng thanh luyện đời mình.",
+   "ap_dung": [
+    "Những người có trách nhiệm (hội đồng mục vụ, giáo lý viên, trưởng đoàn) xét mình theo danh sách đức tính trong Tt 1,7-8.",
+    "Cầu nguyện cho các mục tử của giáo phận và giáo xứ."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Chỉ dùng cho năm II. Nguồn mỏng — cần duyệt kỹ."
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/5321-I-II/loi-chua.json",
+  "sha256": "16a3a7cf63cd50c7059ccda6d713efd6f7377929f7e64742e8a0be0ae4dd8e80",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 20,
+  "so_doc_lap": 18,
+  "van_tay": "9ff27cc11d7fd46254fa035f075a4d830daf79a384788e52bde06a62560b76d6"
+ },
+ "van_tay_nguon": "dfdb827140b2d8d1edfd44949852bf7e159e2f07c1412ad13437b43367345867",
+ "ghi_luc": "2026-11-13T04:28:10.131Z"
+}

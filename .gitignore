@@ -2,7 +2,8 @@
 baigiang-goi-y.html
 TIM-KIEM/du-lieu/
 TIM-KIEM/xuat/
-AI-DAN-Y/OUTPUT/
+AI-DAN-Y/OUTPUT/*/*
+!AI-DAN-Y/OUTPUT/*/goi-y.json
 AI-DAN-Y/REPORTS/
 AI-DAN-Y/LAM-VIEC/
 AI-DAN-Y/NGUON/

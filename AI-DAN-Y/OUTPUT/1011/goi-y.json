@@ -1,0 +1,405 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "1011",
+ "celebrationCode": "1011",
+ "ten_le": "Thứ Hai Tuần I Mùa Vọng",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  null
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y, theo AI-DAN-Y/HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Bản nháp sau khi đọc toàn bộ 20 bài trong goi-01.txt; 3 hướng độc lập, chưa được người phụ trách duyệt."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "1011/045.md",
+   "ly_do": "Trùng 90% với 1011/011.md; dùng bản chính."
+  },
+  {
+   "duong_dan": "1011/025.md",
+   "ly_do": "Ghi chú tiếng Anh về Bài đọc I, không phải bài giảng độc lập."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Đức tin đi vào đời sống và dẫn tới Thánh Thể",
+   "chu_de": "Bài giảng ngày thường Mùa Vọng đọc Tin Mừng ngắn gọn, dẫn cộng đoàn từ lời Chúa đến việc đón nhận và sống lời ấy trong đời thường.",
+   "loi_chua_nen": {
+    "ref": "Mt 8,10",
+    "doan": "gospel",
+    "trich": "Ta không thấy một lòng tin mạnh mẽ như vậy trong Ít-ra-en."
+   },
+   "luan_de": "Viên đại đội trưởng không chỉ nói một lời tuyên xưng: ông đến xin cho người đầy tớ và phó thác kết quả cho quyền năng Đức Giêsu. Vì thế bài giảng cần nối Tin Mừng với việc cử hành và một hành động yêu thương cụ thể.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Tin thật thì dám đến và dám xin cho người khác",
+     "giai_thich": "Đức tin của viên sĩ quan có hình hài cụ thể: ông đến với Đức Giêsu vì đầy tớ đang đau, chứ không tìm lợi ích cho mình.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 8,6",
+       "doan": "gospel",
+       "trich": "Lạy Thầy, thằng nhỏ nhà tôi đau nằm ở nhà, nó bị tê liệt và đau đớn lắm!"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "12",
+       "trich": "through the readings and homily Christ’s Paschal Mystery is proclaimed."
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "151",
+       "trich": "A homily at daily Mass is encouraged particularly in the liturgical seasons of Advent/Christmas and Lent/Easter."
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/005.md",
+       "dong": [
+        27,
+        29
+       ],
+       "trich": "Niềm tin được thể hiện bằng việc làm: ông đã đến xin Đức Giêsu chữa bệnh cho đầy tớ của ông.",
+       "sha256": "b39af39f0a93473b0570dc7dab1ede07b32f99ae355576fc4486c1652ebdb3af",
+       "bam_dong": "8f781f0b6515d7964501f0f25a1c977b9bfb4eec"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Lời Chúa được mang vào một việc bác ái",
+     "giai_thich": "Sau khi nghe và tuyên xưng, người nghe được mời gọi làm một việc cụ thể cho người bệnh, người bị bỏ rơi hoặc người cần lời cầu nguyện.",
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "14",
+       "trich": "how the members of the community, transformed by the Eucharist, can carry the Gospel into the world in their daily lives."
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/001.md",
+       "dong": [
+        29,
+        33
+       ],
+       "trich": "Những người nghèo đói thiếu thốn, bệnh tật, những người bị bỏ rơi, bị khinh chê ở quanh tôi, có bao giờ tôi nghĩ đến họ không?",
+       "sha256": "3e96854c25c68c562c0b746f9a3011753fa6068ec5f6d1bffe4e62a1b7d8f8c7",
+       "bam_dong": "3f4451535637ee284020b6d1ce092bd9aebd8b24"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đức tin phải liên kết với cả cuộc sống",
+     "giai_thich": "Một lời tuyên xưng chỉ trở thành đức tin đích thực khi được sống bằng tín thác, quảng đại và yêu thương.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/008.md",
+       "dong": [
+        27,
+        31
+       ],
+       "trich": "Lời Chúa hôm nay mời gọi chúng ta ý thức về sự dấn thân của niềm tin chúng ta.",
+       "sha256": "b6ceff5560334533a9ede2640de6da7b1c676a909e1ea9d2f772d461d9c73464",
+       "bam_dong": "e4f0078eaf4c4d02724452057feb5fc1296f2930"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Is 4,2-6 nói về thanh tẩy và sự hiện diện che chở của Thiên Chúa; Tv 121 là lời vui mừng tiến vào nhà Chúa; Tin Mừng cho thấy một người ngoại bước đến với Đức Giêsu và cầu cho người khác.",
+   "su_diep": "Đức tin được nghe trong phụng vụ phải trở thành lòng thương xót được thực hiện ngay hôm nay.",
+   "ap_dung": [
+    "Gọi điện hoặc đến thăm một người bệnh và cầu nguyện cho họ.",
+    "Trước khi rước lễ, nêu thầm một người cần Chúa chữa lành."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Kim Chỉ Nam §12, §14, §151 là nguyên tắc chung, không phải dàn ý riêng cho ngày 1011."
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "“Xin Chúa phán một lời”: đức tin khiêm nhường trước quyền năng",
+   "chu_de": "Viên đại đội trưởng nhận ra quyền năng tuyệt đối của Đức Giêsu và khiêm nhường phó thác, không áp đặt cách Chúa phải hành động.",
+   "loi_chua_nen": {
+    "ref": "Mt 8,8",
+    "doan": "gospel",
+    "trich": "Lạy Thầy, tôi không đáng được Thầy vào dưới mái nhà tôi, nhưng xin Thầy chỉ phán một lời, thì thằng nhỏ của tôi sẽ lành mạnh."
+   },
+   "luan_de": "Người có chức quyền lại tự nhận mình không đáng. Đức tin trưởng thành vừa tin Chúa có quyền chữa lành, vừa để Chúa quyết định cách và thời điểm.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Khiêm nhường không phải là tự khinh, nhưng là nhìn đúng sự thật",
+     "giai_thich": "Viên sĩ quan biết quyền của mình nhưng không đồng nhất quyền ấy với quyền năng của Thiên Chúa; ông hạ mình trước Đức Giêsu.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/031.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "a faith humble and absolute",
+       "sha256": "841872a90bd7231cc7e2e3c85ef31bcbf5307074c83a109f375630466b8ef1c0",
+       "bam_dong": "84d9111b9f70b4542462801588411eb568324525"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/005.md",
+       "dong": [
+        31,
+        35
+       ],
+       "trich": "ông đã tự xưng mình không đáng được Đức Giêsu đến nhà",
+       "sha256": "b39af39f0a93473b0570dc7dab1ede07b32f99ae355576fc4486c1652ebdb3af",
+       "bam_dong": "48246b7ced212f88a580ab10f0bf4f6f47792e44"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đức tin không ra điều kiện cho Thiên Chúa",
+     "giai_thich": "Ông không đòi Đức Giêsu phải hiện diện theo cách ông tưởng; chỉ cần một lời là đủ. Cầu nguyện vì thế là tín thác, không phải kiểm soát.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 8,9",
+       "doan": "gospel",
+       "trich": "tôi bảo gia nhân làm cái này thì nó làm!"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/036.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "The theme of the story is faith, a faith that sets no conditions on God",
+       "sha256": "4fc5c8164eeaf4cebb91d9a21ef678b1cdb2c4a5b40fd8df33887a57b96b73ff",
+       "bam_dong": "5b1873b76fc3f5b5bc5266ec99170a839082ac38"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/033.md",
+       "dong": [
+        11,
+        12
+       ],
+       "trich": "It was a faith that set no conditions.",
+       "sha256": "0d6b531784c7a205d3dfbba29c770f266e97dc2628712e8df300114ca6ae20bd",
+       "bam_dong": "efe0a704de8bbdc5ff9590a9309bbf0099059edc"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/036.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "faith that sets no conditions on God",
+       "sha256": "4fc5c8164eeaf4cebb91d9a21ef678b1cdb2c4a5b40fd8df33887a57b96b73ff",
+       "bam_dong": "5b1873b76fc3f5b5bc5266ec99170a839082ac38"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Cầu xin cho người khác là một hành vi đức tin",
+     "giai_thich": "Viên sĩ quan không xin cho mình; ông đưa nỗi đau của đầy tớ đến trước Chúa và phó thác cho Người.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/009.md",
+       "dong": [
+        23,
+        23
+       ],
+       "trich": "ông chỉ xin Chúa ra lệnh cho gia nhân ông được lành",
+       "sha256": "3798542bdd129e5c792ceb9dcb6f91ad130b0607298f26b12e6ffca7aef5ca1e",
+       "bam_dong": "1b4075d3da25506f3f9574559e8671216eb76ec2"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài đọc I nói Thiên Chúa thanh tẩy rồi che chở; Tin Mừng cho thấy thái độ thích hợp trước quyền năng ấy là tin tưởng và khiêm nhường.",
+   "su_diep": "Hãy thưa với Chúa điều mình cần, nhưng để Người tự do chữa lành theo đường lối của Người.",
+   "ap_dung": [
+    "Đọc chậm lời “tôi chẳng đáng” trước khi rước lễ, không như công thức máy móc.",
+    "Trong một việc chưa được giải quyết, cầu nguyện xin ơn tín thác thay vì áp đặt kết quả."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Từ phương đông phương tây: Nước Trời mở cho mọi người",
+   "chu_de": "Đức Giêsu phá vỡ hàng rào dân tộc và tôn giáo, đồng thời cảnh tỉnh người có đạo rằng danh nghĩa bên ngoài không thay thế cho đức tin sống động.",
+   "loi_chua_nen": {
+    "ref": "Mt 8,11",
+    "doan": "gospel",
+    "trich": "nhiều người từ phương đông và phương tây sẽ đến dự tiệc cùng Ap-ra-ham, I-sa-ác và Gia-cóp trong nước trời."
+   },
+   "luan_de": "Viên sĩ quan là người ngoại nhưng có lòng thương và đức tin. Cộng đoàn được mời gọi vừa mở cửa đón người khác, vừa xét lại sự tự mãn của chính mình.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Ơn cứu độ không bị đóng khung trong đặc quyền",
+     "giai_thich": "Lời Đức Giêsu mở bàn tiệc Nước Trời cho những người từ mọi hướng. Điều quyết định không phải nhãn hiệu thuộc về, mà là tin nhận Người.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/005.md",
+       "dong": [
+        43,
+        47
+       ],
+       "trich": "Nêu cao đặc tính phổ quát ơn cứu độ của Đức Kitô",
+       "sha256": "b39af39f0a93473b0570dc7dab1ede07b32f99ae355576fc4486c1652ebdb3af",
+       "bam_dong": "4c02dc1ceb0fdf7a119af095da32538c01602758"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/048.md",
+       "dong": [
+        23,
+        25
+       ],
+       "trich": "Giấy thông hành để được vào nước Thiên Đàng không phải là đặc quyền của một nhóm người nào",
+       "sha256": "0383b827ae1fb0d7b87e5ed7d4c4ca7091d991e11b7cac4f53f6794a2a95a588",
+       "bam_dong": "e22479ca9fb6488f97ff3ff2fdaa4ddebf9055ef"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/051.md",
+       "dong": [
+        11,
+        12
+       ],
+       "trich": "Jesus himself is surprised at the faith of this outsider",
+       "sha256": "3a408a6aa90dfd63547158995f113bd768c1c5dc529f6133180be1bab81cb8ae",
+       "bam_dong": "0d88056c2e3d64a2568e946fbf4f1f89a64f8895"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đừng biến việc thuộc về Giáo Hội thành lá bùa",
+     "giai_thich": "Người đã chịu Phép Rửa vẫn phải đặt trọn niềm tin vào Chúa và sống niềm tin; hình thức bên ngoài không tự động bảo đảm sự biến đổi.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/024.md",
+       "dong": [
+        23,
+        23
+       ],
+       "trich": "việc đặt trọn niềm tin vào Chúa và sống niềm tin ấy.",
+       "sha256": "bc5e70ee06144c8f6b0ba7c35da0758a65f775bd1b991489544e3296ffc7522c",
+       "bam_dong": "0980531d07a847fc2015cff8a94098ce40c71797"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/001.md",
+       "dong": [
+        25,
+        27
+       ],
+       "trich": "Không phải là công giáo là được lên thiên đường; thiên đàng chỉ dành cho ai có một cuộc sống tốt biết yêu thương kẻ khác",
+       "sha256": "3e96854c25c68c562c0b746f9a3011753fa6068ec5f6d1bffe4e62a1b7d8f8c7",
+       "bam_dong": "348c52218f7d00b1976c1c264ab2762be659c156"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Có một tâm hồn phổ quát như Chúa Giêsu",
+     "giai_thich": "Mùa Vọng thúc đẩy ta nhận ra những người đang sống trong chờ đợi và bước tới với họ bằng lòng tôn trọng, thay vì khinh chê người ngoài.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/046.md",
+       "dong": [
+        26,
+        27
+       ],
+       "trich": "Mọi người từ khắp nơi, đều được mời gọi lên đường bước tới.",
+       "sha256": "dd4070fa65b6d763b5e91fb1d6103f4c60e888a9dafec5f4446e2da744e0d73d",
+       "bam_dong": "c55107f7012f9fef294552c3e3a7d99bc1113935"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/049.md",
+       "dong": [
+        77,
+        79
+       ],
+       "trich": "Mọi người từ khắp nơi, đều được mời gọi lên đường bước tới.",
+       "sha256": "5a435b504ba508771a6c7a5531b33615f47927c74b0cd72475e15f219e2de7f2",
+       "bam_dong": "446a93823d630bd8a227de62eb15a8d78dcbfc40"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1011/005.md",
+       "dong": [
+        57,
+        63
+       ],
+       "trich": "Chúng ta cần gạt bỏ những bức vách ngăn cách do con người tạo nên",
+       "sha256": "b39af39f0a93473b0570dc7dab1ede07b32f99ae355576fc4486c1652ebdb3af",
+       "bam_dong": "379fc2867862c71b373270e2351b8fe157516222"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Is 4,2-6 trình bày dân được thanh tẩy và được Thiên Chúa che chở; Tin Mừng cho thấy lời hứa ấy hướng tới một bàn tiệc quy tụ muôn dân.",
+   "su_diep": "Được ở trong nhà Chúa là được sai đi mở rộng cửa cho người khác.",
+   "ap_dung": [
+    "Chủ động chào hỏi và lắng nghe một người khác tôn giáo hoặc đang xa cộng đoàn.",
+    "Xét xem trong gia đình, giáo xứ hay nhóm của mình còn hàng rào định kiến nào cần tháo bỏ."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Các trích dẫn về Công đồng trong bài 024 chỉ được dùng như ý hướng bài giảng, không coi là bản trích dẫn pháp lý đã xác minh."
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/1011/loi-chua.json",
+  "sha256": "181dc14e29ec6b8627f9670caa9eabb31aee6c9dd8d9a96c5c3b9db840b63e9e",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 20,
+  "so_doc_lap": 19,
+  "van_tay": "ce3a7a14cd1ea75fc5c4d9f578cd36f74eb6af572c14e9e698355f9d0e43cf87"
+ },
+ "van_tay_nguon": "f4465413ea99383e28117950a2a2ad3caf24bb312ecd6bb886fe7294c5b4e935",
+ "ghi_luc": "2026-11-13T08:06:31.279Z"
+}

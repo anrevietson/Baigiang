@@ -5,7 +5,7 @@
 ## 1. Thứ tự làm việc cho một mã lễ
 1. `doi-chieu-loi-chua.mjs <tm>` — lấy đúng bộ Lời Chúa theo quy tắc của `catholic-cal-vn` (celebrationCode → readingCode qua `TRA-CUU/lich-ngay.json`, rồi `resolveReadingSource`). Lưu `loi-chua.json` nguyên văn.
 2. `chuan-bi.mjs <tm>` — thu thập MỌI bài có mã lễ đó (theo `bai_ma` + năm), gom bài trùng theo nội dung (shingle 6 từ, ngưỡng 80%), xuất gói đọc có số dòng gốc.
-3. Đọc hết từng gói. Ghi `LAM-VIEC/<tm>/trich-y.md`: mỗi bài một dòng (hướng chính, ý + số dòng), đánh dấu bài xếp nhầm ngày, bài không phải bài giảng, dữ liệu cá nhân.
+3. Đọc hết từng gói. Đọc xong gói nào ghi ngay vào `LAM-VIEC/<tm>/trich-y.md` dưới tiêu đề `## goi-NN` (điểm dừng để phiên sau làm tiếp — xem `BAN-GIAO.md`): mỗi bài một dòng (hướng chính, ý + số dòng), đánh dấu bài xếp nhầm ngày, bài không phải bài giảng, dữ liệu cá nhân.
 4. Gom các hướng thực sự độc lập → 1–5 gợi ý. Không thêm gợi ý chỉ để đủ số.
 5. Viết bản nháp `LAM-VIEC/<tm>/goi-y.nhap.json` theo `SCHEMA/goi-y.md`.
 6. `ghi-goi-y.mjs <tm>` — kiểm tra, gắn hash nguồn, ghi vào OUTPUT (không ghi đè gợi ý đã duyệt).

@@ -1,0 +1,423 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "1012",
+ "celebrationCode": "1012",
+ "ten_le": "Thứ Ba Tuần I Mùa Vọng",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  null
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y, theo HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Đã đọc đủ 26 bài trong gói 1012; 23 bài độc lập. Ba bản trùng được loại. Ngày thường Mùa Vọng, Tin Mừng làm trục; gợi ý 01 theo Kim Chỉ Nam nguyên tắc, không phải dàn ý chính thức."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "1012/039.md",
+   "ly_do": "Trùng 88% với 1012/037.md; dùng bản chính."
+  },
+  {
+   "duong_dan": "1012/050.md",
+   "ly_do": "Trùng 99% với 1012/010.md; dùng bản chính."
+  },
+  {
+   "duong_dan": "1012/052.md",
+   "ly_do": "Trùng 82% với 1012/010.md; dùng bản chính."
+  },
+  {
+   "duong_dan": "1012/051.md",
+   "dong": [
+    37,
+    50
+   ],
+   "ly_do": "Phần này thuộc ngày khác; chỉ dùng các dòng 12-33 của bài 1012/051.md."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Bé mọn để đón nhận mạc khải",
+   "chu_de": "Trong Mùa Vọng, lòng khiêm nhường và đơn sơ mở ra cho ta nhận biết Chúa Cha qua Đức Giêsu.",
+   "loi_chua_nen": {
+    "ref": "Lc 10,21",
+    "doan": "gospel",
+    "trich": "Khi ấy, Chúa Giê-su đầy hoan lạc trong Chúa Thánh Thần, Người nói: “Lạy Cha là Chúa trời đất, Con xưng tụng Cha, vì đã giấu không cho những người thông thái khôn ngoan biết những điều này, nhưng đã tỏ cho những kẻ đơn sơ."
+   },
+   "luan_de": "Không tự mãn trước mầu nhiệm, nhưng trở nên bé mọn để đón nhận ân ban đức tin.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Đức tin là ân ban, không phải thành tích",
+     "giai_thich": "Người khôn ngoan theo tiêu chuẩn thế gian không tự mình chiếm hữu mầu nhiệm; Đức Giêsu cảm tạ Cha vì mạc khải được ban cho người bé mọn.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/003.md",
+       "dong": [
+        19,
+        21
+       ],
+       "trich": "Đức tin thiết yếu là một ân ban nhưng không. Điều đó có nghĩa là người ta không đạt đến đức tin bằng sự lý luận uyên bác của mình",
+       "sha256": "edaaba90c38431005adbec717021c84a9b0c618fb884d7a2080cd4325016bd51",
+       "bam_dong": "6cff60ee4e8b0548d6399ef4cfb08a5808f64433"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": null
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Khiêm nhường là tư thế của người môn đệ",
+     "giai_thich": "Bé mọn không phải là thụ động, nhưng là bỏ tự mãn, biết mình cần ơn và sẵn sàng đón nhận từ Chúa cùng anh em.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/010.md",
+       "dong": [
+        25,
+        31
+       ],
+       "trich": "Đức tin là một ơn ban chứ không phải là thành quả của công lao con người.",
+       "sha256": "12c0a746f87cbb602e81bd79c25bc62b81564692625fc5a5c2415d3affcc540a",
+       "bam_dong": "ae0ecdb5554603fb7028582f088420c172cea208"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/053.md",
+       "dong": [
+        17,
+        18
+       ],
+       "trich": "Ai có lòng đơn sơ khiêm tốn mới có thể nhận biết chân lý.",
+       "sha256": "ed77a667c0d668040ef90a2803dc14fc23f5da769cae421e132fc04b9ea96c84",
+       "bam_dong": "fbd4a6ae6984cf4546eb02d81489c5f89b64f674"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đức Giêsu là Đấng mạc khải Chúa Cha",
+     "giai_thich": "Nhờ Đức Giêsu, người tin nhận biết Chúa Cha; vì thế việc học hỏi Lời Chúa và sống trong Hội Thánh là con đường đào sâu đức tin.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/004.md",
+       "dong": [
+        33,
+        35
+       ],
+       "trich": "Đức Giêsu là Thầy dạy và là Đấng ban phát cho người ta mọi ơn lành và Người mặc khải cho loài người biết Chúa Cha là ai.",
+       "sha256": "303cbd14325122d0fbf44530ab180d586dd5b657cccaeeeb4543fe03e6c3b67b",
+       "bam_dong": "eb818e3833fa2b7fcad4a55036ff2e53d4a7a9e0"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/004.md",
+       "dong": [
+        53,
+        57
+       ],
+       "trich": "muốn hiểu về Thiên chúa và đào sâu các chân lý mặc khải dể phát triển đức tin, chúng ta phải biết học hỏi và suy niệm Lời Chúa",
+       "sha256": "303cbd14325122d0fbf44530ab180d586dd5b657cccaeeeb4543fe03e6c3b67b",
+       "bam_dong": "02154268ec566a1971d060ef3d8dc2622be92c55"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Mùa Vọng là thời gian tỉnh thức khiêm nhường",
+     "giai_thich": "Sống bé mọn hôm nay là đón nhận ơn Chúa, để Người soi sáng và hướng dẫn ta tiến vào Nước Trời.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/004.md",
+       "dong": [
+        59,
+        59
+       ],
+       "trich": "Mùa Vọng giúp chúng ta ý thức việc đón nhận Chúa đến bằng ơn thánh trong hiện tại",
+       "sha256": "303cbd14325122d0fbf44530ab180d586dd5b657cccaeeeb4543fe03e6c3b67b",
+       "bam_dong": "342c5a4ad1531173d43db371e92492fd5681acfd"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "151",
+       "trich": "A homily at daily Mass is encouraged particularly in the liturgical seasons of Advent/Christmas and Lent/Easter."
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng giải thích thái độ bé mọn; Is 11 cho thấy Thần Khí và công lý của Đấng Thiên Sai là nội dung mạc khải được đón nhận.",
+   "su_diep": "Hãy hạ mình, mở lòng và tạ ơn vì được Đức Giêsu cho biết Chúa Cha.",
+   "ap_dung": [
+    "Trước khi cầu nguyện, nhận ra mình cần ơn và xin Chúa dạy.",
+    "Học một đoạn Tin Mừng với lòng lắng nghe, không tự mãn.",
+    "Trong Mùa Vọng, thực hành một việc đơn sơ phục vụ người bé mọn."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Chồi non của công lý và bình an",
+   "chu_de": "Đấng Thiên Sai đầy Thần Khí làm nảy sinh công lý cho người nghèo và bình an cho toàn thể tạo thành.",
+   "loi_chua_nen": {
+    "ref": "Is 11,2",
+    "doan": "firstReading",
+    "trich": "Trên bông hoa ấy, thần linh của Thiên Chúa sẽ ngự xuống, tức thần khôn ngoan và thông suốt, thần chỉ dẫn và sức mạnh, thần hiểu biết và đạo đức, và thần ấy sẽ làm cho Ngài biết kính sợ Thiên Chúa."
+   },
+   "luan_de": "Mùa Vọng không chỉ chờ đợi; người môn đệ cộng tác để công lý và bình an của Đấng Thiên Sai được thể hiện.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Hy vọng mọc lên từ gốc rễ tưởng đã chết",
+     "giai_thich": "Chồi non từ gốc Giêsê diễn tả quyền năng Thiên Chúa làm nảy sinh sự sống giữa thử thách.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/054.md",
+       "dong": [
+        13,
+        19
+       ],
+       "trich": "Từ gốc Giêsê (Cha vua Đavid) sẽ đâm ra một chồi và cũng từ gốc ấy sẽ đơm lên một bông hoa",
+       "sha256": "116b42d11e793bde96300fe5b6331b77daeca17edaf2e989e6d6c0d86827efee",
+       "bam_dong": "a5a3ba4966c8f5efaf0f7481d6943a8e38702ca6"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Đấng Thiên Sai được đầy Thần Khí",
+     "giai_thich": "Các ân ban của Thần Khí định hình sứ mạng và cách phán đoán của Đấng Thiên Sai.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/054.md",
+       "dong": [
+        21,
+        29
+       ],
+       "trich": "Đấng Thiên Sai phải đến được loan báo như: “được tràn đầy Thánh Thần”.",
+       "sha256": "116b42d11e793bde96300fe5b6331b77daeca17edaf2e989e6d6c0d86827efee",
+       "bam_dong": "97ba87afc27ab13e20e0144e60b1c283b641882e"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Công lý đứng về phía người nghèo",
+     "giai_thich": "Cách xét xử của Đấng Thiên Sai không dừng ở dáng vẻ bên ngoài nhưng bênh vực người nghèo và hiền lành.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/037.md",
+       "dong": [
+        11,
+        12
+       ],
+       "trich": "His mission will he to institute an era of justice and peace for all",
+       "sha256": "03d21545cb811502bc6f4fef98ff49d0e0fbddc369f8a8179d15426a861d3f42",
+       "bam_dong": "e0ce7408774aef946609d6b2553ba19a0655a9e0"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/054.md",
+       "dong": [
+        31,
+        37
+       ],
+       "trich": "Đấng Thiên Sai sẽ xét xử trong công bình theo chiều sâu tâm hồn con người.",
+       "sha256": "116b42d11e793bde96300fe5b6331b77daeca17edaf2e989e6d6c0d86827efee",
+       "bam_dong": "af6c1775edb0ffa2db006e19a669b0689d8438f4"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Bình an bắt đầu từ nhận biết Thiên Chúa",
+     "giai_thich": "Hòa bình thiên sai là sự hiệp nhất các tương quan, được xây trên việc cùng hướng về Thiên Chúa là Cha.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/054.md",
+       "dong": [
+        39,
+        49
+       ],
+       "trich": "Nguồn của “sự bình an thiên sai” này là \"sự nhận biết Thiên Chúa”.",
+       "sha256": "116b42d11e793bde96300fe5b6331b77daeca17edaf2e989e6d6c0d86827efee",
+       "bam_dong": "c915b15dea9c879736ce9961a8cfabb7a6a1a233"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Is 11 trình bày Đấng Thiên Sai; Tin Mừng cho thấy người bé mọn được thấy và nghe thời đại cứu độ Người khai mở.",
+   "su_diep": "Đón Đấng Thiên Sai bằng cách bênh vực người nghèo và gieo bình an.",
+   "ap_dung": [
+    "Bênh vực một người bị xem nhẹ thay vì phán đoán theo bề ngoài.",
+    "Chọn một hành động hòa giải trong gia đình hoặc cộng đoàn.",
+    "Cầu nguyện để Thần Khí hướng dẫn một quyết định phục vụ."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Niềm vui tạ ơn và cộng tác với Chúa",
+   "chu_de": "Như Đức Giêsu vui mừng trong Thánh Thần, người môn đệ nhận ra công việc của Chúa Cha và cộng tác với Người.",
+   "loi_chua_nen": {
+    "ref": "Lc 10,21",
+    "doan": "gospel",
+    "trich": "Khi ấy, Chúa Giê-su đầy hoan lạc trong Chúa Thánh Thần, Người nói: “Lạy Cha là Chúa trời đất, Con xưng tụng Cha"
+   },
+   "luan_de": "Niềm vui Kitô giáo được nuôi bằng lời tạ ơn và biến thành sứ vụ phục vụ.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Niềm vui phát sinh trong Thánh Thần",
+     "giai_thich": "Niềm vui của Đức Giêsu không chỉ là phản ứng trước thành công, nhưng phát xuất từ Thánh Thần đang hoạt động.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/051.md",
+       "dong": [
+        12,
+        13
+       ],
+       "trich": "Điều đó đến từ Chúa Thánh Thần đang cư ngụ trong Người.",
+       "sha256": "fd9fc0ded549e60882e917c8d2a499b6fdeeedcc6107bca25ede1bfa421f48c9",
+       "bam_dong": "95f62ceeb239593f245b077174e8cf67254c480e"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Tạ ơn là nhịp sống cầu nguyện",
+     "giai_thich": "Chiêm niệm các ơn đã nhận giúp lời cầu nguyện trở thành tạ ơn cụ thể mỗi ngày.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/051.md",
+       "dong": [
+        14,
+        18
+       ],
+       "trich": "Mỗi ngày, hãy thu góp lại những niềm vui ta đã nhận được, để tạ ơn.",
+       "sha256": "fd9fc0ded549e60882e917c8d2a499b6fdeeedcc6107bca25ede1bfa421f48c9",
+       "bam_dong": "71adb5cbf1fe6f2ecebf66e3ca7c1fae74979d1e"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Nhìn thấy công việc của Chúa Cha",
+     "giai_thich": "Người môn đệ học nhìn sâu hơn vẻ bề ngoài để nhận ra Thiên Chúa đang hành động trong tâm hồn con người.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/051.md",
+       "dong": [
+        19,
+        25
+       ],
+       "trich": "Thiên Chúa hành động trong tâm hồn mọi người, cả những anh em ngoại giáo.",
+       "sha256": "fd9fc0ded549e60882e917c8d2a499b6fdeeedcc6107bca25ede1bfa421f48c9",
+       "bam_dong": "1505a4815784a8de270f8983c1569faf39c26310"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Niềm vui trở thành cộng tác",
+     "giai_thich": "Giúp một người tiến bước về phía trước là cùng làm việc với Chúa, thay vì chỉ đứng ngoài quan sát.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/051.md",
+       "dong": [
+        23,
+        25
+       ],
+       "trich": "Giúp đỡ người có tiến “bước” về phía trước, đó là cùng làm việc với Chúa",
+       "sha256": "fd9fc0ded549e60882e917c8d2a499b6fdeeedcc6107bca25ede1bfa421f48c9",
+       "bam_dong": "ce3e5dbbf4d1111256aeeb04c12d0bb5d427c66c"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1012/009.md",
+       "dong": [
+        21,
+        23
+       ],
+       "trich": "đó là dịp cho chúng ta phục hưng, đổi mới và trở nên Ki-tô hữu trưởng thành và có trách nhiệm.",
+       "sha256": "f3dce9a76c6a5e7d7fafcd81c3f0c2415ed93729869e8be5e816b60b0dbb300a",
+       "bam_dong": "c5e926e75757adc4bd7046b6252a6e7b453dca1e"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng cho thấy Đức Giêsu tạ ơn trong Thánh Thần sau sứ vụ của các môn đệ; Is 11 cho thấy Thần Khí làm phát sinh công lý và bình an.",
+   "su_diep": "Hãy tạ ơn vì điều Chúa đang làm, rồi cộng tác để điều ấy sinh hoa trái.",
+   "ap_dung": [
+    "Mỗi tối ghi lại một ơn để tạ ơn.",
+    "Nhận ra và khích lệ một bước tiến tốt lành nơi người khác.",
+    "Đảm nhận một việc phục vụ nhỏ với niềm vui thay vì tìm thành tích."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/1012/loi-chua.json",
+  "sha256": "733fd0865b5cac6f3791f8ede9286fbc569bb847704dd2fd8a7a3da2123aae48",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 26,
+  "so_doc_lap": 23,
+  "van_tay": "68ae5641786482af8e23510cbc6f2fa0da0617ee83eddf46d72c71c5f299743c"
+ },
+ "van_tay_nguon": "3c5ab38b158e808ae39633e0f4c744b8ac0c6a290d09753f0a63e8c896258610",
+ "ghi_luc": "2026-11-13T08:04:41.747Z"
+}

@@ -9,14 +9,17 @@ Gợi ý bài giảng có cấu trúc (1–5 cho mỗi mã lễ). Mỗi gợi ý
 | `CONG-CU/` | Công cụ Node (không cần npm) | theo dõi |
 | `HUONG-DAN/` | Quy tắc biên soạn; bảng tham chiếu Kim Chỉ Nam và Phụ lục I | theo dõi |
 | `SCHEMA/` | Cấu trúc `goi-y.json` | theo dõi |
-| `OUTPUT/<tm>/` | `loi-chua.json` (nguyên văn bài đọc), `goi-y.json` (gợi ý) | **bỏ qua** |
+| `OUTPUT/<tm>/` | `goi-y.json` (gợi ý) | theo dõi |
+| `OUTPUT/<tm>/` | `loi-chua.json` (nguyên văn bài đọc, tạo lại bằng `doi-chieu-loi-chua.mjs`) | **bỏ qua** |
 | `REPORTS/` | Bảng đối chiếu mã lễ, danh sách nguồn, trạng thái nguồn, báo cáo | **bỏ qua** |
 | `LAM-VIEC/<tm>/` | Gói đọc, ghi chú trích ý, bản nháp | **bỏ qua** |
 | `NGUON/` | Bản Kim Chỉ Nam tải từ vatican.va | **bỏ qua** |
 
 ## Quy trình cho một mã lễ
 
-**Trước tiên xem [DA-LAM.md](DA-LAM.md)**: mã nào đã ✅ Xong thì không làm lại. Danh sách này tự cập nhật sau mỗi lần `ghi-goi-y.mjs` / `nap-csdl.mjs`; cũng có thể chạy `node AI-DAN-Y/CONG-CU/tien-do.mjs`. `chuan-bi.mjs` tự bỏ qua mã đã xong (trừ khi thêm `--lam-lai`).
+**Làm nhiều phiên / nhiều agent nối tiếp: xem [BAN-GIAO.md](BAN-GIAO.md)** và chạy `node AI-DAN-Y/CONG-CU/tiep-theo.mjs` (mã làm dở, mã đang có người giữ, mã kế tiếp theo lịch).
+
+**Xem [DA-LAM.md](DA-LAM.md)**: mã nào đã ✅ Xong thì không làm lại. Danh sách này tự cập nhật sau mỗi lần `ghi-goi-y.mjs` / `nap-csdl.mjs`; cũng có thể chạy `node AI-DAN-Y/CONG-CU/tien-do.mjs`. `chuan-bi.mjs` tự bỏ qua mã đã xong (trừ khi thêm `--lam-lai`).
 
 ```bash
 node TIM-KIEM/lap-chi-muc.mjs                          # chỉ mục bài giảng (nếu chưa có / có bài mới)

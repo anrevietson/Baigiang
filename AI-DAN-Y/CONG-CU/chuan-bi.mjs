@@ -5,7 +5,7 @@
 //   node AI-DAN-Y/CONG-CU/chuan-bi.mjs 1010-A [--kb 60]
 //   → REPORTS/<tm>/nguon-bai-giang.json   danh sách bài, sha256, tác giả, trùng lặp
 //   → LAM-VIEC/<tm>/goi-01.txt …          nội dung từng bài, mỗi dòng "L<số dòng gốc>| …"
-import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { moCsdl, DB_PATH } from '../../TIM-KIEM/lib/csdl.mjs';
 import { docBai } from '../../TIM-KIEM/lib/markdown.mjs';
@@ -80,12 +80,19 @@ if (import.meta.url.endsWith(process.argv[1]?.split(/[\\/]/).pop())) {
     process.exit(0);
   }
   if (tt.trang_thai === 'can-kiem-tra') console.log(`! ${tm} đã làm nhưng nguồn đã đổi — chỉ cần xem lại phần bị gắn cờ:`, JSON.stringify(tt.nguon_da_doi ?? tt.loi_kiem_tra));
+  // Đang làm dở (đã có trích ý / bản nháp) → không tạo lại gói, kẻo mất ghi chú của phiên trước
+  const lv = join(LAM_VIEC, tm);
+  mkdirSync(lv, { recursive: true });
+  const coSan = readdirSync(lv).filter((f) => f === 'trich-y.md' || f === 'goi-y.nhap.json');
+  if (coSan.length && !args.includes('--lam-lai')) {
+    console.log(`${tm} đang làm dở (đã có ${coSan.join(', ')}) — KHÔNG tạo lại gói để khỏi mất ghi chú.\n` +
+      `  Xem chỗ dừng: node AI-DAN-Y/CONG-CU/tiep-theo.mjs --xem ${tm}\n  Thêm --lam-lai nếu thật sự muốn tạo lại (XÓA trích ý và bản nháp).`);
+    process.exit(1);
+  }
   const db = moCsdl(DB_PATH, { readOnly: true });
   const bai = thuThap(tm, db);
   mkdirSync(join(REPORTS, tm), { recursive: true });
-  const lv = join(LAM_VIEC, tm);
-  rmSync(lv, { recursive: true, force: true });
-  mkdirSync(lv, { recursive: true });
+  for (const f of readdirSync(lv)) if (f !== '.nhan.json') rmSync(join(lv, f), { recursive: true, force: true });   // giữ lại giữ chỗ
   writeFileSync(join(REPORTS, tm, 'nguon-bai-giang.json'), JSON.stringify({
     thu_muc: tm, tao_luc: new Date().toISOString(), so_bai: bai.length,
     so_bai_doc_lap: bai.filter((b) => !b.trung_voi).length, nguong: { trung: NGUONG_TRUNG, mot_phan: NGUONG_MOT_PHAN },

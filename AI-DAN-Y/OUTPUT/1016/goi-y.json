@@ -1,0 +1,539 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "1016",
+ "celebrationCode": "1016",
+ "ten_le": "Thứ Bảy Tuần I Mùa Vọng",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  null
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y, theo HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Đã đọc đủ 17 bài trong gói 1016; 16 bài độc lập. Bỏ bản trùng 1016/035.md (dùng bản chính 040). Bài 042, 043 chỉ chép Tin Mừng tiếng Anh nên không dùng làm nguồn ý. Ngày thường Mùa Vọng, Tin Mừng làm trục; gợi ý 01 theo nguyên tắc Kim Chỉ Nam, không phải dàn ý chính thức. Soạn lại 2026-11-13 thay bản trước bị lỗi mã hoá."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "1016/035.md",
+   "ly_do": "Trùng 89% với 1016/040.md; dùng bản chính 040."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Chạnh lòng thương rồi sai đi",
+   "chu_de": "Lòng thương xót của Đức Giêsu trước đám đông bơ vơ không dừng ở cảm xúc mà trở thành sứ vụ: Người cầu xin thợ gặt và sai các môn đệ ra đi.",
+   "loi_chua_nen": {
+    "ref": "Mt 9,36",
+    "doan": "gospel",
+    "trich": "Thấy đoàn lũ dân chúng, Người động lòng xót thương họ, vì họ tất tưởi bơ vơ như những con chiên không có người chăn"
+   },
+   "luan_de": "Mùa Vọng dạy ta nhìn người khác bằng ánh mắt của Đức Giêsu; ai được ánh mắt ấy chạm đến sẽ được sai đi mang Tin Mừng cho người đang lầm than.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Ánh mắt nhìn thấy người lầm than",
+     "giai_thich": "Đức Giêsu không lướt qua đám đông: Người thấy họ mệt mỏi, bị bỏ rơi như chiên không người chăn. Lòng thương xót bắt đầu từ việc dừng lại để thấy, khác với cái nhìn thiển cận chỉ lo cho bản thân.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 9,36",
+       "doan": "gospel",
+       "trich": "Thấy đoàn lũ dân chúng, Người động lòng xót thương họ"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/040.md",
+       "dong": [
+        27,
+        27
+       ],
+       "trich": "Cái thấy, cái nhìn của Chúa Giêsu đáng chúng ta chiêm ngắm. Một cái nhìn bao la bát ngát, “mình vì mọi người”, khác hẳn cái nhìn thiển cận, bo bo ích kỷ chỉ lo thu quén cho bản thân của chúng ta.",
+       "sha256": "37df2f88c912b3ba094cd6a33994812e725daf4b2f1be8c67ee46e66be9f152d",
+       "bam_dong": "72cfe4710c9a2c54a30053a86a4eab2f9ab0e8aa"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/005.md",
+       "dong": [
+        33,
+        33
+       ],
+       "trich": "Đức Giêsu thấy đám đông dân chúng, Người chạnh lòng thương vì",
+       "sha256": "a2ceb67ac583632c1bc81ad1e547996a69d401e8e947325d1ee6de5188168541",
+       "bam_dong": "b521249489d9b7c7cf44f260409e48162d52a495"
+      },
+      {
+       "loai": "loi-chua",
+       "doan": "gospel",
+       "nam": null
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Cầu xin chủ mùa gặt sai thợ",
+     "giai_thich": "Trước một cánh đồng quá lớn, Đức Giêsu mời các môn đệ cầu nguyện trước khi hành động. Sứ vụ là của Thiên Chúa; người môn đệ thông phần vào mối ưu tư của Người bằng lời cầu xin cho có thêm thợ gặt.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 9,38",
+       "doan": "gospel",
+       "trich": "Các con hãy xin chủ ruộng sai thợ đi gặt lúa"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/005.md",
+       "dong": [
+        45,
+        49
+       ],
+       "trich": "Chúa dạy các Tông Đồ phải “xin chủ” là vì Chúa muốn chúng ta thông phần mốt ưu tư truyền giáo và thông công vào cả việc có thêm thợ gặt",
+       "sha256": "a2ceb67ac583632c1bc81ad1e547996a69d401e8e947325d1ee6de5188168541",
+       "bam_dong": "ff52073458821cb96dbba9ac34ffe19f92d38da0"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/005.md",
+       "dong": [
+        87,
+        87
+       ],
+       "trich": "Chúng  ta năng cầu xin Chúa tác động có thêm nhiều người làm công tác tông đồ cho Chúa",
+       "sha256": "a2ceb67ac583632c1bc81ad1e547996a69d401e8e947325d1ee6de5188168541",
+       "bam_dong": "6bddcfd0b29b5896f1dd5c5a908ff455b9e4eb97"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Ra khỏi chính mình để đến với người khác",
+     "giai_thich": "Chỉ khi thật sự chạnh lòng thương, ta mới hăng say loan báo. Ra đi không chỉ là đổi chỗ, mà là bước ra khỏi vỏ ốc của mình để tìm đến tha nhân, như Đức Giêsu không chịu ngồi yên một chỗ.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/040.md",
+       "dong": [
+        23,
+        23
+       ],
+       "trich": "Chỉ khi nào chúng ta “chạnh lòng thương” trước những người lương thì chúng ta mới hăng say loan Tin Mừng cho họ.",
+       "sha256": "37df2f88c912b3ba094cd6a33994812e725daf4b2f1be8c67ee46e66be9f152d",
+       "bam_dong": "5d6e34553af792d6ec3788f82cec68406a407032"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/040.md",
+       "dong": [
+        25,
+        25
+       ],
+       "trich": "thiết yếu là thái độ ra khỏi chính mình, ra khỏi vỏ ốc của mình để đến với tha nhân",
+       "sha256": "37df2f88c912b3ba094cd6a33994812e725daf4b2f1be8c67ee46e66be9f152d",
+       "bam_dong": "7053a1ca890a3e9fce6330403b82ca64c1428b62"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/037.md",
+       "dong": [
+        15,
+        15
+       ],
+       "trich": "Ra đi là một điều kiện của rao giảng, Chúa Giêsu đã không chịu ngồi yên một chỗ.",
+       "sha256": "18b674b4753c153273e6ee6bb6b35dfce5cc9c85e006588354c13f3c452dc5bc",
+       "bam_dong": "2af572b155c3cc83851b4ba16d59494eae5bc345"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Mang lòng thương xót vào đời thường",
+     "giai_thich": "Từ bàn thánh, cộng đoàn được sai về với gia đình và khu xóm. Mùa Vọng mời ta để ý đến nhu cầu, nỗi lo và niềm hy vọng của người chung quanh, để công việc phục vụ trở thành dấu chỉ tình thương của Chúa.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/005.md",
+       "dong": [
+        73,
+        73
+       ],
+       "trich": "chúng ta cần phải có cái nhìn phát xuất từ lòng yêu thương đối với những người chúng ta phục vụ",
+       "sha256": "a2ceb67ac583632c1bc81ad1e547996a69d401e8e947325d1ee6de5188168541",
+       "bam_dong": "cc67853704a24c11db9e20613e57138203f31a88"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/005.md",
+       "dong": [
+        109,
+        109
+       ],
+       "trich": "Mùa Vọng mời gọi chúng ta quan tâm đến các nhu cầu, các lo âu cũng như niềm hy vọng của những người sống chung quanh ta",
+       "sha256": "a2ceb67ac583632c1bc81ad1e547996a69d401e8e947325d1ee6de5188168541",
+       "bam_dong": "4772eda269bc1be07daab54202331e781ca4cdc2"
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "14",
+       "trich": "suggests how the members of the community, transformed by the Eucharist, can carry the Gospel into the world in their daily lives"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài đọc I loan báo Chúa động lòng thương và đáp lời dân kêu xin; Tin Mừng cho thấy lời hứa ấy thành hiện thực khi Đức Giêsu chạnh lòng thương đám đông và sai môn đệ đi chữa lành.",
+   "su_diep": "Hãy để ánh mắt thương xót của Đức Giêsu chạm đến mình, rồi cầu nguyện và ra đi đến với người đang bơ vơ.",
+   "ap_dung": [
+    "Dừng lại để thật sự nhìn một người đang mệt mỏi hay bị bỏ rơi quanh mình.",
+    "Mỗi ngày Mùa Vọng dâng một lời cầu xin cho những người làm việc tông đồ.",
+    "Chọn một việc cụ thể để bước ra khỏi thói quen chỉ lo cho mình."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Đấng dạy dỗ không lìa bỏ dân Người",
+   "chu_de": "Isaia hứa rằng sau bánh đau thương và nước khốn cùng, Thiên Chúa sẽ nghe tiếng kêu, chỉ đường và băng bó vết thương cho dân Người.",
+   "loi_chua_nen": {
+    "ref": "Is 30,19",
+    "doan": "firstReading",
+    "trich": "Chúa động lòng thương ngươi, và khi vừa nghe tiếng ngươi kêu, Người liền đáp lại lời ngươi"
+   },
+   "luan_de": "Giữa thử thách, người tín hữu kiên nhẫn tin vào lòng thương xót của Thiên Chúa, Đấng vẫn dạy dỗ và chữa lành; Đức Giêsu là sự thực hiện lời hứa ấy.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Lòng thương xót kiên nhẫn của Thiên Chúa",
+     "giai_thich": "Bài đọc vẽ lại hình ảnh một dân được phục hồi. Trọng tâm không phải là sự sung túc, mà là lòng thương xót kiên nhẫn: cả khi dân phải gánh hậu quả lỗi lầm, Thiên Chúa vẫn là thầy dạy của họ.",
+     "kinh_thanh": [
+      {
+       "ref": "Is 30,20",
+       "doan": "firstReading",
+       "trich": "Chúa sẽ cho ngươi chút bánh đau thương, ít nước khốn cùng"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/020.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "But the central point of the passage is the patient mercy of God.",
+       "sha256": "40cb3afa30c39361b8341d889d884a27f7ff9d37c11024dd12ab913e08473eca",
+       "bam_dong": "3e32824771eb688bdcf9cc87201c3d0c462b7345"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/020.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "But no less in adversity than in good fortune God is the teacher of his people",
+       "sha256": "40cb3afa30c39361b8341d889d884a27f7ff9d37c11024dd12ab913e08473eca",
+       "bam_dong": "3e32824771eb688bdcf9cc87201c3d0c462b7345"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Kiên nhẫn tin lời hứa khi đêm còn dài",
+     "giai_thich": "Đau khổ chung quanh dễ làm ta quên lòng thương xót Chúa đã tỏ ra. Isaia nhắc rằng ánh sáng sẽ đến; người tin cần kiên nhẫn ngay cả khi ơn cứu độ có vẻ còn xa. Mùa Vọng là lời trấn an rằng các lời hứa của Chúa được thực hiện.",
+     "kinh_thanh": [
+      {
+       "ref": "Is 30,26",
+       "doan": "firstReading",
+       "trich": "mặt trời sẽ bảy lần chói sáng hơn"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/030.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "We must be patient and continue to believe in his promises, even when times are darkest and salvation seems very far away.",
+       "sha256": "a9555c5999604047584b63b3517f55e29b2fd4fc55b93ee6103fa5dc1b2edba4",
+       "bam_dong": "92c2c0d0f290e7308bee5e2a5edd58afdece87fd"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/052.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "Advent offers the reassuring message the God's promises are fulfilled.",
+       "sha256": "e9f5f92c3ce47ca20a4e2b0ff3afb075f04a4e659e7da6062ee4d477ec2da244",
+       "bam_dong": "3dd23ca4f3c2ec35d3d547417d27cedce9e4db60"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Thiên Chúa băng bó vết thương và chỉ đường",
+     "giai_thich": "Bài đọc để lại hai hình ảnh: Thiên Chúa là Đấng băng bó vết thương, và là Thầy không còn ẩn mặt, nói sau lưng ta: đây là đường. Trong Tin Mừng, Đức Giêsu chữa lành và giảng dạy, cho thấy lời Isaia được ứng nghiệm.",
+     "kinh_thanh": [
+      {
+       "ref": "Is 30,21",
+       "doan": "firstReading",
+       "trich": "hãy bước đi theo đó, đừng rẽ bên mặt, đừng quẹo bên trái"
+      },
+      {
+       "ref": "Is 30,26",
+       "doan": "firstReading",
+       "trich": "chữa lành da bầm thịt giập"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/034.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "presents us with two beautiful images of God - as the one who dresses our wounds, and as our 'Teacher ... who will not hide himself any more'.",
+       "sha256": "fec142d0880f155f8411278547ea456d322ffa670bc6278948293230c6fdaf30",
+       "bam_dong": "da7cb6fb92297a8c3718ce39c85338e069c1e72b"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/040.md",
+       "dong": [
+        21,
+        21
+       ],
+       "trich": "Chủ đề bài đọc Cựu Ước, và sẽ được ứng nghiệm rõ ràng trong đoạn Tin Mừng",
+       "sha256": "37df2f88c912b3ba094cd6a33994812e725daf4b2f1be8c67ee46e66be9f152d",
+       "bam_dong": "aff8c40f4ccbcf8e9352252046aec1f48abbffde"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Isaia loan báo Thiên Chúa nghe tiếng kêu, dạy đường và chữa lành; Tin Mừng cho thấy Đức Giêsu giảng dạy, chữa mọi bệnh tật và sai môn đệ tiếp nối.",
+   "su_diep": "Dù đang ăn bánh đau thương, ta vẫn có Đấng dạy dỗ không bỏ rơi mình; hãy kiên nhẫn lắng nghe tiếng Người chỉ đường.",
+   "ap_dung": [
+    "Đặt nỗi khó khăn hiện tại trước Chúa trong một lời kêu xin đơn sơ.",
+    "Dành ít phút thinh lặng để nghe Lời Chúa chỉ đường cho một quyết định.",
+    "Nâng đỡ một người đang thử thách bằng sự kiên nhẫn và lời hy vọng."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Đã nhận nhưng không, hãy cho nhưng không",
+   "chu_de": "Các môn đệ tiếp nối ba công việc của Đức Giêsu: loan báo, dạy dỗ, chữa lành; và họ làm điều đó cách nhưng không vì chính họ đã nhận nhưng không.",
+   "loi_chua_nen": {
+    "ref": "Mt 10,8",
+    "doan": "gospel",
+    "trich": "Các con đã lãnh nhận nhưng không, thì hãy cho nhưng không"
+   },
+   "luan_de": "Mỗi Kitô hữu là người được sai đi; ta loan báo bằng lời, bằng đời sống và việc làm, với tinh thần vô vị lợi và niềm vui.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Sứ giả của những điều chắc chắn",
+     "giai_thich": "Đức Giêsu đến như sứ giả mang thông điệp của Thiên Chúa. Giữa một thời đại nhiều bất trắc, người môn đệ được mời làm chứng cho điều mình tin chắc, để người khác nhờ đó mà sống.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/036.md",
+       "dong": [
+        23,
+        23
+       ],
+       "trich": "Sứ giả là người đem thông điệp của vua, Chúa Giê-su đem thông điệp của Thiên Chúa.",
+       "sha256": "ddae238928a3a0d37578e89a559583b6aaaf2809886cc6f016cc50b203edfc2c",
+       "bam_dong": "56351da0de1d038e137f62fcc911e99956735a08"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/036.md",
+       "dong": [
+        23,
+        23
+       ],
+       "trich": "Chúng ta đang sống trong thời đại nhiều bất trắc, một thời đại mà người ta không biết chắc điều gì cả.",
+       "sha256": "ddae238928a3a0d37578e89a559583b6aaaf2809886cc6f016cc50b203edfc2c",
+       "bam_dong": "56351da0de1d038e137f62fcc911e99956735a08"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Dạy bằng chính đời sống",
+     "giai_thich": "Nói về Kitô giáo chưa đủ; người ta cần thấy Kitô giáo được sống. Mỗi Kitô hữu là người truyền giáo bằng lời nói và việc làm, và cả bằng lời cầu nguyện, sự nâng đỡ dành cho những người đang trực tiếp làm việc truyền giáo.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/036.md",
+       "dong": [
+        33,
+        33
+       ],
+       "trich": "Bổn phận của chúng ta không phải là nói cho người ta biết về Chúa Giê-su, nhưng là cho họ thấy Chúa.",
+       "sha256": "ddae238928a3a0d37578e89a559583b6aaaf2809886cc6f016cc50b203edfc2c",
+       "bam_dong": "13209837ce164665c29d2da9ce2cbbcd359c9ea8"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/053.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "Every Christian is a missionary for Christ by definition. And he must fulfil this role not just in words but in deeds.",
+       "sha256": "cff06431312adfd7bba5fa44df7e2948f53dc832e98a25bca1d48e85c1eb88f7",
+       "bam_dong": "5f65455e228a5611f97e347f50a0e48060f4e9c9"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tin Mừng trở thành việc chữa lành",
+     "giai_thich": "Đức Giêsu biến lời chân lý thành việc làm của tình thương: chữa người đau, nuôi người đói, an ủi người buồn. Tin Mừng không được loan báo trọn vẹn nếu thiếu những cử chỉ chữa lành, và không ai bị loại khỏi tình thương ấy.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 10,8",
+       "doan": "gospel",
+       "trich": "Hãy chữa lành người liệt, phục sinh kẻ chết, chữa lành người phung, và xua trừ ma quỷ"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/036.md",
+       "dong": [
+        37,
+        37
+       ],
+       "trich": "Ngài đã biến đổi những lời của chân lý Kitô giáo thành những việc làm của tình thương Kitô.",
+       "sha256": "ddae238928a3a0d37578e89a559583b6aaaf2809886cc6f016cc50b203edfc2c",
+       "bam_dong": "9c2bab7dbfeb7681cfc072f3703c93d85935ba96"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/052.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "The Good News is not proclaimed without healing acts.",
+       "sha256": "e9f5f92c3ce47ca20a4e2b0ff3afb075f04a4e659e7da6062ee4d477ec2da244",
+       "bam_dong": "3dd23ca4f3c2ec35d3d547417d27cedce9e4db60"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/051.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "No one is excluded.",
+       "sha256": "aaa56612a57290aa7eacb7f19b6392a94c909413fc56480174751dd111b4f0fd",
+       "bam_dong": "31fbfe749c929ac72d46dc5be72d43b7f9b8133d"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Phục vụ vô vị lợi, với niềm vui",
+     "giai_thich": "Quyền năng các tông đồ nhận được không do tài sức riêng nên phải được trao lại cách nhưng không: không tìm lợi lộc hay danh vọng, không đặt điều kiện. Ơn cứu độ là quà tặng, và người nhận quà ấy trở thành chứng nhân của niềm vui.",
+     "kinh_thanh": [],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/005.md",
+       "dong": [
+        93,
+        93
+       ],
+       "trich": "Làm việc tông đồ truyền giáo với tinh thần vô vị lợi : không tìm lợi lộc vật chất danh vọng cho mình.",
+       "sha256": "a2ceb67ac583632c1bc81ad1e547996a69d401e8e947325d1ee6de5188168541",
+       "bam_dong": "60da7c4752aa4b66a6a0b6fdd176935e3c90ce0d"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/049.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "God's gift of salvation is a free one and our gift to others is to be likewise.",
+       "sha256": "12256aa96a9b712a9016beea48c2eea604070c0d8c4caaeb761814d77acbf55c",
+       "bam_dong": "eb3213bbfc1d0e93a218ecd16285f614e2a6c2c8"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1016/039.md",
+       "dong": [
+        17,
+        17
+       ],
+       "trich": "Niềm vui đó bắt nguồn sâu xa trong sự gặp gỡ sống động với tình yêu Thiên Chúa.",
+       "sha256": "7079a54e871c82c8efb463c22685a3cb975113d7834aa0abce86e91228ce5ab0",
+       "bam_dong": "12b8224c9200d8890bc3c5df734fb6ad1b75c035"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng kết thúc bằng lệnh truyền cho nhưng không; Bài đọc I cho thấy chính Thiên Chúa là Đấng ban ơn nhưng không: mưa cho hạt giống, bánh dồi dào, chữa lành vết thương.",
+   "su_diep": "Những gì ta có là quà Chúa tặng; hãy trao lại cho người khác bằng lời, bằng đời sống và bằng niềm vui.",
+   "ap_dung": [
+    "Làm một việc giúp đỡ mà không chờ đáp đền hay lời khen.",
+    "Để đời sống mình nói về Chúa ở nơi làm việc và trong gia đình.",
+    "Cầu nguyện hoặc góp phần nâng đỡ một người đang làm việc truyền giáo."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/1016/loi-chua.json",
+  "sha256": "54c16661196bdb6925f3c21138c5814ee8a2fcb906530714982072006381e30d",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 17,
+  "so_doc_lap": 16,
+  "van_tay": "9c5e3686dd4fb2bf8bf1c2ceb2b83e4781939c923493675859127f28615d35a4"
+ },
+ "van_tay_nguon": "9bafee46713f180ca270cbd535609a513ffa0b67fcc8cba477a696399cd587ce",
+ "ghi_luc": "2026-11-13T08:24:26.358Z"
+}

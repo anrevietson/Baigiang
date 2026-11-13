@@ -1,0 +1,405 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "1010-B",
+ "celebrationCode": "1010",
+ "ten_le": "Chúa Nhật I Mùa Vọng — Năm B",
+ "loai_ngay": "chua-nhat",
+ "chu_ky": [
+  "B"
+ ],
+ "bien_soan": {
+  "boi": "AI-DAN-Y, theo AI-DAN-Y/HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Bản nháp sau khi đọc đủ 7 gói (60 bài/đoạn, 54 bài độc lập). Chưa được người phụ trách duyệt. Sửa 2026-11-13: gợi ý 01 chuyển sang theo Phụ lục I (mục CYCLE B — First Sunday of Advent) và ghi số GLHTCG tương ứng."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "1010-B/003.md",
+   "ly_do": "Bản trùng 81% với 1010-B/063.md; không dùng làm nguồn độc lập."
+  },
+  {
+   "duong_dan": "1010-B/054.md",
+   "dong": [
+    20,
+    185
+   ],
+   "ly_do": "Phần ngoài đề tài người gác cửa, nói về Thương Khó; không dùng."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-phu-luc",
+   "ap_dung_nam": [
+    "B"
+   ],
+   "tieu_de": "Tỉnh thức giữa ba cuộc đến của Chúa",
+   "chu_de": "Mùa Vọng vừa hướng về Giáng Sinh, vừa hướng tới ngày Chúa quang lâm, và giúp cộng đoàn nhận ra Người đang đến hôm nay.",
+   "loi_chua_nen": {
+    "ref": "Mc 13,35",
+    "doan": "gospel",
+    "nam": "B",
+    "trich": "Vậy các con hãy tỉnh thức, vì các con không biết lúc nào chủ nhà trở về"
+   },
+   "luan_de": "Đức Giêsu không cho biết giờ trở lại; Người trao cho mỗi người một trách nhiệm và truyền phải tỉnh thức. Vì thế, chuẩn bị không phải đoán ngày tận thế mà là sống trung tín trong hiện tại.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Ba chiều kích của adventus",
+     "giai_thich": "Kim Chỉ Nam trình bày cuộc đến trong lễ Giáng Sinh, cuộc đến trong phán xét và cuộc hiện diện vô hình ở giữa hai cuộc đến.",
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "79",
+       "trich": "So there is always this double sense of adventus – a double sense of the Lord’s coming."
+      },
+      {
+       "loai": "kim-chi-nam",
+       "so": "79",
+       "trich": "there is an invisible coming here and now"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/063.md",
+       "dong": [
+        28,
+        30
+       ],
+       "trich": "Đức Giêsu có ý khuyến khích các môn đệ mình sống giây phút hiện tại trong sự dấn thân khiêm tốn và tin tưởng cùng với sự tỉnh thức nhạy bén.",
+       "sha256": "abf02b642f3d1fa53d89d72d6916d0aefc93e1312c8078e34b72d2ebd6f1e6fb",
+       "bam_dong": "5fb7c8a79f4e69abe87dd45ef69b6c56be0ccbfa"
+      },
+      {
+       "loai": "glhtcg",
+       "so": "668-677, 769",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Không biết giờ là lý do để tỉnh thức",
+     "giai_thich": "Tin Mừng lặp lại sự bất ngờ của chủ nhà; người môn đệ không sống thụ động nhưng tập trung vào ngày hôm nay.",
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "80",
+       "trich": "On this Sunday it is the preacher’s responsibility to remind the Christian people that they need always prepare themselves for this coming and judgment."
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/009.md",
+       "dong": [
+        31,
+        35
+       ],
+       "trich": "tập trung vào giây phút hiện tại",
+       "sha256": "f01b5cb5b5cea3323d3b4bbdbb619dfe44e6ea47b466ef2d647bed1dd4777608",
+       "bam_dong": "735832c11432f5641c0fdfa76e3ddd1a9ba8002a"
+      },
+      {
+       "loai": "glhtcg",
+       "so": "451, 671, 1130, 1403, 2817",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Mỗi người một việc trong Hội Thánh",
+     "giai_thich": "Hình ảnh chủ nhà trao việc làm cho tỉnh thức trở thành trách nhiệm cụ thể trong gia đình, nghề nghiệp, cộng đoàn và xã hội.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/054.md",
+       "dong": [
+        12,
+        16
+       ],
+       "trich": "Người trao nhà cho các đầy tớ. Nhà là Hội Thánh ; các đầy tớ là các môn-đệ hay các vị hữu trách trong Hội Thánh, hoặc các tín hữu.",
+       "sha256": "5955eec3c9fbc6aa6f4c102c7d31efdfaa9c373b0935ebc763a32850cf313bba",
+       "bam_dong": "a440d71c7aeaffd2a9a57cac9125546c87465d7e"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/009.md",
+       "dong": [
+        37,
+        40
+       ],
+       "trich": "Mỗi người đều nhận một phận vụ, một công việc.",
+       "sha256": "f01b5cb5b5cea3323d3b4bbdbb619dfe44e6ea47b466ef2d647bed1dd4777608",
+       "bam_dong": "8df34eb6d8d438bc6cf2284001b4310e1d7e3a58"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Kim Chỉ Nam §§78–81 đọc Tin Mừng năm B như lời loan báo cuộc đến trong vinh quang; Is 63 là lời cầu xin Chúa đến và 1 Cr 1,3–9 là thái độ bền vững trong khi mong đợi.",
+   "su_diep": "Đừng tìm lịch của ngày Chúa đến; hãy để Người gặp ta hôm nay đang trung tín với phận vụ đã nhận.",
+   "ap_dung": [
+    "Xác định một bổn phận đang bị trì hoãn và hoàn thành trong tuần này.",
+    "Dành thời gian cầu nguyện ngắn mỗi ngày để nhận ra Chúa đang đến.",
+    "Trong gia đình hoặc giáo xứ, nhận một việc phục vụ cụ thể."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "B"
+   ],
+   "tieu_de": "Tỉnh thức bằng cầu nguyện và lòng thương người",
+   "chu_de": "Cầu nguyện, chu toàn bổn phận và nhận ra Chúa nơi người nghèo là cách thức cụ thể để không ngủ quên.",
+   "loi_chua_nen": {
+    "ref": "Mc 13,33",
+    "doan": "gospel",
+    "nam": "B",
+    "trich": "Các con hãy coi chừng, hãy tỉnh thức và cầu nguyện"
+   },
+   "luan_de": "Tỉnh thức không đồng nghĩa với thức trắng; đó là tư thế sẵn sàng, trung tín với việc được giao và mở mắt trước nhu cầu của tha nhân.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Tỉnh thức không phải là không ngủ",
+     "giai_thich": "Các trinh nữ khôn ngoan cũng ngủ; khác biệt nằm ở việc chuẩn bị dầu. Tỉnh thức là sẵn sàng cả trong lúc nghỉ ngơi.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/059.md",
+       "dong": [
+        30,
+        34
+       ],
+       "trich": "Tỉnh thức không phải là không ngủ",
+       "sha256": "bc0defd2e072fe787c3e2e932479f3b6e2abcbde4b8e7ac759b9586253b2ba8d",
+       "bam_dong": "0f028eae48aebadc04caada8936a8d4f35794805"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/008.md",
+       "dong": [
+        55,
+        69
+       ],
+       "trich": "Mùa Vọng là mùa Chúa kêu gọi chúng ta tỉnh thức, chuẩn bị sẵn sàng đón tiếp Chúa đến cứu độ chúng ta.",
+       "sha256": "49efeaf8939204307a76911611a7553eae6df1825fe777153c3a7ffd65c2ddc7",
+       "bam_dong": "16f51276accbd587cd3ce42e2a10d1cf5ce2d42f"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Trung tín với nén bạc và bổn phận",
+     "giai_thich": "Người tỉnh thức làm sinh lợi điều Chúa trao và được tìm thấy đang làm công việc của mình.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/059.md",
+       "dong": [
+        34,
+        38
+       ],
+       "trich": "Tỉnh thức là làm cho những nén vàng, nén bạc Chúa trao được sinh lợi",
+       "sha256": "bc0defd2e072fe787c3e2e932479f3b6e2abcbde4b8e7ac759b9586253b2ba8d",
+       "bam_dong": "bdbd85b29066ce61518be3170bfdefe703c4985f"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/062.md",
+       "dong": [
+        38,
+        42
+       ],
+       "trich": "Cuộc sống của mỗi người đều có một sứ mệnh do Chúa trao ban.",
+       "sha256": "ba46bef1ae0784e4405b8580190b822074e1398be2cbcf4327efab51f6608323",
+       "bam_dong": "18e83779ef3b3d4f2f47ea1fa51da025fe42d60e"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Nhận ra Chúa nơi người bé nhỏ",
+     "giai_thich": "Tỉnh thức mở mắt trước người đói, khát, yếu đau và bị bỏ rơi; cầu nguyện phải chuyển thành hành động yêu thương.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/059.md",
+       "dong": [
+        38,
+        40
+       ],
+       "trich": "Tỉnh thức là tỉnh táo để nhận ra Chúa bất ngờ đến với mình và nài xin mình trợ giúp.",
+       "sha256": "bc0defd2e072fe787c3e2e932479f3b6e2abcbde4b8e7ac759b9586253b2ba8d",
+       "bam_dong": "8ef6cff39a2d9dcc7f67e339777ad3520d606cb2"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/106.md",
+       "dong": [
+        63,
+        65
+       ],
+       "trich": "tỉnh thức chính là luôn luôn ý thức, quan tâm làm những việc mình phải làm hoặc có thể làm cho tha nhân.",
+       "sha256": "f832d55768e6041a4218a2c615833b38dbccdab46e4440d2c591909937218704",
+       "bam_dong": "09999dbe0cc8b4c8942f0ca7ec0cd933e4da256f"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Mc 13,33–37 đặt cầu nguyện, canh thức và trách nhiệm trong cùng một lời truyền; 1 Cr 1,3–9 nhắc các ân huệ được ban để cộng đoàn bền vững.",
+   "su_diep": "Chúa đến với ta trong người cần được giúp đỡ; ai cầu nguyện thật thì không thể đi ngang qua họ.",
+   "ap_dung": [
+    "Cầu nguyện cho một người cụ thể rồi liên lạc hoặc giúp đỡ họ.",
+    "Chọn một ân huệ để phục vụ cộng đoàn thay vì giữ riêng.",
+    "Cuối ngày xét mình: hôm nay tôi đã nhận ra Chúa nơi ai?"
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "B"
+   ],
+   "tieu_de": "Đánh thức tâm hồn giữa đêm tối",
+   "chu_de": "Mùa Vọng giải phóng ta khỏi thói quen, sợ hãi và ích kỷ để hoán cải trong niềm hy vọng vào Thiên Chúa là Cha.",
+   "loi_chua_nen": {
+    "ref": "Is 63,17",
+    "doan": "firstReading",
+    "nam": "B",
+    "trich": "Lạy Chúa, tại sao Chúa để chúng con đi lạc xa đường Chúa"
+   },
+   "luan_de": "Lời than của Isaia không dẫn tới tuyệt vọng: Thiên Chúa vẫn là Cha và người thợ gốm. Tỉnh thức là để nhận ra điều đang làm chai cứng lòng mình và trở về.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Thói quen có thể ru ngủ đức tin",
+     "giai_thich": "Những việc đạo đức lặp lại mà không còn lắng nghe có thể biến Kitô hữu thành người sống theo quán tính.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/061.md",
+       "dong": [
+        30,
+        40
+       ],
+       "trich": "Thói quen có thể đưa chúng ta đi vào giấc ngủ mê",
+       "sha256": "4a2178338fb9418ee962e7f01c0b5a6cdfd32b49c627f8846f6ad247f6eb6f5a",
+       "bam_dong": "7a4c624aeb49c3cc5df5de539cc18d9c14080a58"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/107.md",
+       "dong": [
+        28,
+        34
+       ],
+       "trich": "chính thái độ của tâm hồn mình cần đúng đắn và thích hợp, nghĩa là phài mở rộng cho đổi mới",
+       "sha256": "87324d827c55003ed287ba252e3e9d0f61f76ef31bc364279a1e4c31bd598d0a",
+       "bam_dong": "8154ab2a746542bd8cfb5b7f984b01ab9e7d6235"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Lời than biến thành lời cậy trông",
+     "giai_thich": "Isaia thú nhận tội lỗi nhưng vẫn gọi Thiên Chúa là Cha; hoán cải bắt đầu bằng sự thật và niềm tin vào lòng thương xót.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/092.md",
+       "dong": [
+        23,
+        29
+       ],
+       "trich": "họ quay trở về với Ngài",
+       "sha256": "823267ba71cea115bf47e8c78cca43598188000f2b28dd30102d787ee4d5c07e",
+       "bam_dong": "7f63405aa4a9e3e1d938c3cc87b16ec6c0b3570c"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/093.md",
+       "dong": [
+        27,
+        31
+       ],
+       "trich": "Thiên Chúa là người Cha nhân từ, Một Đấng cứu chuộc mến yêu.",
+       "sha256": "df0c2d2b8da6972fca4938680e1df7d2169e6887a8c9d362e88d5ed8b2511ac5",
+       "bam_dong": "b57f0582da0ddae853bfa093488f96097b28be0d"
+      },
+      {
+       "loai": "glhtcg",
+       "so": "827, 1431, 2677, 2839",
+       "theo": "Phụ lục I Kim Chỉ Nam"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Hy vọng thúc đẩy hành động",
+     "giai_thich": "Chờ Chúa không phải ngồi yên; người tín hữu trở nên bàn tay của Thiên Chúa và làm điều tốt ngay trong hiện tại.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/093.md",
+       "dong": [
+        33,
+        37
+       ],
+       "trich": "bàn tay của Thiên Chúa",
+       "sha256": "df0c2d2b8da6972fca4938680e1df7d2169e6887a8c9d362e88d5ed8b2511ac5",
+       "bam_dong": "f137b9ccb5cc700acc2f61dda17091936de18fc0"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "1010-B/072.md",
+       "dong": [
+        74,
+        82
+       ],
+       "trich": "không phải là một thái độ thụ động",
+       "sha256": "b2c326f9b0743962ca9d98629c33b944e88cf3a2f3a4a46a05cf7707646224c0",
+       "bam_dong": "0d8958d98673bdf2aa35fabdfbbd05a5f208d9dd"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Is 63 là lời sám hối và xin Chúa trở lại; 1 Cr 1,3–9 bảo đảm Thiên Chúa trung tín nâng đỡ cộng đoàn trong khi chờ Đức Kitô tỏ mình.",
+   "su_diep": "Đừng để thói quen và bất an làm chai đá con tim; hãy để niềm hy vọng biến thành một việc tốt hôm nay.",
+   "ap_dung": [
+    "Thay một thói quen đạo đức máy móc bằng vài phút thinh lặng lắng nghe Lời Chúa.",
+    "Xin lỗi hoặc hòa giải với một người đang bị mình tránh né.",
+    "Làm một việc bác ái kín đáo như dấu chỉ hy vọng."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/1010-B/loi-chua.json",
+  "sha256": "edf4bc55cc875a405b6c1da86a8549a351f383685ac7d366a37f25d93f7f30b8",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 60,
+  "so_doc_lap": 54,
+  "van_tay": "e5f91cafee18db1be7a76626fbb7f769e172c84bc375706c4d3bcfdd74c4c6b9"
+ },
+ "van_tay_nguon": "7d7d77d5b297c54f4410bed8e0e58693d90ebdc8ff137a4e2714ede082ef4e58",
+ "ghi_luc": "2026-11-13T08:31:45.305Z"
+}

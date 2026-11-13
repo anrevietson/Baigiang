@@ -1,0 +1,851 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "82612",
+ "celebrationCode": "82612",
+ "ten_le": "Thánh Stêphanô, tử đạo tiên khởi (26/12)",
+ "loai_ngay": "le-thanh",
+ "chu_ky": [
+  null
+ ],
+ "bien_soan": {
+  "boi": "Claude Code (claude-opus-5-5), theo AI-DAN-Y/HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-13",
+  "ghi_chu": "Bản nháp do AI biên soạn từ 18/18 bài giảng của thư mục (15 bài độc lập) và bộ bài đọc riêng của lễ. Mã lễ 82612 → bài đọc lấy theo readingCode 22612 (DailySeason.json), theo TRA-CUU/lich-ngay.json. Chưa được người phụ trách duyệt."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "82612/011.md",
+   "ly_do": "Xếp nhầm: bài cho lễ Các Thánh Tử Đạo Việt Nam / Năm Thánh 2000"
+  },
+  {
+   "duong_dan": "82612/024.md",
+   "ly_do": "Xếp nhầm: bài cho lễ Các Thánh Tử Đạo Việt Nam (24/11)"
+  },
+  {
+   "duong_dan": "82612/025.md",
+   "ly_do": "Phần suy niệm nói về Thánh Gioan (Ga 20), không phải Thánh Stêphanô"
+  },
+  {
+   "duong_dan": "82612/023.md",
+   "dong": [
+    30,
+    53
+   ],
+   "ly_do": "Phần sau là lễ Thánh Gioan (27/12)"
+  },
+  {
+   "duong_dan": "82612/030.md",
+   "dong": [
+    33,
+    313
+   ],
+   "ly_do": "Phần sau là các ngày khác (27/12 → 7/1)"
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Máng cỏ và thập giá: vị tử đạo tiên khởi trong Bát Nhật Giáng Sinh",
+   "chu_de": "Đặt lễ Thánh Stêphanô ngay sau Giáng Sinh, phụng vụ cho thấy Ngôi Lời nhập thể đến để hiến mạng sống, và người môn đệ theo Người đến cùng.",
+   "loi_chua_nen": {
+    "ref": "Cv 7,59",
+    "doan": "firstReading",
+    "trich": "Lạy Chúa Giêsu, xin đón nhận tâm hồn tôi"
+   },
+   "luan_de": "Áo lễ đổi từ trắng sang đỏ không phá vỡ niềm vui Giáng Sinh mà tỏ lộ chiều sâu của nó. Hài Nhi Bêlem là Đấng sẽ chết và sống lại. Stêphanô là người đầu tiên đi trọn con đường ấy, và Thánh Thể hôm nay mời ta đi theo.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Bóng thập giá đã phủ trên máng cỏ",
+     "giai_thich": "Hang đá thật là cảnh nghèo khó, và Hài Nhi sớm bị Hêrôđê đe dọa. Mầu nhiệm Nhập Thể gắn liền với Mầu nhiệm Vượt Qua.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/007.md",
+       "dong": [
+        15,
+        15
+       ],
+       "trich": "mầu nhiệm Gíang sinh gắn liền với mầu nhiệm Tử nạn",
+       "sha256": "8f176a062380b2564469fec4d560eebada0e164abf574bad59f7b803922ec5a1",
+       "bam_dong": "4838c89f2f49a5f912186eae8d7ca0b16109068f"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/023.md",
+       "dong": [
+        13,
+        13
+       ],
+       "trich": "Thập giá đã được phác vẽ ra tại đó.",
+       "sha256": "84e875270d81a7a7e80a863bbcf6f675b874325772950b3881d34e5c1a85f3fe",
+       "bam_dong": "93086477897ef8407ed1201330b7d50a4a8e984f"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Stêphanô chết như Thầy mình",
+     "giai_thich": "Bài đọc thuật lại cái chết của Stêphanô như vọng lại cái chết của Đức Giêsu: phó linh hồn và xin tha cho kẻ giết mình. Ông là môn đệ đầu tiên vác thập giá theo Thầy.",
+     "kinh_thanh": [
+      {
+       "ref": "Cv 7,59",
+       "doan": "firstReading",
+       "trich": "Lạy Chúa Giêsu, xin đón nhận tâm hồn tôi"
+      },
+      {
+       "ref": "Cv 7,59",
+       "doan": "firstReading",
+       "trich": "Lạy Chúa, xin đừng trách cứ họ về tội lỗi nầy"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/028.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "Têphanô là một vị thánh vì ngài đã phản ánh Chúa Giêsu, nhất là qua cái chết của ngài.",
+       "sha256": "4cd5ffff27877b7d30f327743dcd808aa0b981b4ee5628de8c0fbd7a9be090cb",
+       "bam_dong": "df7987ab8d2041e5144b15afba5fcc2f584998fc"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/023.md",
+       "dong": [
+        15,
+        15
+       ],
+       "trich": "Là môn đệ đầu tiên thực sự theo Thầy mình, bằng cách mang thập giá, như một Kitô khác.",
+       "sha256": "84e875270d81a7a7e80a863bbcf6f675b874325772950b3881d34e5c1a85f3fe",
+       "bam_dong": "410a4bafae93e3e7002c418571d20f5f6f45a3b4"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Cái chết của người tử đạo loan báo Mầu nhiệm Vượt Qua",
+     "giai_thich": "Kim Chỉ Nam yêu cầu đọc các bài đọc dưới ánh sáng cái chết và sự phục sinh của Chúa. Màu đỏ hôm nay là màu của cuộc Vượt Qua mà Stêphanô được thông phần.",
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "12",
+       "trich": "The preacher speaks about the readings and prayers of the celebration in such a way that their meaning is found in the death and Resurrection of the Lord."
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/027.md",
+       "dong": [
+        23,
+        24
+       ],
+       "trich": "Việc Tê-pha-nô chịu tử đạo, có giá trị loan báo về con đường cứu thế của Chúa Giê-su Ki-tô, là sự thương khó, tử nạn và phục sinh của Người.",
+       "sha256": "6fc4f8e310a060dddaae60edcbdb14f148213b388db328fa835323c423dee0b8",
+       "bam_dong": "ba4ec3e63220e9df96e2b03464c8df2e25da953c"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Từ bàn thờ đến đời chứng tá",
+     "giai_thich": "Thánh Thể đưa ta vào chính cuộc hiến thân của Đức Kitô mà Stêphanô đã sống. Từ đó, Kitô hữu mang Tin Mừng vào đời bằng sự kiên trung hằng ngày.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 10,22",
+       "doan": "gospel",
+       "trich": "kẻ nào bền chí đến cùng, sẽ được cứu rỗi"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "kim-chi-nam",
+       "so": "14",
+       "trich": "suggests how the members of the community, transformed by the Eucharist, can carry the Gospel into the world in their daily lives"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/007.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "Sống kiên trung đến cùng trong sứ mệnh làm chứng cho đức tin.",
+       "sha256": "8f176a062380b2564469fec4d560eebada0e164abf574bad59f7b803922ec5a1",
+       "bam_dong": "c019753601517d3bd5e651e6e67cf44f621938c0"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Lễ có bài đọc riêng (Kim Chỉ Nam §153: phải dùng). Cv 6–7 cho thấy Lời của Đức Giêsu trong Mt 10,17-22 ứng nghiệm nơi Stêphanô. Không có mục Phụ lục I cho lễ này.",
+   "su_diep": "Niềm vui Giáng Sinh không phải là cảm xúc ngọt ngào mà là niềm vui của người biết Thiên Chúa yêu đến hiến mạng; người môn đệ đáp lại bằng chính đời mình.",
+   "ap_dung": [
+    "Đứng trước hang đá hôm nay, dâng lên Chúa Hài Nhi một hy sinh âm thầm vì đức tin.",
+    "Cầu nguyện cho các Kitô hữu đang bị bách hại vì danh Chúa."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Không có mục Phụ lục I cho lễ này; gợi ý theo nguyên tắc chung của Kim Chỉ Nam (§12-14, §153), KHÔNG phải dàn ý chính thức."
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Martus — chứng nhân: không phải chúng ta nói, nhưng là Thánh Thần",
+   "chu_de": "Tử đạo trước hết là làm chứng; người chứng nhân không dựa vào tài ăn nói mà vào Thánh Thần của Chúa Cha.",
+   "loi_chua_nen": {
+    "ref": "Mt 10,20",
+    "doan": "gospel",
+    "trich": "vì không phải chúng con nói, nhưng là Thánh Thần của Chúa Cha chúng con sẽ nói thay cho"
+   },
+   "luan_de": "Lời Đức Giêsu hứa ứng nghiệm nơi Stêphanô: đối thủ không cưỡng nổi sự khôn ngoan và Thánh Thần nơi ông. Mỗi Kitô hữu được mời làm chứng cho sự thật trong những tình huống nhỏ của đời mình.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Tử đạo nghĩa là làm chứng",
+     "giai_thich": "Chữ martus có nghĩa là chứng nhân. Bách hại trở thành dịp làm chứng trước quyền bính.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 10,18",
+       "doan": "gospel",
+       "trich": "Vì Ta, chúng con sẽ bị điệu đến trước vua quan, để làm chứng trước mặt họ và các dân."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/028.md",
+       "dong": [
+        20,
+        20
+       ],
+       "trich": "Người tử đạo là người làm chứng cho Chúa bằng chính những đau khổ và cái chết của mình.",
+       "sha256": "4cd5ffff27877b7d30f327743dcd808aa0b981b4ee5628de8c0fbd7a9be090cb",
+       "bam_dong": "e780db51e6309d8d47ae6483a02ce4091de37238"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/027.md",
+       "dong": [
+        17,
+        17
+       ],
+       "trich": "bị bách hại là số phận thường tình của người thừa sai",
+       "sha256": "6fc4f8e310a060dddaae60edcbdb14f148213b388db328fa835323c423dee0b8",
+       "bam_dong": "c11a8c4af5ecc1ca806b08acade58bc1ddb44f28"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Lời hứa của Đức Giêsu ứng nghiệm nơi Stêphanô",
+     "giai_thich": "Tin Mừng hứa Thánh Thần sẽ nói thay; sách Công vụ cho thấy đối thủ không đương đầu nổi với sự khôn ngoan và Thánh Thần nơi Stêphanô.",
+     "kinh_thanh": [
+      {
+       "ref": "Cv 6,10",
+       "doan": "firstReading",
+       "trich": "họ không thể đương đầu với sự khôn ngoan và Thánh Thần vẫn giúp cho ông nói"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/027.md",
+       "dong": [
+        19,
+        20
+       ],
+       "trich": "người Ki-tô hữu tin tưởng vào quyền năng của Chúa, để rồi phó thác bản thân và mọi sự cho Chúa",
+       "sha256": "6fc4f8e310a060dddaae60edcbdb14f148213b388db328fa835323c423dee0b8",
+       "bam_dong": "2c5c9744100fdd67b7e96811c34f108be6f7c90a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/018.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "they should not fear or lose heart because the Spirit would be with them",
+       "sha256": "20011ea615208a05f6e80ed760076726d9b8548f008c5965904e328d09a43124",
+       "bam_dong": "a73eb50e965e4eb5a1d337b068443510b6433fdf"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đừng cậy sức riêng",
+     "giai_thich": "Nỗi sợ của người làm chứng thường là không biết nói gì. Đức Giêsu bảo đừng lo. Điều cần là mở lòng cho Thần Khí hành động.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/023.md",
+       "dong": [
+        26,
+        26
+       ],
+       "trich": "Có lẽ một điểm nữa là chúng ta quá cậy ở sức riêng mình, ở những phương tiện trần gian.",
+       "sha256": "84e875270d81a7a7e80a863bbcf6f675b874325772950b3881d34e5c1a85f3fe",
+       "bam_dong": "efc5aed1733d78728de4f8b3467044bf8165626a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/032.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "the holy Spirit will strengthen them in their trials",
+       "sha256": "d811b1f2ef0562d20f424a5398ede5d48dc8113a8dce839b0704e3a69771865e",
+       "bam_dong": "b762cae04ba3ccd5019e1d2574a8e8acd772d9e3"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Làm chứng cho sự thật trong những điều nhỏ",
+     "giai_thich": "Bài giảng kể chuyện một học sinh im lặng trước điều sai vì sợ liên lụy. Stêphanô hiến mạng sống; còn ta có khi chối quanh dù chưa phải trả giá gì.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/028.md",
+       "dong": [
+        26,
+        27
+       ],
+       "trich": "Thánh Têphanô đã hy sinh mạng sống để làm chứng cho sự thật.",
+       "sha256": "4cd5ffff27877b7d30f327743dcd808aa0b981b4ee5628de8c0fbd7a9be090cb",
+       "bam_dong": "f6fe218b9fb41fa36e48850c99f3a098409ff1ba"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/028.md",
+       "dong": [
+        21,
+        23
+       ],
+       "trich": "vị thánh là người được ánh sáng mặt trời chiếu qua",
+       "sha256": "4cd5ffff27877b7d30f327743dcd808aa0b981b4ee5628de8c0fbd7a9be090cb",
+       "bam_dong": "e14482945e06f7113534a2db4c1503ac26b63861"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Mt 10,18-20 (lời hứa) và Cv 6,8-10 (ứng nghiệm) soi sáng cho nhau.",
+   "su_diep": "Chứng tá Kitô giáo không đến từ sự tự tin của con người mà từ Thánh Thần ở trong người tin.",
+   "ap_dung": [
+    "Hôm nay, nói một lời thật hoặc bênh vực một người bị đối xử bất công.",
+    "Trước khi lên tiếng về đức tin, xin Chúa Thánh Thần soi sáng thay vì lo lắng về lời lẽ."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Tình yêu tha thứ chiến thắng hận thù: từ Stêphanô đến Saolô",
+   "chu_de": "Lời cầu xin tha thứ của Stêphanô, giống lời của Thầy, mở đường cho một cuộc hoán cải mà chính ông không được thấy.",
+   "loi_chua_nen": {
+    "ref": "Cv 7,59",
+    "doan": "firstReading",
+    "trich": "Lạy Chúa, xin đừng trách cứ họ về tội lỗi nầy"
+   },
+   "luan_de": "Người ta có thể ném đá Stêphanô nhưng không thể biến ông thành kẻ thù của họ. Tình yêu tha thứ của ông là hạt giống. Chàng thanh niên Saolô đứng giữ áo hôm ấy về sau trở thành Tông đồ Phaolô.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Cầu nguyện cho kẻ giết mình như Đức Giêsu",
+     "giai_thich": "Stêphanô lặp lại cử chỉ của Thầy trên thập giá. Tha thứ là dấu chứng rõ nhất cho thấy ai thuộc về Đức Kitô.",
+     "kinh_thanh": [
+      {
+       "ref": "Cv 7,59",
+       "doan": "firstReading",
+       "trich": "Thế rồi ông quì gối xuống, lớn tiếng kêu lên rằng"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/030.md",
+       "dong": [
+        29,
+        29
+       ],
+       "trich": "Như Chúa Giêsu đã cầu nguyện xin Thiên Chúa tha tội cho kẻ giết Ngài, thì Têphanô cũng làm y như vậy.",
+       "sha256": "b5573c0ee0f3d4166fc7a4d0b4b5a6db813ade228b3227553d9a03fcdf3db7e5",
+       "bam_dong": "59daee64d54b2f1ded4cbcf7c232898d18129bb1"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/034.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "he died like Christ, praying that his executioners would be forgiven",
+       "sha256": "206785f57d168907f7be57e7a29d300c589b9fc0b9943db5f0daa05a20662bbf",
+       "bam_dong": "832162f4c9977b3d5f9495022dfa181e2d43db50"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Người thanh niên tên là Saolê",
+     "giai_thich": "Bài đọc nhắc đến một chi tiết nhỏ: các nhân chứng để áo dưới chân Saolê. Lòng tha thứ của Stêphanô đối nghịch với thái độ lạnh lùng của Saolê, nhưng không bỏ rơi Saolê. Câu “Hội Thánh chịu ơn Phaolô nhờ lời cầu nguyện của Têphanô” được bài giảng gán cho thánh Augustinô (chưa đối chiếu nguồn).",
+     "kinh_thanh": [
+      {
+       "ref": "Cv 7,58",
+       "doan": "firstReading",
+       "trich": "Và các nhân chứng để áo của họ dưới chân một người thanh niên tên là Saolê."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/030.md",
+       "dong": [
+        31,
+        31
+       ],
+       "trich": "Hội Thánh chịu ơn Phaolô nhờ lời cầu nguyện của Têphanô.",
+       "sha256": "b5573c0ee0f3d4166fc7a4d0b4b5a6db813ade228b3227553d9a03fcdf3db7e5",
+       "bam_dong": "f1b953ad321c0ac58cc2a33b51521da0dd4332e6"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/035.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "His spirit of forgiveness towards his executors is in marked contrast to Saul's cold-hearted approval of his killing.",
+       "sha256": "edf0dcd4abc8fd078ea561dbd75b0b1ab9035323324ff26888f2ff9c3024a5f2",
+       "bam_dong": "2868ac7c311aa7cd7d01ce3220a5d7c77f7df129"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Đức ái biến hai thù nhân thành hai người bạn",
+     "giai_thich": "Bài giảng (theo bài ghi là trích từ thánh Fulgentiô, chưa đối chiếu) chiêm ngắm Stêphanô và Phaolô cùng vui hưởng Nước Trời. Đức ái là chiếc thang Đức Kitô bắc khi nhập thể.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/008.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "Hai thù nhân trở thành hai người bạn.",
+       "sha256": "b9a8532dbcc22150f5763f203147b769736bd2ded973c281d804d71c3a6e931e",
+       "bam_dong": "e83665c95c89e4f0e817b471f8dc27958d97c90e"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/008.md",
+       "dong": [
+        16,
+        16
+       ],
+       "trich": "Chúa Giêsu đã nhập thể, đã bắc một thang đức ái để mọi tín hữu có thể dùng mà trèo lên trời.",
+       "sha256": "b9a8532dbcc22150f5763f203147b769736bd2ded973c281d804d71c3a6e931e",
+       "bam_dong": "63ca3ab1e04bfb47f4da5a4dcb7ba3f00ca59d3e"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Yêu cả những người làm hại mình",
+     "giai_thich": "Mừng lễ Stêphanô là xin ơn yêu thương những người không yêu mình. Tha thứ không phải là yếu đuối mà là chiến thắng thật.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/027.md",
+       "dong": [
+        26,
+        26
+       ],
+       "trich": "ban cho chúng ta biết yêu thương những người không yêu mình",
+       "sha256": "6fc4f8e310a060dddaae60edcbdb14f148213b388db328fa835323c423dee0b8",
+       "bam_dong": "eff124180f159e9c21133a4ca9a33684a1eb71f3"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/008.md",
+       "dong": [
+        13,
+        13
+       ],
+       "trich": "Chiến thắng bằng tình yêu mới biết là chiến thắng thật.",
+       "sha256": "b9a8532dbcc22150f5763f203147b769736bd2ded973c281d804d71c3a6e931e",
+       "bam_dong": "98a2caf179628bdc18585751a0d9036af74a92b1"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/031.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "What a message in forgiveness for all of us!",
+       "sha256": "eceda2b72b34b63c0fc6656b28bf21e3bd9f6242b8e9840110c705b07a1422ad",
+       "bam_dong": "737169db04cb6b9794fce6bbf17e6340510cf906"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Gợi ý dựa trên Cv 7,54-59. Tin Mừng (Mt 10,21: anh sẽ nộp em) cho thấy hận thù có thể đến từ người thân; lời tha thứ của Stêphanô là câu trả lời.",
+   "su_diep": "Lời cầu xin tha thứ có sức sinh hoa trái vượt quá đời người đã thốt ra nó.",
+   "ap_dung": [
+    "Gọi tên trong lời cầu nguyện một người đã làm hại mình và xin Chúa đừng chấp tội họ.",
+    "Đừng đóng cửa với ai: “Saolô” hôm nay có thể là “Phaolô” ngày mai."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Bài đọc in lời “xin đừng trách cứ họ” trong khoảng Cv 7,54-59 theo excerpt của bộ bài đọc; trong Kinh Thánh câu này thuộc 7,60."
+   }
+  },
+  {
+   "so": 4,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "Đức Giêsu không hứa con đường dễ dãi: ba thử thách và lòng bền chí",
+   "chu_de": "Theo Đức Kitô thì phải sẵn sàng bị chống đối từ quyền bính, từ môi trường tôn giáo và cả từ gia đình; ơn cứu độ dành cho người bền chí đến cùng.",
+   "loi_chua_nen": {
+    "ref": "Mt 10,22",
+    "doan": "gospel",
+    "trich": "Vì Ta, chúng con sẽ bị mọi người ghét bỏ, nhưng kẻ nào bền chí đến cùng, sẽ được cứu rỗi."
+   },
+   "luan_de": "Thế gian lôi kéo bằng con đường trải hoa hồng; Đức Giêsu thì thành thật báo trước khó khăn. Chính sự thành thật ấy, cùng lời hứa về Thánh Thần, làm nên những chứng nhân bền bỉ như Stêphanô.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Sự thành thật của Đức Giêsu",
+     "giai_thich": "Ngài không giấu các môn đệ điều họ sẽ gặp. Chỉ một tiếng gọi cao cả mới chạm được lòng người.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 10,17",
+       "doan": "gospel",
+       "trich": "Chúng con hãy coi chừng người đời."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/030.md",
+       "dong": [
+        16,
+        17
+       ],
+       "trich": "Ngài không ngần ngại cho các môn đệ biết điều họ sẽ gặp khi theo Ngài.",
+       "sha256": "b5573c0ee0f3d4166fc7a4d0b4b5a6db813ade228b3227553d9a03fcdf3db7e5",
+       "bam_dong": "9b082aca19d0a4fb288cca88ef809f4869a0ebe2"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/030.md",
+       "dong": [
+        17,
+        17
+       ],
+       "trich": "Chỉ có tiếng gọi hào hùng mới đụng được đến lòng người.",
+       "sha256": "b5573c0ee0f3d4166fc7a4d0b4b5a6db813ade228b3227553d9a03fcdf3db7e5",
+       "bam_dong": "293c4b8ec635eaff86830f6c4fa5d38d765a1f6c"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Thế quyền, môi trường tôn giáo và gia đình",
+     "giai_thich": "Ba nguồn chống đối đều có trong Tin Mừng: vua quan, hội đường, người thân. Đau nhất là sự chống đối từ gia đình.",
+     "kinh_thanh": [
+      {
+       "ref": "Mt 10,21",
+       "doan": "gospel",
+       "trich": "Anh sẽ nộp em cho người ta giết, cha sẽ nộp con"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/030.md",
+       "dong": [
+        18,
+        23
+       ],
+       "trich": "Đôi khi người kitô hữu phải đương đầu với sự lựa chọn khó khăn nhất",
+       "sha256": "b5573c0ee0f3d4166fc7a4d0b4b5a6db813ade228b3227553d9a03fcdf3db7e5",
+       "bam_dong": "85a36d9dcc0bc871e77fe124ae3d2ec939adb2b6"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/020.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "most hurtful of all, it will come from their own families, parents and children",
+       "sha256": "6dc3c8117b31ac007c54b5144874a2a9dd59363040a1cbec7e8de09d6f468172",
+       "bam_dong": "302ce6c7188c4710c95f46a363e583ee6049f034"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/028.md",
+       "dong": [
+        18,
+        18
+       ],
+       "trich": "Bách hại do chính những người thân của mình",
+       "sha256": "4cd5ffff27877b7d30f327743dcd808aa0b981b4ee5628de8c0fbd7a9be090cb",
+       "bam_dong": "e10512b5d23ee07e9318e6b8e5461dab4de7a0bb"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Vì sao thế gian chống lại người loan báo tin vui?",
+     "giai_thich": "Thiên Chúa xuất hiện như “kẻ quấy rầy” lòng tự phụ của con người. Vì ích kỷ và muốn độc lập, người ta từ chối để Thiên Chúa nắm giữ.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/023.md",
+       "dong": [
+        19,
+        21
+       ],
+       "trich": "Vì tính vị kỷ của con người, vì lòng ước muốn độc lập, nên người ta dễ chối từ.",
+       "sha256": "84e875270d81a7a7e80a863bbcf6f675b874325772950b3881d34e5c1a85f3fe",
+       "bam_dong": "34e295ff6feb620b6c2d0fb3e1180edc5b22920f"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Bền chí đến cùng là điều khó nhất",
+     "giai_thich": "Người ta có thể đứng vững một lúc rồi gãy đổ theo thời gian. Bền chí là ơn phải xin mỗi ngày. Và chính sự bách hại lại làm Tin Mừng lan rộng.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/023.md",
+       "dong": [
+        28,
+        28
+       ],
+       "trich": "Người ta có thể đứng vững một lúc nào đó. Nhưng rồi, với thời gian lâu dài, có thể lại gãy đổ.",
+       "sha256": "84e875270d81a7a7e80a863bbcf6f675b874325772950b3881d34e5c1a85f3fe",
+       "bam_dong": "7df5f5ddf83d3bf9c51a21b2d60db4c2e596ff9a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/020.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "the very persecution that seeks to suppress the message will help to spread it",
+       "sha256": "6dc3c8117b31ac007c54b5144874a2a9dd59363040a1cbec7e8de09d6f468172",
+       "bam_dong": "302ce6c7188c4710c95f46a363e583ee6049f034"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Dựa trên Mt 10,17-22. Stêphanô là trường hợp ứng nghiệm đầu tiên (bài 030 L24).",
+   "su_diep": "Đức Giêsu không hứa cho ta khỏi thử thách; Ngài hứa ở cùng ta để ta đứng vững đến cùng.",
+   "ap_dung": [
+    "Gia đình có người khác niềm tin: sống đức tin bằng kiên nhẫn và yêu thương, không bằng tranh cãi.",
+    "Xin ơn bền đỗ trong một việc đạo đức nhỏ đã bỏ dở."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 5,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    null
+   ],
+   "tieu_de": "“Kìa, tôi xem thấy trời mở ra”: sinh vào Nước Trời",
+   "chu_de": "Hôm qua Thiên Chúa xuống trần gian; hôm nay một con người được đón vào trời. Bí quyết can đảm của Stêphanô là ánh mắt hướng về Đức Kitô vinh hiển.",
+   "loi_chua_nen": {
+    "ref": "Cv 7,56",
+    "doan": "firstReading",
+    "trich": "Kìa, tôi xem thấy trời mở ra, và Con Người đứng bên hữu Thiên Chúa"
+   },
+   "luan_de": "Giữa những khuôn mặt giận dữ, Stêphanô nhìn lên trời. Ngày chết của ông được Hội Thánh mừng như ngày sinh. Giáng Sinh mở cửa trời cho nhân loại, và vị tử đạo là người đầu tiên bước qua cánh cửa ấy.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Hai ngày sinh nối tiếp nhau",
+     "giai_thich": "Hôm qua mừng Con Thiên Chúa sinh ra cho trần gian; hôm nay mừng ngày Stêphanô sinh vào Nước Trời. Cùng một tình yêu làm Thiên Chúa xuống thế và đưa con người về trời.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/008.md",
+       "dong": [
+        12,
+        12
+       ],
+       "trich": "Hôm nay chúng ta lại mừng ngày sinh vào nước trời của thánh Stêphanô",
+       "sha256": "b9a8532dbcc22150f5763f203147b769736bd2ded973c281d804d71c3a6e931e",
+       "bam_dong": "7bf484ccb51412e21dc40279111c48d92b0bf2c4"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/008.md",
+       "dong": [
+        13,
+        13
+       ],
+       "trich": "Cũng chỉ vì tình yêu mà Thiên Chúa đã từ trời xuống thế và cũng chính vì tình yêu mà Stephanô đã từ đất về trời",
+       "sha256": "b9a8532dbcc22150f5763f203147b769736bd2ded973c281d804d71c3a6e931e",
+       "bam_dong": "98a2caf179628bdc18585751a0d9036af74a92b1"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Bí quyết can đảm: thấy Đức Kitô đang chờ đón",
+     "giai_thich": "Stêphanô đầy Thánh Thần, nhìn lên trời và thấy vinh quang Thiên Chúa. Cái nhìn ấy vượt khỏi những gì người ta có thể làm hại ông.",
+     "kinh_thanh": [
+      {
+       "ref": "Cv 7,55",
+       "doan": "firstReading",
+       "trich": "nhìn lên trời, đã xem thấy vinh quang của Thiên Chúa, và Đức Giê-su đứng bên hữu Thiên Chúa"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/030.md",
+       "dong": [
+        28,
+        28
+       ],
+       "trich": "Ông thấy cái chết của người tử đạo là cánh cửa mở ra, đưa người đến với ngai Chúa Cứu Thế.",
+       "sha256": "b5573c0ee0f3d4166fc7a4d0b4b5a6db813ade228b3227553d9a03fcdf3db7e5",
+       "bam_dong": "9b906951af4c2c53db259fc6439248cfccd0c9e3"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Phó thác mạng sống trong tay Chúa",
+     "giai_thich": "Đáp ca và lời cuối của Stêphanô cùng một tâm tình phó thác. Cuộc ném đá hỗn loạn kết thúc trong bình an: “ông đã an giấc trong Chúa”.",
+     "kinh_thanh": [
+      {
+       "doan": "psalms",
+       "trich": "Lạy Chúa, tôi xin phó mạng sống tôi trong tay Chúa."
+      },
+      {
+       "ref": "Cv 7,59",
+       "doan": "firstReading",
+       "trich": "Nói xong câu đó, ông đã an giấc trong Chúa."
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/030.md",
+       "dong": [
+        30,
+        30
+       ],
+       "trich": "Cảnh náo động khủng khếp đã kết thúc trong sự bình an lạ lùng.",
+       "sha256": "b5573c0ee0f3d4166fc7a4d0b4b5a6db813ade228b3227553d9a03fcdf3db7e5",
+       "bam_dong": "7b6e5521fce3c17cba93867e5d5e7431473da51a"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/028.md",
+       "dong": [
+        24,
+        24
+       ],
+       "trich": "cũng phó linh hồn trong tay Chúa",
+       "sha256": "4cd5ffff27877b7d30f327743dcd808aa0b981b4ee5628de8c0fbd7a9be090cb",
+       "bam_dong": "df7987ab8d2041e5144b15afba5fcc2f584998fc"
+      }
+     ]
+    },
+    {
+     "so": 4,
+     "tieu_de": "Cánh cửa mở cho mọi dân",
+     "giai_thich": "Theo bài giảng, Stêphanô là người đầu tiên thấy rằng ơn cứu độ là quà tặng cho toàn thế giới. Ông cũng là một trong bảy người được đặt lên để phục vụ người nghèo. Trời mở ra cho mọi người.",
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/030.md",
+       "dong": [
+        26,
+        26
+       ],
+       "trich": "là sự ban tặng của Thiên Chúa cho toàn thế giới",
+       "sha256": "b5573c0ee0f3d4166fc7a4d0b4b5a6db813ade228b3227553d9a03fcdf3db7e5",
+       "bam_dong": "6ff57a35411585721c754df10ab8d7653a7310ad"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "82612/035.md",
+       "dong": [
+        11,
+        11
+       ],
+       "trich": "he and six others had been appointed to take care of the poor in the community",
+       "sha256": "edf0dcd4abc8fd078ea561dbd75b0b1ab9035323324ff26888f2ff9c3024a5f2",
+       "bam_dong": "2868ac7c311aa7cd7d01ce3220a5d7c77f7df129"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Dựa trên Cv 7,55-59 và Đáp ca Tv 30. Câu Tung hô (Tv 117: “Chúc tụng Đấng nhân danh Chúa mà đến”) nối với Giáng Sinh.",
+   "su_diep": "Người Kitô hữu sống và chết với đôi mắt hướng về trời đang mở.",
+   "ap_dung": [
+    "Trong một nỗi sợ hay đau khổ hiện tại, tập lời cầu ngắn: “Lạy Chúa Giêsu, xin đón nhận tâm hồn con.”",
+    "Thăm hoặc cầu nguyện cho một người đang hấp hối hay mới qua đời trong mùa Giáng Sinh."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": "Nguồn bài giảng cho hướng này ít (008, 030, 035); chủ đề lấy chính từ câu nhập đề của bài đọc."
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/82612/loi-chua.json",
+  "sha256": "c3869e1848f8fac5d6de953613e7e484ec540f9735a65493a67459469362e833",
+  "lich_commit": "fecd4ede1026dfd21dd31dec69b8cb09dd405deb"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 18,
+  "so_doc_lap": 15,
+  "van_tay": "b1f61a5d6cfc57c3d62872ad279586c65081d4ef0b556e1204da473c3a0892d4"
+ },
+ "van_tay_nguon": "7e1e45df5441df20ff129b2e0a1a2548fea00bc8ee5404ab44a14b0d5c75593f",
+ "ghi_luc": "2026-11-13T04:28:10.217Z"
+}
