@@ -1,0 +1,401 @@
+{
+ "schema": "goi-y/1",
+ "thu_muc": "5335-I-II",
+ "celebrationCode": "5335",
+ "ten_le": "Thứ Sáu Tuần XXXIII Mùa Thường Niên",
+ "loai_ngay": "ngay-thuong",
+ "chu_ky": [
+  "I",
+  "II"
+ ],
+ "bien_soan": {
+  "boi": "Copilot, theo AI-DAN-Y/HUONG-DAN/quy-tac-bien-soan.md",
+  "luc": "2026-11-14",
+  "ghi_chu": "Bản nháp từ gói đọc 16 bài; Tin Mừng Lc 19,45-48 chung cho năm I và II."
+ },
+ "khong_dung": [
+  {
+   "duong_dan": "5335-I-II/009.md",
+   "dong": [
+    14,
+    24
+   ],
+   "ly_do": "Trùng một phần với 5335-I-II/003.md; dùng bản chính 003."
+  }
+ ],
+ "goi_y": [
+  {
+   "so": 1,
+   "loai_nguon": "kim-chi-nam-nguyen-tac",
+   "ap_dung_nam": [
+    "I",
+    "II"
+   ],
+   "tieu_de": "Nhà Ta là nhà cầu nguyện",
+   "chu_de": "Đức Giêsu thanh tẩy đền thờ để trả lại cho việc thờ phượng mục đích là cầu nguyện, lắng nghe Lời Chúa và trở nên nơi con người gặp gỡ Thiên Chúa.",
+   "loi_chua_nen": {
+    "ref": "Lc 19,46",
+    "doan": "gospel",
+    "nam": "I",
+    "trich": "Nhà Ta là nhà cầu nguyện, các ngươi đã biến thành sào huyệt trộm cướp"
+   },
+   "luan_de": "Đền thờ không được biến thành nơi trục lợi hay hình thức. Chúa Giêsu loại bỏ điều làm sai lệch việc thờ phượng, rồi giảng dạy để đưa dân trở về với Lời Chúa.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Loại bỏ điều làm mất ý nghĩa của nhà cầu nguyện",
+     "giai_thich": "Những người buôn bán đã biến nơi dành cho cầu nguyện thành nơi kiếm lợi. Người môn đệ hôm nay cũng phải nhận ra những hình thức vụ lợi, phô trương hoặc lối sống làm người khác khó gặp Chúa.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,45-46",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "Chúa Giê-su vào đền thờ, Người liền xua đuổi các người buôn bán tại đó"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/001.md",
+       "dong": [
+        22,
+        24
+       ],
+       "trich": "Lợi dụng nhà thờ vào việc buôn bán, tuyên truyền, kiếm lợi là những việc bất xứng",
+       "sha256": "6b61b733c68088fbb7158787f7a12d321e9c092cb3bcbf95f297a06302b2f749",
+       "bam_dong": "95c6d5ec300056f06cf3073959a8c612e1a76e6f"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/008.md",
+       "dong": [
+        16,
+        18
+       ],
+       "trich": "Chúa Giêsu cảnh giác họ : \"Nhà Ta là nhà cầu nguyện, thế mà các ngươi lại biến thành sào huyệt của bọn trộm cắp\"",
+       "sha256": "6240f135f294bf9a2c3924b07a5436e0c216ec6f2345c42816d37f690683a69f",
+       "bam_dong": "a886ed29f0f75dc925d041f69ba387a48e9672ff"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Trả lại cho đền thờ Lời Chúa và lòng bác ái",
+     "giai_thich": "Sau khi thanh tẩy, Đức Giêsu hằng ngày giảng dạy. Việc thờ phượng đích thực không chỉ là lễ nghi, nhưng là lắng nghe, thực hành Lời Chúa và nâng đỡ người yếu thế.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,47",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "Và hằng ngày Người giảng dạy trong Đền thờ"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/012.md",
+       "dong": [
+        18,
+        26
+       ],
+       "trich": "Thờ phượng đích thực là lắng nghe và thực hành Lời Chúa",
+       "sha256": "d253f24e1f618df2a5c6659639d26e6595d461a95ada7f530437a5df7aafe61f",
+       "bam_dong": "713e1dcd0491352150ef445cfb51f1403e8c30b2"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/013.md",
+       "dong": [
+        16,
+        18
+       ],
+       "trich": "Luca nhấn mạnh đến dung mạo trung tâm Chúa Giêsu tại Đền thờ",
+       "sha256": "c019ad789867eeddce6db9437a6a305cee39b51388d66d2e9622f3338dc33b2d",
+       "bam_dong": "ada09c465b43faff2b32c4eac6c6e93c5f766023"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Tâm hồn người tín hữu là đền thờ sống động",
+     "giai_thich": "Đức Kitô là nơi gặp gỡ và thánh hóa con người; vì thế đời sống của tín hữu phải làm cho người khác nhận ra con đường đến với Chúa, chứ không trở thành rào cản.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,48",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "vì dân chúng hết thảy đều chăm chú nghe Người"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/003.md",
+       "dong": [
+        14,
+        14
+       ],
+       "trich": "anh người tín hữu Kitô là rào cản cho nhiều người không tìm gặp được Chúa",
+       "sha256": "afa7583b2ba8ab590e4a6ca8361c525d9430dd5659f2ef01408de7966b414cc2",
+       "bam_dong": "31b0f6a5957df561a33d3fb879168ca1f964bb08"
+      },
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/007.md",
+       "dong": [
+        20,
+        22
+       ],
+       "trich": "Ngài đã trở thành ngôi đền thờ sống động của Thiên Chúa",
+       "sha256": "7686c0a60704c196f36ad075638f52f885fd3bff34ad2bdd0a37a296ecd999e0",
+       "bam_dong": "bec0167aab283afad78bd617b2e07c04178b926c"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Tin Mừng là trục chung cho năm I và II. Không ép Bài đọc I vào gợi ý chung; hai hướng riêng dưới đây khai triển bài đọc của từng năm.",
+   "su_diep": "Hãy để Chúa Giêsu thanh tẩy tâm hồn, để đời sống trở thành nhà cầu nguyện và dấu chỉ giúp người khác gặp Chúa.",
+   "ap_dung": [
+    "Xét lại điều đang chiếm chỗ của cầu nguyện trong tâm hồn.",
+    "Đến với Thánh lễ bằng lòng sẵn sàng lắng nghe và thực hành Lời Chúa.",
+    "Sống bác ái để không trở thành rào cản cho người khác."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 2,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "I"
+   ],
+   "tieu_de": "Dâng đời mình trong giao ước mới",
+   "chu_de": "Niềm vui cung hiến đền thờ hướng người tín hữu đến hy tế mới của Đức Kitô và việc dâng chính đời mình cho Thiên Chúa.",
+   "loi_chua_nen": {
+    "ref": "1 Mcb 4,59",
+    "doan": "firstReading",
+    "nam": "I",
+    "trich": "Hằng năm, từ ngày hai mươi lăm tháng Kislêu, lễ cung hiến bàn thờ sẽ được cử hành trong vui mừng hân hoan suốt tám ngày."
+   },
+   "luan_de": "Dân Chúa vui mừng thanh tẩy và cung hiến lại đền thờ sau chiến thắng. Trong Đức Kitô, hy tế ấy được hoàn tất nơi thập giá; người tín hữu đáp lại bằng việc dâng đời sống làm của lễ.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Cung hiến lại nơi Thiên Chúa hiện diện",
+     "giai_thich": "Việc cung hiến đền thờ là hành vi tạ ơn và phục hồi nơi thờ phượng sau khi dân được giải thoát.",
+     "kinh_thanh": [
+      {
+       "ref": "1 Mcb 4,52-54",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "Họ làm lễ cung hiến bàn thờ suốt tám ngày, hân hoan dâng lễ toàn thiêu"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/010.md",
+       "dong": [
+        40,
+        43
+       ],
+       "trich": "Công việc đầu tiên của dân Chúa sau khi chiến thắng, là tổ chức trọng thể lễ cung hiến đền thờ Giêrusalem",
+       "sha256": "e9dc1e9d48f4b0ec04e5e774617f65ba841a475750880973ca4eeca958cbd7fe",
+       "bam_dong": "cd0669989bade9fa0c54f7311925844d66d7fcf7"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Hy tế mới của Đức Kitô",
+     "giai_thich": "Đức Kitô thay thế các lễ vật cũ bằng hy tế thập giá, mở ra giao ước mới và sự sống đích thực.",
+     "kinh_thanh": [
+      {
+       "ref": "1 Mcb 4,56",
+       "doan": "firstReading",
+       "nam": "I",
+       "trich": "Dân chúng nô nức vui mừng vì đã rửa sạch được nỗi tủi nhục"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/042.md",
+       "dong": [
+        10,
+        13
+       ],
+       "trich": "Đức Giêsu vào đền thờ…",
+       "sha256": "24cac3ae0c972739453ec5a5a94f343315143af921edcce6d54928eaffbe21ff",
+       "bam_dong": "7d9490fccc6e084aa566911b29aeb4e1b3ca72d3"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Dâng đời sống làm của lễ",
+     "giai_thich": "Phụng tự mới không dừng ở việc tham dự nghi lễ, nhưng được tiếp nối bằng việc dâng chính đời sống trong hy tế của Đức Kitô.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,47",
+       "doan": "gospel",
+       "nam": "I",
+       "trich": "Và hằng ngày Người giảng dạy trong Đền thờ"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/010.md",
+       "dong": [
+        40,
+        48
+       ],
+       "trich": "Giờ đây, chúng ta được mời gọi tham dự vào hy tế thập giá của đức Kitô",
+       "sha256": "e9dc1e9d48f4b0ec04e5e774617f65ba841a475750880973ca4eeca958cbd7fe",
+       "bam_dong": "7dd56c72bca577611c3b719c97312d2c0f7d3bcd"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài đọc I được khai triển riêng cho năm I; Tin Mừng cho thấy Đức Giêsu bảo vệ sự thánh thiêng của đền thờ và hướng đến hy tế của Người.",
+   "su_diep": "Đón nhận hy tế của Đức Kitô bằng việc dâng đời mình làm của lễ tạ ơn.",
+   "ap_dung": [
+    "Tạ ơn Chúa về những lần được giải thoát.",
+    "Dâng công việc và những việc nhỏ hằng ngày làm của lễ sống động.",
+    "Đổi mới nếp sống đạo, tránh hình thức và phô trương."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  },
+  {
+   "so": 3,
+   "loai_nguon": "bai-giang",
+   "ap_dung_nam": [
+    "II"
+   ],
+   "tieu_de": "Lời Chúa ngọt mà đắng",
+   "chu_de": "Lời Chúa được đón nhận như mật ngọt nhưng trở thành cay đắng khi người môn đệ phải sống và loan báo sứ điệp ấy.",
+   "loi_chua_nen": {
+    "ref": "Kh 10,9",
+    "doan": "firstReading",
+    "nam": "II",
+    "trich": "Ngươi hãy cầm lấy sách mà nuốt đi; nó sẽ làm cho ruột gan ngươi đầy cay đắng, nhưng miệng ngươi lại cảm thấy ngọt ngào như mật"
+   },
+   "luan_de": "Gio-an không chỉ nghe Lời nhưng phải nuốt lấy và nói tiên tri cho nhiều dân tộc. Người môn đệ cũng được nuôi bằng Lời để làm chứng, kể cả khi sứ mạng đòi hy sinh.",
+   "luan_diem": [
+    {
+     "so": 1,
+     "tieu_de": "Đón nhận Lời bằng cả con người",
+     "giai_thich": "Lời Chúa ngọt ngào khi mở ra sự sống, nhưng việc để Lời thấm vào đời sống có thể làm người môn đệ đau đớn vì phải từ bỏ và hoán cải.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 10,9-10",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "Tôi cầm lấy cuốn sách từ tay thiên thần mà nuốt; miệng tôi cảm thấy ngọt ngào như mật"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/026.md",
+       "dong": [
+        10,
+        12
+       ],
+       "trich": "Although the word of God was a sweet as honey in the seer's mouth, its assimilation leaves a bitter feeling",
+       "sha256": "3038142afa6834f8691e116538a7b29596714f02999ead1345abfa3a4522f5c3",
+       "bam_dong": "17c5831d95d61e8ed158ad61c57af114d709c7af"
+      }
+     ]
+    },
+    {
+     "so": 2,
+     "tieu_de": "Lời đã nhận trở thành sứ mạng",
+     "giai_thich": "Sau khi nhận Lời, Gio-an được sai đi nói tiên tri cho nhiều dân tộc. Người Kitô hữu không giữ Lời cho riêng mình nhưng làm chứng bằng đời sống.",
+     "kinh_thanh": [
+      {
+       "ref": "Kh 10,11",
+       "doan": "firstReading",
+       "nam": "II",
+       "trich": "Ngươi còn phải nói tiên tri cho nhiều dân, nhiều nước, nhiều ngôn ngữ và nhiều vua chúa nữa"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/028.md",
+       "dong": [
+        10,
+        12
+       ],
+       "trich": "Now that call is to witness to all peoples and nations and therefore to us.",
+       "sha256": "cb3ec94613a18eba885d15d2f6ea8b0752fe444f0933cba606887cb30fba83df",
+       "bam_dong": "86ea147b8058d478c34d1ee5e713d3a9cf346b91"
+      }
+     ]
+    },
+    {
+     "so": 3,
+     "tieu_de": "Làm chứng giữa những người đang lắng nghe",
+     "giai_thich": "Sứ mạng ngôn sứ được thực hiện giữa một thế giới đang chia rẽ: có người say mê nghe lời Chúa, nhưng cũng có người chống đối. Người môn đệ vẫn trung thành với Lời đã nhận.",
+     "kinh_thanh": [
+      {
+       "ref": "Lc 19,47-48",
+       "doan": "gospel",
+       "nam": "II",
+       "trich": "dân chúng hết thảy đều chăm chú nghe Người"
+      }
+     ],
+     "nguon": [
+      {
+       "loai": "bai-giang",
+       "duong_dan": "5335-I-II/027.md",
+       "dong": [
+        10,
+        12
+       ],
+       "trich": "Israel stands divided the people who enthusiastically listen to his words, their leaders, lay and clerical, who seek his death.",
+       "sha256": "dce0bbc6d30b22efebe9a8adbc92497f8944c912c1d1c4b5dacdf374f27de730",
+       "bam_dong": "777c69d8b60c4984c3cd2f7d3a8c1f6dd00a2e8c"
+      }
+     ]
+    }
+   ],
+   "lien_he_bai_doc": "Bài đọc I năm II được khai triển riêng; Tin Mừng cho thấy Đức Giêsu thanh tẩy nơi thờ phượng để Lời được giảng dạy và dân chúng chăm chú nghe.",
+   "su_diep": "Để Lời Chúa biến đổi mình, rồi can đảm làm chứng cho Lời giữa đời.",
+   "ap_dung": [
+    "Đọc và cầu nguyện với Lời trước khi chia sẻ cho người khác.",
+    "Đón nhận cả những đòi hỏi khó của Lời Chúa.",
+    "Làm chứng bằng cách sống trung thực và bác ái."
+   ],
+   "duyet": {
+    "trang_thai": "draft",
+    "nguoi": null,
+    "luc": null,
+    "ghi_chu": null
+   }
+  }
+ ],
+ "loi_chua": {
+  "file": "AI-DAN-Y/OUTPUT/5335-I-II/loi-chua.json",
+  "sha256": "f5f846a8860e7b1cb3be94a458615920406d696fe4d9e4def7d6fc2dac92feaf",
+  "lich_commit": "5dfc080af047f04fa8785d0b244b15f059801dac"
+ },
+ "nguon_bai_giang": {
+  "so_bai": 16,
+  "so_doc_lap": 16,
+  "van_tay": "a11e5014717440cec1bfa0356f6230cc31f2b998af032bda8f6e795815710946"
+ },
+ "van_tay_nguon": "a73be3be39894db69c9c356e5e006b1d1b560075053272591bf1e1f47e6021ed",
+ "ghi_luc": "2026-11-14T00:01:14.280Z"
+}
